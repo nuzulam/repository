@@ -106,3 +106,57 @@ section.al-quran .content-al-quran div[id*="ayat-"] p {
   border-bottom: 0px #111 solid;
   font-family: 'Quicksand' , sans-serif;
 }
+
+
+/* Content Tafsir */
+.al-quran .content-tafsir {
+  margin-top: 10px;
+  border-left: 10px #417694 solid;
+  position: relative;
+  }
+.al-quran .content-tafsir p{
+  font-size: 13px;
+  line-height: 1.5;
+  margin-left: 5px;
+  font-family: 'Lato' , sans-serif;
+}
+.al-quran .content-tafsir i.sumber{
+  font-size: 11px;
+  line-height: 1.2;
+  margin-left: 5px;
+  }
+.al-quran .content-tafsir .card-tafsir {
+  width: 100%;
+  max-width: none;
+  height: 50px;
+  margin-bottom: 10px;
+  min-height: 50px;
+  background-color: #FFF;
+  padding: 7px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  border-left: 10px #417694 solid;
+}
+.al-quran .content-tafsir .card-tafsir::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  left: -20px;
+  background: #417694;
+  height: none;
+  min-height: 50px;
+  width: 25px;
+  max-width: 100%;
+  border-radius: 5px;
+  transform: scale(1);
+  transform-origin: 50% 50%;
+  transition: transform 1.25s ease-out;
+}
+.al-quran .content-tafsir .card-tafsir span {
+  margin-left: 5px;
+  text-transform: uppercase;
+  font-family: 'Lato' , sans-serif;
+}
