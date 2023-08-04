@@ -2,3 +2,33 @@
 body {
 
 }
+
+
+
+
+/* Link Maps 
+--------------------------------------*/
+.linkmaps {
+  height: 20px;
+  font-size: 12px;
+  margin-top: 10px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  border-bottom: 1px navy solid;
+}
+@media (max-width: 900px) {
+.linkmaps {
+  height: 20px;
+  margin-top: 0px;
+ }
+}
+.linkmaps b::before{
+  content:"\f101";
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: FontAwesome;
+}
+.linkmaps a {
+  color: #111;
+  padding: 2px;
+}
