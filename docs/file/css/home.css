@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap');
 
 body {
-
+background: #FFF;
 }
 
 
@@ -32,3 +34,67 @@ body {
   color: #111;
   padding: 2px;
 }
+
+
+
+
+/* Al-Qur'an Digital Content 
+--------------------------------------*/
+.al-quran .info-bars {
+  height: auto;
+  left: 0;
+  top: 1px;
+  position: relative;
+  }
+.al-quran .arti-bars span {
+  font-size: 14px;
+  font-family: 'Lato' , sans-serif;
+  }
+.al-quran .data-bars {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+.al-quran .data-bars span {
+  font-size: 14px;
+  font-family: 'Lato' , sans-serif;
+  }
+.al-quran .data-bars span:first-child {
+  color: #417694;
+}
+.al-quran .data-bars span b {
+  color: #111;
+  margin-right: 10px;
+}
+.al-quran data-bars span:last-child {
+  color: #191919;
+}
+
+.quran-digital.none {
+  display: none;
+}
+.quran-digital {
+position: relative
+border-bottom: 1px #191919 solid;
+}
+section.al-quran .content-al-quran div[class*="ayat-"] {
+  border-bottom: 0px #111 solid;
+  }
+section.al-quran .content-al-quran div[class*="ayat-"] h2,
+section.al-quran .content-al-quran div[id*="ayat-"] h2 {
+  color: #9e342c;
+  text-align: right;
+  font-size: 35px;
+  line-height: 1.5;
+  font-weight: 400;
+font-family: 'Noto Naskh Arabic', serif;
+}
+section.al-quran .content-al-quran div[class*="ayat-"] h2 + p,
+section.al-quran .content-al-quran div[id*="ayat-"] h2 + p {
+  color: #9e342c;
+  font-size: 14px;
+  font-family: 'Merriweather', serif;
+  text-align: right;
+  border-bottom: 0px #111 solid;
+}
+
