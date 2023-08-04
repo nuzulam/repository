@@ -70,11 +70,12 @@ background: #FFF;
   color: #191919;
 }
 
+/* Content Quran */
 .quran-digital.none {
   display: none;
 }
 .quran-digital {
-position: relative
+position: relative;
 border-bottom: 1px #191919 solid;
 }
 section.al-quran .content-al-quran div[class*="ayat-"] {
