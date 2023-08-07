@@ -92,15 +92,16 @@ section.al-quran .quran-digital div[class*="ayat-"] h2 + p,
 section.al-quran .quran-digital div[id*="ayat-"] h2 + p {
   color: #9e342c;
   font-size: 14px;
-  font-family: 'Merriweather', serif;
   text-align: right;
   border-bottom: 0px #111 solid;
+  font-family: 'Merriweather', serif;
 }
-section.al-quran .content-al-quran div[class*="ayat-"] p,
-section.al-quran .content-al-quran div[id*="ayat-"] p {
+section.al-quran .quran-digital div[class*="ayat-"] p + p,
+section.al-quran .quran-digital div[id*="ayat-"] p + p {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 700;
+  text-align: right;
   margin-bottom: 25px;
   padding-bottom: 15px;
   border-bottom: 0px #111 solid;
