@@ -101,7 +101,7 @@ section.al-quran .quran-digital div[id*="ayat-"] p + p {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 700;
-  text-align: right;
+  text-align: left;
   margin-bottom: 25px;
   padding-bottom: 15px;
   border-bottom: 0px #111 solid;
