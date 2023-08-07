@@ -79,8 +79,8 @@ background: #FFF;
   position: relative;
   border-bottom: 1px #191919 solid;
 }
-section.al-quran .content-al-quran div[class*="ayat-"] h2,
-section.al-quran .content-al-quran div[id*="ayat-"] h2 {
+section.al-quran .quran-digital div[class*="ayat-"] h2,
+section.al-quran .quran-digital div[id*="ayat-"] h2 {
   color: #9e342c;
   text-align: right;
   font-size: 35px;
@@ -88,8 +88,8 @@ section.al-quran .content-al-quran div[id*="ayat-"] h2 {
   font-weight: 400;
   font-family: 'Noto Naskh Arabic', serif;
 }
-section.al-quran .content-al-quran div[class*="ayat-"] h2 + p,
-section.al-quran .content-al-quran div[id*="ayat-"] h2 + p {
+section.al-quran .quran-digital div[class*="ayat-"] h2 + p,
+section.al-quran .quran-digital div[id*="ayat-"] h2 + p {
   color: #9e342c;
   font-size: 14px;
   font-family: 'Merriweather', serif;
