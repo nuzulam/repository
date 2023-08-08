@@ -228,7 +228,7 @@ section.al-quran .quran-digital div[id*="ayat-"] h2 {
   text-align: right;
   font-size: 35px;
   line-height: 1.7;
-  font-weight: 700;
+  font-weight: 500;
   font-family: 'Noto Naskh Arabic', serif;
 }
 section.al-quran .quran-digital div[class*="ayat-"] h2 + p,
