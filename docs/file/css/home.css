@@ -304,3 +304,53 @@ section.al-quran .quran-digital div[id*="ayat-"] p + p {
   text-transform: uppercase;
   font-family: 'Lato' , sans-serif;
 }
+
+/* Container Player Audio
+-----------------------------"/
+.container-player-audio {
+  left: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  z-index: 100;
+  list-style: none;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap:wrap;
+  background: #417694;
+  border-radius: 0px 0px 0 0;
+  position: fixed;
+}
+.audio-item {
+  background: #417694;
+  border-radius: 5px 5px 0 0;
+  padding: 0px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center; 
+  font-family: 'Lato' , sans-serif;
+  width: 100%;
+  margin: 0px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.plyr__controls {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+}
+.plyr--audio .plyr__controls {
+  background: #417694;
+  border-radius: inherit;
+  color: #4a5464;
+  color: #ffffff;
+  padding: 0px;
+  padding: var(--plyr-control-spacing,5px);
+}
