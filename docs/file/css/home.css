@@ -258,11 +258,17 @@ section.al-quran .quran-digital div[id*="ayat-"] p + p {
   border-left: 10px #417694 solid;
   position: relative;
   }
-.al-quran .content-tafsir p{
+.al-quran .content-tafsir .tafsir-digital {
+padding-left: 5px;
+box-sizing: border-box;
+}
+.al-quran .content-tafsir .tafsir-digital p{
   font-size: 13px;
   line-height: 1.5;
-  margin-left: 5px;
   font-family: 'Lato' , sans-serif;
+}
+.al-quran .content-tafsir .tafsir-digital > span {
+  display: none;
 }
 .al-quran .content-tafsir i.sumber{
   font-size: 11px;
