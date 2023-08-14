@@ -1,0 +1,160 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+
+
+.single-btn-group {
+  display: flex;
+  justify-content: center;
+    margin-bottom: 0px;
+}
+
+.single-btn-group .part-mushaf {
+    position: relative;
+    height: none;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.single-btn-group .part-mushaf::before {
+		position: absolute;
+		content: "";
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		transition: all 0.3s;
+}
+
+.single-btn-group:hover .part-mushaf::before {
+		transform: scale(1.2,1.2) rotate(5deg);
+}
+
+
+.single-btn-group .part-mushaf .discount,
+.single-btn-group .part-mushaf .new {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: #ffffff;
+    background-color: #fe302f;
+    padding: 2px 8px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+.single-btn-group .part-mushaf .new {
+    left: 0;
+    background-color: #444444;
+}
+.single-btn-group .part-mushaf ul {
+    position: absolute;
+    bottom: -41px;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s;
+}
+.single-btn-group:hover .part-mushaf ul {
+  z-index: 30;
+    bottom: 30px;
+    opacity: 1;
+}
+.single-btn-group .part-mushaf ul li {
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.single-btn-group .part-mushaf ul li button {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ffffff;
+    color: #444444;
+  border: 0px #111 solid;
+    text-align: center;
+    box-shadow: 0 2px 20px rgb(50 50 50 / 10%);
+    transition: color 0.2s;
+}
+.single-btn-group .part-mushaf ul li button:hover {
+    color: #fe302f;
+}
+
+.button-more-back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+.button-more-back a{
+  color: #191919;
+  border: 1px #111 solid;
+  padding: 3px 7px;
+  box-sizing: border-box;
+  background: #fff;
+  }
+.button-more-back a.next{
+  border-right: 0px #111 solid;
+  }
+.button-more-back a.next::before{
+  content: "\f060";
+  font-family: FontAwesome;
+  margin-right: 5px;
+  position: relative;
+}
+
+.button-more-back a.prev::after{
+  content: "\f061";
+  font-family: FontAwesome;
+  margin-left: 5px;
+  position: relative;
+}
+
+
+
+.content-mushaf {
+  width: 100%;
+  }
+.section-pemilih {
+  background: navy;
+  border-radius: 5px;
+  padding: 0px 3px 0px 3px;
+  width: 100%;
+  height: 35px;
+  
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+.section-pemilih > div{
+  margin-left: 2px;
+  margin-right: 2px;
+  }
+.pemilih-1 {
+  width: 100%;
+  min-width: 50px;
+  max-width: 70px;
+  }
+.pemilih-2 {
+  width: 100%;
+  min-width: 100px;
+  max-width: 150px;
+  }
+.pemilih-3 {
+  width: 100%;
+  min-width: 100px;
+  max-width: 150px;
+  }
+.button-mushaf {
+  margin: 10px 0px 10px 0px;
+  }
+.content-mushaf {
+  margin-top: 10px;
+  }
+form#mushafJuz [value=""] {
+  border: 1px red solid;
+  }
