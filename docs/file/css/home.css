@@ -16,7 +16,7 @@ background-color: var(--bg-body);
   margin-top: 10px;
   padding-left: 20px;
   box-sizing: border-box;
-  border-bottom: 1px navy solid;
+  border-bottom: 1px var(--line-linkmaps) solid;
 }
 @media (max-width: 900px) {
 .linkmaps {
@@ -31,7 +31,7 @@ background-color: var(--bg-body);
   font-family: FontAwesome;
 }
 .linkmaps a {
-  color: #111;
+  color: var(--cl-li-maps);
   padding: 2px;
 }
 
