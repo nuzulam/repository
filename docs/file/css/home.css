@@ -89,16 +89,16 @@ background-color: var(--bg-body);
   font-size: 25px;
 }
 .menu-docsicon a.link-icon .fa-stack i.fa-square {
-    color: rgba(65, 118, 148, 0.5);
+   color: var(--cl-box-icn);
 }
 .menu-docsicon a.link-icon .fa-stack i:last-child {
     color: #1E3F48;
 }
 .menu-docsicon a.link-icon > span:last-child {
   font-size: 12px;
-  color: #417694;
   font-weight: 300;
   margin-bottom: 0px;
+  color: var(--cl-ojc-icn);
   font-family: 'Lato' , sans-serif;
 }
   
