@@ -270,6 +270,7 @@ box-sizing: border-box;
 .al-quran .content-tafsir .tafsir-digital p{
   font-size: 13px;
   line-height: 1.5;
+  color: var(--cl-df);
   font-family: 'Lato' , sans-serif;
 }
 .al-quran .content-tafsir .tafsir-digital > span {
