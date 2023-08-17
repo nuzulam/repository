@@ -186,6 +186,7 @@ background-color: var(--bg-body);
   height: auto;
   left: 0;
   top: 1px;
+  line-height: 1.6;
   position: relative;
   border-bottom: 1px #111 dotted;
   }
@@ -205,8 +206,9 @@ background-color: var(--bg-body);
 .al-quran .data-bars span:first-child {
   color: #417694;
 }
-.al-quran .data-bars span b {
+.al-quran .data-bars span a {
   color: #111;
+  font-weight: bold;
   margin-right: 10px;
 }
 .al-quran data-bars span:last-child {
