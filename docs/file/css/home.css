@@ -92,7 +92,7 @@ background-color: var(--bg-body);
     color: rgba(65, 118, 148, 0.5);
 }
 .menu-docsicon a.link-icon .fa-stack i:last-child {
-    color: #191919;
+    color: #1E3F48;
 }
 .menu-docsicon a.link-icon > span:last-child {
   font-size: 12px;
