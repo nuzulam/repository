@@ -222,7 +222,7 @@ background-color: var(--bg-body);
 }
 .quran-digital {
   position: relative;
-  border-bottom: 1px color: var(--cl-df) solid;
+  border-bottom: 1px var(--cl-df) solid;
 }
 section.al-quran .quran-digital div[class*="ayat-"] h2,
 section.al-quran .quran-digital div[id*="ayat-"] h2 {
