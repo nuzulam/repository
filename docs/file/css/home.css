@@ -149,7 +149,7 @@ background-color: var(--bg-body);
   position: absolute;
   width: calc(var(--size) * 0.4);
   height: 100%;
-  top: calc(var(--size) * 0.05);
+  top: calc(var(--size) * 0.0);
   left: 50%;
   transform: translateX(-50%);
   background-image: var(--img);
@@ -350,7 +350,7 @@ textarea#text-tafsir {
   border-bottom: 1px #191919 solid;
   box-sizing: border-box;
   font-family:Helvetica,Arial,sans-serif;
- box-sizing:border-box;
+  box-sizing: border-box;
 }
   
 .quran-dialog .code-header a{
