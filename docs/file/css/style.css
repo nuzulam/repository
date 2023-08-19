@@ -534,3 +534,95 @@ border-radius:5px;
   padding: 0px;
   padding: var(--plyr-control-spacing,5px);
 }
+
+
+
+
+
+
+
+/* Button Share and Back to top 
+-----------------------------*/
+/* Btn Share start */
+#share-button {
+  bottom: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  text-align: center;
+  border-radius: 5px;
+  display: inline-block;
+  background-color: #191919;
+  border: 0px #111 solid;
+  transition: background-color .3s, 
+  opacity .5s, visibility .5s;
+  z-index: 80;
+  animation: slide-btn-share .8s .6s ease both;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+#share-button::after {
+  content: "\f1e0";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 40px;
+  color: #F1F1F1;
+}
+@keyframes slide-btn-share { 
+from { 
+  opacity: 0;
+  transform: translateY(2rem); 
+  }
+to { 
+  opacity: 1;
+  transform: translateY(0); 
+  }
+}  /* Btn Share and */
+
+/* Btn Back To Top start */
+#backtotop {
+  bottom: 10px;
+  right: 60px;
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  text-align: center;
+  border-radius: 5px;
+  display: inline-block;
+  background-color: #191919;
+  transition: background-color .3s, 
+  opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 80;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+#backtotop::after {
+  content: "\f0aa";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 40px;
+  color: #F1F1F1;
+}
+#backtotop:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  background-color: #191919;
+}
+#backtotop:active {
+  background-color: #191919;
+}
+#backtotop.show {
+  opacity: 1;
+  visibility: visible;
+}
+@media (min-width: 500px) {
+  #share-button, /* btn media share */
+  #backtotop {
+    margin: 15px;
+  }
+} /* Btn Back to top and */
