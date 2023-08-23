@@ -218,6 +218,24 @@ background-color: var(--bg-body);
 }
 
 
+/* Quran Bismillah */
+section.al-quran .bismillah {
+  position: relative;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 75px;
+  /*color: #8e2b88;
+  -webkit-text-fill-color: transparent;
+  background: -webkit-gradient(linear,left top,left bottom,from(#ff0052),to(#8e2b88));
+ background: -o-gradient(linear,left top,left bottom,from(#ff0052),to(#8e2b88));
+ -webkit-background-clip: text;*/
+}
+section.al-quran .bismillah span{
+  font-size: 30px;
+  color: var(--cl-bmlah);
+}
+
+
 /* Content Quran */
 .quran-digital.none {
   display: none;
