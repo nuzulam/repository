@@ -341,6 +341,7 @@ box-sizing: border-box;
   }
 .al-quran .content-tafsir .card-tafsir {
   width: 100%;
+  line-height: 1.6;
   max-width: none;
   height: 50px;
   margin-bottom: 10px;
