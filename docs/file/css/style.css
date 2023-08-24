@@ -10,30 +10,7 @@ background-color: var(--bg-body);
 
 /* Link Maps 
 --------------------------------------*/
-.linkmaps {
-  height: 30px;
-  font-size: 12px;
-  margin-top: 0px;
-  padding-top: 5px;
-  padding-left: 20px;
-  box-sizing: border-box;
-  border-bottom: 1px var(--line-linkmaps) solid;
-}
-@media (max-width: 900px) {
-  .linkmaps {
-    margin-top: -6px;
- }
-}
-.linkmaps b::before{
-  content:"\f101";
-  margin-left: 5px;
-  margin-right: 5px;
-  font-family: FontAwesome;
-}
-.linkmaps a {
-  color: var(--cl-li-maps);
-  padding: 2px;
-}
+
 
 
 
