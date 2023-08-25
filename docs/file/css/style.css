@@ -10,6 +10,31 @@ background-color: var(--bg-body);
 
 /* Link Maps 
 --------------------------------------*/
+.link-maps {
+  height: 24px;
+  background-color: var(--bg-post);;
+  padding-left: 10px;
+  box-sizing: border-box;
+  border-bottom: 1px var(--line-linkmaps) solid;
+  }
+.link-maps a.l-m {
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 0px;
+  padding: 4px 9px;
+  color: var(--cl-li-maps);
+  font-family: 'Quicksand' , sans-serif;
+}
+.link-maps b::before{
+  content:"\f101";
+  font-size: 12px;
+  margin-left: 3px;
+  margin-right: 3px;
+  font-family: FontAwesome;
+  color: var(--cl-li-maps);
+}
+
+
 
 
 
@@ -111,6 +136,58 @@ background-color: var(--bg-body);
   justify-content: center;
   align-items: center;
 }
+.input-item-list {
+  position: relative;
+  height:  8rem;
+  width:  8rem;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.input-item-list {
+  background-color: var(--bg-bar-mars);
+}
+.input-item-list:hover {
+  background-color: var(--bg-bar-mars-hover);
+}
+.radio-title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 8rem;
+      height: 8rem;
+      border-radius: 5px;
+      padding: 2px;
+      transition: transform 300ms ease;
+    }
+.radio-title .icon {
+  margin-bottom: 15px;
+  }  
+
+.radio-title .icon svg {
+  width: 2rem;
+  height: 2rem;
+  fill: var(--cl-icn-mars);
+}
+
+.radio-title .radio-title-label {
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--cl-icn-mars);
+  background: transparant;
+}    
+.child:hover .radio-title {
+  transform: scale(1.1, 1.1);
+ }  
+
+
+
 .menu-docsmars .roll-boxs {
   width: 137px;
   height: 137px;
