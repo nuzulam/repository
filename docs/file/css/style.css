@@ -12,7 +12,7 @@ background-color: var(--bg-body);
 --------------------------------------*/
 .link-maps {
   height: 24px;
-  background-color: var(--bg-post);;
+  background-color: var(--bg-post);
   padding-left: 10px;
   box-sizing: border-box;
   border-bottom: 1px var(--line-linkmaps) solid;
