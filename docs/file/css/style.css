@@ -676,7 +676,7 @@ border-radius:5px;
   text-align: center;
   border-radius: 5px;
   display: inline-block;
-  background-color: #191919;
+  background-color: var(--bg-two-btn-fixed);
   border: 0px #111 solid;
   transition: background-color .3s, 
   opacity .5s, visibility .5s;
@@ -691,7 +691,7 @@ border-radius:5px;
   font-style: normal;
   font-size: 20px;
   line-height: 40px;
-  color: #F1F1F1;
+  color: var(--cl-two-btn-icn-fixed);
 }
 @keyframes slide-btn-share { 
 from { 
@@ -714,7 +714,7 @@ to {
   text-align: center;
   border-radius: 5px;
   display: inline-block;
-  background-color: #191919;
+  background-color: var(--bg-two-btn-fixed);
   transition: background-color .3s, 
   opacity .5s, visibility .5s;
   opacity: 0;
@@ -729,15 +729,15 @@ to {
   font-style: normal;
   font-size: 20px;
   line-height: 40px;
-  color: #F1F1F1;
+  color: var(--cl-two-btn-icn-fixed);
 }
 #backtotop:hover {
   cursor: pointer;
   opacity: 0.5;
-  background-color: #191919;
+  background-color: var(--bg-two-btn-fixed-hover);
 }
 #backtotop:active {
-  background-color: #191919;
+  background-color: var(--bg-two-btn-fixed-active);
 }
 #backtotop.show {
   opacity: 1;
