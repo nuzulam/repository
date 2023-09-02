@@ -272,7 +272,8 @@ background-color: var(--bg-body);
 .al-quran .data-bars span:first-child {
   color: var(--cl-df);
 }
-.al-quran .data-bars span a {
+.al-quran .data-bars span a,
+.al-quran .data-bars span b {
   color: var(--cl-df);
   font-weight: bold;
   margin-right: 10px;
