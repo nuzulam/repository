@@ -15,7 +15,7 @@ background-color: var(--bg-body);
   background-color: var(--bg-post);
   padding-left: 10px;
   box-sizing: border-box;
-  border-bottom: 1px var(--line-linkmaps) solid;
+  border-bottom: 0.5px var(--line-linkmaps) solid;
   }
 .link-maps a.l-m {
   font-size: 12px;
