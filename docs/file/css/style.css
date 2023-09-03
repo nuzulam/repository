@@ -11,6 +11,97 @@ body #main {
   width: 100%;
   max-width: 1900px;
   }
+.feed-view .blog-posts{
+margin: 0px;
+}
+
+
+/* Post Filter Artikel
+--------------------------------------*/
+.post-filter-message {
+  color: #191919;
+  display: block;
+  max-width: 1800px;
+  margin-top: 70px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 15px;
+  line-height: 1.8;
+  border-radius: 5px;
+  background-color: #eee;
+  font-family: 'Lato' , sans-serif;
+}
+.post-filter-message a {
+  width: 80px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background: #DED434;
+}
+.post-filter-message .search-label,.post-filter-message .search-query{
+color: red;
+font-style:italic;
+quotes:"\201c" "\201d" "\2018" "\2019"
+}
+.post-filter-message .search-label::before,.post-filter-message .search-query::before{
+content:open-quote
+}
+.post-filter-message .search-label::after,.post-filter-message .search-query::after{
+content:close-quote
+}
+.post-filter-message .search-article {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.search-article #search-box {
+position: relative;
+width: 100%;
+margin: 0px;
+}
+#search-box #search-form {
+  height: 40px;
+  border: 0.5px solid #999;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #fff;
+  overflow: hidden;
+}
+#search-box #search-text {
+  font-size: 14px;
+  color: #ddd;
+  border-width: 0;
+  background: transparent;
+}
+#search-box input[type="text"] {
+  width: 90%; 
+  padding: 11px 0 12px 1em; 
+  color: #333; 
+  outline: none;
+}
+#search-box #search-button {
+  position: absolute;
+  /*top: 0;*/
+  right: 0px;
+  margin-bottom: 0px;
+  margin-right: 0.5px;
+  margin-top: 0px;
+  height: 40px;
+  width: 70px;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  line-height: 32px;
+  border-width: 0;
+  background-color: #1a7db7;
+  -webkit-border-radius: 0px 4.5px 4.5px 0px;
+  -moz-border-radius: 0px 4.5px 4.5px 0px;
+  border-radius: 0px 4.5px 4.5px 0px;
+  cursor: pointer;
+}
+
 
 
 
