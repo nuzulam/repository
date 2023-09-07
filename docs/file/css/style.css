@@ -110,7 +110,7 @@ margin: 0px;
 .link-maps {
   height: 24px;
   background-color: var(--bg-post);
-  padding-left: 10px;
+  padding-left: 5px;
   box-sizing: border-box;
   border-bottom: 0.5px var(--line-linkmaps) solid;
   }
