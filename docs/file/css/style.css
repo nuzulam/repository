@@ -406,6 +406,10 @@ section.al-quran .bismillah span{
   position: relative;
   border-bottom: 1px var(--cl-df) solid;
 }
+section.al-quran {
+  padding: 0px 10px;
+  box-sizing: border-box;
+}
 section.al-quran .quran-digital div[class*="ayat-"] h2,
 section.al-quran .quran-digital div[id*="ayat-"] h2 {
   text-align: right;
@@ -532,11 +536,15 @@ box-sizing: border-box;
   transition: transform 1.25s ease-out;
 }
 .al-quran .content-tafsir .card-tafsir span {
+  color: var(--cl-df);
+  font-size: 20px;
+  line-height: 1.7;
+  font-weight: bold;
+  letter-spacing: 1px;
   margin-left: 5px;
   text-transform: uppercase;
   font-family: 'Lato' , sans-serif;
 }
-
 
 
 
