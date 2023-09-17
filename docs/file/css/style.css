@@ -473,16 +473,21 @@ section.al-quran {
 }
 section.al-quran .quran-digital div[class*="ayat-"] h2,
 section.al-quran .quran-digital div[id*="ayat-"] h2 {
+  padding: 5px;
   text-align: right;
-  font-size: 35px;
-  line-height: 1.7;
+  font-size: 40px;
+  line-height: 1.8;
   font-weight: 500;
+  letter-spacing: 1px;
+  text-shadow: none;
   color: var(--cl-qs-dgt);
+  font-family: 'Lateef', cursive;
 }
 section.al-quran .quran-digital div[class*="ayat-"] h2 + p,
 section.al-quran .quran-digital div[id*="ayat-"] h2 + p {
   font-size: 14px;
   text-align: right;
+  line-height: 1.4;
   color: var(--cl-qs-dgt);
   border-bottom: 0px #111 solid;
   font-family: 'Merriweather', serif;
