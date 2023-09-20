@@ -945,16 +945,16 @@
         byQd112.style.display = 'none';
         byQd113.style.display = 'none';
         byQd114.style.display = 'none';
-      } else if (viewOption === 004) {
+      } else if (viewOption === 009) {
         byQd001.style.display = 'none';
         byQd002.style.display = 'none';
         byQd003.style.display = 'none';
-        byQd004.style.display = 'block';
+        byQd004.style.display = 'none';
         byQd005.style.display = 'none';
         byQd006.style.display = 'none';
         byQd007.style.display = 'none';
         byQd008.style.display = 'none';
-        byQd009.style.display = 'none';
+        byQd009.style.display = 'block';
         byQd010.style.display = 'none';
         byQd011.style.display = 'none';
         byQd012.style.display = 'none';
@@ -1060,17 +1060,17 @@
         byQd112.style.display = 'none';
         byQd113.style.display = 'none';
         byQd114.style.display = 'none';
-      } else if (viewOption === 004) {
+      } else if (viewOption === 010) {
         byQd001.style.display = 'none';
         byQd002.style.display = 'none';
         byQd003.style.display = 'none';
-        byQd004.style.display = 'block';
+        byQd004.style.display = 'none';
         byQd005.style.display = 'none';
         byQd006.style.display = 'none';
         byQd007.style.display = 'none';
         byQd008.style.display = 'none';
         byQd009.style.display = 'none';
-        byQd010.style.display = 'none';
+        byQd010.style.display = 'block';
         byQd011.style.display = 'none';
         byQd012.style.display = 'none';
         byQd013.style.display = 'none';
@@ -1175,18 +1175,18 @@
         byQd112.style.display = 'none';
         byQd113.style.display = 'none';
         byQd114.style.display = 'none';
-      } else if (viewOption === 004) {
+      } else if (viewOption === 011) {
         byQd001.style.display = 'none';
         byQd002.style.display = 'none';
         byQd003.style.display = 'none';
-        byQd004.style.display = 'block';
+        byQd004.style.display = 'none';
         byQd005.style.display = 'none';
         byQd006.style.display = 'none';
         byQd007.style.display = 'none';
         byQd008.style.display = 'none';
         byQd009.style.display = 'none';
         byQd010.style.display = 'none';
-        byQd011.style.display = 'none';
+        byQd011.style.display = 'block';
         byQd012.style.display = 'none';
         byQd013.style.display = 'none';
         byQd014.style.display = 'none';
@@ -1290,11 +1290,11 @@
         byQd112.style.display = 'none';
         byQd113.style.display = 'none';
         byQd114.style.display = 'none';
-      } else if (viewOption === 004) {
+      } else if (viewOption === 012) {
         byQd001.style.display = 'none';
         byQd002.style.display = 'none';
         byQd003.style.display = 'none';
-        byQd004.style.display = 'block';
+        byQd004.style.display = 'none';
         byQd005.style.display = 'none';
         byQd006.style.display = 'none';
         byQd007.style.display = 'none';
@@ -1302,7 +1302,7 @@
         byQd009.style.display = 'none';
         byQd010.style.display = 'none';
         byQd011.style.display = 'none';
-        byQd012.style.display = 'none';
+        byQd012.style.display = 'block';
         byQd013.style.display = 'none';
         byQd014.style.display = 'none';
         byQd015.style.display = 'none';
@@ -1405,11 +1405,11 @@
         byQd112.style.display = 'none';
         byQd113.style.display = 'none';
         byQd114.style.display = 'none';
-      } else if (viewOption === 004) {
+      } else if (viewOption === 013) {
         byQd001.style.display = 'none';
         byQd002.style.display = 'none';
         byQd003.style.display = 'none';
-        byQd004.style.display = 'block';
+        byQd004.style.display = 'none';
         byQd005.style.display = 'none';
         byQd006.style.display = 'none';
         byQd007.style.display = 'none';
@@ -1418,7 +1418,7 @@
         byQd010.style.display = 'none';
         byQd011.style.display = 'none';
         byQd012.style.display = 'none';
-        byQd013.style.display = 'none';
+        byQd013.style.display = 'block';
         byQd014.style.display = 'none';
         byQd015.style.display = 'none';
         byQd016.style.display = 'none';
@@ -1520,11 +1520,11 @@
         byQd112.style.display = 'none';
         byQd113.style.display = 'none';
         byQd114.style.display = 'none';
-      } else if (viewOption === 004) {
+      } else if (viewOption === 014) {
         byQd001.style.display = 'none';
         byQd002.style.display = 'none';
         byQd003.style.display = 'none';
-        byQd004.style.display = 'block';
+        byQd004.style.display = 'none';
         byQd005.style.display = 'none';
         byQd006.style.display = 'none';
         byQd007.style.display = 'none';
@@ -1534,7 +1534,7 @@
         byQd011.style.display = 'none';
         byQd012.style.display = 'none';
         byQd013.style.display = 'none';
-        byQd014.style.display = 'none';
+        byQd014.style.display = 'block';
         byQd015.style.display = 'none';
         byQd016.style.display = 'none';
         byQd017.style.display = 'none';
@@ -1635,11 +1635,11 @@
         byQd112.style.display = 'none';
         byQd113.style.display = 'none';
         byQd114.style.display = 'none';
-      } else if (viewOption === 004) {
+      } else if (viewOption === 015) {
         byQd001.style.display = 'none';
         byQd002.style.display = 'none';
         byQd003.style.display = 'none';
-        byQd004.style.display = 'block';
+        byQd004.style.display = 'none';
         byQd005.style.display = 'none';
         byQd006.style.display = 'none';
         byQd007.style.display = 'none';
@@ -1650,7 +1650,7 @@
         byQd012.style.display = 'none';
         byQd013.style.display = 'none';
         byQd014.style.display = 'none';
-        byQd015.style.display = 'none';
+        byQd015.style.display = 'block';
         byQd016.style.display = 'none';
         byQd017.style.display = 'none';
         byQd018.style.display = 'none';
@@ -1750,11 +1750,11 @@
         byQd112.style.display = 'none';
         byQd113.style.display = 'none';
         byQd114.style.display = 'none';
-      } else if (viewOption === 004) {
+      } else if (viewOption === 016) {
         byQd001.style.display = 'none';
         byQd002.style.display = 'none';
         byQd003.style.display = 'none';
-        byQd004.style.display = 'block';
+        byQd004.style.display = 'none';
         byQd005.style.display = 'none';
         byQd006.style.display = 'none';
         byQd007.style.display = 'none';
@@ -1766,7 +1766,7 @@
         byQd013.style.display = 'none';
         byQd014.style.display = 'none';
         byQd015.style.display = 'none';
-        byQd016.style.display = 'none';
+        byQd016.style.display = 'block';
         byQd017.style.display = 'none';
         byQd018.style.display = 'none';
         byQd019.style.display = 'none';
@@ -1865,11 +1865,11 @@
         byQd112.style.display = 'none';
         byQd113.style.display = 'none';
         byQd114.style.display = 'none';
-      } else if (viewOption === 004) {
+      } else if (viewOption === 017) {
         byQd001.style.display = 'none';
         byQd002.style.display = 'none';
         byQd003.style.display = 'none';
-        byQd004.style.display = 'block';
+        byQd004.style.display = 'none';
         byQd005.style.display = 'none';
         byQd006.style.display = 'none';
         byQd007.style.display = 'none';
@@ -1882,7 +1882,7 @@
         byQd014.style.display = 'none';
         byQd015.style.display = 'none';
         byQd016.style.display = 'none';
-        byQd017.style.display = 'none';
+        byQd017.style.display = 'block';
         byQd018.style.display = 'none';
         byQd019.style.display = 'none';
         byQd020.style.display = 'none';
@@ -1980,11 +1980,11 @@
         byQd112.style.display = 'none';
         byQd113.style.display = 'none';
         byQd114.style.display = 'none';
-      } else if (viewOption === 004) {
+      } else if (viewOption === 018) {
         byQd001.style.display = 'none';
         byQd002.style.display = 'none';
         byQd003.style.display = 'none';
-        byQd004.style.display = 'block';
+        byQd004.style.display = 'none';
         byQd005.style.display = 'none';
         byQd006.style.display = 'none';
         byQd007.style.display = 'none';
@@ -1998,7 +1998,7 @@
         byQd015.style.display = 'none';
         byQd016.style.display = 'none';
         byQd017.style.display = 'none';
-        byQd018.style.display = 'none';
+        byQd018.style.display = 'block';
         byQd019.style.display = 'none';
         byQd020.style.display = 'none';
         byQd021.style.display = 'none';
@@ -2095,11 +2095,11 @@
         byQd112.style.display = 'none';
         byQd113.style.display = 'none';
         byQd114.style.display = 'none';
-      } else if (viewOption === 004) {
+      } else if (viewOption === 019) {
         byQd001.style.display = 'none';
         byQd002.style.display = 'none';
         byQd003.style.display = 'none';
-        byQd004.style.display = 'block';
+        byQd004.style.display = 'none';
         byQd005.style.display = 'none';
         byQd006.style.display = 'none';
         byQd007.style.display = 'none';
@@ -2114,7 +2114,7 @@
         byQd016.style.display = 'none';
         byQd017.style.display = 'none';
         byQd018.style.display = 'none';
-        byQd019.style.display = 'none';
+        byQd019.style.display = 'block';
         byQd020.style.display = 'none';
         byQd021.style.display = 'none';
         byQd022.style.display = 'none';
@@ -2210,11 +2210,11 @@
         byQd112.style.display = 'none';
         byQd113.style.display = 'none';
         byQd114.style.display = 'none';
-      } else if (viewOption === 004) {
+      } else if (viewOption === 020) {
         byQd001.style.display = 'none';
         byQd002.style.display = 'none';
         byQd003.style.display = 'none';
-        byQd004.style.display = 'block';
+        byQd004.style.display = 'none';
         byQd005.style.display = 'none';
         byQd006.style.display = 'none';
         byQd007.style.display = 'none';
@@ -2230,7 +2230,7 @@
         byQd017.style.display = 'none';
         byQd018.style.display = 'none';
         byQd019.style.display = 'none';
-        byQd020.style.display = 'none';
+        byQd020.style.display = 'block';
         byQd021.style.display = 'none';
         byQd022.style.display = 'none';
         byQd023.style.display = 'none';
