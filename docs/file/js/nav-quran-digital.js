@@ -16,6 +16,14 @@
       const byQd011 = document.getElementById('surah-011');
       const byQd012 = document.getElementById('surah-012');
       const byQd013 = document.getElementById('surah-013');
+      const byQd014 = document.getElementById('surah-014');
+      const byQd015 = document.getElementById('surah-015');
+      const byQd016 = document.getElementById('surah-016');
+      const byQd017 = document.getElementById('surah-017');
+      const byQd018 = document.getElementById('surah-018');
+      const byQd019 = document.getElementById('surah-019');
+      const byQd020 = document.getElementById('surah-020');
+      
       // Show/hide view options based on selected value
       if (viewOption === 001) {
         byQd001.style.display = 'block';
@@ -822,15 +830,15 @@
         byQd112.style.display = 'none';
         byQd113.style.display = 'none';
         byQd114.style.display = 'none';
-      } else if (viewOption === 004) {
+      } else if (viewOption === 008) {
         byQd001.style.display = 'none';
         byQd002.style.display = 'none';
         byQd003.style.display = 'none';
-        byQd004.style.display = 'block';
+        byQd004.style.display = 'none';
         byQd005.style.display = 'none';
         byQd006.style.display = 'none';
         byQd007.style.display = 'none';
-        byQd008.style.display = 'none';
+        byQd008.style.display = 'block';
         byQd009.style.display = 'none';
         byQd010.style.display = 'none';
         byQd011.style.display = 'none';
