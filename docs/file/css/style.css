@@ -483,6 +483,15 @@ section.al-quran .quran-digital div[id*="ayat-"] h2 {
   color: var(--cl-qs-dgt);
   font-family: 'Lateef', cursive;
 }
+section.al-quran .quran-digital div[class*="ayat-"] .AyFlex,
+section.al-quran .quran-digital div[id*="ayat-"] .AyFlex {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+section.al-quran .quran-digital div[class*="ayat-"] .AyFlex + p,
+section.al-quran .quran-digital div[id*="ayat-"] .AyFlex + p,
 section.al-quran .quran-digital div[class*="ayat-"] h2 + p,
 section.al-quran .quran-digital div[id*="ayat-"] h2 + p {
   font-size: 14px;
