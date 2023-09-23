@@ -73,10 +73,10 @@
       const byQd068 = document.getElementById('surah-068');
       const byQd069 = document.getElementById('surah-069');
       const byQd070 = document.getElementById('surah-070');
-      const byQd041 = document.getElementById('surah-071');
-      const byQd042 = document.getElementById('surah-072');
-      const byQd043 = document.getElementById('surah-073');
-      const byQd044 = document.getElementById('surah-074');
+      const byQd071 = document.getElementById('surah-071');
+      const byQd072 = document.getElementById('surah-072');
+      const byQd073 = document.getElementById('surah-073');
+      const byQd074 = document.getElementById('surah-074');
       const byQd075 = document.getElementById('surah-075');
       const byQd076 = document.getElementById('surah-076');
       const byQd077 = document.getElementById('surah-077');
