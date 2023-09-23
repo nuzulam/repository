@@ -23,6 +23,9 @@
       const byQd018 = document.getElementById('surah-018');
       const byQd019 = document.getElementById('surah-019');
       const byQd020 = document.getElementById('surah-020');
+      const byQd097 = document.getElementById('surah-097');
+      const byQd098 = document.getElementById('surah-098');
+      const byQd099 = document.getElementById('surah-099');
       const byQd100 = document.getElementById('surah-100');
       const byQd101 = document.getElementById('surah-101');
       const byQd102 = document.getElementById('surah-102');
@@ -11080,11 +11083,11 @@
         byQd112.style.display = 'none';
         byQd113.style.display = 'none';
         byQd114.style.display = 'none';
-      } else if (viewOption === 004) {
+      } else if (viewOption === 97) {
         byQd001.style.display = 'none';
         byQd002.style.display = 'none';
         byQd003.style.display = 'none';
-        byQd004.style.display = 'block';
+        byQd004.style.display = 'none';
         byQd005.style.display = 'none';
         byQd006.style.display = 'none';
         byQd007.style.display = 'none';
@@ -11177,7 +11180,7 @@
         byQd094.style.display = 'none';
         byQd095.style.display = 'none';
         byQd096.style.display = 'none';
-        byQd097.style.display = 'none';
+        byQd097.style.display = 'block';
         byQd098.style.display = 'none';
         byQd099.style.display = 'none';
         byQd100.style.display = 'none';
@@ -11195,11 +11198,11 @@
         byQd112.style.display = 'none';
         byQd113.style.display = 'none';
         byQd114.style.display = 'none';
-      } else if (viewOption === 004) {
+      } else if (viewOption === 98) {
         byQd001.style.display = 'none';
         byQd002.style.display = 'none';
         byQd003.style.display = 'none';
-        byQd004.style.display = 'block';
+        byQd004.style.display = 'nonr';
         byQd005.style.display = 'none';
         byQd006.style.display = 'none';
         byQd007.style.display = 'none';
@@ -11293,7 +11296,7 @@
         byQd095.style.display = 'none';
         byQd096.style.display = 'none';
         byQd097.style.display = 'none';
-        byQd098.style.display = 'none';
+        byQd098.style.display = 'block';
         byQd099.style.display = 'none';
         byQd100.style.display = 'none';
         byQd101.style.display = 'none';
@@ -11310,11 +11313,11 @@
         byQd112.style.display = 'none';
         byQd113.style.display = 'none';
         byQd114.style.display = 'none';
-      } else if (viewOption === 004) {
+      } else if (viewOption === 99) {
         byQd001.style.display = 'none';
         byQd002.style.display = 'none';
         byQd003.style.display = 'none';
-        byQd004.style.display = 'block';
+        byQd004.style.display = 'nonr';
         byQd005.style.display = 'none';
         byQd006.style.display = 'none';
         byQd007.style.display = 'none';
@@ -11409,7 +11412,7 @@
         byQd096.style.display = 'none';
         byQd097.style.display = 'none';
         byQd098.style.display = 'none';
-        byQd099.style.display = 'none';
+        byQd099.style.display = 'block';
         byQd100.style.display = 'none';
         byQd101.style.display = 'none';
         byQd102.style.display = 'none';
