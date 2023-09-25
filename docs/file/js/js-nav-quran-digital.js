@@ -233,8 +233,7 @@
       byQd112.style.display = 'none';
       byQd113.style.display = 'none';
       byQd114.style.display = 'none';
-    }
-    else if (viewOption === 2) {
+    } else if (viewOption === 2) {
       byQd001.style.display = 'none';
       byQd002.style.display = 'block';
       byQd003.style.display = 'none';
@@ -349,9 +348,7 @@
       byQd112.style.display = 'none';
       byQd113.style.display = 'none';
       byQd114.style.display = 'none';
-
-    }
-    else if (viewOption === 3) {
+    } else if (viewOption === 3) {
       byQd001.style.display = 'none';
       byQd002.style.display = 'none';
       byQd003.style.display = 'block';
@@ -466,8 +463,7 @@
       byQd112.style.display = 'none';
       byQd113.style.display = 'none';
       byQd114.style.display = 'none';
-    }
-    else if (viewOption === 4) {
+    } else if (viewOption === 4) {
       byQd001.style.display = 'none';
       byQd002.style.display = 'none';
       byQd003.style.display = 'none';
@@ -582,8 +578,7 @@
       byQd112.style.display = 'none';
       byQd113.style.display = 'none';
       byQd114.style.display = 'none';
-    }
-    else if (viewOption === 5) {
+    } else if (viewOption === 5) {
       byQd001.style.display = 'none';
       byQd002.style.display = 'none';
       byQd003.style.display = 'none';
@@ -698,8 +693,7 @@
       byQd112.style.display = 'none';
       byQd113.style.display = 'none';
       byQd114.style.display = 'none';
-    }
-    else if (viewOption === 6) {
+    } else if (viewOption === 6) {
       byQd001.style.display = 'none';
       byQd002.style.display = 'none';
       byQd003.style.display = 'none';
@@ -814,15 +808,14 @@
       byQd112.style.display = 'none';
       byQd113.style.display = 'none';
       byQd114.style.display = 'none';
-    }
-    else if (viewOption === 7) {
+    } else if (viewOption === 7) {
       byQd001.style.display = 'none';
       byQd002.style.display = 'none';
       byQd003.style.display = 'none';
       byQd004.style.display = 'none';
       byQd005.style.display = 'none';
       byQd006.style.display = 'none';
-      byQd007.style.display = 'none';
+      byQd007.style.display = 'block';
       byQd008.style.display = 'none';
       byQd009.style.display = 'none';
       byQd010.style.display = 'none';
@@ -930,8 +923,7 @@
       byQd112.style.display = 'none';
       byQd113.style.display = 'none';
       byQd114.style.display = 'none';
-    }
-    else if (viewOption === 8) {
+    } else if (viewOption === 8) {
       byQd001.style.display = 'none';
       byQd002.style.display = 'none';
       byQd003.style.display = 'none';
@@ -939,7 +931,7 @@
       byQd005.style.display = 'none';
       byQd006.style.display = 'none';
       byQd007.style.display = 'none';
-      byQd008.style.display = 'none';
+      byQd008.style.display = 'block';
       byQd009.style.display = 'none';
       byQd010.style.display = 'none';
       byQd011.style.display = 'none';
@@ -1046,8 +1038,7 @@
       byQd112.style.display = 'none';
       byQd113.style.display = 'none';
       byQd114.style.display = 'none';
-    }
-    else if (viewOption === 9) {
+    } else if (viewOption === 9) {
       byQd001.style.display = 'none';
       byQd002.style.display = 'none';
       byQd003.style.display = 'none';
@@ -1056,7 +1047,7 @@
       byQd006.style.display = 'none';
       byQd007.style.display = 'none';
       byQd008.style.display = 'none';
-      byQd009.style.display = 'none';
+      byQd009.style.display = 'block';
       byQd010.style.display = 'none';
       byQd011.style.display = 'none';
       byQd012.style.display = 'none';
