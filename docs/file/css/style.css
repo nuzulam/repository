@@ -27,7 +27,7 @@ margin: 0px;
   height: 58px;
   top: -60px;
   position: fixed;
-  border-bottom: 2px #ddd solid;
+  border-bottom: 1px #ddd solid;
   background-color: #ddd;
   transition: bottom 0.3s;
   -webkit-box-shadow:  0px 2px 12px 0px rgba(0, 0, 0, 0.75);
@@ -504,7 +504,7 @@ section.al-quran .quran-digital div[id*="ayat-"] h2 {
   margin-top: -15px;
   font-size: 50px;
   line-height: 1.8;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: 1px;
   text-shadow: none;
   color: var(--cl-qs-dgt);
