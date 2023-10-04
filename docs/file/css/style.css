@@ -61,19 +61,29 @@ box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.75);
  margin-right: 10px;
  width: auto;
 }
-.nav-sticky-bars button.button-menu-home  {
-  width: 48px;
-  height: 48px;
+body #navbar > .nav-sticky-bars {
+  height: 58px;
+  box-sizing: border-box;
+}
+.nav-sticky-bars div.button-menu-home  {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
   border: 0px #111 solid;
   border-radius: 0px;
   background-color: var(--bg-root);
 }
-.nav-sticky-bars button.button-menu-home svg {
+.nav-sticky-bars div.button-menu-home svg {
   width: 30px;
   height: 30px;
-  margin-top: 5px;
+  margin-top: 0px;
   fill: var(--cl-root);
 }
+.display-none,
+.onfire {
+  display: none;
+}
+
 
 
 
