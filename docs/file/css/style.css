@@ -466,7 +466,7 @@ section.al-quran .bismillah {
  -webkit-background-clip: text;*/
 }
 section.al-quran .bismillah span{
-  font-size: 30px;
+  font-size: 25px;
   color: var(--cl-bmlah);
 }
 
