@@ -466,8 +466,9 @@ section.al-quran .bismillah {
  -webkit-background-clip: text;*/
 }
 section.al-quran .bismillah span{
-  font-size: 25px;
+  font-size: 35px;
   color: var(--cl-bmlah);
+  font-family: 'Lateef', cursive;
 }
 
 
@@ -477,7 +478,7 @@ section.al-quran .bismillah span{
 }
 .quran-digital {
   position: relative;
-  border-bottom: 1px var(--cl-df) solid;
+  border-bottom: 0.5px var(--cl-df) solid;
 }
 section.al-quran {
   padding: 0px 10px;
@@ -519,9 +520,7 @@ section.al-quran .quran-digital div[id*="ayat-"] {
 section.al-quran .quran-digital div[class*="ayat-"] > span,
 section.al-quran .quran-digital div[id*="ayat-"] > span,
 section.al-quran .quran-digital div[class*="ayat-"] .flex-alt > span,
-section.al-quran .quran-digital div[id*="ayat-"] .flex-alt > span,
-section.al-quran .quran-digital div[class*="ayat-"] h2,
-section.al-quran .quran-digital div[id*="ayat-"] h2 {
+section.al-quran .quran-digital div[id*="ayat-"] .flex-alt > span {
   padding: 5px;
   text-align: right;
   margin-top: -12px;
@@ -544,9 +543,7 @@ section.al-quran .quran-digital div[id*="ayat-"] .flex-alt {
 section.al-quran .quran-digital div[class*="ayat-"] > span + p,
 section.al-quran .quran-digital div[id*="ayat-"] > span + p,
 section.al-quran .quran-digital div[class*="ayat-"] .flex-alt + p,
-section.al-quran .quran-digital div[id*="ayat-"] .flex-alt + p,
-section.al-quran .quran-digital div[class*="ayat-"] h2 + p,
-section.al-quran .quran-digital div[id*="ayat-"] h2 + p {
+section.al-quran .quran-digital div[id*="ayat-"] .flex-alt + p {
   font-size: 14px;
   text-align: right;
   line-height: 1.4;
