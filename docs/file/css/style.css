@@ -68,17 +68,21 @@ body #navbar > .nav-sticky-bars {
   box-sizing: border-box;
 }
 .nav-sticky-bars div.button-menu-home  {
-  width: 30px;
-  height: 30px;
-  margin-right: 7px;
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
   border: 0px #111 solid;
+  padding: 2.5px;
+  cursor: pointer;
+  box-sizing: border-box;
   border-radius: 0px;
-  background-color: var(--bg-root);
+ background-color: var(--bg-root);
 }
+  
 .nav-sticky-bars div.button-menu-home svg {
-  width: 30px;
-  height: 30px;
-  margin-top: 0px;
+  width: 20px;
+  height: 20px;
   fill: var(--cl-root);
 }
 .display-none,
@@ -178,31 +182,6 @@ margin: 0px;
 
 
 
-/* Link Maps 
---------------------------------------*/
-.link-maps {
-  height: 24px;
-  background-color: var(--bg-post);
-  padding-left: 5px;
-  box-sizing: border-box;
-  border-bottom: 0.5px var(--line-linkmaps) solid;
-  }
-.link-maps a.l-m {
-  font-size: 12px;
-  font-weight: 500;
-  border-radius: 0px;
-  padding: 4px 9px;
-  color: var(--cl-li-maps);
-  font-family: 'Quicksand' , sans-serif;
-}
-.link-maps b::before{
-  content:"\f101";
-  font-size: 12px;
-  margin-left: 3px;
-  margin-right: 3px;
-  font-family: FontAwesome;
-  color: var(--cl-li-maps);
-}
 
 
 
