@@ -392,7 +392,14 @@ margin: 0px;
   transition: 0.5s;
 }
 
-
+#circle-icon {
+  width: none;
+  text-align: center;
+}
+#circle-icon .icon-href {
+  margin: 6px 3px 0px 3px;
+  display: inline-block;
+  }
 /* Al-Qur'an Digital Content 
 --------------------------------------*/
 .al-quran .info-bars {
