@@ -527,46 +527,7 @@ section.al-quran .quran-digital div[id*="ayat-"] p + p {
 }
 
 /* Respon Button */
-.quran-digital .respon-button {
-  height: 40px;
-  text-align: left;
-}
-.quran-digital .respon-button .juz-poin {
-  display: inline-block;
-  margin: 0px 5px 0px 0;
-}
-.quran-digital .respon-button .juz {
-  font-weight: 400;
-  color: var(--cl-bat);
-  border-radius: 5px 0 0 5px;
-  background-color: var(--bg-bat);
-}
-.quran-digital .respon-button .poin {
-  font-weight: bold;
-  color: var(--cl-bit);
-  border-radius: 0 5px 5px 0;
-  background-color: var(--bg-bit);
-}
 
-.quran-digital .respon-button .juz,
-.quran-digital .respon-button .poin {
-  padding: 5px 10px;
-  font-family: 'Quicksand' , sans-serif;
-}
-.quran-digital .respon-button .link-ayat {
-  font-weight: 500;
-  border-radius: 5px;
-  padding: 5px 10px;
-  color: var(--cl-bat);
-  background-color: var(--bg-bat);
-  font-family: 'Quicksand' , sans-serif;
-}
-.quran-digital .respon-button .link-ayat::after{
-  content: "\f08e";
-  font-family: FontAwesome;
-  margin-left: 3px;
-  position: relative;
-}
 
 /* Content Tafsir */
 .al-quran .content-tafsir {
