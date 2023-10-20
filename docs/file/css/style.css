@@ -386,43 +386,6 @@ margin: 0px;
   }
 /* Al-Qur'an Digital Content 
 --------------------------------------*/
-.al-quran .info-bars {
-  height: auto;
-  left: 0;
-  top: 1px;
-  line-height: 1.6;
-  position: relative;
-  border-bottom: 1px var(--cl-df) dotted;
-  }
-.al-quran .arti-bars span {
-  font-size: 14px;
-  color: var(--cl-df);
-  font-family: 'Lato' , sans-serif;
-  }
-.al-quran .data-bars {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  }
-.al-quran .data-bars span {
-  font-size: 14px;
-  color: var(--cl-df);
-  font-family: 'Lato' , sans-serif;
-  }
-.al-quran .data-bars span:first-child {
-  color: var(--cl-df);
-}
-.al-quran .data-bars span a,
-.al-quran .data-bars span b {
-  color: var(--cl-df);
-  font-weight: bold;
-  margin-right: 10px;
-}
-.al-quran data-bars span:last-child {
-  color: var(--cl-df);
-}
-
-
 /* Quran Bismillah */
 section.al-quran .bismillah {
   position: relative;
