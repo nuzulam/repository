@@ -29,7 +29,7 @@ margin: 0px;
   height: 58px;
   top: -60px;
   position: fixed;
-  border-bottom: 1px #ddd solid;
+  border-bottom: 0.5px #ddd solid;
   background-color: #ddd;
   transition: bottom 0.3s;
   -webkit-box-shadow:  0px 2px 12px 0px rgba(0, 0, 0, 0.75);
@@ -51,14 +51,15 @@ box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.75);
   background-color: var(--bg-root);
   justify-content: space-between;
 }
-
+#navbar .nav-sticky-bars svg {
+  fill: var(--cl-root);
+  }
 .nav-sticky-bars .main-nav-icon{
   width: 100%;
   height: none;
   display: flex;
   align-items: center;
 }
-
 .nav-sticky-bars .main-nav-user {
  margin-right: 10px;
  width: auto;
@@ -67,24 +68,7 @@ body #navbar > .nav-sticky-bars {
   height: 58px;
   box-sizing: border-box;
 }
-.nav-sticky-bars div.button-menu-home  {
-  width: 25px;
-  height: 25px;
-  margin-left: 5px;
-  margin-right: 5px;
-  border: 0px #111 solid;
-  padding: 2.5px;
-  cursor: pointer;
-  box-sizing: border-box;
-  border-radius: 0px;
- background-color: var(--bg-root);
-}
-  
-.nav-sticky-bars div.button-menu-home svg {
-  width: 20px;
-  height: 20px;
-  fill: var(--cl-root);
-}
+
 .display-none,
 .onfire {
   display: none;
