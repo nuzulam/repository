@@ -450,11 +450,13 @@ section.al-quran .bismillah span{
   display: none;
 }
 .quran-digital {
+  padding: 0px 10px;
+  box-sizing: border-box;
   position: relative;
   border-bottom: 0.5px var(--cl-df) solid;
 }
 section.al-quran {
-  padding: 0px 10px;
+  padding: 0px 0px;
   box-sizing: border-box;
 }
 
