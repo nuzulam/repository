@@ -36,7 +36,7 @@ margin: 0px;
 -moz-box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.75);
 box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.75);
 }
-#navbar > .nav-sticky-bars {
+.nav-sticky-bars {
   top: 0;
   left: 0;
   right: 0;
@@ -51,7 +51,7 @@ box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.75);
   background-color: var(--bg-root);
   justify-content: space-between;
 }
-#navbar .nav-sticky-bars svg {
+.nav-sticky-bars svg {
   fill: var(--cl-root);
   }
 .nav-sticky-bars .main-nav-icon{
