@@ -41,13 +41,14 @@ box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.75);
   left: 0;
   right: 0;
   z-index: 9;
-  height: auto;
+  height: 58px;
   width: 100%;
   margin: 0px;
   display: flex;
   padding: 5px;
   position: fixed;
   align-items: center;
+  box-sizing: border-box;
   background-color: var(--bg-root);
   justify-content: space-between;
 }
@@ -64,10 +65,9 @@ box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.75);
  margin-right: 10px;
  width: auto;
 }
-body #navbar > .nav-sticky-bars {
-  height: 58px;
-  box-sizing: border-box;
-}
+
+  
+
 
 .display-none,
 .onfire {
@@ -392,12 +392,15 @@ margin: 0px;
   left: 0;
   top: 1px;
   line-height: 1.6;
+  padding: 0px 10px;
+  box-sizing: border-box;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 0.5px var(--cl-df) solid;
+  border-bottom: 3px var(--cl-df) solid;
   }
+
 .al-quran .info-date-surah .date-bars {
   display: flex;
   flex-direction: column;
