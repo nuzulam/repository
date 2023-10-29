@@ -462,7 +462,9 @@ section.al-quran {
   padding: 0px 0px;
   box-sizing: border-box;
 }
-
+section.al-quran .content-quran .quran-digital:last-child {
+  border-bottom: 0px navy solid
+  }
 section.al-quran .quran-digital + .quran-digital {
   margin-top: 15px;
   }
@@ -522,30 +524,30 @@ section.al-quran .quran-digital div[id*="ayat-"] p + p {
 
 
 /* Content Tafsir */
-.al-quran .content-tafsir {
+section.al-quran .content-tafsir {
   margin-top: 10px;
   border-left: 10px var(--line-tafsir) solid;
   position: relative;
   }
-.al-quran .content-tafsir .tafsir-digital {
+section.al-quran .content-tafsir .tafsir-digital {
 padding-left: 5px;
 box-sizing: border-box;
 }
-.al-quran .content-tafsir .tafsir-digital p{
+section.al-quran .content-tafsir .tafsir-digital p{
   font-size: 13px;
   line-height: 1.5;
   color: var(--cl-df);
   font-family: 'Lato' , sans-serif;
 }
-.al-quran .content-tafsir .tafsir-digital > span {
+section.al-quran .content-tafsir .tafsir-digital > span {
   display: none;
 }
-.al-quran .content-tafsir i.sumber{
+section.al-quran .content-tafsir i.sumber{
   font-size: 11px;
   line-height: 1.2;
   margin-left: 5px;
   }
-.al-quran .content-tafsir .card-tafsir {
+section.al-quran .content-tafsir .card-tafsir {
   width: 100%;
   line-height: 1.6;
   max-width: none;
@@ -559,7 +561,7 @@ box-sizing: border-box;
   overflow: hidden;
   border-left: 10px var(--line-tafsir) solid;
 }
-.al-quran .content-tafsir .card-tafsir::before {
+section.al-quran .content-tafsir .card-tafsir::before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -575,7 +577,7 @@ box-sizing: border-box;
   transform-origin: 50% 50%;
   transition: transform 1.25s ease-out;
 }
-.al-quran .content-tafsir .card-tafsir span {
+section.al-quran .content-tafsir .card-tafsir span {
   color: var(--cl-df);
   font-size: 20px;
   line-height: 1.7;
@@ -586,6 +588,40 @@ box-sizing: border-box;
   font-family: 'Lato' , sans-serif;
 }
 
+section.al-quran .stamp-quran {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
+section.al-quran .stamp-quran > a {
+  color: #191919;
+  width: 100%;
+  height: 35px;
+  padding: 5px 5px;
+  font-size: 15px;
+  font-weight: bold;
+  min-width: 200px;
+  max-width: 400px;
+  /*background: #191;*/
+  border-radius: 2px;
+  text-align: center;
+  border: 3px #191919 solid;
+  box-sizing: border-box;
+  font-family: 'Quicksand' , sans-serif;
+}
+section.al-quran .stamp-quran > div {
+  height: 3px;
+  width: 100%;
+  display: block;
+  background: #191919;
+  }
+section.al-quran .stamp-quran > div:first-child {
+  border-radius: 0px 0px 0px 0px;
+}
+section.al-quran .stamp-quran > div:last-child {
+  border-radius: 0px 0px 0px 0px;
+}
 
 
 /*========================
