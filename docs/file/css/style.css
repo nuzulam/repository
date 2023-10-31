@@ -71,16 +71,19 @@ box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.75);
 .nav-sticky-bars svg {
   fill: var(--cl-root);
   }
-.nav-sticky-bars .main-nav-icon{
+.nav-sticky .nav-sticky-bars .main-nav-icon{
   width: 100%;
   height: none;
   display: flex;
   align-items: center;
 }
-.nav-sticky-bars .main-nav-user {
- margin-right: 10px;
- width: auto;
-}
+.nav-sticky .nav-sticky-bars .main-nav-call {
+  min-width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
+
 
   
 
