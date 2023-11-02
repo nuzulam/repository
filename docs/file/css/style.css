@@ -83,7 +83,20 @@ box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.75);
   align-items: center;
   justify-content: space-between;
   }
-
+.nav-sticky-bars .sticky-icon {
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  min-height: 40px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-sticky-bars .sticky-icon svg{
+  width: 30px;
+  height: 30px;
+}
 
   
 
