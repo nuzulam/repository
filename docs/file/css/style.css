@@ -1266,14 +1266,9 @@ to {
   border-radius: 50%;
   text-align: center;
   position: absolute;
-  color: #13f034;
-  background: #f9fafb;
-  border: 1px solid #4E4DED;
   content: attr(onset-layout);
 }
-.allset_qs_layout label,
-.root_qs_layout button,
-.root_qs_layout label {
+.root_qs_layout button {
  color: #fff;
  background-color: #767EEB;
 }
