@@ -527,11 +527,7 @@ section.al-quran {
 
 .al-quran > input{display: none;}
 
-.al-quran input[id=viewoff1]:checked ~ .content-quran .quran-digital [class*="ayat-"] .flex-alt + p,
-.al-quran input[id=viewoff2]:checked ~ .content-quran .quran-digital [class*="ayat-"] .flex-alt + p + p,
-.al-quran input[id=viewoff3]:checked ~ .content-quran .quran-digital .respon-button {
-  display: none;
-}
+
 
 
 section.al-quran .content-quran .quran-digital:last-child {
@@ -1322,10 +1318,10 @@ to {
   z-index: 110;
   flex-direction:column;
   height:100%; 
-  min-height: 100%
+  min-height: 100%;
   width:100%;
   min-width: 100%;
-  position:fixed;
+  position: fixed;
 }  
 
 .SetLayCard {
