@@ -73,7 +73,9 @@ over__003.addEventListener("click", HideTsr003);
 // Main Input Quran Digital Js
 const AT_001 = document.getElementById("AYT001");
 const AT_002 = document.getElementById("AYT002");
-const AT_002 = document.getElementById("AYT002");
- document.getElementById("TSR001").innerHTML= AT_001.innerHTML;
+const AT_003 = document.getElementById("AYT003");
+
+// Main Input Quran Digital Js
+document.getElementById("TSR001").innerHTML= AT_001.innerHTML;
 document.getElementById("TSR002").innerHTML= AT_002.innerHTML;
 document.getElementById("TSR003").innerHTML= AT_003.innerHTML;
