@@ -621,7 +621,7 @@ section.al-quran .quran-digital div[id*="ayat-"] p + p {
 .Tafsir .list-bars {
   display: flex;
   padding: 5px 10px;
-  align-items: center
+  align-items: center;
   justify-content: space-between;
   border-bottom: 0.5px solid #ddd;
 }
