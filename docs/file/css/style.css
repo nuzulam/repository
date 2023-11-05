@@ -618,14 +618,14 @@ section.al-quran .quran-digital div[id*="ayat-"] p + p {
   display: flex;
   padding: 5px 10px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   border-bottom: 0.5px solid #ddd;
 }
 .Tafsir .list-bars .title_tafsir {
-  margin-left: 15px;
+  margin-left: 5px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
   
 .list-bars .icon-back {
@@ -640,7 +640,6 @@ section.al-quran .quran-digital div[id*="ayat-"] p + p {
   justify-content: center;
   }
 .list-bars .icon-back:hover {
-
   background-color: #ddd;
   }
 .list-bars .icon-back svg {
@@ -747,9 +746,7 @@ div.view-quran .quran-digital .respon-button {
   }
   
 /* Content Tafsir */
-section.al-quran div.quran-digital .content-tafsir {
-  display: none;
-  }
+
 div.view-quran .content-tafsir {
   margin-top: 10px;
   border-left: 10px var(--line-tafsir) solid;
