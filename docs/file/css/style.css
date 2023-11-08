@@ -706,8 +706,7 @@ padding: 0px;
 box-sizing: border-box;
 }
 .link-ayat {display: block;}
-    
-a.copy-code {
+    div.code-header a.copy-code {
   border: none;
   text-align: center;
   padding: 5px 5px;
@@ -725,15 +724,17 @@ a.copy-code {
   right: 15px;
   bottom: 15px;
 }
-a.copy-code .circle-copy span{
+div.code-header a.copy-code span{
   line-height: 1;
   color: #fff;
-  margin: 5px 5px;
+  margin-left: 10px;
+   margin-right: 10px;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 13px;
-  }
-a.copy-code .circle-copy {
+  font-size: 14px;
+}
+
+div.code-header a.copy-code .circle-copy {
   height: 30px;
   width: 30px;
   border-radius: 50%;
@@ -742,7 +743,7 @@ a.copy-code .circle-copy {
   align-items: center;
   justify-content: center;
   }
-a.copy-code .circle-copy svg {
+div.code-header a.copy-code .circle-copy svg {
   height: 20px;
   width: 20px;
   }
