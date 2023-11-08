@@ -526,13 +526,8 @@ section.al-quran {
 
 .al-quran > input{display: none;}
 
-section.al-quran div.quran-digital .content-tafsir {
-  
-  }
-.allset_qs_layout label {
-  margin-left: 2.5px;
-  margin-right: 2.5px;
-  }
+
+
 .al-quran input[id="QsLayView-Set9"] ~ .component-quran .Bars__SetLay .allset_qs_layout .QsLayView-Set9::before,
 .al-quran input[id="QsLayView-Set8"] ~ .component-quran .Bars__SetLay .allset_qs_layout .QsLayView-Set8::before,
 .al-quran input[id="QsLayView-Set7"] ~ .component-quran .Bars__SetLay .allset_qs_layout .QsLayView-Set7::before,
