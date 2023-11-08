@@ -699,6 +699,12 @@ section.al-quran .quran-digital div[id*="ayat-"] p + p {
   width:20;
   height:20px;
 }
+.Tafsir > .OnIndex-Tafsir {
+height: 100%;
+overflow: auto;
+padding: 0px;
+box-sizing: border-box;
+}
 .link-ayat {display: block;}
     
 a.copy-code {
