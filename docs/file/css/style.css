@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lateef:wght@200;300;400;500;600;700;800&display=swap');
- 
+:root {
+  --bg-img-qori-afasy: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXmqDArx9_HEr6o6ykVY6CzKl8Pfy_Y_eZUvkMoxLSrl8SNnHh3E9JeMOrYNlMfMGBcPQlCUm0jEhGoR-fxHs-tGJtUlXvlAA5sf4YJfXYsiY-nxm6lC3kmwm647LBwLobxSV02HLH4GlstzdYet1K1VXtOEy2PiRSq-nE-ddMCxsxvDlumDVsCkzJUjM/s1600/pro_1_11zon.jpeg);
+  --bg-img-qori-nufais: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5u4zwNUO2npczG7vnwRPbjCXXqDuspL2EFmrXuxD4TmDZAorTimvA8DT8BwmUupMP7bPXNgaYHqtEhIpJqg3IRAOhxCpri0jxFzbFBg-E97R2ntGtEp67pL3X2YBCH_WvKGvx5aOl0yl0BXmF43nTs_wGZ4L_5scSKTdleERtkBekA-XBY10FGJ5DHeM/s1600/images%20%2811%29.jpeg);
+  --bg-img-qori-mansour: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjZtbPc3t0BKqX8WKu-NslfY86FvkSWiaJRqXILkNQBBx581KGBmViuD58Ioa5r99Gd9xzhyvOeOm3MVpL4fPjWht2qc4lo7_fNd9Q0WbsSNHmzBV-3RSh9csCb2_hoX5gccfs6zUrnMi0HswnuXO80ri7DLQllmBvIi7B2ouoOk71JFB1zKOfTUIeVec/s1600/images%20%2812%29_1.jpeg);
+}
+
+
 body,
 .item-view .sidebar-container {
   color: var(--cl-df);
@@ -17,11 +23,7 @@ body #main {
 margin: 0px;
 }
 
-:root {
-  --bg-img-qori-afasy: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXmqDArx9_HEr6o6ykVY6CzKl8Pfy_Y_eZUvkMoxLSrl8SNnHh3E9JeMOrYNlMfMGBcPQlCUm0jEhGoR-fxHs-tGJtUlXvlAA5sf4YJfXYsiY-nxm6lC3kmwm647LBwLobxSV02HLH4GlstzdYet1K1VXtOEy2PiRSq-nE-ddMCxsxvDlumDVsCkzJUjM/s1600/pro_1_11zon.jpeg);
-  --bg-img-qori-nufais: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5u4zwNUO2npczG7vnwRPbjCXXqDuspL2EFmrXuxD4TmDZAorTimvA8DT8BwmUupMP7bPXNgaYHqtEhIpJqg3IRAOhxCpri0jxFzbFBg-E97R2ntGtEp67pL3X2YBCH_WvKGvx5aOl0yl0BXmF43nTs_wGZ4L_5scSKTdleERtkBekA-XBY10FGJ5DHeM/s1600/images%20%2811%29.jpeg);
-  --bg-img-qori-mansour: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjZtbPc3t0BKqX8WKu-NslfY86FvkSWiaJRqXILkNQBBx581KGBmViuD58Ioa5r99Gd9xzhyvOeOm3MVpL4fPjWht2qc4lo7_fNd9Q0WbsSNHmzBV-3RSh9csCb2_hoX5gccfs6zUrnMi0HswnuXO80ri7DLQllmBvIi7B2ouoOk71JFB1zKOfTUIeVec/s1600/images%20%2812%29_1.jpeg);
-  }
+
 #playlist li .pro-qori {
   height: 52px;
   width: 52px;
@@ -139,8 +141,7 @@ box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.75);
   
 
 
-.display-none,
-.onfire {
+.display-none {
   display: none;
 }
 
@@ -1332,13 +1333,18 @@ to {
 }
 .allset_qs_layout label,
 .root_qs_layout label {
-  margin: 5px 0px;
   display: block;
   font-weight: bold;
   padding: 5px 10px 5px 30px;
   box-sizing: border-box;
   border-radius: 2px;
   position: relative;
+}
+.root_qs_layout label {
+  margin: 5px 0px;
+}
+.allset_qs_layout label {
+margin: 5px 5px;
 }
 .allset_qs_layout {
   text-align: center;
@@ -1440,7 +1446,6 @@ div.qs-view-layout {
   width: 200px;
   position:fixed;
   z-index: 10;
-  bottom: 65px;
   right: 65px;
   border-radius: 5px;
   background:#fff;
@@ -1480,7 +1485,6 @@ div.qs-view-layout::after {
   border-radius: 50%;
   z-index: 10;
   right: 15px;
-  bottom: 60px;
   position: fixed;
   background: rgba(174,170,234,0.5);
   display: flex;
@@ -1507,4 +1511,48 @@ div.qs-view-layout::after {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+
+
+
+
+/*===== View Layout Quran ===*/
+
+.al-quran input[id="QsLayView-Set5"] ~ .component-quran .qs-view-layout {
+  bottom: 20px;
+}
+.al-quran input[id="QsLayView-Set5"] ~ .component-quran .Qvl {
+  bottom: 15px;
+}
+.al-quran input[id="QsLayView-Set5"]:checked ~ .component-quran .qs-view-layout {
+  bottom: 65px;
+}
+.al-quran input[id="QsLayView-Set5"]:checked ~ .component-quran .Qvl {
+  bottom: 60px;
+}
+.al-quran input[id="QsLayView-Set6"] ~ .content-quran .quran-digital {
+  border-bottom: none;
+}
+.al-quran input[id="QsLayView-Set6"]:checked ~ .content-quran .quran-digital {
+  border-bottom: 0.5px var(--cl-df) solid;
+}
+  
+.al-quran input[id="QsLayView-Set5"] ~ .component-quran .audio__fixed,
+.al-quran input[id="QsLayView-Set4"] ~ .content-quran .quran-digital .content-tafsir,
+.al-quran input[id="QsLayView-Set1"] ~ .content-quran .quran-digital [class*="ayat-"] .flex-alt + p,
+.al-quran input[id="QsLayView-Set2"] ~ .content-quran .quran-digital [class*="ayat-"] .flex-alt + p + p,
+.al-quran input[id="QsLayView-Set3"] ~ .content-quran .quran-digital .respon-button {
+  display: none;
+}
+
+.al-quran input[id="QsLayView-Set4"]:checked ~ .content-quran .quran-digital .content-tafsir,
+.al-quran input[id="QsLayView-Set1"]:checked ~ .content-quran .quran-digital [class*="ayat-"] .flex-alt + p,
+.al-quran input[id="QsLayView-Set2"]:checked ~ .content-quran .quran-digital [class*="ayat-"] .flex-alt + p + p {
+  display: block;
+}
+
+.al-quran input[id="QsLayView-Set5"]:checked ~ .component-quran .audio__fixed,
+.al-quran input[id="QsLayView-Set3"]:checked ~ .content-quran .quran-digital .respon-button {
+  display: flex;
 }
