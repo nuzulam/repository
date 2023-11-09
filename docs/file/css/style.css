@@ -23,7 +23,7 @@ body #main {
 margin: 0px;
 }
 
-
+ul#playlist{margin-top:0px;}
 #playlist li .pro-qori {
   height: 52px;
   width: 52px;
@@ -519,6 +519,7 @@ section.al-quran .bismillah span{
   padding: 0px 10px;
   box-sizing: border-box;
   position: relative;
+  border-bottom: 0.5px var(--cl-df) solid;
 }
 section.al-quran {
   padding: 0px 0px;
@@ -645,8 +646,75 @@ section.al-quran .quran-digital div[id*="ayat-"] p + p {
   font-family: 'Quicksand' , sans-serif;
 }
 
-/* Respon Button */
 
+
+section.Tafsir .view-quran div[class*="seayat-"],
+section.Tafsir .view-quran div[id*="seayat-"] {
+  margin-top: 10px;
+  padding: 0px 10px;
+  text-align: right;
+  box-sizing: border-box;
+}
+section.Tafsir .view-quran div[class*="seayat-"] .flex-alt .number,
+section.Tafsir .view-quran div[id*="seayat-"] .flex-alt .number {
+  display: none;
+}
+section.al-quran .quran-digital div[class*="tafsir-"],
+section.al-quran .quran-digital div[id*="tafsir-"] {
+  display: none;
+}
+  
+
+section.Tafsir .view-quran div[class*="seayat-"] .flex-alt > span,
+section.Tafsir .view-quran div[id*="seayat-"] .flex-alt > span {
+  padding: 0px;
+  text-align: right;
+  margin-top: -12px;
+  font-size: 50px;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-shadow: none;
+  color: var(--cl-qs-dgt);
+  font-family: 'Lateef', cursive;
+}
+section.Tafsir .view-quran div[class*="seayat-"] .flex-alt,
+section.Tafsir .view-quran div[id*="seayat-"] .flex-alt {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+section.Tafsir .view-quran div[class*="seayat-"] .flex-alt + p,
+section.Tafsir .view-quran div[id*="seayat-"] .flex-alt + p {
+  font-size: 14px;
+  text-align: right;
+  line-height: 1.4;
+  color: var(--cl-qs-dgt);
+  border-bottom: 0px #111 solid;
+  font-family: 'Merriweather', serif;
+}
+section.Tafsir .view-quran div[class*="seayat-"] p + p,
+section.Tafsir .view-quran div[id*="seayat-"] p + p {
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  color: var(--cl-df);
+  border-bottom: 0px #111 solid;
+  font-family: 'Quicksand' , sans-serif;
+}
+
+
+
+/* Respon Button */
+/*========================
+  Pop Up Action Copy Tafsir
+=========================*/
 .Tafsir {
   --x: 0;
   --y: 0;
@@ -757,59 +825,10 @@ div.code-header a.copy-code .circle-copy svg {
   font-weight: bold;
   }
   
-div.view-quran .quran-digital div[class*="ayat-"] > span,
-div.view-quran .quran-digital div[id*="ayat-"] > span,
-div.view-quran .quran-digital div[class*="ayat-"] .flex-alt > span,
-div.view-quran .quran-digital div[id*="ayat-"] .flex-alt > span {
-  padding: 5px;
-  text-align: right;
-  margin-top: -12px;
-  font-size: 50px;
-  line-height: 1.5;
-  font-weight: 500;
-  letter-spacing: 1px;
-  text-shadow: none;
-  color: var(--cl-qs-dgt);
-  font-family: 'Lateef', cursive;
-}
-div.view-quran .quran-digital div[class*="ayat-"] .flex-alt,
-div.view-quran .quran-digital div[id*="ayat-"] .flex-alt {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-div.view-quran .quran-digital div[class*="ayat-"] > span + p,
-div.view-quran .quran-digital div[id*="ayat-"] > span + p,
-div.view-quran .quran-digital div[class*="ayat-"] .flex-alt + p,
-div.view-quran .quran-digital div[id*="ayat-"] .flex-alt + p {
-  font-size: 14px;
-  text-align: right;
-  line-height: 1.4;
-  color: var(--cl-qs-dgt);
-  border-bottom: 0px #111 solid;
-  font-family: 'Merriweather', serif;
-}
-div.view-quran .quran-digital div[class*="ayat-"] p + p,
-div.view-quran .quran-digital div[id*="ayat-"] p + p {
-  font-size: 15px;
-  line-height: 1.5;
-  font-weight: 600;
-  text-align: left;
-  margin-bottom: 20px;
-  padding-bottom: 15px;
-  color: var(--cl-df);
-  border-bottom: 0px #111 solid;
-  font-family: 'Quicksand' , sans-serif;
-}
-div.view-quran .quran-digital {
-  border-bottom: none;
-  }
-div.view-quran .quran-digital .respon-button {
-  display: none;
-  }
-  
+
+
+
+
 /* Content Tafsir */
 
 div.view-quran .content-tafsir {
@@ -981,188 +1000,6 @@ section.al-quran .stamp-quran > div:first-child {
 section.al-quran .stamp-quran > div:last-child {
   border-radius: 0px 0px 0px 0px;
 }
-
-
-/*========================
-  Pop Up Action Copy Tafsir
-=========================*/
-.copy-bars {
-  top:  0;
-  left: 0;
-  right: 0;
-  bottom:0;
-  display:none;
-  margin:auto;
-  height: 100%; 
-  width: 100%;
-  z-index: 200;
-  position:fixed;
-  margin-top: 0px;
-  border-radius: 0px;
-  border: 0px solid #ddd;
-}
-.copy-bars .code-header {
-  display: flex;
-  justify-content: space-between;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  align-items: center;
-  background: #f8f8f8;
-  width: 100%;
-  padding: 5px 10px;
-  border-bottom: 0.5px #191919 solid;
-  box-sizing: border-box;
-  font-family:Helvetica,Arial,sans-serif;
-  box-sizing: border-box;
-}
-.copy-bars .code-header a{
-color: #fff;
-font-size:15px;
-display:inline-block;
-cursor:pointer;
-background: rgba(65, 118, 148, 0.9);
-box-sizing:border-box;
-padding: 5px 15px;
-border-radius: 5px;
-} 
-.copy-bars .code-header a:active {
-  color: #191919;
-  box-shadow: 5px 1px 20px 1px #ddd;
-  transform: scale(0.96);
-  background: rgba(65, 118, 148, 0.6);
-  transition:all 0.1s linear;
-} 
-.copy-bars .code-header .date-ayat {
-  width: none;
-  }
-.copy-bars .code-header .date-ayat span {
-  font-size: 14px;
-  }
-.msg-alert{
-position: fixed;
-top:120px;
-left: 25%;
-background:#333;
-z-index:1000;
-color:#fff;
-font-family:Helvetica,Arial,sans-serif;
-font-size:15px;
-padding:8px 12px;
-border-radius:5px;
-}
-@media (max-width: 500px) {
-  .msg-alert {
-    left: 15%;
-  }
-}
-.copy-bars .code-header span.close {
-  width: 30px;
-  height: 30px;
-  background: #ddd;
-  text-align: center;
-  box-sizing: border-box;
-  border: 0px #111 solid;
-  border-radius: 5px;
-  font-weight: bold;
-  font-size: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.copy-bars .code-header span.close::before {
-  content:"X";
-  font-family: 'Lato' , sans-serif;
-}
-.copy-bars .view-pro {
-  width: none;
-  height: 80%;
-  max-height: 80%;
-  display: block;
-  margin-bottom: 10px;
-  padding: 5px;
-  overflow: scroll;
-  position: relative;
-  z-index: 0;
-  box-sizing: border-box;
-}
-.copy-bars .view-pro .view-quran {
-  width: none;
-  height: 100%;
-  display: block;
-  padding: 0;
-  box-sizing: border-box;
-}
-.copy-bars .boxs-copy-bars {
-  width: 90%;
-  height: 98%;
-  min-height: 98%;
-  z-index: 2;
-  margin-top: 2%;
-  margin-left: 5%;
-  position: absolute;
-}
-.copy-bars .content-main-boxs {
-  width: 100%;
-  height: 90%;
-  max-height: 90%;
-  background: #fff;
-  top: 10px;
-  margin-bottom: 10px;
-  display: block;
-  position: relative;
-  border-radius: 5px;
-  border: 1px #ccc solid;
-}
-.copy-bars .boxs-overlow {
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  display: block;
-   z-index: 0;
-  position: absolute;
-  background: rgba(65, 118, 148, 0.4);
-}
-.view-quran #output-arab  {
- text-align: right;
-}
-.view-quran #output-arab > span {
-  font-size: 30px;
-  text-align: right;
-  }
-.view-quran #output-arab span + p {
-  color: #9e342c;
-  font-size: 14px;
-  line-height: 1.5;
-  font-family: 'Merriweather', serif;
-  text-align: right;
-  border-bottom: 0px #111 solid;
-}
-.view-quran #output-arab p + p {
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 500;
-  text-align: left;
-  margin-bottom: 25px;
-  padding-bottom: 15px;
-  border-bottom: 0px #111 solid;
-  font-family: 'Quicksand' , sans-serif;
-}
-.view-quran #output-tafsir p {
-  line-height: 1.5;
-  color: #191919;
-  font-size: 14px;
-  }
-.view-quran #output-tafsir > span {
-  color: #191919;
-  font-weight: bold;
-}
-
-
-
-
 
 
 
@@ -1494,7 +1331,9 @@ div.qs-view-layout::after {
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
+
 .set-top-bars {
   padding: 5px 10px;
   display: flex;
@@ -1535,13 +1374,7 @@ div.qs-view-layout::after {
 .al-quran input[id="QsLayView-Set5"]:checked ~ .component-quran .Qvl {
   bottom: 60px;
 }
-.al-quran input[id="QsLayView-Set6"] ~ .content-quran .quran-digital {
-  border-bottom: none;
-}
-.al-quran input[id="QsLayView-Set6"]:checked ~ .content-quran .quran-digital {
-  border-bottom: 0.5px var(--cl-df) solid;
-}
-  
+
 .al-quran input[id="QsLayView-Set5"] ~ .component-quran .audio__fixed,
 .al-quran input[id="QsLayView-Set4"] ~ .info-date-surah .date-bars,
 .al-quran input[id="QsLayView-Set4"] ~ .info-date-surah > span,
