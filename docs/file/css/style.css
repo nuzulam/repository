@@ -1543,19 +1543,20 @@ div.qs-view-layout::after {
 }
   
 .al-quran input[id="QsLayView-Set5"] ~ .component-quran .audio__fixed,
-.al-quran input[id="QsLayView-Set4"] ~ .content-quran .quran-digital .content-tafsir,
+.al-quran input[id="QsLayView-Set4"] ~ .info-date-surah .date-bars,
+.al-quran input[id="QsLayView-Set4"] ~ .info-date-surah > span,
 .al-quran input[id="QsLayView-Set1"] ~ .content-quran .quran-digital [class*="ayat-"] .flex-alt + p,
 .al-quran input[id="QsLayView-Set2"] ~ .content-quran .quran-digital [class*="ayat-"] .flex-alt + p + p,
 .al-quran input[id="QsLayView-Set3"] ~ .content-quran .quran-digital .respon-button {
   display: none;
 }
 
-.al-quran input[id="QsLayView-Set4"]:checked ~ .content-quran .quran-digital .content-tafsir,
+.al-quran input[id="QsLayView-Set4"]:checked ~ .info-date-surah > span,
 .al-quran input[id="QsLayView-Set1"]:checked ~ .content-quran .quran-digital [class*="ayat-"] .flex-alt + p,
 .al-quran input[id="QsLayView-Set2"]:checked ~ .content-quran .quran-digital [class*="ayat-"] .flex-alt + p + p {
   display: block;
 }
-
+.al-quran input[id="QsLayView-Set4"]:checked ~ .info-date-surah .date-bars,
 .al-quran input[id="QsLayView-Set5"]:checked ~ .component-quran .audio__fixed,
 .al-quran input[id="QsLayView-Set3"]:checked ~ .content-quran .quran-digital .respon-button {
   display: flex;
