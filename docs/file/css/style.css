@@ -673,13 +673,13 @@ section.al-quran .quran-digital div[id*="ayat-"] p + p {
 }
 .Tafsir .list-bars {
   display: flex;
-  padding: 5px 10px;
+  padding: 5px 5px;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: justify-content;
   border-bottom: 0.5px solid #ddd;
 }
 .Tafsir .list-bars .title_tafsir {
-  margin-left: 5px;
+  margin-left: 0px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -688,6 +688,8 @@ section.al-quran .quran-digital div[id*="ayat-"] p + p {
 .list-bars .icon-back {
   height: 40px;
   width: 40px;
+  min-height: 40px;
+  min-width: 40px;
   display: flex;
   border-radius: 50%;
   align-items: center;
@@ -697,8 +699,9 @@ section.al-quran .quran-digital div[id*="ayat-"] p + p {
   background-color: #ddd;
   }
 .list-bars .icon-back svg {
-  width:20;
-  height:20px;
+  width:30px;
+  height:30px;
+  fill: var(--cl-df);
 }
 .Tafsir > .OnIndex-Tafsir {
 height: 100%;
@@ -707,7 +710,7 @@ padding: 0px;
 box-sizing: border-box;
 }
 .link-ayat {display: block;}
-    div.code-header a.copy-code {
+div.code-header a.copy-code {
   border: none;
   text-align: center;
   padding: 5px 5px;
@@ -749,6 +752,7 @@ div.code-header a.copy-code .circle-copy svg {
   width: 20px;
   }
 .title_tafsir span {
+  color: var(--cl-df);
   font-size: 20px;
   font-weight: bold;
   }
