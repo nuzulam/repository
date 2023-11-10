@@ -2,7 +2,7 @@
 // Tafsir View 001
 const on__001 = document.querySelector(".on__001");
 const tsr__001 = document.querySelector(".tsr__001");
-const close__001 = document.querySelector(".close__001 .back_to");
+const close__001 = document.querySelector(".close__001 .to_back");
 const over__001 = document.querySelector(".over__001");
 
 function ShowTsr001() {
@@ -24,7 +24,7 @@ over__001.addEventListener("click", HideTsr001);
 // Tafsir View 002
 const on__002 = document.querySelector(".on__002");
 const tsr__002 = document.querySelector(".tsr__002");
-const close__002 = document.querySelector(".close__002 .back_to");
+const close__002 = document.querySelector(".close__002 .to_back");
 const over__002 = document.querySelector(".over__002");
 
 function ShowTsr002() {
@@ -46,7 +46,7 @@ over__002.addEventListener("click", HideTsr002);
 // Tafsir View 003
 const on__003 = document.querySelector(".on__003");
 const tsr__003 = document.querySelector(".tsr__003");
-const close__003 = document.querySelector(".close__003 .back_to");
+const close__003 = document.querySelector(".close__003 .to_back");
 const over__003 = document.querySelector(".over__003");
 
 function ShowTsr003() {
@@ -68,7 +68,7 @@ over__003.addEventListener("click", HideTsr003);
 // Tafsir View 004
 const on__004 = document.querySelector(".on__004");
 const tsr__004 = document.querySelector(".tsr__004");
-const close__004 = document.querySelector(".close__004 .back_to");
+const close__004 = document.querySelector(".close__004 .to_back");
 const over__004 = document.querySelector(".over__004");
 
 function ShowTsr004() {
@@ -90,7 +90,7 @@ over__004.addEventListener("click", HideTsr004);
 // Tafsir View 005
 const on__005 = document.querySelector(".on__005");
 const tsr__005 = document.querySelector(".tsr__005");
-const close__005 = document.querySelector(".close__005 .back_to");
+const close__005 = document.querySelector(".close__005 .to_back");
 const over__005 = document.querySelector(".over__005");
 
 function ShowTsr005() {
@@ -112,7 +112,7 @@ over__005.addEventListener("click", HideTsr005);
 // Tafsir View 006
 const on__006 = document.querySelector(".on__006");
 const tsr__006 = document.querySelector(".tsr__006");
-const close__006 = document.querySelector(".close__006 .back_to");
+const close__006 = document.querySelector(".close__006 .to_back");
 const over__006 = document.querySelector(".over__006");
 
 function ShowTsr006() {
@@ -134,7 +134,7 @@ over__006.addEventListener("click", HideTsr006);
 // Tafsir View 007
 const on__007 = document.querySelector(".on__007");
 const tsr__007 = document.querySelector(".tsr__007");
-const close__007 = document.querySelector(".close__007 .back_to");
+const close__007 = document.querySelector(".close__007 .to_back");
 const over__007 = document.querySelector(".over__007");
 
 function ShowTsr007() {
