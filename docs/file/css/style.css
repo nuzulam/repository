@@ -536,9 +536,9 @@ section.al-quran {
 .al-quran input[id="QsLayView-Set6"] ~ .component-quran .Bars__SetLay .allset_qs_layout .QsLayView-Set6::before,
 .al-quran input[id="QsLayView-Set5"] ~ .component-quran .Bars__SetLay .allset_qs_layout .QsLayView-Set5::before,
 .al-quran input[id="QsLayView-Set4"] ~ .component-quran .Bars__SetLay .allset_qs_layout .QsLayView-Set4::before,   
-.al-quran input[id="QsLayView-Set3"] ~ .component-quran .qs-view-layout .root_qs_layout .QsLayView-Set3::before,
-.al-quran input[id="QsLayView-Set2"] ~ .component-quran .qs-view-layout .root_qs_layout .QsLayView-Set2::before,
-.al-quran input[id="QsLayView-Set1"] ~ .component-quran .qs-view-layout .root_qs_layout .QsLayView-Set1::before {
+.al-quran input[id="QsLayView-Set3"] ~ .component-quran .viset .root_qs_layout .QsLayView-Set3::before,
+.al-quran input[id="QsLayView-Set2"] ~ .component-quran .viset .root_qs_layout .QsLayView-Set2::before,
+.al-quran input[id="QsLayView-Set1"] ~ .component-quran .viset .root_qs_layout .QsLayView-Set1::before {
   color: #f1f1f1;
   border: 1px #aeaaea solid;
   background-color: #f1f1f1;
@@ -550,11 +550,11 @@ section.al-quran {
 .al-quran input[id="QsLayView-Set6"]:checked ~ .component-quran .Bars__SetLay .allset_qs_layout .QsLayView-Set6::before,
 .al-quran input[id="QsLayView-Set5"]:checked ~ .component-quran .Bars__SetLay .allset_qs_layout .QsLayView-Set5::before,
 .al-quran input[id="QsLayView-Set4"]:checked ~ .component-quran .Bars__SetLay .allset_qs_layout .QsLayView-Set4::before,
-.al-quran input[id="QsLayView-Set3"]:checked ~ .component-quran .qs-view-layout .root_qs_layout .QsLayView-Set3::before,
-.al-quran input[id="QsLayView-Set2"]:checked ~ .component-quran .qs-view-layout .root_qs_layout .QsLayView-Set2::before,
-.al-quran input[id="QsLayView-Set1"]:checked ~ .component-quran .qs-view-layout .root_qs_layout .QsLayView-Set1::before {
+.al-quran input[id="QsLayView-Set3"]:checked ~ .component-quran .viset .root_qs_layout .QsLayView-Set3::before,
+.al-quran input[id="QsLayView-Set2"]:checked ~ .component-quran .viset .root_qs_layout .QsLayView-Set2::before,
+.al-quran input[id="QsLayView-Set1"]:checked ~ .component-quran .viset .root_qs_layout .QsLayView-Set1::before {
   color: #13f034;
-  border: 1px #13f034 solid;
+  border: 1px #4E4DED solid;
   background-color: #f1f1f1;
 }
 
@@ -566,9 +566,9 @@ section.al-quran {
 .al-quran input[id="QsLayView-Set6"] ~ .component-quran .Bars__SetLay .allset_qs_layout .QsLayView-Set6,
 .al-quran input[id="QsLayView-Set5"] ~ .component-quran .Bars__SetLay .allset_qs_layout .QsLayView-Set5,
 .al-quran input[id="QsLayView-Set4"] ~ .component-quran .Bars__SetLay .allset_qs_layout .QsLayView-Set4,
-.al-quran input[id="QsLayView-Set3"] ~ .component-quran .qs-view-layout .root_qs_layout .QsLayView-Set3,
-.al-quran input[id="QsLayView-Set2"] ~ .component-quran .qs-view-layout .root_qs_layout .QsLayView-Set2,
-.al-quran input[id="QsLayView-Set1"] ~ .component-quran .qs-view-layout .root_qs_layout .QsLayView-Set1 {
+.al-quran input[id="QsLayView-Set3"] ~ .component-quran .viset .root_qs_layout .QsLayView-Set3,
+.al-quran input[id="QsLayView-Set2"] ~ .component-quran .viset .root_qs_layout .QsLayView-Set2,
+.al-quran input[id="QsLayView-Set1"] ~ .component-quran .viset .root_qs_layout .QsLayView-Set1 {
   color: #111;
   background: #ccc;
 }
@@ -579,9 +579,9 @@ section.al-quran {
 .al-quran input[id="QsLayView-Set6"]:checked ~ .component-quran .Bars__SetLay .allset_qs_layout .QsLayView-Set6,
 .al-quran input[id="QsLayView-Set5"]:checked ~ .component-quran .Bars__SetLay .allset_qs_layout .QsLayView-Set5,
 .al-quran input[id="QsLayView-Set4"]:checked ~ .component-quran .Bars__SetLay .allset_qs_layout .QsLayView-Set4,
-.al-quran input[id="QsLayView-Set3"]:checked ~ .component-quran .qs-view-layout .root_qs_layout .QsLayView-Set3,
-.al-quran input[id="QsLayView-Set2"]:checked ~ .component-quran .qs-view-layout .root_qs_layout .QsLayView-Set2,
-.al-quran input[id="QsLayView-Set1"]:checked ~ .component-quran .qs-view-layout .root_qs_layout .QsLayView-Set1 {
+.al-quran input[id="QsLayView-Set3"]:checked ~ .component-quran .viset .root_qs_layout .QsLayView-Set3,
+.al-quran input[id="QsLayView-Set2"]:checked ~ .component-quran .viset .root_qs_layout .QsLayView-Set2,
+.al-quran input[id="QsLayView-Set1"]:checked ~ .component-quran .viset .root_qs_layout .QsLayView-Set1 {
   color: #fff;
  background-color: #767EEB;
 }
