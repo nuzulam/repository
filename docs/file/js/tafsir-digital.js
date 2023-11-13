@@ -155,20 +155,31 @@ over__007.addEventListener("click", HideTsr007);
   
 
 
-// Main Input Quran Digital Js
-const AT_001 = document.getElementById("AYT001");
-const AT_002 = document.getElementById("AYT002");
-const AT_003 = document.getElementById("AYT003");
-const AT_004 = document.getElementById("AYT004");
-const AT_005 = document.getElementById("AYT005");
-const AT_006 = document.getElementById("AYT006");
-const AT_007 = document.getElementById("AYT007");
+// Main Input Ayat Quran Digital Js
+const AV_001 = document.getElementById("ayat-001");
+const AV_002 = document.getElementById("ayat-002");
+const AV_003 = document.getElementById("ayat-003");
+const AV_004 = document.getElementById("ayat-004");
+const AV_005 = document.getElementById("ayat-005");
+const AV_006 = document.getElementById("ayat-006");
+const AV_007 = document.getElementById("ayat-007");
 
-// Main Input Quran Digital Js
-document.getElementById("TSR001").innerHTML= AT_001.innerHTML;
-document.getElementById("TSR002").innerHTML= AT_002.innerHTML;
-document.getElementById("TSR003").innerHTML= AT_003.innerHTML;
-document.getElementById("TSR004").innerHTML= AT_004.innerHTML;
-document.getElementById("TSR005").innerHTML= AT_005.innerHTML;
-document.getElementById("TSR006").innerHTML= AT_006.innerHTML;
-document.getElementById("TSR007").innerHTML= AT_007.innerHTML;
+// Main Input Ayat Quran Digital Js
+document.getElementById("seayat-001").innerHTML= AV_001.innerHTML;
+document.getElementById("seayat-002").innerHTML= AV_002.innerHTML;
+document.getElementById("seayat-003").innerHTML= AV_003.innerHTML;
+document.getElementById("seayat-004").innerHTML= AV_004.innerHTML;
+document.getElementById("seayat-005").innerHTML= AV_005.innerHTML;
+document.getElementById("seayat-006").innerHTML= AV_006.innerHTML;
+document.getElementById("seayat-007").innerHTML= AV_007.innerHTML;
+
+
+
+
+
+
+// Main Input Tafsir Quran Digital Js
+const AT_001 = document.getElementById("tafsir-001");
+
+// Main Input Tafsir Quran Digital Js
+document.getElementById("setafsir-001").innerHTML= AT_001.innerHTML;
