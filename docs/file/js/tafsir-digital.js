@@ -178,8 +178,23 @@ document.getElementById("seayat-007").innerHTML= AV_007.innerHTML;
 
 
 
+
+
+
 // Main Input Tafsir Quran Digital Js
 const AT_001 = document.getElementById("tafsir-001");
+const AT_002 = document.getElementById("tafsir-002");
+const AT_003 = document.getElementById("tafsir-003");
+const AT_004 = document.getElementById("tafsir-004");
+const AT_005 = document.getElementById("tafsir-005");
+const AT_006 = document.getElementById("tafsir-006");
+const AT_007 = document.getElementById("tafsir-007");
 
 // Main Input Tafsir Quran Digital Js
 document.getElementById("setafsir-001").innerHTML= AT_001.innerHTML;
+document.getElementById("setafsir-002").innerHTML= AT_002.innerHTML;
+document.getElementById("setafsir-003").innerHTML= AT_003.innerHTML;
+document.getElementById("setafsir-004").innerHTML= AT_004.innerHTML;
+document.getElementById("setafsir-005").innerHTML= AT_005.innerHTML;
+document.getElementById("setafsir-006").innerHTML= AT_006.innerHTML;
+document.getElementById("setafsir-007").innerHTML= AT_007.innerHTML;
