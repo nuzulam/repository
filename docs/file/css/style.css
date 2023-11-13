@@ -1492,10 +1492,10 @@ opacity: 0.4;
 .al-quran input[id="QsLayView-Set5"]:checked ~ .component-quran .viset {
   bottom: 65px;
 }
-.al-quran input[id="QsLayView-Set5"] ~ .vinav {
+.al-quran input[id="QsLayView-Set5"] ~ .component-quran .vinav {
   bottom: 65px;
 }
-.al-quran input[id="QsLayView-Set5"]:checked ~ .vinav {
+.al-quran input[id="QsLayView-Set5"]:checked ~ .component-quran .vinav {
   bottom: 115px;
 }
 .al-quran input[id="QsLayView-Set5"] ~ .component-quran .Hass {
@@ -1558,8 +1558,7 @@ border-radius:5px;
 .deskripsi-surah .text-deskripsi-surah p{
   font-size: 13px;
 }
-.Qset.Hass,
-.Qnav.Hass {bottom: 65px;}
+
 .component-quran .Qset,
 .component-quran .Qnav {
   background: #fff;
@@ -1567,8 +1566,6 @@ border-radius:5px;
   position: fixed;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
-  
-  
 .component-quran .Qnav{
     left: 15px;
 }
@@ -1581,13 +1578,11 @@ div.vinav {
   height: auto;
   padding: 5px;
   z-index: 10;
-  
   background: #fff;
   display: none;
   position: fixed;
   box-sizing: border-box;
   border-radius: 5px;
-  
   }
 div.vinav::after {
   content: "";
