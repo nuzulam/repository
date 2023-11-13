@@ -1366,6 +1366,293 @@ div.qs-view-layout::after {
   justify-content: center;
 }
 
+.allris {
+    width: 100%;
+    display: block;
+    }
+.allris button{
+    width: none;
+    padding: 5px 10px;
+    text-align: center;
+    border: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: pink;
+}
+.component-quran .all__viset {
+  display:none;
+  top: 0;
+  left:0;
+  bottom:0;
+  z-index: 110;
+  flex-direction:column;
+  height:100%; 
+  min-height: 100%;
+  width:100%;
+  min-width: 100%;
+  position: fixed;
+}  
+
+.all__viset .SetLayCard {
+height: 100%;
+overflow: auto;
+padding: 2px;
+box-sizing: border-box;
+}
+
+
+  
+
+.component-quran .all__viset .list__viset {
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  max-width: 100%;
+  height: 500px;
+  max-height: 100%;
+  background: #fff;
+  z-index: 4;
+  position: absolute;
+  }
+.component-quran .all__viset .over__viset {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+opacity: 0.4;
+  background: #222;
+  background: -moz-linear-gradient(-45deg,  #222 50%, #45484d 100%);
+  background: -webkit-linear-gradient(-45deg,  #222 50%,#45484d 100%);
+  background: linear-gradient(135deg,  #000 50%,#45484d 100%);
+}
+.set-back svg{
+  width: 15px;
+  height: 15px;
+  }
+
+.post-body .vinav form {
+    position: relative;
+    display: flex;
+    width: 100%;
+    
+    height: 3em;
+    border-radius: .25em;
+    overflow: hidden;
+  }
+  
+
+.post-body .vinav form select {
+    /* Reset Select */
+    appearance: none;
+    outline: 0;
+    border: 0;
+    box-shadow: none;
+    /* Personalize */
+    flex: 1;
+    padding: 0 1em;
+    color: #fff;
+    background-color: #2c3e50;
+    background-image: none;
+    cursor: pointer;
+  }
+  /* Remove IE arrow */
+
+.post-body .vinav form select::-ms-expand {
+    display: none;
+  }
+ 
+  /* Arrow */
+
+.post-body .vinav form::after {
+    content: '\f0d7';
+    position: absolute;
+    color: #fff;
+    top: 0;
+    right: 0;
+    padding: 1em;
+    font-family: FontAwesome;
+    background-color: #34495e;
+    transition: .25s all ease;
+    pointer-events: none;
+  }
+  /* Transition */
+  
+  .post-body .vinav form:hover::after {
+    color: #f39c12;
+  }
+  
+  
+.al-quran input[id="QsLayView-Set5"] ~ .component-quran .viset {
+  bottom: 15px;
+}
+.al-quran input[id="QsLayView-Set5"]:checked ~ .component-quran .viset {
+  bottom: 65px;
+}
+.al-quran input[id="QsLayView-Set5"] ~ .vinav {
+  bottom: 65px;
+}
+.al-quran input[id="QsLayView-Set5"]:checked ~ .vinav {
+  bottom: 115px;
+}
+.al-quran input[id="QsLayView-Set5"] ~ .component-quran .Hass {
+  bottom: 15px;
+}
+
+.al-quran input[id="QsLayView-Set5"]:checked ~ .component-quran .Hass {
+  bottom: 65px;
+}
+.al-quran input[id="QsLayView-Set9"] ~ .deskripsi-surah {
+  display: none;
+}
+.al-quran input[id="QsLayView-Set9"]:checked ~ .deskripsi-surah {
+  display: block;
+}
+  
+
+.respon-button .link-ayat {
+  background: rgba(65, 118, 148, 0.6);
+}
+.respon-button .link-ayat:active {
+  box-shadow: 5px 1px 20px 1px #ddd;
+  transform: scale(0.96);
+  transition:all 0.1s linear;
+} 
+  
+  
+.msg-alert {
+position: fixed;
+bottom:70px;
+right: 15px;
+background:#333;
+z-index:1000;
+color:#fff;
+font-family:Helvetica,Arial,sans-serif;
+font-size:15px;
+padding:8px 12px;
+border-radius:5px;
+}
+
+
+.deskripsi-surah {
+  width: none;
+  margin: 5px 10px;
+  border-radius: 5px;
+  border: 1px #ccc solid;
+  background: #aeaaea;
+  }
+.deskripsi-surah .title-surah {
+  padding: 10px 15px;
+  text-align: center;
+  background: #ddd;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  }
+.deskripsi-surah .text-deskripsi-surah {
+  padding-left: 5px;
+  
+}
+.deskripsi-surah .text-deskripsi-surah p{
+  font-size: 13px;
+}
+.Qset.Hass,
+.Qnav.Hass {bottom: 65px;}
+.component-quran .Qset,
+.component-quran .Qnav {
+  background: #fff;
+  z-index: 10;
+  position: fixed;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+  
+  
+.component-quran .Qnav{
+    left: 15px;
+}
+.component-quran .Qset {
+    left: 60px;
+}
+div.vinav {
+  left: 10px;
+  width: 250px;
+  height: auto;
+  padding: 5px;
+  z-index: 10;
+  
+  background: #fff;
+  display: none;
+  position: fixed;
+  box-sizing: border-box;
+  border-radius: 5px;
+  
+  }
+div.vinav::after {
+  content: "";
+  position: absolute;
+  left: 15px;
+  bottom: -20px;
+  margin-left: -3px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #fff transparent transparent transparent;
+}
+div.viset { 
+  display:none;
+  height: auto; 
+  width: 200px;
+  position:fixed;
+  z-index: 10;
+  left: 110px;
+  bottom: 65px;
+  border-radius: 5px;
+  background:#fff;
+  transform: translateY(4px);
+  -webkit-transition: all 0.3s;
+  }
+div.viset::after {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: -15px;
+  margin-left: -5px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent #fff transparent transparent;
+}
+.closevinav {
+  margin-top: 10px;
+  z-index: 12;
+  margin-left: -25px;
+  position: absolute;
+  width: 20px;
+  height: 30px;
+  background: pink;
+  display: block;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  }
+.component-quran .Qset,
+.component-quran .Qnav,
+.component-quran .Qset .setboxs,
+.component-quran .Qnav .navboxs {
+  width: 35px;
+  height: 35px;
+  min-width: 35px;
+  min-width: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.component-quran .Qset .setboxs svg,
+.component-quran .Qnav .navboxs svg {
+  width: 25px;
+  height: 25px;
+  }
+
 
 
 
