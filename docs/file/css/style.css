@@ -680,11 +680,38 @@ section.Tafsir .view-quran div[class*="seayat-"] .flex-alt .number,
 section.Tafsir .view-quran div[id*="seayat-"] .flex-alt .number {
   display: none;
 }
-section.al-quran .quran-digital div[class*="tafsir-"],
-section.al-quran .quran-digital div[id*="tafsir-"] {
-  display: none;
+
+  .view-quran .tafsir-digital div span {
+  margin-left: -12px;
+  position: relative;
 }
-  
+
+.view-quran .tafsir-digital div.ringkas, 
+.view-quran .tafsir-digital div.tahlili {
+  width: 200px;
+  margin-top: 25px;
+  position: relative;
+  background: pink;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.view-quran .tafsir-digital div.ringkas::before,
+.view-quran .tafsir-digital div.tahlili::before  {
+  content: "";
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  margin-left: -5px;
+  border-width: 15px;
+  border-style: solid;
+  border-color: transparent transparent transparent red;
+}
+.view-quran .tafsir-digital div.ringkas span, 
+.view-quran .tafsir-digital div.tahlili span {
+  font-size: 15px;
+  color: #111;
+}
 
 section.Tafsir .view-quran div[class*="seayat-"] .flex-alt > span,
 section.Tafsir .view-quran div[id*="seayat-"] .flex-alt > span {
@@ -874,13 +901,14 @@ div.view-quran .content-tafsir i.sumber{
   font-size: 11px;
   line-height: 1.2;
   margin-left: 5px;
+  color: var(--cl-df);
   }
 div.view-quran .content-tafsir .card-tafsir {
   width: 100%;
   line-height: 1.6;
   max-width: none;
   height: 50px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   min-height: 50px;
   padding: 7px;
   box-sizing: border-box;
