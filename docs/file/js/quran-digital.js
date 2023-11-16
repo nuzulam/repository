@@ -218,9 +218,6 @@ function HideTsr010() {
 on__010.addEventListener("click", ShowTsr010);
 close__010.addEventListener("click", HideTsr010);
 over__010.addEventListener("click", HideTsr010);
-  
-
-
 
 
 // Main Input Ayat Quran Digital Js
@@ -235,7 +232,6 @@ const AV_008 = document.getElementById("ayat-008");
 const AV_009 = document.getElementById("ayat-009");
 const AV_010 = document.getElementById("ayat-010");
 
-
 // Main Input Ayat Quran Digital Js
 document.getElementById("seayat-001").innerHTML= AV_001.innerHTML;
 document.getElementById("seayat-002").innerHTML= AV_002.innerHTML;
@@ -247,4 +243,3 @@ document.getElementById("seayat-007").innerHTML= AV_007.innerHTML;
 document.getElementById("seayat-008").innerHTML= AV_008.innerHTML;
 document.getElementById("seayat-009").innerHTML= AV_009.innerHTML;
 document.getElementById("seayat-010").innerHTML= AV_010.innerHTML;
-
