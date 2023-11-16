@@ -410,6 +410,7 @@ display: block;
   letter-spacing: 1px;
   color: var(--cl-icn-mn);
   background: transparant;
+  font-family: 'Source Sans Pro', sans-serif;
 }    
 .child:hover .radio-title {
   transform: scale(1.1, 1.1);
