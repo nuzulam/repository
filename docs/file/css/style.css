@@ -331,26 +331,43 @@ margin: 0px;
 }
 
 
-/* Menu DocsMars 
+/* Menu Skybars 
 --------------------------*/
-.menu-docsmars {
-  display: block;
-  margin-top: 10px;
-  position: relative;
-  }
-.menu-docsmars .item-mars {
-  margin-top: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: start;
-  }
-.menu-docsmars .roll-mars {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.contheight {
+width: none;
+height: 70px;
+min-height: 70px;
+display: block;
 }
+.skybars-option {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.skybars {
+ /* margin-top: 20px;
+  padding-top: 70px;*/
+  display: block;
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+   /*background-image: radial-gradient(rgba(255,255,255,.1) 3px,transparent 0),radial-gradient(rgba(255,255,255,.1) 3px,transparent 0);
+  background-size: 40px 40px;     
+  background-position: 0 0,20px 20px; */
+  }
+.skyone > a.icon-href {
+  margin: 10px;
+  display: inline-block;
+  }
+.skytwo {
+  width: none;
+  text-align: center;
+}
+.skytwo a.icon-href {
+  margin: 6px 3px 0px 3px;
+  display: inline-block;
+  }
+
 .input-item-list {
   position: relative;
   height:  8rem;
@@ -361,7 +378,6 @@ margin: 0px;
   justify-content: center;
   border-radius: 5px;
 }
-
 .input-item-list {
   background-color: var(--bg-bar-mars);
 }
@@ -383,80 +399,22 @@ margin: 0px;
   margin-bottom: 15px;
   }  
 
-.radio-title .icon svg {
-  width: 2rem;
-  height: 2rem;
-  fill: var(--cl-icn-mars);
+.child .radio-title .icon svg {
+  width: 3.5rem;
+  height: 3.5rem;
 }
-
 .radio-title .radio-title-label {
   text-align: center;
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 1px;
-  color: var(--cl-icn-mars);
+  color: var(--cl-icn-mn);
   background: transparant;
 }    
 .child:hover .radio-title {
   transform: scale(1.1, 1.1);
  }  
 
-
-
-.menu-docsmars .roll-boxs {
-  width: 137px;
-  height: 137px;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  }
-.menu-docsmars .pro-boxs {
-  --size: 100px;
-  --radius: 5px;
-  height: var(--size);
-  width: var(--size);
-  border-radius: calc(var(--radius) * 0.50);
-  background-image: var(--img);
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-}
-.menu-docsmars .pro-boxs::after {
-  content: "";
-  position: absolute;
-  width: calc(var(--size) * 0.4);
-  height: 100%;
-  top: calc(var(--size) * 0.0);
-  left: 50%;
-  transform: translateX(-50%);
-  background-image: var(--img);
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: -1;
-  /*filter: blur(20px) opacity(70%);*/
-}
-
-.menu-docsmars .roll-boxs span {
-  color: #417694;
-  font-size: 17px;
-  margin-top: 7px;
-  font-weight: 400;
-  transition: 0.5s;
-  font-family: 'Lato' ,  sans-serif;
-}
-.menu-docsmars .roll-boxs:hover {
-  border: 1px #ccc solid;
-  border-radius: 15px;
-  box-shadow: 5px 1px 20px 1px #ddd;
-  transform: scale(0.96);
-  -webkit-transition: all 0.3s;
-}
-.menu-docsmars .roll-boxs:hover span {
-  letter-spacing: 2px;
-  transition: 0.5s;
-}
 
 /* Al-Qur'an Digital Content 
 --------------------------------------*/
