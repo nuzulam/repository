@@ -153,6 +153,74 @@ on__007.addEventListener("click", ShowTsr007);
 close__007.addEventListener("click", HideTsr007);
 over__007.addEventListener("click", HideTsr007);
   
+// Tafsir View 008
+const on__008 = document.querySelector(".on__008");
+const tsr__008 = document.querySelector(".tsr__008");
+const close__008 = document.querySelector(".close__008 .to_back");
+const over__008 = document.querySelector(".over__008");
+
+function ShowTsr008() {
+  on__008.setAttribute("hidden", "");
+  tsr__008.removeAttribute("hidden");
+  over__008.removeAttribute("hidden");
+};
+
+function HideTsr008() {
+  tsr__008.setAttribute("hidden", "");
+  over__008.setAttribute("hidden", "");
+  on__008.removeAttribute("hidden");
+};
+
+on__008.addEventListener("click", ShowTsr008);
+close__008.addEventListener("click", HideTsr008);
+over__008.addEventListener("click", HideTsr008);
+  
+// Tafsir View 009
+const on__009 = document.querySelector(".on__009");
+const tsr__009 = document.querySelector(".tsr__009");
+const close__009 = document.querySelector(".close__009 .to_back");
+const over__009 = document.querySelector(".over__009");
+
+function ShowTsr009() {
+  on__009.setAttribute("hidden", "");
+  tsr__009.removeAttribute("hidden");
+  over__009.removeAttribute("hidden");
+};
+
+function HideTsr009() {
+  tsr__009.setAttribute("hidden", "");
+  over__009.setAttribute("hidden", "");
+  on__009.removeAttribute("hidden");
+};
+
+on__009.addEventListener("click", ShowTsr009);
+close__009.addEventListener("click", HideTsr009);
+over__009.addEventListener("click", HideTsr009);
+  
+// Tafsir View 010
+const on__010 = document.querySelector(".on__010");
+const tsr__010 = document.querySelector(".tsr__010");
+const close__010 = document.querySelector(".close__010 .to_back");
+const over__010 = document.querySelector(".over__010");
+
+function ShowTsr010() {
+  on__010.setAttribute("hidden", "");
+  tsr__010.removeAttribute("hidden");
+  over__010.removeAttribute("hidden");
+};
+
+function HideTsr010() {
+  tsr__010.setAttribute("hidden", "");
+  over__010.setAttribute("hidden", "");
+  on__010.removeAttribute("hidden");
+};
+
+on__010.addEventListener("click", ShowTsr010);
+close__010.addEventListener("click", HideTsr010);
+over__010.addEventListener("click", HideTsr010);
+  
+
+
 
 
 // Main Input Ayat Quran Digital Js
@@ -163,6 +231,10 @@ const AV_004 = document.getElementById("ayat-004");
 const AV_005 = document.getElementById("ayat-005");
 const AV_006 = document.getElementById("ayat-006");
 const AV_007 = document.getElementById("ayat-007");
+const AV_008 = document.getElementById("ayat-008");
+const AV_009 = document.getElementById("ayat-009");
+const AV_010 = document.getElementById("ayat-010");
+
 
 // Main Input Ayat Quran Digital Js
 document.getElementById("seayat-001").innerHTML= AV_001.innerHTML;
@@ -172,3 +244,7 @@ document.getElementById("seayat-004").innerHTML= AV_004.innerHTML;
 document.getElementById("seayat-005").innerHTML= AV_005.innerHTML;
 document.getElementById("seayat-006").innerHTML= AV_006.innerHTML;
 document.getElementById("seayat-007").innerHTML= AV_007.innerHTML;
+document.getElementById("seayat-008").innerHTML= AV_008.innerHTML;
+document.getElementById("seayat-009").innerHTML= AV_009.innerHTML;
+document.getElementById("seayat-010").innerHTML= AV_010.innerHTML;
+
