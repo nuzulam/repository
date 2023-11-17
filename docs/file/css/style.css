@@ -496,75 +496,12 @@ section.al-quran {
   box-sizing: border-box;
 }
 
-.al-quran > input{display: none;}
 
 
 
-.al-quran input[id="QsLayView-Set9"] ~ .component-quran .all__viset .allset_qs_layout .QsLayView-Set9::before,
-.al-quran input[id="QsLayView-Set8"] ~ .component-quran .all__viset .allset_qs_layout .QsLayView-Set8::before,
-.al-quran input[id="QsLayView-Set7"] ~ .component-quran .all__viset .allset_qs_layout .QsLayView-Set7::before,
-.al-quran input[id="QsLayView-Set6"] ~ .component-quran .all__viset .allset_qs_layout .QsLayView-Set6::before,
-.al-quran input[id="QsLayView-Set5"] ~ .component-quran .all__viset .allset_qs_layout .QsLayView-Set5::before,
-.al-quran input[id="QsLayView-Set4"] ~ .component-quran .all__viset .allset_qs_layout .QsLayView-Set4::before,   
-.al-quran input[id="QsLayView-Set3"] ~ .component-quran .all__viset .allset_qs_layout .QsLayView-Set3::before,
-.al-quran input[id="QsLayView-Set2"] ~ .component-quran .all__viset .allset_qs_layout .QsLayView-Set2::before,
-.al-quran input[id="QsLayView-Set1"] ~ .component-quran .all__viset .allset_qs_layout .QsLayView-Set1::before,   
-.al-quran input[id="QsLayView-Set3"] ~ .component-quran .viset .root_qs_layout .QsLayView-Set3::before,
-.al-quran input[id="QsLayView-Set2"] ~ .component-quran .viset .root_qs_layout .QsLayView-Set2::before,
-.al-quran input[id="QsLayView-Set1"] ~ .component-quran .viset .root_qs_layout .QsLayView-Set1::before {
-  color: #f1f1f1;
-  border: 1px #aeaaea solid;
-  background-color: #f1f1f1;
-}
 
-.al-quran input[id="QsLayView-Set9"]:checked ~ .component-quran .all__viset .allset_qs_layout .QsLayView-Set9::before,
-.al-quran input[id="QsLayView-Set8"]:checked ~ .component-quran .all__viset .allset_qs_layout .QsLayView-Set8::before,
-.al-quran input[id="QsLayView-Set7"]:checked ~ .component-quran .all__viset .allset_qs_layout .QsLayView-Set7::before,
-.al-quran input[id="QsLayView-Set6"]:checked ~ .component-quran .all__viset .allset_qs_layout .QsLayView-Set6::before,
-.al-quran input[id="QsLayView-Set5"]:checked ~ .component-quran .all__viset .allset_qs_layout .QsLayView-Set5::before,
-.al-quran input[id="QsLayView-Set4"]:checked ~ .component-quran .all__viset .allset_qs_layout .QsLayView-Set4::before,
-.al-quran input[id="QsLayView-Set3"]:checked ~ .component-quran .all__viset .allset_qs_layout .QsLayView-Set3::before,
-.al-quran input[id="QsLayView-Set2"]:checked ~ .component-quran .all__viset .allset_qs_layout .QsLayView-Set2::before,
-.al-quran input[id="QsLayView-Set1"]:checked ~ .component-quran .all__viset .allset_qs_layout .QsLayView-Set1::before,
-.al-quran input[id="QsLayView-Set3"]:checked ~ .component-quran .viset .root_qs_layout .QsLayView-Set3::before,
-.al-quran input[id="QsLayView-Set2"]:checked ~ .component-quran .viset .root_qs_layout .QsLayView-Set2::before,
-.al-quran input[id="QsLayView-Set1"]:checked ~ .component-quran .viset .root_qs_layout .QsLayView-Set1::before {
-  color: #13f034;
-  border: 1px #4E4DED solid;
-  background-color: #f1f1f1;
-}
 
-.al-quran input[id="QsLayView-Set9"] ~ .component-quran .all__viset .allset_qs_layout .QsLayView-Set9,
-.al-quran input[id="QsLayView-Set8"] ~ .component-quran .all__viset .allset_qs_layout .QsLayView-Set8,
-.al-quran input[id="QsLayView-Set7"] ~ .component-quran .all__viset .allset_qs_layout .QsLayView-Set7,
-.al-quran input[id="QsLayView-Set6"] ~ .component-quran .all__viset .allset_qs_layout .QsLayView-Set6,
-.al-quran input[id="QsLayView-Set5"] ~ .component-quran .all__viset .allset_qs_layout .QsLayView-Set5,
-.al-quran input[id="QsLayView-Set4"] ~ .component-quran .all__viset .allset_qs_layout .QsLayView-Set4,
-.al-quran input[id="QsLayView-Set3"] ~ .component-quran .all__viset .allset_qs_layout .QsLayView-Set3,
-.al-quran input[id="QsLayView-Set2"] ~ .component-quran .all__viset .allset_qs_layout .QsLayView-Set2,
-.al-quran input[id="QsLayView-Set1"] ~ .component-quran .all__viset .allset_qs_layout .QsLayView-Set1,
-.al-quran input[id="QsLayView-Set3"] ~ .component-quran .viset .root_qs_layout .QsLayView-Set3,
-.al-quran input[id="QsLayView-Set2"] ~ .component-quran .viset .root_qs_layout .QsLayView-Set2,
-.al-quran input[id="QsLayView-Set1"] ~ .component-quran .viset .root_qs_layout .QsLayView-Set1 {
-  color: #111;
-  background: #ccc;
-}
 
-.al-quran input[id="QsLayView-Set9"]:checked ~ .component-quran .all__viset .allset_qs_layout .QsLayView-Set9,
-.al-quran input[id="QsLayView-Set8"]:checked ~ .component-quran .all__viset .allset_qs_layout .QsLayView-Set8,
-.al-quran input[id="QsLayView-Set7"]:checked ~ .component-quran .all__viset .allset_qs_layout .QsLayView-Set7,
-.al-quran input[id="QsLayView-Set6"]:checked ~ .component-quran .all__viset .allset_qs_layout .QsLayView-Set6,
-.al-quran input[id="QsLayView-Set5"]:checked ~ .component-quran .all__viset .allset_qs_layout .QsLayView-Set5,
-.al-quran input[id="QsLayView-Set4"]:checked ~ .component-quran .all__viset .allset_qs_layout .QsLayView-Set4,
-.al-quran input[id="QsLayView-Set3"]:checked ~ .component-quran .all__viset .allset_qs_layout .QsLayView-Set3,
-.al-quran input[id="QsLayView-Set2"]:checked ~ .component-quran .all__viset .allset_qs_layout .QsLayView-Set2,
-.al-quran input[id="QsLayView-Set1"]:checked ~ .component-quran .all__viset .allset_qs_layout .QsLayView-Set1,
-.al-quran input[id="QsLayView-Set3"]:checked ~ .component-quran .viset .root_qs_layout .QsLayView-Set3,
-.al-quran input[id="QsLayView-Set2"]:checked ~ .component-quran .viset .root_qs_layout .QsLayView-Set2,
-.al-quran input[id="QsLayView-Set1"]:checked ~ .component-quran .viset .root_qs_layout .QsLayView-Set1 {
-  color: #fff;
-  background-color: #767EEB;
-}
 
 
 
@@ -1652,35 +1589,3 @@ div.viset::after {
 
 /*===== View Layout Quran ===*/
 
-.al-quran input[id="QsLayView-Set5"] ~ .component-quran .qs-view-layout {
-  bottom: 20px;
-}
-.al-quran input[id="QsLayView-Set5"] ~ .component-quran .Qvl {
-  bottom: 15px;
-}
-.al-quran input[id="QsLayView-Set5"]:checked ~ .component-quran .qs-view-layout {
-  bottom: 65px;
-}
-.al-quran input[id="QsLayView-Set5"]:checked ~ .component-quran .Qvl {
-  bottom: 60px;
-}
-
-.al-quran input[id="QsLayView-Set5"] ~ .component-quran .audio__fixed,
-.al-quran input[id="QsLayView-Set4"] ~ .info-date-surah .date-bars,
-.al-quran input[id="QsLayView-Set4"] ~ .info-date-surah > span,
-.al-quran input[id="QsLayView-Set1"] ~ .content-quran .quran-digital [class*="ayat-"] .flex-alt + p,
-.al-quran input[id="QsLayView-Set2"] ~ .content-quran .quran-digital [class*="ayat-"] .flex-alt + p + p,
-.al-quran input[id="QsLayView-Set3"] ~ .content-quran .quran-digital .respon-button {
-  display: none;
-}
-
-.al-quran input[id="QsLayView-Set4"]:checked ~ .info-date-surah > span,
-.al-quran input[id="QsLayView-Set1"]:checked ~ .content-quran .quran-digital [class*="ayat-"] .flex-alt + p,
-.al-quran input[id="QsLayView-Set2"]:checked ~ .content-quran .quran-digital [class*="ayat-"] .flex-alt + p + p {
-  display: block;
-}
-.al-quran input[id="QsLayView-Set4"]:checked ~ .info-date-surah .date-bars,
-.al-quran input[id="QsLayView-Set5"]:checked ~ .component-quran .audio__fixed,
-.al-quran input[id="QsLayView-Set3"]:checked ~ .content-quran .quran-digital .respon-button {
-  display: flex;
-}
