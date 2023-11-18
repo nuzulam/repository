@@ -1402,88 +1402,17 @@ opacity: 0.4;
   height: 15px;
   }
 
-.post-body .vinav form {
-    position: relative;
-    display: flex;
-    width: 100%;
-    
-    height: 3em;
-    border-radius: .25em;
-    overflow: hidden;
-  }
+
+
   
 
-.post-body .vinav form select {
-    /* Reset Select */
-    appearance: none;
-    outline: 0;
-    border: 0;
-    box-shadow: none;
-    /* Personalize */
-    flex: 1;
-    padding: 0 1em;
-    color: #fff;
-    background-color: #2c3e50;
-    background-image: none;
-    cursor: pointer;
-  }
-  /* Remove IE arrow */
-
-.post-body .vinav form select::-ms-expand {
-    display: none;
-  }
- 
-  /* Arrow */
-
-.post-body .vinav form::after {
-    content: '\f0d7';
-    position: absolute;
-    color: #fff;
-    top: 0;
-    right: 0;
-    padding: 1em;
-    font-family: FontAwesome;
-    background-color: #34495e;
-    transition: .25s all ease;
-    pointer-events: none;
-  }
-  /* Transition */
-  
-  .post-body .vinav form:hover::after {
-    color: #f39c12;
-  }
-  
-  
-.al-quran input[id="QsLayView-Set5"] ~ .component-quran .viset {
-  bottom: 15px;
-}
-.al-quran input[id="QsLayView-Set5"]:checked ~ .component-quran .viset {
-  bottom: 65px;
-}
-.al-quran input[id="QsLayView-Set5"] ~ .component-quran .vinav {
-  bottom: 65px;
-}
-.al-quran input[id="QsLayView-Set5"]:checked ~ .component-quran .vinav {
-  bottom: 115px;
-}
-.al-quran input[id="QsLayView-Set5"] ~ .component-quran .Hass {
-  bottom: 15px;
-}
-
-.al-quran input[id="QsLayView-Set5"]:checked ~ .component-quran .Hass {
-  bottom: 65px;
-}
-.al-quran input[id="QsLayView-Set9"] ~ .deskripsi-surah {
-  display: none;
-}
-.al-quran input[id="QsLayView-Set9"]:checked ~ .deskripsi-surah {
-  display: block;
-}
   
 
-.respon-button .link-ayat {
+  
+
+/*.respon-button .link-ayat {
   background: rgba(65, 118, 148, 0.6);
-}
+}*/
 .respon-button .link-ayat:active {
   box-shadow: 5px 1px 20px 1px #ddd;
   transform: scale(0.96);
@@ -1527,6 +1456,122 @@ border-radius:5px;
   font-size: 13px;
 }
 
+.Qnav {
+  left: 0px;
+  z-index: 10;
+  position: fixed;
+}
+
+.Qnav,
+.Qnav .navboxs {
+  width: 50px;
+  height: 50px;
+  min-width: 50px;
+  min-width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Qnav .navboxs svg {
+  width: 50px;
+  height: 50px;
+  }
+.vinav {
+  display:none;
+  top: 0;
+  left:0;
+  bottom:0;
+  z-index: 5;
+  flex-direction:column;
+  height:100%; 
+  min-height: 100%;
+  width:100%;
+  min-width: 100%;
+  position: fixed;
+} 
+.over_nav {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+opacity: 0.4;
+ /* background: #222;
+  background: -moz-linear-gradient(-45deg,  #222 50%, #45484d 100%);
+  background: -webkit-linear-gradient(-45deg,  #222 50%,#45484d 100%);
+  background: linear-gradient(135deg,  #000 50%,#45484d 100%);*/
+}
+div.roket_bars {
+  left: 10px;
+  
+  width: 250px;
+  height: auto;
+  padding: 5px;
+  z-index: 10;
+  background: #fff;
+  display: block;
+  position: fixed;
+  box-sizing: border-box;
+  border-radius: 5px;
+  }
+div.roket_bars::after {
+  content: "";
+  position: absolute;
+  left: 15px;
+  bottom: -20px;
+  margin-left: -3px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #fff transparent transparent transparent;
+}
+.vinav form {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 3em;
+    border-radius: .25em;
+    overflow: hidden;
+  }
+    
+.vinav form select {
+    /* Reset Select */
+    appearance: none;
+    outline: 0;
+    border: 0;
+    box-shadow: none;
+    /* Personalize */
+    flex: 1;
+    padding: 0 1em;
+    color: #fff;
+    background-color: #2c3e50;
+    background-image: none;
+    cursor: pointer;
+  }
+  /* Remove IE arrow */
+.vinav form select::-ms-expand {
+    display: none;
+  }
+ 
+  /* Arrow */
+.vinav form::after {
+    content: '\f0d7';
+    position: absolute;
+    color: #fff;
+    top: 0;
+    right: 0;
+    padding: 1em;
+    font-family: FontAwesome;
+    background-color: #34495e;
+    transition: .25s all ease;
+    pointer-events: none;
+  }
+  /* Transition */
+ .vinav form:hover::after {
+    color: #f39c12;
+  }
 
 
 
