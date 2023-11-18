@@ -25,7 +25,7 @@ body #main {
 .feed-view .blog-posts{
 margin: 0px;
 }
-
+.post-body > input.nodis{display: none;}
 ul#playlist{margin-top:0px;}
 #playlist li .pro-qori {
   height: 52px;
