@@ -1494,94 +1494,9 @@ border-radius:5px;
   font-size: 13px;
 }
 
-.component-quran .Qset,
-.component-quran .Qnav {
-  background: #fff;
-  z-index: 10;
-  position: fixed;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-}
-.component-quran .Qnav{
-    left: 15px;
-}
-.component-quran .Qset {
-    left: 60px;
-}
-div.vinav {
-  left: 10px;
-  width: 250px;
-  height: auto;
-  padding: 5px;
-  z-index: 10;
-  background: #fff;
-  display: none;
-  position: fixed;
-  box-sizing: border-box;
-  border-radius: 5px;
-  }
-div.vinav::after {
-  content: "";
-  position: absolute;
-  left: 15px;
-  bottom: -20px;
-  margin-left: -3px;
-  border-width: 10px;
-  border-style: solid;
-  border-color: #fff transparent transparent transparent;
-}
-div.viset { 
-  display:none;
-  height: auto; 
-  width: 200px;
-  position:fixed;
-  z-index: 10;
-  left: 110px;
-  bottom: 65px;
-  border-radius: 5px;
-  background:#fff;
-  transform: translateY(4px);
-  -webkit-transition: all 0.3s;
-  }
-div.viset::after {
-  content: "";
-  position: absolute;
-  bottom: 10px;
-  left: -15px;
-  margin-left: -5px;
-  border-width: 10px;
-  border-style: solid;
-  border-color: transparent #fff transparent transparent;
-}
-.closevinav {
-  margin-top: 10px;
-  z-index: 12;
-  margin-left: -25px;
-  position: absolute;
-  width: 20px;
-  height: 30px;
-  background: pink;
-  display: block;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-  }
-.component-quran .Qset,
-.component-quran .Qnav,
-.component-quran .Qset .setboxs,
-.component-quran .Qnav .navboxs {
-  width: 35px;
-  height: 35px;
-  min-width: 35px;
-  min-width: 35px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.component-quran .Qset .setboxs svg,
-.component-quran .Qnav .navboxs svg {
-  width: 25px;
-  height: 25px;
-  }
+
+
+
 
 
 
