@@ -26,6 +26,39 @@ body #main {
 margin: 0px;
 }
 .post-body > input.nodis{display: none;}
+
+.btn-setting {
+  z-index: 10;
+  top: 73px;
+  right: 15px;
+  width: 35px;
+  height: 35px;
+  min-width: 35px;
+  min-height: 35px;
+  border-radius: 50%;
+  border: none;
+  cursor: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  background: var(--bg-btn-set);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  }
+.btn-setting .mainset {
+  width: 35px;
+  height: 35px;
+  min-width: 35px;
+  min-height: 35px;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  }
+.btn-setting .mainset svg {
+  width: 25px;
+  height: 25px;
+ }
 ul#playlist{margin-top:0px;}
 #playlist li .pro-qori {
   height: 52px;
