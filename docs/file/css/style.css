@@ -116,9 +116,12 @@ ul#playlist{margin-top:0px;}
   border-bottom: 0.5px #ddd solid;
   background-color: #ddd;
   transition: bottom 0.3s;
-  -webkit-box-shadow:  0px 2px 12px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+/*-webkit-box-shadow:  0px 2px 12px 0px rgba(0, 0, 0, 0.75);
 -moz-box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.75);
-box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.75);
+box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.75);*/
 }
 .nav-sticky {
   top: 0;
