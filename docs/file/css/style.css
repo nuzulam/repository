@@ -601,19 +601,9 @@ section.al-quran .quran-digital div[id*="ayat-"] p + p {
 
 
 
-section.Tafsir .view-quran div[class*="seayat-"],
-section.Tafsir .view-quran div[id*="seayat-"] {
-  margin-top: 10px;
-  padding: 0px 10px;
-  text-align: right;
-  box-sizing: border-box;
-}
-section.Tafsir .view-quran div[class*="seayat-"] .flex-alt .number,
-section.Tafsir .view-quran div[id*="seayat-"] .flex-alt .number {
-  display: none;
-}
 
-  .view-quran .tafsir-digital div span {
+
+.view-quran .tafsir-digital div span {
   margin-left: -12px;
   position: relative;
 }
@@ -645,6 +635,18 @@ section.Tafsir .view-quran div[id*="seayat-"] .flex-alt .number {
   color: #111;
 }
 
+
+div.Tafsir .view-quran div[class*="seayat-"],
+div.Tafsir .view-quran div[id*="seayat-"] {
+  margin-top: 20px;
+  padding: 0px 10px;
+  text-align: right;
+  box-sizing: border-box;
+}
+div.Tafsir .view-quran div[class*="seayat-"] .flex-alt .number,
+div.Tafsir .view-quran div[id*="seayat-"] .flex-alt .number {
+  display: none;
+}
 div.Tafsir .view-quran div[class*="seayat-"] .flex-alt > span,
 div.Tafsir .view-quran div[id*="seayat-"] .flex-alt > span {
   padding: 0px;
