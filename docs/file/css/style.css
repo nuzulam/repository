@@ -645,8 +645,8 @@ section.Tafsir .view-quran div[id*="seayat-"] .flex-alt .number {
   color: #111;
 }
 
-section.Tafsir .view-quran div[class*="seayat-"] .flex-alt > span,
-section.Tafsir .view-quran div[id*="seayat-"] .flex-alt > span {
+div.Tafsir .view-quran div[class*="seayat-"] .flex-alt > span,
+div.Tafsir .view-quran div[id*="seayat-"] .flex-alt > span {
   padding: 0px;
   text-align: right;
   margin-top: -12px;
@@ -658,8 +658,8 @@ section.Tafsir .view-quran div[id*="seayat-"] .flex-alt > span {
   color: var(--cl-qs-dgt);
   font-family: 'Lateef', cursive;
 }
-section.Tafsir .view-quran div[class*="seayat-"] .flex-alt,
-section.Tafsir .view-quran div[id*="seayat-"] .flex-alt {
+div.Tafsir .view-quran div[class*="seayat-"] .flex-alt,
+div.Tafsir .view-quran div[id*="seayat-"] .flex-alt {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -667,8 +667,8 @@ section.Tafsir .view-quran div[id*="seayat-"] .flex-alt {
   justify-content: flex-end;
 }
 
-section.Tafsir .view-quran div[class*="seayat-"] .flex-alt + p,
-section.Tafsir .view-quran div[id*="seayat-"] .flex-alt + p {
+div.Tafsir .view-quran div[class*="seayat-"] .flex-alt + p,
+div.Tafsir .view-quran div[id*="seayat-"] .flex-alt + p {
   font-size: 14px;
   text-align: right;
   line-height: 1.4;
@@ -676,8 +676,8 @@ section.Tafsir .view-quran div[id*="seayat-"] .flex-alt + p {
   border-bottom: 0px #111 solid;
   font-family: 'Merriweather', serif;
 }
-section.Tafsir .view-quran div[class*="seayat-"] p + p,
-section.Tafsir .view-quran div[id*="seayat-"] p + p {
+div.Tafsir .view-quran div[class*="seayat-"] p + p,
+div.Tafsir .view-quran div[id*="seayat-"] p + p {
   font-size: 15px;
   line-height: 1.5;
   font-weight: 600;
@@ -695,68 +695,7 @@ section.Tafsir .view-quran div[id*="seayat-"] p + p {
 /*========================
   Pop Up Action Copy Tafsir
 =========================*/
-.Tafsir {
-  --x: 0;
-  --y: 0;
-  --z: 0;
-  width: none;
-  display: block;
-  height: 100%;
-  max-height: 100%;
-  padding-bottom: 0px;
-  background-color: var(--bg-post);
-  font-family: 'Montserrat', sans-serif;
-  position: fixed;
-  box-sizing: border-box;
-  left:0;
-  right: 0;
-  bottom: 0;
-  z-index: 105;
-  -webkit-transform: translate3d(var(--x), var(--y), var(--z));
-  transform: translate3d(var(--x), var(--y), var(--z));
-  transition: 0.5s cubic-bezier(0.33, 1, 0.53, 1);
-  }
-.Tafsir[hidden] {
-	--y: 150%;
-}
-.Tafsir .list-bars {
-  display: flex;
-  padding: 5px 5px;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 0.5px solid #ddd;
-}
-.Tafsir .list-bars .title_tafsir {
-  margin-left: 0px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-  
-.list-bars .icon-back {
-  height: 40px;
-  width: 40px;
-  min-height: 40px;
-  min-width: 40px;
-  display: flex;
-  border-radius: 50%;
-  align-items: center;
-  justify-content: center;
-  }
-.list-bars .icon-back:hover {
-  background-color: #ddd;
-  }
-.list-bars .icon-back svg {
-  width:30px;
-  height:30px;
-  fill: var(--cl-df);
-}
-.Tafsir > .OnIndex-Tafsir {
-height: 100%;
-overflow: auto;
-padding: 0px;
-box-sizing: border-box;
-}
+
 .link-ayat {display: block;}
 div.code-header a.copy-code {
   border: none;
