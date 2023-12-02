@@ -1,10 +1,3 @@
-var selectmenu=document.getElementById("call-tocget")
-selectmenu.onchange=function(){ //run some code when "onchange" event fires
-var chosenoption=this.options[this.selectedIndex] //this refers to "selectmenu"
-if (chosenoption.value!="nothing"){
-window.open(chosenoption.value, "_self", "") //open target site (based on option's value                attr) in new window
-}
-}
 
 
 // Tafsir View 001
