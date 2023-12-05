@@ -461,13 +461,13 @@ display: block;
   left: 0;
   top: 1px;
   line-height: 1.6;
-  padding: 0px 10px;
+  padding: 3px 10px;
   box-sizing: border-box;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 3px var(--cl-df) solid;
+  border-bottom: 0.25px var(--cl-df) solid;
   }
 
 .al-quran .info-date-surah .date-bars {
