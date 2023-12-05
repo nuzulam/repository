@@ -377,7 +377,7 @@ display: block;
 }
 .dasboard-for-skybars {
   width: 100%;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
 }
