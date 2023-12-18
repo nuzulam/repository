@@ -623,6 +623,7 @@ section.al-quran .quran-digital div[id*="ayat-"] p + p {
 .view-quran .tafsir-digital div span {
   margin-left: -12px;
   position: relative;
+  text-transform: uppercase;
 }
 
 .view-quran .tafsir-digital div.ringkas, 
@@ -715,7 +716,7 @@ div.Tafsir .view-quran div[id*="seayat-"] p + p {
   Pop Up Action Copy Tafsir
 =========================*/
 
-.link-ayat {display: block;}
+
 div.code-header a.copy-code {
   border: none;
   text-align: center;
