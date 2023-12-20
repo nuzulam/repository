@@ -1,0 +1,57 @@
+
+input[id="QsLayView-Set8"] ~ .component-quran .setting-dialog .QsLayView-Set8::before,
+input[id="QsLayView-Set7"] ~ .component-quran .setting-dialog .QsLayView-Set7::before,
+input[id="QsLayView-Set6"] ~ .component-quran .setting-dialog .QsLayView-Set6::before,
+input[id="QsLayView-Set5"] ~ .component-quran .setting-dialog .QsLayView-Set5::before,
+input[id="QsLayView-Set4"] ~ .component-quran .setting-dialog .QsLayView-Set4::before,
+input[id="QsLayView-Set3"] ~ .component-quran .setting-dialog .QsLayView-Set3::before,
+input[id="QsLayView-Set2"] ~ .component-quran .setting-dialog .QsLayView-Set2::before,
+input[id="QsLayView-Set1"] ~ .component-quran .setting-dialog .QsLayView-Set1::before {
+  color: #f1f1f1;
+  border: 1px #aeaaea solid;
+  background-color: #f1f1f1;
+}
+input[id="QsLayView-Set8"]:checked ~ .component-quran .setting-dialog .QsLayView-Set8::before,
+input[id="QsLayView-Set7"]:checked ~ .component-quran .setting-dialog .QsLayView-Set7::before,
+input[id="QsLayView-Set6"]:checked ~ .component-quran .setting-dialog .QsLayView-Set6::before,
+input[id="QsLayView-Set5"]:checked ~ .component-quran .setting-dialog .QsLayView-Set5::before,
+input[id="QsLayView-Set4"]:checked ~ .component-quran .setting-dialog .QsLayView-Set4::before,
+input[id="QsLayView-Set3"]:checked ~ .component-quran .setting-dialog .QsLayView-Set3::before,
+input[id="QsLayView-Set2"]:checked ~ .component-quran .setting-dialog .QsLayView-Set2::before,
+input[id="QsLayView-Set1"]:checked ~ .component-quran .setting-dialog .QsLayView-Set1::before {
+  color: #fff;
+  border: 1px #FFFFFF solid;
+  background-color: #79AC78;
+}
+input[id="QsLayView-Set8"] ~ .component-quran .setting-dialog .QsLayView-Set8,
+input[id="QsLayView-Set7"] ~ .component-quran .setting-dialog .QsLayView-Set7,
+input[id="QsLayView-Set6"] ~ .component-quran .setting-dialog .QsLayView-Set6,
+input[id="QsLayView-Set5"] ~ .component-quran .setting-dialog .QsLayView-Set5,
+input[id="QsLayView-Set4"] ~ .component-quran .setting-dialog .QsLayView-Set4,
+input[id="QsLayView-Set3"] ~ .component-quran .setting-dialog .QsLayView-Set3,
+input[id="QsLayView-Set2"] ~ .component-quran .setting-dialog .QsLayView-Set2,
+input[id="QsLayView-Set1"] ~ .component-quran .setting-dialog .QsLayView-Set1 {
+  color: #111;
+  background: #ccc;
+}
+input[id="QsLayView-Set8"]:checked ~ .component-quran .setting-dialog .QsLayView-Set8,
+input[id="QsLayView-Set7"]:checked ~ .component-quran .setting-dialog .QsLayView-Set7,
+input[id="QsLayView-Set6"]:checked ~ .component-quran .setting-dialog .QsLayView-Set6,
+input[id="QsLayView-Set5"]:checked ~ .component-quran .setting-dialog .QsLayView-Set5,
+input[id="QsLayView-Set4"]:checked ~ .component-quran .setting-dialog .QsLayView-Set4,
+input[id="QsLayView-Set3"]:checked ~ .component-quran .setting-dialog .QsLayView-Set3,
+input[id="QsLayView-Set2"]:checked ~ .component-quran .setting-dialog .QsLayView-Set2,
+input[id="QsLayView-Set1"]:checked ~ .component-quran .setting-dialog .QsLayView-Set1 {
+  color: #fff;
+  background-color: #767EEB;
+}
+  
+
+
+
+
+
+
+.post-body  input.nodis {
+  display: none
+  }
