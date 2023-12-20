@@ -59,49 +59,7 @@ margin: 0px;
   width: 25px;
   height: 25px;
  }
-ul#playlist{margin-top:0px;}
-#playlist li .pro-qori {
-  height: 52px;
-  width: 52px;
-  min-height: 52px;
-  min-width: 52px;
-  border-radius: 0px 5px 5px 0px;
-  background: var(--bg-root);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  }
-#playlist li .pro-qori button[class*="DxFan-"] {
-  height: 45px;
-  width: 45px;
-  min-height: 45px;
-  min-width: 45px;
-  border-radius: 50%;
-  border: 2px #FFF solid;
-  cursor: none;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  transition: .4s;
-}
-.DxFan-Qori0 {
-  background-image: var(--bg-img-qori-afasy);
-}
-.DxFan-Qori1 {
-  background-image: var(--bg-img-qori-mansour);
-}
-.DxFan-Qori2 {
-  background-image: var(--bg-img-qori-shatri);
-}
-.DxFan-Qori3 {
-  background-image: var(--bg-img-qori-taher);
-}
-.DxFan-Qori4 {
-  background-image: var(--bg-img-qori-maher);
-}
-.DxFan-Qori5 {
-  background-image: var(--bg-img-qori-mrifai);
-}
+
 /* Navigasi Atas
 --------------------------------------*/
 #navbar {
