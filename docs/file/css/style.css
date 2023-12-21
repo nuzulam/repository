@@ -422,68 +422,7 @@ a.icon-href div.input-item-list {
  }  
 
 
-/* Al-Qur'an Digital Content 
---------------------------------------*/
-/*=== Info Date Bars Quran ===*/
-.al-quran .info-date-surah {
-  height: auto;
-  left: 0;
-  top: 1px;
-  line-height: 1.6;
-  padding: 3px 10px;
-  box-sizing: border-box;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 0.25px var(--cl-df) solid;
-  }
 
-.al-quran .info-date-surah .date-bars {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.al-quran .info-date-surah .date-bars span {
-  color: var(--cl-df);
-  font-family: 'Lato' , sans-serif;
-  }
-.al-quran .info-date-surah .date-bars span b {
-  margin-right: 10px;
-  }
-.al-quran .info-date-surah .date-bars span:first-child {
-  font-size: 19px;
-  font-weight: bold;
-  color: var(--cl-df);
-}
-.al-quran .info-date-surah .date-bars span:last-child {
-  font-size: 14px;
-  color: var(--cl-df);
-}
-section.al-quran .info-date-surah > span {
-  font-size: 40px;
-  line-height: 1.6;
-  color: var(--cl-df);
-  font-family: 'Lateef', cursive;
-  }
-
-/* Quran Bismillah */
-section.al-quran .bismillah {
-  position: relative;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 75px;
-  /*color: #8e2b88;
-  -webkit-text-fill-color: transparent;
-  background: -webkit-gradient(linear,left top,left bottom,from(#ff0052),to(#8e2b88));
- background: -o-gradient(linear,left top,left bottom,from(#ff0052),to(#8e2b88));
- -webkit-background-clip: text;*/
-}
-section.al-quran .bismillah span{
-  font-size: 35px;
-  color: var(--cl-bmlah);
-  font-family: 'Lateef', cursive;
-}
 
 
 /* Content Quran */
