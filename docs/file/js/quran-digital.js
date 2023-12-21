@@ -1,4 +1,25 @@
+setting = {
+    //Model Popup
+    objModalTafsirBtn: ".link-ayat",
+    objModalCloseBtn: ".overlay__popup, .close__popup",
+    objModalTafsirAttr: "data-tafsir"
+}  
+$(setting.objModalTafsirBtn).bind("click", function () {
+        if ($(this).attr(setting.objModalTafsirAttr)) {
 
+            var strDataTafsirName = $(this).attr(setting.objModalTafsirAttr);
+
+            
+            //Fade In Modal Pop Up
+            $(".overlay__popup, #" + strDataTafsirName).fadeIn();
+
+        }
+    });
+
+//On clicking the modal background
+$(setting.objModalCloseBtn).bind("click", function () {
+        $(".Tafsir").fadeOut();
+    });
 
 // Tafsir View 001
 const on__001 = document.querySelector(".on__001");
