@@ -1,7 +1,7 @@
 setting = {
     //Model Popup
     objModalTafsirBtn: ".link-ayat",
-    objModalCloseBtn: ".overlay__popup, .close__popup",
+    objModalCloseBtn: ".overlay__tafsir, .close-tafsir",
     objModalTafsirAttr: "data-tafsir"
 }  
 $(setting.objModalTafsirBtn).bind("click", function () {
@@ -11,7 +11,7 @@ $(setting.objModalTafsirBtn).bind("click", function () {
 
             
             //Fade In Modal Pop Up
-            $(".overlay__popup, #" + strDataTafsirName).fadeIn();
+            $(".overlay__tafsir, #" + strDataTafsirName).fadeIn();
 
         }
     });
