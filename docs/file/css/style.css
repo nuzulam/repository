@@ -1280,18 +1280,7 @@ opacity: 0.4;
 } 
   
   
-.msg-alert {
-position: fixed;
-bottom:70px;
-right: 15px;
-background:#333;
-z-index:1000;
-color:#fff;
-font-family:Helvetica,Arial,sans-serif;
-font-size:15px;
-padding:8px 12px;
-border-radius:5px;
-}
+
 
 
 
