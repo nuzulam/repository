@@ -138,6 +138,15 @@ box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.75);*/
   align-items: center;
   justify-content: center;
 }
+.sticky-icon .click-st-icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ cursor: pointer;
+}
 .nav-sticky-bars .sticky-icon svg{
   width: 30px;
   height: 30px;
