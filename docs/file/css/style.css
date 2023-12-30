@@ -358,25 +358,7 @@ display: block;
 margin: 10px;
 display: inline-block;
 }
-.skybars {
- /* margin-top: 20px;
-  padding-top: 70px;*/
-  display: block;
-  width: 100%;
-  max-width: 700px;
-  text-align: center;
-   /*background-image: radial-gradient(rgba(255,255,255,.1) 3px,transparent 0),radial-gradient(rgba(255,255,255,.1) 3px,transparent 0);
-  background-size: 40px 40px;     
-  background-position: 0 0,20px 20px; */
-  }
-.skytwo {
-  width: none;
-  text-align: center;
-}
-.skytwo a.icon-href {
-  margin: 6px 3px 0px 3px;
-  display: inline-block;
-  }
+
 a.icon-href div.input-item-list {
   -webkit-box-shadow: 0px 4px 5px -1px rgba(0,0,0,0.14);
   box-shadow: 0px 4px 5px -1px rgba(0,0,0,0.14);
