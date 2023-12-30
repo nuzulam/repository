@@ -336,6 +336,29 @@ margin: 0px;
 
 /* Menu Skybars 
 --------------------------*/
+.skybars {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1px;
+  margin: 0px;
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+}
+  
+@media (max-width: 500px) {
+  .skybars {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+.skytwo a.icon-href {
+  margin: 10px auto;
+  display: inline-block;
+}
+
+
+
+
 .contheight {
 width: none;
 height: 70px;
