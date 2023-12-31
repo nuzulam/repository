@@ -359,8 +359,8 @@ font-weight: 600;
   fill: var(--cl-root);
   }
 .close-menu svg {
-  height: 35px;
-  width: 35px;
+  height: 25px;
+  width: 25px;
   fill: var(--cl-root);
   }
 .menu-modal-content .menu-ctrl-bars {
@@ -453,8 +453,8 @@ box-sizing: border-box;
   cursor: pointer;
 }
 .info-close svg {
-  height: 25px;
-  width: 25px;
+  height: 20px;
+  width: 20px;
   fill: var(--cl-root);
   }
 
