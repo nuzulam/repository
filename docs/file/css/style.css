@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lateef:wght@200;300;400;500;600;700;800&display=swap');
+
+@media print{*,*:before,*:after,*:first-letter{background:transparent!important;color:#000!important;box-shadow:none!important}
+ a,a:visited{text-decoration:underline}a[href]:after{content:" (" attr(href)")"}abbr[title]:after{content:" (" attr(title)")"}a[href^="#"]:after,a[href^="javascript:"]:after{content:""}
+pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100%!important}p,h2,h3{orphans:3;widows:3}h2,h3{page-break-after:avoid}}a,.mdl-accordion,.mdl-button,.mdl-card,.mdl-checkbox,.mdl-dropdown-menu,.mdl-icon-toggle,.mdl-item,.mdl-radio,.mdl-slider,.mdl-switch,.mdl-tabs__tab{
+   -webkit-tap-highlight-color:transparent;
+   -webkit-tap-highlight-color:rgba(255,255,255,0)}
+
 :root {
   --bg-img-qori-afasy: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXmqDArx9_HEr6o6ykVY6CzKl8Pfy_Y_eZUvkMoxLSrl8SNnHh3E9JeMOrYNlMfMGBcPQlCUm0jEhGoR-fxHs-tGJtUlXvlAA5sf4YJfXYsiY-nxm6lC3kmwm647LBwLobxSV02HLH4GlstzdYet1K1VXtOEy2PiRSq-nE-ddMCxsxvDlumDVsCkzJUjM/s1600/pro_1_11zon.jpeg);
   --bg-img-qori-mansour: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjZtbPc3t0BKqX8WKu-NslfY86FvkSWiaJRqXILkNQBBx581KGBmViuD58Ioa5r99Gd9xzhyvOeOm3MVpL4fPjWht2qc4lo7_fNd9Q0WbsSNHmzBV-3RSh9csCb2_hoX5gccfs6zUrnMi0HswnuXO80ri7DLQllmBvIi7B2ouoOk71JFB1zKOfTUIeVec/s1600/images%20%2812%29_1.jpeg);
