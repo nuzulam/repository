@@ -747,26 +747,6 @@ a.icon-href div.input-item-list {
 
 
 
-/* Content Quran */
-.quran-digital.none {
-  display: none;
-}
-.quran-digital {
-  padding: 0px 0px;
-  box-sizing: border-box;
-  position: relative;
-  border-bottom: 0.5px var(--cl-df) solid;
-}
-@media (max-width: 800px) {
-.quran-digital {
-  padding: 0px 10px;
-  box-sizing: border-box;
-}
-}
-section.al-quran {
-  padding: 0px 0px;
-  box-sizing: border-box;
-}
 
 
 
@@ -777,156 +757,14 @@ section.al-quran {
 
 
 
-section.al-quran .content-quran .quran-digital:last-child {
-  border-bottom: 0px navy solid
-  }
-section.al-quran .quran-digital + .quran-digital {
-  margin-top: 15px;
-  }
-section.al-quran .quran-digital div[class*="ayat-"],
-section.al-quran .quran-digital div[id*="ayat-"] {
-  text-align: right;
-}
-
-section.al-quran .quran-digital div[class*="ayat-"] > span,
-section.al-quran .quran-digital div[id*="ayat-"] > span,
-section.al-quran .quran-digital div[class*="ayat-"] .flex-alt > span,
-section.al-quran .quran-digital div[id*="ayat-"] .flex-alt > span {
-  padding: 5px;
-  text-align: right;
-  margin-top: -12px;
-  font-size: 50px;
-  line-height: 1.5;
-  font-weight: 500;
-  letter-spacing: 1px;
-  text-shadow: none;
-  color: var(--cl-qs-dgt);
-  font-family: 'Lateef', cursive;
-}
-section.al-quran .quran-digital div[class*="ayat-"] .flex-alt,
-section.al-quran .quran-digital div[id*="ayat-"] .flex-alt {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-section.al-quran .quran-digital div[class*="ayat-"] > span + p,
-section.al-quran .quran-digital div[id*="ayat-"] > span + p,
-section.al-quran .quran-digital div[class*="ayat-"] .flex-alt + p,
-section.al-quran .quran-digital div[id*="ayat-"] .flex-alt + p {
-  font-size: 14px;
-  text-align: right;
-  line-height: 1.4;
-  color: var(--cl-qs-dgt);
-  border-bottom: 0px #111 solid;
-  font-family: 'Merriweather', serif;
-}
-section.al-quran .quran-digital div[class*="ayat-"] p + p,
-section.al-quran .quran-digital div[id*="ayat-"] p + p {
-  font-size: 15px;
-  line-height: 1.5;
-  font-weight: 600;
-  text-align: left;
-  margin-bottom: 20px;
-  padding-bottom: 15px;
-  color: var(--cl-df);
-  border-bottom: 0px #111 solid;
-  font-family: 'Quicksand' , sans-serif;
-}
 
 
 
 
 
-.view-quran .tafsir-digital div span {
-  margin-left: -12px;
-  position: relative;
-  text-transform: uppercase;
-}
-
-.view-quran .tafsir-digital div.ringkas, 
-.view-quran .tafsir-digital div.tahlili {
-  width: 200px;
-  margin-top: 25px;
-  position: relative;
-  background: pink;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
-
-.view-quran .tafsir-digital div.ringkas::before,
-.view-quran .tafsir-digital div.tahlili::before  {
-  content: "";
-  position: relative;
-  bottom: 0px;
-  left: 0px;
-  margin-left: -5px;
-  border-width: 15px;
-  border-style: solid;
-  border-color: transparent transparent transparent red;
-}
-.view-quran .tafsir-digital div.ringkas span, 
-.view-quran .tafsir-digital div.tahlili span {
-  font-size: 15px;
-  color: #111;
-}
 
 
-div.Tafsir .view-quran div[class*="seayat-"],
-div.Tafsir .view-quran div[id*="seayat-"] {
-  margin-top: 20px;
-  padding: 0px 10px;
-  text-align: right;
-  box-sizing: border-box;
-}
-div.Tafsir .view-quran div[class*="seayat-"] .flex-alt .number,
-div.Tafsir .view-quran div[id*="seayat-"] .flex-alt .number {
-  display: none;
-}
-div.Tafsir .view-quran div[class*="seayat-"] .flex-alt > span,
-div.Tafsir .view-quran div[id*="seayat-"] .flex-alt > span {
-  padding: 0px;
-  text-align: right;
-  margin-top: -12px;
-  font-size: 50px;
-  line-height: 1.5;
-  font-weight: 500;
-  letter-spacing: 1px;
-  text-shadow: none;
-  color: var(--cl-qs-dgt);
-  font-family: 'Lateef', cursive;
-}
-div.Tafsir .view-quran div[class*="seayat-"] .flex-alt,
-div.Tafsir .view-quran div[id*="seayat-"] .flex-alt {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-}
 
-div.Tafsir .view-quran div[class*="seayat-"] .flex-alt + p,
-div.Tafsir .view-quran div[id*="seayat-"] .flex-alt + p {
-  font-size: 14px;
-  text-align: right;
-  line-height: 1.4;
-  color: var(--cl-qs-dgt);
-  border-bottom: 0px #111 solid;
-  font-family: 'Merriweather', serif;
-}
-div.Tafsir .view-quran div[class*="seayat-"] p + p,
-div.Tafsir .view-quran div[id*="seayat-"] p + p {
-  font-size: 15px;
-  line-height: 1.5;
-  font-weight: 600;
-  text-align: left;
-  margin-bottom: 20px;
-  padding-bottom: 15px;
-  color: var(--cl-df);
-  border-bottom: 0px #111 solid;
-  font-family: 'Quicksand' , sans-serif;
-}
 
 
 
