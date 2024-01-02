@@ -564,25 +564,7 @@ margin: 0px;
 
 /* Menu Skybars 
 --------------------------*/
-.skybars {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 1px;
-  margin: 0px;
-  width: 100%;
-  max-width: 800px;
-  text-align: center;
-}
-  
-@media (max-width: 500px) {
-  .skybars {
-      grid-template-columns: repeat(2, 1fr);
-  }
-}
-.skytwo a.icon-href {
-  margin: 10px auto;
-  display: inline-block;
-}
+
 
 
 
@@ -593,80 +575,9 @@ height: 70px;
 min-height: 70px;
 display: block;
 }
-.dasboard-for-skybars {
-  width: 100%;
-  display: none;
-  align-items: center;
-  justify-content: center;
-}
-.dasboard-for-skybars .skybars.skaybars-one {
-  width: 100%;
-  max-width: 600px;
-  display: block;
-  text-align: center;
-}
-.skybars.skybars-one a.icon-href {
-margin: 10px;
-display: inline-block;
-}
-.icon-href {
-  width: 8rem;
-  height:  8rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 5px;
-  & .input-item-list {
-  position: relative;
-  height:  8rem;
-  width:  8rem;
-  margin: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 5px;
-  background-color: var(--bg-bar-mars);
-  -webkit-box-shadow: 0px 4px 5px -1px rgba(0,0,0,0.14);
-  box-shadow: 0px 4px 5px -1px rgba(0,0,0,0.14);
-  -moz-box-shadow: 0px 4px 5px -1px rgba(0,0,0,0.14);
-    &:hover {
-  background-color: var(--bg-bar-mars-hover);
-      & .radio-title {
-      transform: scale(1.1, 1.1);
-       & .radio-title-label {
-        letter-spacing: 2px;
-      }
-     }
-    }
-   & .radio-title {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      width: 8rem;
-      height: 8rem;
-      border-radius: 5px;
-      padding: 2px;
-      transition: transform 300ms ease;
-    & .icon {
-      margin-bottom: 15px;
-     & svg {
-       width: 3.5rem;
-       height: 3.5rem;
-      }
-     }
-    & .radio-title-label {
-     text-align: center;
-     font-size: 0.85rem;
-     font-weight: 500;
-     letter-spacing: 1px;
-     color: var(--cl-icn-mn);
-     background: transparant;
-     font-family: 'Source Sans Pro', sans-serif;
-      }    
-    }
-  }
-}
+
+
+
 /*a.icon-href div.input-item-list {
   -webkit-box-shadow: 0px 4px 5px -1px rgba(0,0,0,0.14);
   box-shadow: 0px 4px 5px -1px rgba(0,0,0,0.14);
