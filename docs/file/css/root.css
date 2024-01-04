@@ -595,9 +595,39 @@ animation-delay:.6s}
 }
 .skybars.skytwo a.icon-href {
   margin: 10px auto;
+ & .input-item-list {
+ width: 7rem;
+ height: 7rem;
+ & .radio-title {
+ width: 7rem;
+ height: 7rem;
+ & svg {
+       width: 2.5rem;
+       height: 2.5rem;
+}
+	 & .radio-title-label {
+	font-size: 0.75rem;
+}
+}
+ }
 }
 .skybars.skyone a.icon-href {
 margin: 10px auto;
+& .input-item-list {
+ width: 9rem;
+ height: 9rem;
+& .radio-title {
+ width: 9rem;
+ height: 9rem;
+ & svg {
+       width: 3.5rem;
+       height: 3.5rem;
+  }
+& .radio-title-label {
+font-size: 0.95rem;
+}
+}
+ }
 }
 
 
@@ -610,8 +640,6 @@ a.icon-href {
   & .input-item-list {
   position: relative;
   height:  8rem;
-  width:  8rem;
-  margin: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -634,21 +662,14 @@ a.icon-href {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      width: 8rem;
-      height: 8rem;
       border-radius: 5px;
       padding: 2px;
       transition: transform 300ms ease;
-    & .icon {
+     & .icon {
       margin-bottom: 15px;
-     & svg {
-       width: 3.5rem;
-       height: 3.5rem;
-      }
      }
     & .radio-title-label {
      text-align: center;
-     font-size: 0.85rem;
      font-weight: 500;
      letter-spacing: 1px;
      color: var(--cl-icn-mn);
