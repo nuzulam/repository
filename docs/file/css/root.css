@@ -601,12 +601,15 @@ animation-delay:.6s}
  & .radio-title {
  width: 7rem;
  height: 7rem;
+ & .icon {
+      margin-bottom: 10px;
  & svg {
-       width: 2.5rem;
-       height: 2.5rem;
+ width: 2.5rem;
+height: 2.5rem;
 }
-	 & .radio-title-label {
-	font-size: 0.75rem;
+ }
+ & .radio-title-label {
+font-size: 0.70rem;
 }
 }
  }
@@ -619,10 +622,13 @@ margin: 10px auto;
 & .radio-title {
  width: 9rem;
  height: 9rem;
+& .icon {
+   margin-bottom: 15px;
  & svg {
-       width: 3.5rem;
-       height: 3.5rem;
+   width: 3.5rem;
+   height: 3.5rem;
   }
+}
 & .radio-title-label {
 font-size: 0.95rem;
 }
@@ -653,7 +659,7 @@ a.icon-href {
       & .radio-title {
       transform: scale(1.1, 1.1);
        & .radio-title-label {
-        letter-spacing: 2px;
+        letter-spacing: 1.50px;
       }
      }
     }
@@ -674,7 +680,7 @@ a.icon-href {
      letter-spacing: 1px;
      color: var(--cl-icn-mn);
      background: transparant;
-     font-family: 'Source Sans Pro', sans-serif;
+     font-family: 'DM Sans', sans-serif;
       }    
     }
   }
