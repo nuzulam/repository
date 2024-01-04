@@ -645,7 +645,6 @@ a.icon-href {
   }
   & .input-item-list {
   position: relative;
-  height:  8rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -657,7 +656,7 @@ a.icon-href {
     &:hover {
   background-color: var(--bg-bar-mars-hover);
       & .radio-title {
-      transform: scale(1.1, 1.1);
+      
        & .radio-title-label {
         letter-spacing: 1.50px;
       }
