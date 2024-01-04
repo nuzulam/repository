@@ -546,6 +546,7 @@ vertical-align: middle;
 text-align: center;
 }
 #intro_arrow a {
+  cursor: none;
   text-align: center;
   padding: 3px 5px;
   }
