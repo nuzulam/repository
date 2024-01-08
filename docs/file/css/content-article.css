@@ -39,6 +39,15 @@ color: var(--post-title);
   font-family: 'Quicksand' , sans-serif;
  }
 
+
+.item-view .bg-photo {
+max-height: 0px;
+}
+@media (max-width: 900px){
+.item-view .bg-photo{
+max-height: 0px;
+}
+}
 /*--- Component Article ---*/
 
 .second-label {
