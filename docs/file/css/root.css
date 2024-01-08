@@ -424,31 +424,7 @@ padding-top: 60px;
   left: 70%;
   background: #ccc;
 }
-.bars-dark-light input::after {
-  --size: 1.25rem;
-  --radius: 50%;
-  --img: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhguEq2AXe3ncWtER06qKURGUKJGx5pzqJ9g_vVTRb5NNyn3MF2YFAX-cTxvftFj3Dw96T4Bz2XJG1G0DllfarqYLumNtsRftI_69QPMrWqS6bltgPoeOhuJqq-ig6IAytgOhoF4svFg5qDD6yS_8n6m09Q90WJYqpbQ8rZf71uxjj80rxwZwfned5NXyw/s1600/sun-2081062_640.png);
-  height: var(--size);
-  width: var(--size);
-  border-radius: var(--radius);
-  background-image: var(--img);
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-}
-	
-.bars-dark-light input:checked::after {
-  --size: 1.25rem;
-  --radius: 50%;
-  --img: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcPwCXQO0138eiA3wehzbLZDwXLRLQxdeFt1HxzZx5z1ak1y4u21o_Bt6YxKf0I6bsEeqPxolkgSzJ_-HZEmX2bWMUQVETWE_SDH0EXJ2otEuKJJ1tAYNdbuYUYprb7BY18QZf5dnJZKKiEAIcT3gW4kd4HD7xH3Qrg06Ha8BF1g9VUaV91BNh2SCTk_w/s1600/tattoo-5389284_640.png);
-  height: var(--size);
-  width: var(--size);
-  border-radius: var(--radius);
-  background-image: var(--img);
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-}
+
 .logo-nuzulam {
    & a.logo_text {
   height: 40px;
