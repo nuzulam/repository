@@ -1,3 +1,9 @@
+.post-body {
+ & > section {
+   padding: 0px 10px;
+   box-sizing: border-box;
+   }
+}
 
 .content-article .start-bars {
   margin: 15px 0px 10px 0px;
