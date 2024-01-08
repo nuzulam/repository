@@ -1,5 +1,43 @@
 
-
+.content-article .start-bars {
+  margin: 15px 0px 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.content-article .start-bars button svg {
+  fill: #868a8f;
+  height: 20px;
+  width: 20px;
+  stroke: transparent;
+  }
+.content-article .start-bars button {
+  height: 40px;
+  width: 100px;
+  margin-right: 5px;
+  border: 1px #868a8f solid;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  background: #fff;
+  align-items: center;
+  }
+.content-article .start-bars button span {
+  color: #868a8f;
+  margin-left: 5px;
+  font-family: 'Lato' , sans-serif;
+  }
+.content-article > img {
+  border-radius: 5px;
+}
+.content-article > p {
+  font-size: 16px;
+  line-height: 1.5;
+font-weight: 500;
+  margin-bottom: 25px;
+color: var(--post-title);
+  font-family: 'Quicksand' , sans-serif;
+ }
 
 /*--- Component Article ---*/
 
