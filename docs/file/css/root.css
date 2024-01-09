@@ -146,6 +146,9 @@ body{
   transition: 0.4s all;
   background-color:var(--bg-post);
 }
+#Blog1 {
+display: none;
+}
 .centered-bottom,
 .centered{
 margin: 0;
@@ -456,7 +459,7 @@ padding-top: 60px;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  background: var(--theme-light)
+  background: var(--theme-dark)
 center center / 1.25rem no-repeat;
 }
 	
@@ -470,7 +473,7 @@ center center / 1.25rem no-repeat;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  background: var(--theme-dark)
+  background: var(--theme-light)
 center center / 1.25rem no-repeat;
 }
 .logo-nuzulam {
