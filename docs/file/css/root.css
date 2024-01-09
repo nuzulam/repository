@@ -12,6 +12,7 @@
 .theme-light {
  --cl-logo-left: #1C274C;
   --cl-logo-right: #1C274C;
+ --var-color-sky: #1C274C;
   --lop-cl-light: #1C274C;
   --lop-cl-dark: #D9E7FD;
 /* Background Bars */
@@ -79,6 +80,7 @@
 .theme-dark {
    --cl-logo-left: #D9E7FD;
   --cl-logo-right: #D9E7FD;
+  --var-color-sky: #D9E7FD;
   --lop-cl-light: #D9E7FD;
   --lop-cl-dark: #1C274C;
 /* Background Bars */
