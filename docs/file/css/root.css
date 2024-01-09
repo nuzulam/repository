@@ -146,9 +146,6 @@ body{
   transition: 0.4s all;
   background-color:var(--bg-post);
 }
-.feed-view #Blog1 {
-display: none;
-}
 .centered-bottom,
 .centered{
 margin: 0;
