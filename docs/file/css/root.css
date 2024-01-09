@@ -146,7 +146,7 @@ body{
   transition: 0.4s all;
   background-color:var(--bg-post);
 }
-#Blog1 {
+.feed-view #Blog1 {
 display: none;
 }
 .centered-bottom,
