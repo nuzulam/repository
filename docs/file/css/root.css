@@ -675,12 +675,12 @@ a.icon-href {
   align-items: center;
   justify-content: center;
   border-radius: 5px;
-  background-color: var(--bg-bar-mars);
+  background-color: var(--var-background-sky);
   -webkit-box-shadow: 0px 4px 5px -1px rgba(0,0,0,0.14);
   box-shadow: 0px 4px 5px -1px rgba(0,0,0,0.14);
   -moz-box-shadow: 0px 4px 5px -1px rgba(0,0,0,0.14);
     &:hover {
-  background-color: var(--bg-bar-mars-hover);
+  background-color: var(--var-background-sky-hover);
       & .radio-title {
       
        & .radio-title-label {
@@ -703,7 +703,7 @@ a.icon-href {
      text-align: center;
      font-weight: 500;
      letter-spacing: 1px;
-     color: var(--cl-icn-mn);
+     color: var(--var-color-sky);
      background: transparant;
      font-family: 'DM Sans', sans-serif;
       }    
