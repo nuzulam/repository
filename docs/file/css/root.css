@@ -9,7 +9,7 @@
   --tw-ring-shadow-bottom: 0 0 #0000; 
   --tw-shadow-bottom: 0 0 #0000;
 }
-.theme-dark {
+.theme-light {
  --cl-logo-left: #1C274C;
   --cl-logo-right: #1C274C;
   --lop-cl-light: #1C274C;
@@ -76,7 +76,7 @@
 }
 
   
-.theme-light {
+.theme-dark {
    --cl-logo-left: #D9E7FD;
   --cl-logo-right: #D9E7FD;
   --lop-cl-light: #D9E7FD;
