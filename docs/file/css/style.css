@@ -163,78 +163,7 @@ box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.75);*/
 
 /*=== Trigger Modal ===*/
 
-.call-modal,
-.call-modal .overlay {
-  padding: 0px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 105;
-}
-.call-modal .overlay {
-  z-index: 0;
-  background: rgba(25,25,25,0.4);
-  opacity: 0.0;
-  -webkit-transition: opacity 0.2s ease-out 0.05s;
-  transition: opacity 0.2s ease-out 0.05s;
-}
 
-.call-modal {
- 
-  left: 0;
-	overflow: hidden;
-	position: fixed;
-	opacity: 0.0;
-  z-index: 105;
-
-  -webkit-transition: -webkit-transform 0.2s linear 0.2s;
-  transition: transform 0.2s linear 0.2s;
--webkit-transition-timing-function:cubic-bezier(.4,0,.6,1);
-transition-timing-function:cubic-bezier(.4,0,.6,1);
--webkit-transform:translateX(-100%);
--ms-transform:translateX(-100%);
-transform:translateX(-100%)
-}
-.call-modal-content {
-	top: 0px;
-	right: 0px;
-	bottom: 0px;
-	z-index: 1;
-  height: 100%;
-	margin: 0;
-	overflow-y: visible;
-  width: 300px;
-  transition: 0.4s all;
-  position: relative;
-  }
-
-.show-call-modal .call-modal {
-	opacity: 1.0;
-	transform: translate(0%,0%);
-	-webkit-transform: translate(0%,0%);
-}
-.show-call-modal .call-modal .overlay {
-	opacity: 1.0;
-}
-.show-call-modal .call-modal-content {
-	transform: translate(0%,0%);
-	-webkit-transform: translate(0%,0%);
-}
-
-
-.call-modal-content .sidebar-call-content {
-height: 100%;
-overflow: auto;
-padding: 0px;
-box-sizing: border-box;
-background: #fff;
-}
-.call-modal-content .call-content {
-height: auto;
-margin-bottom: 100px;
-}
 
 
 
@@ -242,139 +171,19 @@ margin-bottom: 100px;
  
 
 
-.menu-modal {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  position: fixed;
-  z-index: 105;
-  left:0;
-  right:0;
-  top: 0; 
-  background: rgba(25,25,25,0.4);
-  opacity: 0.0;
-  -webkit-transition: opacity 0.2s linear 0.05s;
-  transition: opacity 0.2s linear 0.05s;
-  transition: all 1s ease-in-out;
-  -webkit-transition-timing-function:cubic-bezier(.4,0,.2,1);
-  transition-timing-function:cubic-bezier(.4,0,.2,1);
-  -webkit-transform:translateY(-100%);
--ms-transform:translateY(-100%);
-transform:translateY(-100%)
-}
-  
 
   
+	
+  
+	
+  
+	
+  
+  
+	
+  
+	
 
-  
-  
-    .menu-modal .overlay {
-      height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  position: absolute;
-  z-index: 10;
-  left:0;
-  right:0;
-  top: 0; 
-  background: rgba(25,25,25,0.4);
-  opacity: 0.0;
-      }
-  
-	
-  
-	
-  
-	
-  
-  
-	
-  
-	
-.menu-modal .menu-modal-content {
-
-  z-index: 12;
-  height: 90%;
-  margin: 0;
-  overflow-y: visible;
-  max-width: 800px;
-  width: 90%;
-  border-radius: 10px 10px 10px 10px;
-  transition: 0.4s all;
-  position: relative;
-  transition: all 1s ease-in-out;
-  background-color: var(--bg-post);
-}
-	
-.show-menu-modal .menu-modal {
-	opacity: 1.0;
-	transform: translate(0%,0%);
-	-webkit-transform: translate(0%,0%);
-  -webkit-transition-timing-function:cubic-bezier(.4,0,.2,1);
-transition-timing-function:cubic-bezier(.4,0,.2,1);
-}
-.menu-info-modal .menu-modal .overlay {
-	opacity: 1.0;
-}
-.menu-info-modal .menu-modal-content {
-	transform: translate(0%,0%);
-	-webkit-transform: translate(0%,0%);
-}
-	
-    
-
-.menu-modal .menu-modal-content .list-menu-head-bars {
-  width: none;
-  height: 58px;
-  padding: 5px 10px;
-  box-sizing: border-box;
-  border-radius: 10px 10px 0px 0px;
-  display: flex;
-  align-items: center;
-  background-color: var(--bg-root);
-  justify-content: space-between;
-  }
-.menu-modal .menu-modal-content .list-menu-head-bars span {
-font-size: 23px;
-font-weight: 600;
-}
-.list-menu-head-bars .close-menu {
-  height: 40px;
-  width: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-}
-.info-main-icon {
-  height: 40px;
-  width: 40px;
-  display: flex;
-  border-radius: 50%;
-  background: #ccc;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-}
-.info-main-icon svg {
-  height: 20px;
-  width: 20px;
-  fill: var(--cl-root);
-  }
-.close-menu svg {
-  height: 25px;
-  width: 25px;
-  fill: var(--cl-root);
-  }
-.menu-modal-content .menu-ctrl-bars {
-  height: calc(95% - 50px);
-  overflow: auto;
-  position: relative;
-}
 
 
 
