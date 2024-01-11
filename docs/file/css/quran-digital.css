@@ -366,6 +366,41 @@ div.code-header a.copy-code .circle-copy svg {
   font-weight: bold;
   }
 
+section.al-quran .stamp-quran {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
+section.al-quran .stamp-quran > a {
+  color: #191919;
+  width: 100%;
+  height: 35px;
+  padding: 5px 5px;
+  font-size: 15px;
+  font-weight: bold;
+  min-width: 200px;
+  max-width: 400px;
+  /*background: #191;*/
+  border-radius: 2px;
+  text-align: center;
+  border: 3px #191919 solid;
+  box-sizing: border-box;
+  font-family: 'Quicksand' , sans-serif;
+}
+section.al-quran .stamp-quran > div {
+  height: 3px;
+  width: 100%;
+  display: block;
+  background: #191919;
+  }
+section.al-quran .stamp-quran > div:first-child {
+  border-radius: 0px 0px 0px 0px;
+}
+section.al-quran .stamp-quran > div:last-child {
+  border-radius: 0px 0px 0px 0px;
+}
+
 input[id="QsLayView-Set8"] ~ .component-quran .setting-dialog .QsLayView-Set8::before,
 input[id="QsLayView-Set7"] ~ .component-quran .setting-dialog .QsLayView-Set7::before,
 input[id="QsLayView-Set6"] ~ .component-quran .setting-dialog .QsLayView-Set6::before,
