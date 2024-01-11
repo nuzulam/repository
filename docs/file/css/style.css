@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lateef:wght@200;300;400;500;600;700;800&display=swap');
 
 @media print{*,*:before,*:after,*:first-letter{background:transparent!important;color:#000!important;box-shadow:none!important}
  a,a:visited{text-decoration:underline}a[href]:after{content:" (" attr(href)")"}abbr[title]:after{content:" (" attr(title)")"}a[href^="#"]:after,a[href^="javascript:"]:after{content:""}
@@ -8,14 +7,7 @@ pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table
    -webkit-tap-highlight-color:transparent;
    -webkit-tap-highlight-color:rgba(255,255,255,0)}
 
-:root {
-  --bg-img-qori-afasy: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXmqDArx9_HEr6o6ykVY6CzKl8Pfy_Y_eZUvkMoxLSrl8SNnHh3E9JeMOrYNlMfMGBcPQlCUm0jEhGoR-fxHs-tGJtUlXvlAA5sf4YJfXYsiY-nxm6lC3kmwm647LBwLobxSV02HLH4GlstzdYet1K1VXtOEy2PiRSq-nE-ddMCxsxvDlumDVsCkzJUjM/s1600/pro_1_11zon.jpeg);
-  --bg-img-qori-mansour: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjZtbPc3t0BKqX8WKu-NslfY86FvkSWiaJRqXILkNQBBx581KGBmViuD58Ioa5r99Gd9xzhyvOeOm3MVpL4fPjWht2qc4lo7_fNd9Q0WbsSNHmzBV-3RSh9csCb2_hoX5gccfs6zUrnMi0HswnuXO80ri7DLQllmBvIi7B2ouoOk71JFB1zKOfTUIeVec/s1600/images%20%2812%29_1.jpeg);
-  --bg-img-qori-shatri: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjM6aCL9vLGhAUBsBoZnm6mMRqyCFmOefItz23ppmt0F4jRfnFK7JqbRKOEskkCc7qNALs4f7BhPDCqjDsSHKh93py0M8zfi7ywVkEjMepcD0GOA3qUInM7iLRuBeUrPC9Ftee1QLZrt9rXcIJCRMvQ9MS7MmanoTTSgpPiCm1kWqLxkosWCo3ghvwWATo/s1600/images%20%2816%29_1.jpeg);
-  --bg-img-qori-taher: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoUEUwTBmJBM8i_3MZ99j6f9wHclA92ceFPZzGhVHnJZgpQlQmfXTltTu6KtucY08ZmJHgzEPgtkNMHzdeox0h2lYpGNIdgugyT2s1fGGf-eqkOj9CRe9-H7cBXN1ADffD5xUdxrqvXIrMMZPAJ-p5Q9TmAo4skkGt69bBTvTG6N3ztVoBDyYMBFBX770/s1600/images%20%2813%29_1.jpeg);
-  --bg-img-qori-maher: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgq-rOxAxh2zj4mxeFmM5NsQxuy9HI5dQ0TP5GEEZ1Uhkg4vQo26X43RiavfMEQvffmU8Am9ChYS09zKTgBJAkpiiPUYDnbzvZNDY4RHXmp4DQczgv_OtwSf8y0fOY0K18o48GT9lE-LZvR03wnxoqORtVnXUWhZpQeqXrsKaosPT9-pZcWIBkaaQrCgcw/s1600/images%20%2815%29_1.jpeg);
-  --bg-img-qori-mrifai: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMjjfoy64JSYtOlsykVDWaKrWS2oPHWGtJOiQUyHePOqxf26Ti7q4Oijt1EuF9NMUP-yPPBW4z1SNtQnGWW7TnSXm7D-JdxX8rC3z7pQqiMmE8c5ICPOon6M-L7V_dR5cjnn_G2vhelG5zPi629bGEQep-TdZkttDBzwHb4_W6jkPdn1KmhiLGJ4V6cVE/s1600/images%20%2814%29_1.jpeg);
-}
+
 
 
 body,
@@ -471,128 +463,14 @@ display: block;
 =========================*/
 
 
-div.code-header a.copy-code {
-  border: none;
-  text-align: center;
-  padding: 5px 5px;
-  box-sizing: border-box;
-  border-radius: 25px;
-  display: block;
-  width: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: #aeaaea;
-  color: #fff;
-  position: fixed;
-  z-index: 10;
-  right: 15px;
-  bottom: 15px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-}
-div.code-header a.copy-code span{
-  line-height: 1;
-  color: #fff;
-  margin-left: 10px;
-   margin-right: 10px;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 14px;
-}
 
-div.code-header a.copy-code .circle-copy {
-  height: 30px;
-  width: 30px;
-  border-radius: 50%;
-  background: navy;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  }
-div.code-header a.copy-code .circle-copy svg {
-  height: 20px;
-  width: 20px;
-  }
-.title_tafsir span {
-  color: var(--cl-df);
-  font-size: 20px;
-  font-weight: bold;
-  }
   
 
 
 
 
-/* Content Tafsir */
 
-div.view-quran .content-tafsir {
-  margin-top: 10px;
-  border-left: 10px var(--line-tafsir) solid;
-  position: relative;
-  }
-div.view-quran .content-tafsir .tafsir-digital {
-padding: 0px 5px;
-box-sizing: border-box;
-}
-div.view-quran .content-tafsir .tafsir-digital p{
-  font-size: 13px;
-  line-height: 1.5;
-  color: var(--cl-df);
-  font-family: 'Lato' , sans-serif;
-}
-div.view-quran .content-tafsir .tafsir-digital > span {
-  display: none;
-}
-div.view-quran .content-tafsir i.sumber{
-  font-size: 11px;
-  line-height: 1.2;
-  margin-left: 5px;
-  color: var(--cl-df);
-  }
-div.view-quran .content-tafsir .card-tafsir {
-  width: 100%;
-  line-height: 1.6;
-  max-width: none;
-  height: 50px;
-  margin-bottom: 20px;
-  min-height: 50px;
-  padding: 7px;
-  box-sizing: border-box;
-  position: relative;
-  z-index: 0;
-  overflow: hidden;
-  border-left: 10px var(--line-tafsir) solid;
-}
-div.view-quran .content-tafsir .card-tafsir::before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: 0px;
-  left: -20px;
-  background: var(--line-tafsir);
-  height: none;
-  min-height: 50px;
-  width: 25px;
-  max-width: 100%;
-  border-radius: 5px;
-  transform: scale(1);
-  transform-origin: 50% 50%;
-  transition: transform 1.25s ease-out;
-}
-div.view-quran .content-tafsir .card-tafsir span {
-  color: var(--cl-df);
-  font-size: 20px;
-  line-height: 1.7;
-  font-weight: bold;
-  letter-spacing: 1px;
-  margin-left: 5px;
-  text-transform: uppercase;
-  font-family: 'Lato' , sans-serif;
-}
-.caps {
-  display: block;
-  height: 200px;
-  }
+
 
 
 /* Content Tafsir */
@@ -661,40 +539,7 @@ section.al-quran .content-tafsir .card-tafsir span {
   font-family: 'Lato' , sans-serif;
 }
 
-section.al-quran .stamp-quran {
-  margin-top: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  }
-section.al-quran .stamp-quran > a {
-  color: #191919;
-  width: 100%;
-  height: 35px;
-  padding: 5px 5px;
-  font-size: 15px;
-  font-weight: bold;
-  min-width: 200px;
-  max-width: 400px;
-  /*background: #191;*/
-  border-radius: 2px;
-  text-align: center;
-  border: 3px #191919 solid;
-  box-sizing: border-box;
-  font-family: 'Quicksand' , sans-serif;
-}
-section.al-quran .stamp-quran > div {
-  height: 3px;
-  width: 100%;
-  display: block;
-  background: #191919;
-  }
-section.al-quran .stamp-quran > div:first-child {
-  border-radius: 0px 0px 0px 0px;
-}
-section.al-quran .stamp-quran > div:last-child {
-  border-radius: 0px 0px 0px 0px;
-}
+
 
 
 
