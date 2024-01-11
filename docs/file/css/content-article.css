@@ -3,6 +3,14 @@
     & .article {
    padding: 0px 10px;
    box-sizing: border-box;
+    & p {
+      font-size: 16px;
+      line-height: 1.5;
+      font-weight: 500;
+      margin-bottom: 25px;
+      color: var(--post-title);
+      font-family: 'Quicksand' , sans-serif;
+    }
    }
   }
 }
@@ -37,14 +45,6 @@
 .content-article > img {
   border-radius: 5px;
 }
-.content-article > p {
-  font-size: 16px;
-  line-height: 1.5;
-font-weight: 500;
-  margin-bottom: 25px;
-color: var(--post-title);
-  font-family: 'Quicksand' , sans-serif;
- }
 
 
 .item-view .bg-photo {
