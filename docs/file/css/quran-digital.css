@@ -453,6 +453,284 @@ input[id="QsLayView-Set1"]:checked ~ .component-quran .setting-dialog .QsLayView
 
 
 
+/*=============================
+ Property Quran ( Audio Pop Up )
+===============================*/
+.overlay__circle {
+  top: 10px;
+  left: 10px;
+  width: 30px;
+  height: 30px;
+  display: none;
+  border-radius: 50%;
+  position: absolute;
+  background: navy;
+   z-index: 105 !important;
+  }
+div.Audio-Menu-Qori {
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    z-index: 103 !important;
+    width: 100%;
+    max-width: none;
+    height: none;
+    min-height: 100px;
+    max-height: 100%;
+    border-radius: 9px 9px 0px 0px;
+    background: #FFF;
+    cursor: default;
+    border: 0px #767eeb solid;
+}
+.select_qoriall {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  overflow: hidden;
+  position: fixed;
+  z-index: 105;
+  left:0;
+  right:0;
+  bottom: 0; 
+  background: rgba(25,25,25,0.4);
+  opacity: 0.0;
+  -webkit-transition: opacity 0.2s linear 0.05s;
+  transition: opacity 0.2s linear 0.05s;
+  transition: all 1s ease-in-out;
+  -webkit-transition-timing-function:cubic-bezier(.4,0,.2,1);
+  transition-timing-function:cubic-bezier(.4,0,.2,1);
+  -webkit-transform:translateY(100%);
+-ms-transform:translateY(100%);
+transform:translateY(100%)
+}
+.select_qoriall .overlay {
+      height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: absolute;
+  z-index: 10;
+  left:0;
+  right:0;
+  top: 0; 
+  background: rgba(25,25,25,0.4);
+  opacity: 0.0;
+      }
+.select_qoriall .menu-modal-content {
+  z-index: 12;
+  height: 500px;
+  max-height: 90%;
+  margin: 0;
+  overflow-y: visible;
+  max-width: 800px;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+  transition: 0.4s all;
+  position: relative;
+  transition: all 1s ease-in-out;
+  background-color: var(--bg-bars);
+  & .sec_top {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & .close_button {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: blue;
+      }
+    }
+  }
+	.show_select_qoriall .select_qoriall {
+	opacity: 1.0;
+	transform: translate(0%,0%);
+	-webkit-transform: translate(0%,0%);
+  -webkit-transition-timing-function:cubic-bezier(.4,0,.2,1);
+transition-timing-function:cubic-bezier(.4,0,.2,1);
+}
+.menu-info-modal .select_qoriall .overlay {
+	opacity: 1.0;
+}
+.menu-info-modal .menu-modal-content {
+	transform: translate(0%,0%);
+	-webkit-transform: translate(0%,0%);
+}
+	.sidebar_menu_content {
+  height: 100%;
+  overflow: auto;
+  padding: 5px 5px 5px 10px;
+  box-sizing: border-box;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-top: 0.70px var(--border-bars) solid;
+  border-left: 0.70px var(--border-bars)  solid;
+  border-right: 0.70px var(--border-bars)  solid;
+  border-radius: 10px 10px 0px 0px;
+  
+  & ul#playlist {
+  position: relative;
+  margin-top:0px;
+    & li {
+  width: 100%;
+  margin-left: 0px;
+  display: flex;
+  list-style: none;
+  margin-bottom: 2px;
+      & .pro-qori {
+  height: 52px;
+  width: 52px;
+  min-height: 52px;
+  min-width: 52px;
+  border-radius: 0px 5px 5px 0px;
+  background: navy;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+        & button[class*="DxFan-"] {
+  height: 45px;
+  width: 45px;
+  min-height: 45px;
+  min-width: 45px;
+  border-radius: 50%;
+  border: 2px #FFF solid;
+  cursor: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  transition: .4s;
+  }
+  }
+  }
+  }
+  }
+.type-post {
+  & ul#playlist {
+  margin-left: -45px;
+  }
+  }
+.type-widget {
+  & ul#playlist {
+  margin-left: -5px;
+  }
+  }
+.design_packbars {
+  overflow: auto;
+  margin: 0px;
+  border-radius: 9px 9px 0px 0px;
+ /* background: pink;*/
+  height: 100%;
+  & .choose_class { 
+   transition: .4s; 
+   overflow: hidden;
+   margin: 0px;
+   border: 0px #111 solid;
+   border-radius: 0px;
+   position: relative; 
+   height: auto;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   flex-direction: column;
+   &::before {
+  content: "";
+  height: 90%; 
+  width: 100%;
+  
+     border-top-left-radius: 0px;
+     border-top-right-radius: 0px;
+     border-bottom-left-radius: 50%;
+     border-bottom-right-radius: 50%;
+  position: absolute;
+  top: -100px;
+  right: 0;
+  left: 0;
+  margin: auto; 
+  background: rgba(36, 49, 224, 0.27); 
+ }
+   & .on_profile {
+  --size: 100px;
+  --radius: 50%;
+  transition: .4s; 
+  margin-top: 70px;
+  height: var(--size);
+  width: var(--size);
+  border: 2px #fff solid;
+  border-radius: var(--radius);
+  background-image: var(--img);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  &:hover {
+  
+ transform: translateY(-10px);
+ box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+  /*background: #fff;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);*/
+}
+  }
+   & h1 {
+    font-size: 25px;
+    font-weight: 500;
+    }
+   & .bars_button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  & .btn-visit-audio {
+   font-size: 17px;
+   font-weight: bold;
+   display: block;
+   text-align: center;
+   height: auto;
+   width: 70%;
+  background: #4E4DED;
+  padding: 10px 7px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+  color: #FFF;
+  position: relative;
+  z-index: 1;
+  &::after {
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #767EEB;
+  border-radius: 5px;
+  transition: .5s;z-index: -1;
+  }
+  &:hover {
+    color: white !important;
+    &::after {
+    width: 100%;
+    height: 100%;
+  }
+  }
+  &:active {
+  top: 1px;
+  transform: scale(0.97);
+-webkit-transition: all 0.3s;
+    }
+  }
+ }
+  }
+}
+
+
+
 
 .post-body  input.nodis {
   display: none
