@@ -206,6 +206,11 @@ border-radius: 5px;
   }
  }
 }
+
+
+
+
+/*===== Item View Post Article ===*/
 .item-view .post-title-container > .post-title.entry-title{
    font-size: 25px;
    line-height: 1.5;
@@ -252,6 +257,22 @@ width: 100%;
 display: block;
 max-width: 800px;
 }
+.item-view .post-footer {
+& .post-footer-line {
+  padding: 0px 10px;
+  box-sizing: border-box;
+ & .byline, & .post-timestamp {
+   color: #111;
+  & a.timestamp-link {
+    color: red;
+    }
+   }
+  }
+}
+
+
+
+
 body div#page_body {
   margin-bottom: 0;
   padding-bottom: 0;
