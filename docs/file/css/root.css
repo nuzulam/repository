@@ -139,6 +139,15 @@
    --icnsvgtfs-cls: #ffffff;
 }
 
+.theme-light {
+  --var-background-sky: #fff;
+--var-background-sky-hover: #ece8fc;
+  }
+.theme-dark {
+  --var-background-sky: #455963;
+  --var-background-sky-hover: #58727e;
+  }
+
 body{
  transition: 0.4s all;
   font-family: 'Quicksand' , sans-serif;
