@@ -143,6 +143,9 @@ body{
  transition: 0.4s all;
   font-family: 'Quicksand' , sans-serif;
 }
+.feed-view #Blog1 {
+display: none;
+}
 #content-wrapper,
 .post-wrapper {
   transition: 0.4s all;
