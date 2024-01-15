@@ -376,15 +376,14 @@ padding-top: 60px;
  & .hero-content {
   width: 100%;
   max-width: 800px;
-  & h1.hero-title { 
-  animation: zoomInUp 6s;
+  & h1.hero-title {
    font-size: 30px;
-   font-weight: 700;
+   font-weight: 600;
    color: var(--lop-cl-light);
    margin: 0 0 .25em;
    padding: 0;
-  letter-spacing: 2px;
-   font-family: 'Roboto Condensed' ,sans-serif; 
+   letter-spacing: 2px;
+   font-family: 'DM sans' ,sans-serif; 
   text-transform: uppercase; 
  /* text-shadow: 0 -3px 0 #333,
 		0 3px 4px rgba(0,0,0, 0.4),
