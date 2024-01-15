@@ -167,6 +167,25 @@ position:relative;
 width:100%;
 max-width: 1900px;
 }
+
+
+
+/*===== Feed View Post Article ===*/
+.feed-view .post-timestamp {
+color: var(--cl-root);
+}
+.feed-view .blog-posts, .feed-view .hfeed, .feed-view .container {
+  transition: 0.4s all;
+  background-color:var(--bg-post);
+}
+.feed-view .post-wrapper .post,.feed-view .post-wrapper .post .snippet-thumbnail{
+color: #fff;
+background-color: var(--bg-bars);
+padding: 10px 7px
+}
+.feed-view .post-wrapper{
+border-radius: 5px;
+}
 .feed-view .post-title-container {
   border-radius: 5px;
   margin: 0px;
