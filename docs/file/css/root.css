@@ -369,7 +369,7 @@ padding-top: 60px;
   max-width: 800px;
   & h1.hero-title { 
   animation: zoomInUp 6s;
-   font-size: 40px;
+   font-size: 30px;
    font-weight: 700;
    color: var(--lop-cl-light);
    margin: 0 0 .25em;
@@ -377,11 +377,11 @@ padding-top: 60px;
   letter-spacing: 2px;
    font-family: 'Roboto Condensed' ,sans-serif; 
   text-transform: uppercase; 
-  text-shadow: 0 -3px 0 #333,
+ /* text-shadow: 0 -3px 0 #333,
 		0 3px 4px rgba(0,0,0, 0.4),
 		0 4px 5px rgba(0,0,0, 0.15),
 		0 14px 5px rgba(0,0,0, 0.18),
-		0 6px 5px rgba(0,0,0, 0.21);
+		0 6px 5px rgba(0,0,0, 0.21);*/
  }
   & p {
    font-size: 18px;
