@@ -194,7 +194,8 @@ border-radius: 5px;
 .feed-view {
  & .snippet-container {
   & .r-snippetized {
-   font-size:22px;
+  color: var(--post-title);
+  font-size:22px;
   line-height: 1.3;
   padding: 5px 0px;
   box-sizing: border-box;
