@@ -641,50 +641,7 @@ to {
 }  /* Btn Share and */
 
 /* Btn Back To Top start */
-#backtotop {
-  bottom: 10px;
-  right: 60px;
-  width: 40px;
-  height: 40px;
-  position: fixed;
-  text-align: center;
-  border-radius: 5px;
-  display: inline-block;
-  background-color: var(--bg-two-btn-fixed);
-  transition: background-color .3s, 
-  opacity .5s, visibility .5s;
-  opacity: 0;
-  visibility: hidden;
-  z-index: 80;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-}
-#backtotop::after {
-  content: "\f0aa";
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 20px;
-  line-height: 40px;
-  color: var(--cl-two-btn-icn-fixed);
-}
-#backtotop:hover {
-  cursor: pointer;
-  opacity: 0.5;
-  background-color: var(--bg-two-btn-fixed-hover);
-}
-#backtotop:active {
-  background-color: var(--bg-two-btn-fixed-active);
-}
-#backtotop.show {
-  opacity: 1;
-  visibility: visible;
-}
-@media (min-width: 500px) {
-  #share-button, /* btn media share */
-  #backtotop {
-    margin: 15px;
-  }
-} /* Btn Back to top and */
+/* Btn Back to top and */
 
 
 
