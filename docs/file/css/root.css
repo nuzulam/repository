@@ -918,20 +918,20 @@ transform:translateX(-100%);
   transition: all 1s ease-in-out;
   background: #fff;
   border-radius: 0px;
-  & .list_board {
+  & .list_social {
   width: none;
   height: 40px;
-  padding: 5px 12px 5px 8px;
+  padding: 2.50px 20px;
   box-sizing: border-box;
-  border-radius: 0px 0px 0px 0px;
+  border-radius: 0px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-top: 1px #767eeb solid;
+  border-top: 1px #ddd solid;
   border-right: 0px #767eeb solid;
-  & .list_close {
-  height: 30px;
-  width: 30px;
+  & .link_social {
+  height: 35px;
+  width: 35px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -941,17 +941,11 @@ transform:translateX(-100%);
     background-color: #ddd;
     }
   & svg {
-  height: 20px;
-  width: 20px;
+  height: 25px;
+  width: 25px;
   fill: var(--cl-root);
   }
   }
-  & span {
-    font-size: 20px;
-    font-weight: bold;
-    color: var(--cl-df);
-    font-family: 'DM sans' , sans-serif;
-    }
   }
   & .list_bars {
   height: calc(100% - 41px);
