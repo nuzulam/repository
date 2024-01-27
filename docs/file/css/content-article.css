@@ -208,3 +208,102 @@ max-height: 0px;
    display:block;
   }
 }
+
+
+.bars_article_bottom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  & .article_bottom {
+    z-index: 10;
+    bottom: 0px;
+    width: 100%;
+    max-width: 800px;
+    height: 50px;
+    position: fixed;
+    & .main_bars {
+      margin: 0;
+     padding: 0px 10px;
+      box-sizing: border-box;
+      width: 100%;
+    max-width: 800px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    background: #fff;
+      & a.linkback {
+        color: #fff;
+        height: 40px;
+        width: 100%;
+        font-size: 18px;
+        max-width: 300px;
+        margin-right: 10px;
+        text-align: center;
+        padding: 7px 10px;
+        border-radius: 5px;
+        box-sizing: border-box;
+        background: navy;
+        }
+      & div {
+        width: 40px;
+        height: 40px;
+        min-width: 40px;
+        min-height: 40px;
+        background: navy;
+        margin: 0px 10px;
+        }
+      }
+    }
+}
+  
+  
+  
+#backtotop {
+  top: -50px;
+  /*  bottom: 10px;*/
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  text-align: center;
+  border-radius: 5px;
+  display: inline-block;
+  background-color: var(--bg-two-btn-fixed);
+  transition: background-color .3s, 
+  opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 80;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+#backtotop::after {
+  content: "\f0aa";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 40px;
+  color: var(--cl-two-btn-icn-fixed);
+}
+#backtotop:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  background-color: var(--bg-two-btn-fixed-hover);
+}
+#backtotop:active {
+  background-color: var(--bg-two-btn-fixed-active);
+}
+#backtotop.show {
+  opacity: 1;
+  visibility: visible;
+}
+@media (min-width: 800px) {
+  #share-button, /* btn media share */
+  #backtotop {
+    margin: 0px 10px;
+    
+  }
+} 
