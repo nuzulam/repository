@@ -80,27 +80,53 @@ max-height: 0px;
 }
 }
 /*--- Component Article ---*/
-.second_list_label {
+.articel_post_bars {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  & .second_label {
-   top:68px;
+  & .articel_top_select {
+    top:68px;
+    width: 100%;
+    max-width:800px;
+    position:fixed;
+    z-index:5;
+    background:#fff;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    box-shadow:0 2px 6px 0 rgba(0,0,0,.1);
+    & .art_back {
+    width: 80px;
+    height: 50px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    background: #ddd;
+    border-radius: 4px 0px 0px 4px;
+    & svg {
+      width: 30px;
+      height: 30px;
+      }
+    & span {
+      color: #111;
+      font-size: 12px;
+      }
+    }
+    & .second_label {
    display:block;
    width: 100%;
-   max-width:800px;
    overflow:scroll;
    overflow-y:hidden;
-   position:fixed;
-   z-index:5;
-   background:#fff;
    height: 50px;
-  border-radius: 5px;
    line-height:12.5px;
    font-size:13.5px;
    font-weight:500;
-   box-shadow:0 2px 6px 0 rgba(0,0,0,.1);
     & div.line_label{
    width:max-content;
    margin: 0px; 0px; 0px; 70px;
@@ -123,141 +149,25 @@ max-height: 0px;
    &:hover {
    color:#49ACE1;
    border-bottom:2px solid #49ACE1;
-}
-}
-      
-}
-}
+     }
+    }
+   }
   }
-
+ }
+}
 @media (max-width: 800px){
- .second_list_label {
-  & .second_label {
+ .articel_post_bars {
+  & .articel_top_select {
     top:58px;
     border-radius: 0px;
+    & .art_back {
+      border-radius: 0px 0px 0px 0px;
+     }
     }
    }
   }
 
 
-
-
-
-.second-label {
-   left:0;
-   right:0;
-   top:55px;
-   display:none;
-   max-width:100%;
-   overflow:scroll;
-   overflow-y:hidden;
-   position:fixed;
-   z-index:5;
-   background:#fff;
-   height: 50px;
-   line-height:12.5px;
-   font-size:13.5px;
-   font-weight:500;
-   box-shadow:0 2px 6px 0 rgba(0,0,0,.1);
-}
- .second-label ul {
-   width:max-content;
-   margin:0 0 0 70px;
-}
- .second-label ul li {
-   float:left;
-   margin-top: 10px;
-   font-size: 14px;
-   padding:10px 10px;
-   display:block;
-   text-align:center;
-   text-transform:uppercase;
-}
- .second-label ul li a:hover {
-   color:#49ACE1;
-   border-bottom:2px solid #49ACE1;
-}
- .second-label ul li a {
-   color:#444;
-   padding: 8px 5px;
-}
- .second-label ul li.satu1 {
-   padding: 0;
-   position:fixed;
-   margin-top: 15px;
-   left:-1px;
-}
-.second-label ul li.satu1 span {
-   background: #111;
-   padding:11.5px 12.5px 10px;
-   color:#fff;
-   vertical-align: -6px;
-   }
-.second-label ul li.satu1:after {
-   content:'';
-   display:inline-block;
-   position:absolute;
-   border-left: 12px solid #111;
-   border-top:8px solid transparent;
-   border-bottom:8px solid transparent;
-   right:-10px;
-   top:4px;
-}
-@media (max-width: 640px) {
-.second-label {
-   display:block;
-  }
-}
-
-
-.bars_article_bottom {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  & .article_bottom {
-    z-index: 10;
-    bottom: 0px;
-    width: 100%;
-    max-width: 800px;
-    height: 50px;
-    position: fixed;
-    & .main_bars {
-      margin: 0;
-     padding: 0px 10px;
-      box-sizing: border-box;
-      width: 100%;
-    max-width: 800px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-    background: #fff;
-      & a.linkback {
-        color: #fff;
-        height: 40px;
-        width: 100%;
-        font-size: 18px;
-        max-width: 300px;
-        margin-right: 10px;
-        text-align: center;
-        padding: 7px 10px;
-        border-radius: 5px;
-        box-sizing: border-box;
-        background: navy;
-        }
-      & div {
-        width: 40px;
-        height: 40px;
-        min-width: 40px;
-        min-height: 40px;
-        background: navy;
-        margin: 0px 10px;
-        }
-      }
-    }
-}
   
   
   
