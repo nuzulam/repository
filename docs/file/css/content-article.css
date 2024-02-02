@@ -1,5 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Lateef:wght@200;300;400;500;600;700;800&display=swap');
 
+/*===================================
+    CSS WEBKIT BLOG WEBSITE CC-1
+===================================*/
+
+
+.post-body ::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  
+}
+.post-body ::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+
+.post-body ::-webkit-scrollbar-thumb {
+  background: #fff;
+  border: 0px red solid;
+  border-radius: 20px;
+}
+.post-body ::-webkit-scrollbar-thumb:hover {
+  background: #3d54fe;
+}
+.post-body ::-webkit-scrollbar-thumb:active {
+  background: #3d54fe;
+}
+.post-body ::-webkit-scrollbar-track {
+  background: #3d54fe;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+.post-body ::-webkit-scrollbar-track:hover {
+  background: red;
+}
+.post-body ::-webkit-scrollbar-track:active {
+  background: #3d54fe;
+}
+.post-body ::-webkit-scrollbar-corner {
+  background: green;
+}
+
 .post-body {
  & > .content-article {
     & .article {
