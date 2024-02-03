@@ -51,13 +51,15 @@
      border-radius: 5px;
     }
     & p, & li {
-      font-size: 18px;
+        font-size: 18px;
+        color: var(--post-typo);
+        font-family: 'DM sans' , sans-serif;
+    }
+    & p {
       line-height: 1.5;
       font-weight: 500;
       margin-bottom: 25px;
-      color: var(--post-typo);
-      font-family: 'DM sans' , sans-serif;
-    }
+     }
     & .pin-latin {
       width: none;
       display: block;
