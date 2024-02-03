@@ -50,13 +50,13 @@
      max-width: 100%;
      border-radius: 5px;
     }
-    & p {
-      font-size: 16px;
+    & p, & li {
+      font-size: 18px;
       line-height: 1.5;
       font-weight: 500;
       margin-bottom: 25px;
-      color: var(--post-title);
-      font-family: 'Quicksand' , sans-serif;
+      color: var(--post-typo);
+      font-family: 'DM sans' , sans-serif;
     }
     & .pin-latin {
       width: none;
