@@ -148,7 +148,7 @@ max-height: 0px;
     justify-content: center;
     flex-direction: column;
     position: relative;
-    background: #ddd;
+    /*background: #ddd;*/
     border-radius: 4px 0px 0px 4px;
     & svg {
       width: 30px;
