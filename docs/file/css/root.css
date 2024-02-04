@@ -14,11 +14,13 @@
   --cl-logo: #1C274C;
   --logo-color: #1C274C;
   --logo-color-symbol: #D9E7FD;
+  --post-icon: #1C274C;
 }
 .theme-dark {
   --lc-logo: #D9E7FD;
   --logo-color: #D9E7FD;
   --logo-color-symbol: #1C274C;
+  --post-icon: #D9E7FD;
 }
 
 .theme-light {
