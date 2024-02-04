@@ -11,6 +11,7 @@
   --tw-shadow-bottom: 0 0 #0000;
 }
 .theme-light {
+  --cl-logo: #1C274C;
  --cl-logo-left: #1C274C;
   --cl-logo-right: #1C274C;
  --var-color-sky: #1C274C;
@@ -80,6 +81,7 @@
 
   
 .theme-dark {
+  --cl-logo: #D9E7FD;
    --cl-logo-left: #D9E7FD;
   --cl-logo-right: #D9E7FD;
   --var-color-sky: #D9E7FD;
@@ -919,7 +921,7 @@ transform:translateX(-100%);
   transition: 0.4s all;
   position: relative;
   transition: all 1s ease-in-out;
-  background: #fff;
+  background-color: var(--bg-bars);
   border-radius: 0px;
   & .list_social {
   width: none;
@@ -1001,7 +1003,7 @@ transform:translateX(-100%);
     justify-content: start;
     flex-direction: column;
     & a {
-      color: #111;
+      color: var(--cl-logo);
       font-size: 25px;
       font-weight: 700;
       
