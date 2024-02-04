@@ -983,7 +983,7 @@ transform:translateX(-100%);
   }
 }
 
-.section_list_left {
+.section_list_bars {
   display: block;
   position: relative;
  /* background: navy;*/
@@ -1015,7 +1015,7 @@ transform:translateX(-100%);
       }
     }
   }
-  & ul {
+  & ul.list_link {
    margin-left: -40px;
    list-style: none;
    border-bottom: 0.50px #ccc solid;
@@ -1029,12 +1029,11 @@ transform:translateX(-100%);
         display: flex;
         align-items: center;
         justify-content: start;
-       /* background: pink;*/
         cursor: pointer;
 	& span {
 	 font-size: 16px;
          font-weight: 700;
-	 color: (--post-title);
+	 color: var(--post-title);
 	}
         &:hover{
           background-color: var(--bg-bars-hover);
