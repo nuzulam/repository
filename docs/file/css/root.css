@@ -32,6 +32,7 @@
 /* Background Bars */
   --bg-post: #EAEEF6;
   --bg-bars: #FFFFFF;
+  --bg-bars-hover: #ddd;
   --bg-view: #dae2eb;
   --post-typo:  #2c3e50;
   --bg-bars-hover: #FFFFFF;
@@ -101,6 +102,7 @@
 /* Background Bars */
   --bg-post: #212121;
   --bg-bars: #455963;
+  --bg-bars-hover: #58727e;
   --bg-view: #2c3e50;
   --post-typo: #F1F1F1;
   --bg-bars-hover: #FFFFFF;
@@ -1042,10 +1044,10 @@ transform:translateX(-100%);
        /* background: pink;*/
         cursor: pointer;
         &:hover{
-          background-color: #ddd;
+          background-color: var(--bg-bars-hover);
           }
         &:active {
-          background-color: #ddd;
+          background-color: var(--bg-bars-hover);
           }
         & svg {
           width: 30px;
