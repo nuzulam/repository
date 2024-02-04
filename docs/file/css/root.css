@@ -423,8 +423,8 @@ box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.75);*/
       background-color: var(--bg-bars-hover);
     }
     & svg {
-     width: 20px;
-     height: 20px;
+     width: 35px;
+     height: 35px;
     }
    }
   }
@@ -1105,18 +1105,17 @@ transform:translateX(-100%);
   cursor: none;
   border-radius: 50%;
   &:hover {
-    background-color: #ddd;
+    background-color: var(--bg-bars-hover);
     }
   & svg {
-  height: 20px;
-  width: 20px;
-  fill: var(--cl-root);
+  height: 30px;
+  width: 30px;
   }
   }
   & span {
     font-size: 20px;
     font-weight: bold;
-    color: var(--cl-df);
+    color: var(--post-title);
     font-family: 'DM sans' , sans-serif;
     }
   }
@@ -1127,7 +1126,7 @@ transform:translateX(-100%);
   margin: 0px 10px 10px 10px;
   box-sizing: border-box;
   border-radius: 10px;
-  background: var(--bg-post);
+  background: var(--bg-view);
   border: 1px var(--border-bars) solid;
   }
   }
