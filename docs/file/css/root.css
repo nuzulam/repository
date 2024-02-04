@@ -1019,7 +1019,6 @@ transform:translateX(-100%);
       color: var(--cl-logo);
       font-size: 25px;
       font-weight: 700;
-      
       }
     & span {
       font-size: 13px;
@@ -1030,11 +1029,11 @@ transform:translateX(-100%);
    margin-left: -40px;
    list-style: none;
    border-bottom: 0.50px #ccc solid;
-   padding-bottom: 5px;
+   padding-bottom: 10px;
     & li {
       margin-bottom: 0px;
       & a {
-        color: #111;
+        color: (--post-title);
         font-size: 16px;
         font-weight: 700;
         width: 100%;
