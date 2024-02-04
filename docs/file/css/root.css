@@ -1023,9 +1023,6 @@ transform:translateX(-100%);
     & li {
       margin-bottom: 0px;
       & a {
-        color: (--post-title);
-        font-size: 16px;
-        font-weight: 700;
         width: 100%;
         padding: 15px 20px;
         box-sizing: border-box;
@@ -1034,6 +1031,11 @@ transform:translateX(-100%);
         justify-content: start;
        /* background: pink;*/
         cursor: pointer;
+	& span {
+	 font-size: 16px;
+         font-weight: 700;
+	 color: (--post-title);
+	}
         &:hover{
           background-color: var(--bg-bars-hover);
           }
