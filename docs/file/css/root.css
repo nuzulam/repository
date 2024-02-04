@@ -12,6 +12,16 @@
 }
 .theme-light {
   --cl-logo: #1C274C;
+  --logo-color: #1C274C;
+  --logo-color-symbol: #D9E7FD;
+}
+.theme-dark {
+  --lc-logo: #D9E7FD;
+  --logo-color: #D9E7FD;
+  --logo-color-symbol: #1C274C;
+}
+
+.theme-light {
  --cl-logo-left: #1C274C;
   --cl-logo-right: #1C274C;
  --var-color-sky: #1C274C;
@@ -81,7 +91,6 @@
 
   
 .theme-dark {
-  --cl-logo: #D9E7FD;
    --cl-logo-left: #D9E7FD;
   --cl-logo-right: #D9E7FD;
   --var-color-sky: #D9E7FD;
@@ -959,8 +968,6 @@ transform:translateX(-100%);
   margin: 0px 0px 0px 0px;
   box-sizing: border-box;
   border-radius: 0px;
-  background: #fff;
-  
   }
   }
   & > .overlay {
