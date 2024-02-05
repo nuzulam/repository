@@ -1217,3 +1217,24 @@ transform:translateX(-100%);
     }
   }
   }
+
+.search-pages form  input[type='search'] {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px 15px;
+    border-radius: 5px;
+    margin-bottom: 0rem;
+    border:none;
+    outline: none;
+    box-sizing: border-box;
+    color: var(--cl-df);
+    background-color: var(--bg-view);
+  }
+.search-pages form input[type='search']:focus {
+    border: none;
+    color: var(--cl-df);
+    background-color: var(--bg-focus);
+    box-shadow: 0 2px 6px 0 rgba(136,148,171,.2),0 24px 20px -24px rgba(71,82,107,.1);
+    -moz-box-shadow: 0 2px 6px 0 rgba(136,148,171,.2),0 24px 20px -24px rgba(71,82,107,.1);
+    -wekit-box-shadow: 0 2px 6px 0 rgba(136,148,171,.2),0 24px 20px -24px rgba(71,82,107,.1);
+  }
