@@ -27,7 +27,7 @@
   --bg-post: #212121;
   --bg-bars: #455963;
   --bg-view: #2c3e50;
-  --bg-focus: #191919;
+  --bg-focus: #67809F;
   --bg-post-hover: #58727e; 
   --bg-bars-hover: #58727e;
   --bg-view-hover: #58727e; 
@@ -45,7 +45,6 @@
   --lop-cl-dark: #D9E7FD;
 /* Background Bars */
   --post-typo:  #2c3e50;
- --bg-bars-shot-1: #dcf2f7;
   --border-bars: #AEAAEA;
   --border-bars-hover: #191919;
 --bg-row-home: rgba(255, 255, 255, 0.8);
@@ -110,7 +109,6 @@
   --lop-cl-dark: #1C274C;
 /* Background Bars */
   --post-typo: #F1F1F1;
- --bg-bars-shot-1: #67809F;
   --border-bars: #D9E7FD;
   --border-bars-hover: #191919;
 --bg-row-home: rgba(0, 0, 0, 1);
