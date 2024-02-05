@@ -1154,3 +1154,66 @@ transform:translateX(-100%);
     max-height: 90%;
   }
 }
+
+
+
+
+/*======= Header View Page ====*/
+.header_view {
+  margin-top: 15px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  & .header_view_page {
+  width: none;
+  margin: 0px;
+  display: block;
+  box-sizing: border-box;
+  padding: 10px 10px;
+  background-color: var(--bg-bars);
+  border: 1px var(--color-root) solid;
+  border-radius: 10px;
+  position: relative;
+  & .declaration {
+    width: 100%;
+    display: flex;
+    align-items: row;
+    justify-content: space-between;
+    & .title {
+      width: 100%;
+      margin: 0;
+      height: 50px;
+      display: flex;
+      justify-content: start;
+      flex-direction: column;
+      & span.title {
+        font-size: 20px;
+        color: var(--post-title);
+        }
+      & span.smile {
+        font-size: 13px;
+        color: var(--post-typo);
+        }
+      }
+    & .circle_info {
+      width: 30px;
+      height: 30px;
+      min-width: 30px;
+      min-height: 30px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--bg-view);
+	& svg {
+	width: 25px;
+	height: 25px;
+	}
+      }
+    }
+  & .controller {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 0.50px var(--color-root) solid;
+    }
+  }
+  }
