@@ -704,20 +704,20 @@ animation-delay:.6s}
 .skybars.skytwo a.icon-href {
   margin: 10px auto;
  & .input-item-list {
- width: 7rem;
- height: 7rem;
+ width: 7.5rem;
+ height: 7.5rem;
  & .radio-title {
- width: 7rem;
- height: 7rem;
+ width: 7.5rem;
+ height: 7.5rem;
  & .icon {
       margin-bottom: 10px;
  & svg {
- width: 2.5rem;
-height: 2.5rem;
+ width: 3rem;
+height: 3rem;
 }
  }
  & .radio-title-label {
-font-size: 0.70rem;
+font-size: 0.85rem;
 }
 }
  }
@@ -727,6 +727,10 @@ margin: 10px auto;
 & .input-item-list {
  width: 9rem;
  height: 9rem;
+ background-color: var(--bg-bars);
+  -webkit-box-shadow: 0px 4px 5px -1px rgba(0,0,0,0.14);
+  box-shadow: 0px 4px 5px -1px rgba(0,0,0,0.14);
+  -moz-box-shadow: 0px 4px 5px -1px rgba(0,0,0,0.14);
 & .radio-title {
  width: 9rem;
  height: 9rem;
@@ -748,8 +752,7 @@ font-size: 0.95rem;
 a.icon-href {
   cursor: none;
   transition: transform 300ms ease;
-  &:hover {
-    
+  &:hover {    
   }
   & .input-item-list {
   position: relative;
@@ -757,14 +760,9 @@ a.icon-href {
   align-items: center;
   justify-content: center;
   border-radius: 5px;
-  background-color: var(--var-background-sky);
-  -webkit-box-shadow: 0px 4px 5px -1px rgba(0,0,0,0.14);
-  box-shadow: 0px 4px 5px -1px rgba(0,0,0,0.14);
-  -moz-box-shadow: 0px 4px 5px -1px rgba(0,0,0,0.14);
     &:hover {
-  background-color: var(--var-background-sky-hover);
-      & .radio-title {
-      
+    background-color: var(--bg-bars-hover);
+      & .radio-title {   
        & .radio-title-label {
         letter-spacing: 1.50px;
       }
