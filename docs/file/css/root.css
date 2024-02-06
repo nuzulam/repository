@@ -413,7 +413,7 @@ box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.75);*/
   align-items: center;
   justify-content: center;
   & .call_list, & .call_menu {
-    border-radius: 50%;
+    border-radius: 5px;
     width: 35px;
     height: 35px;
     display: flex;
@@ -423,8 +423,8 @@ box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.75);*/
       background-color: var(--bg-bars-hover);
     }
     & svg {
-     width: 35px;
-     height: 35px;
+     width: 25px;
+     height: 25px;
     }
    }
   }
