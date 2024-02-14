@@ -167,7 +167,18 @@
   --var-background-sky: #455963;
   --var-background-sky-hover: #58727e;
   }
-
+.msg-alert {
+position: fixed;
+top:10px;
+left: calc(50% - 120px);
+background:#333;
+z-index:1000;
+color:#fff;
+font-family:Helvetica,Arial,sans-serif;
+font-size:15px;
+padding:8px 12px;
+border-radius:5px;
+}
 body{
  transition: 0.4s all;
   font-family: 'DM sans' , sans-serif;
