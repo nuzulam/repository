@@ -283,9 +283,9 @@ max-width: 800px;
   padding: 0px 10px;
   box-sizing: border-box;
  & .byline, & .post-timestamp {
-   color: #111;
+   color: var(--post-title);
   & a.timestamp-link {
-    color: red;
+    color: var(--post-typo);
     }
    }
   }
