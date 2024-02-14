@@ -278,18 +278,7 @@ width: 100%;
 display: block;
 max-width: 800px;
 }
-.item-view .post-footer {
-& .post-footer-line {
-  padding: 0px 10px;
-  box-sizing: border-box;
- & .byline, & .post-timestamp {
-   color: var(--post-title);
-  & a.timestamp-link {
-    color: var(--post-typo);
-    }
-   }
-  }
-}
+
 
 
 
