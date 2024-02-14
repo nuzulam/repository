@@ -160,14 +160,14 @@ section.al-quran .quran-digital div[id*="ayat-"] p + p {
   font-family: 'Quicksand' , sans-serif;
 }
 
-.view-quran .tafsir-digital div span {
+.Main_Tafsir .tafsir-digital div span {
   margin-left: -12px;
   position: relative;
   text-transform: uppercase;
 }
 
-.view-quran .tafsir-digital div.ringkas, 
-.view-quran .tafsir-digital div.tahlili {
+.Main_Tafsir .tafsir-digital div.ringkas, 
+.Main_Tafsir .tafsir-digital div.tahlili {
   width: 200px;
   margin-top: 25px;
   position: relative;
@@ -176,8 +176,8 @@ section.al-quran .quran-digital div[id*="ayat-"] p + p {
   border-bottom-right-radius: 5px;
 }
 
-.view-quran .tafsir-digital div.ringkas::before,
-.view-quran .tafsir-digital div.tahlili::before  {
+.Main_Tafsir .tafsir-digital div.ringkas::before,
+.Main_Tafsir .tafsir-digital div.tahlili::before  {
   content: "";
   position: relative;
   bottom: 0px;
@@ -187,26 +187,26 @@ section.al-quran .quran-digital div[id*="ayat-"] p + p {
   border-style: solid;
   border-color: transparent transparent transparent red;
 }
-.view-quran .tafsir-digital div.ringkas span, 
-.view-quran .tafsir-digital div.tahlili span {
+.Main_Tafsir .tafsir-digital div.ringkas span, 
+.Main_Tafsir .tafsir-digital div.tahlili span {
   font-size: 15px;
   color: #111;
 }
 
 
-div.Tafsir .view-quran div[class*="seayat-"],
-div.Tafsir .view-quran div[id*="seayat-"] {
+div.Tafsir .Main_Tafsir div[class*="seayat-"],
+div.Tafsir .Main_Tafsir div[id*="seayat-"] {
   margin-top: 20px;
   padding: 0px 10px;
   text-align: right;
   box-sizing: border-box;
 }
-div.Tafsir .view-quran div[class*="seayat-"] .flex-alt .number,
-div.Tafsir .view-quran div[id*="seayat-"] .flex-alt .number {
+div.Tafsir .Main_Tafsir div[class*="seayat-"] .flex-alt .number,
+div.Tafsir .Main_Tafsir div[id*="seayat-"] .flex-alt .number {
   display: none;
 }
-div.Tafsir .view-quran div[class*="seayat-"] .flex-alt > span,
-div.Tafsir .view-quran div[id*="seayat-"] .flex-alt > span {
+div.Tafsir .Main_Tafsir div[class*="seayat-"] .flex-alt > span,
+div.Tafsir .Main_Tafsir div[id*="seayat-"] .flex-alt > span {
   padding: 0px;
   text-align: right;
   margin-top: -12px;
@@ -218,8 +218,8 @@ div.Tafsir .view-quran div[id*="seayat-"] .flex-alt > span {
   color: var(--cl-qs-dgt);
   font-family: 'Lateef', cursive;
 }
-div.Tafsir .view-quran div[class*="seayat-"] .flex-alt,
-div.Tafsir .view-quran div[id*="seayat-"] .flex-alt {
+div.Tafsir .Main_Tafsir div[class*="seayat-"] .flex-alt,
+div.Tafsir .Main_Tafsir div[id*="seayat-"] .flex-alt {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -227,8 +227,8 @@ div.Tafsir .view-quran div[id*="seayat-"] .flex-alt {
   justify-content: flex-end;
 }
 
-div.Tafsir .view-quran div[class*="seayat-"] .flex-alt + p,
-div.Tafsir .view-quran div[id*="seayat-"] .flex-alt + p {
+div.Tafsir .Main_Tafsir div[class*="seayat-"] .flex-alt + p,
+div.Tafsir .Main_Tafsir div[id*="seayat-"] .flex-alt + p {
   font-size: 14px;
   text-align: right;
   line-height: 1.4;
@@ -236,8 +236,8 @@ div.Tafsir .view-quran div[id*="seayat-"] .flex-alt + p {
   border-bottom: 0px #111 solid;
   font-family: 'Merriweather', serif;
 }
-div.Tafsir .view-quran div[class*="seayat-"] p + p,
-div.Tafsir .view-quran div[id*="seayat-"] p + p {
+div.Tafsir .Main_Tafsir div[class*="seayat-"] p + p,
+div.Tafsir .Main_Tafsir div[id*="seayat-"] p + p {
   font-size: 15px;
   line-height: 1.5;
   font-weight: 600;
@@ -250,31 +250,31 @@ div.Tafsir .view-quran div[id*="seayat-"] p + p {
 }
 /* Content Tafsir */
 
-div.view-quran .content-tafsir {
+div.Main_Tafsir .content-tafsir {
   margin-top: 10px;
   border-left: 10px var(--line-tafsir) solid;
   position: relative;
   }
-div.view-quran .content-tafsir .tafsir-digital {
+div.Main_Tafsir .content-tafsir .tafsir-digital {
 padding: 0px 5px;
 box-sizing: border-box;
 }
-div.view-quran .content-tafsir .tafsir-digital p{
+div.Main_Tafsir .content-tafsir .tafsir-digital p{
   font-size: 13px;
   line-height: 1.5;
   color: var(--cl-df);
   font-family: 'Lato' , sans-serif;
 }
-div.view-quran .content-tafsir .tafsir-digital > span {
+div.Main_Tafsir .content-tafsir .tafsir-digital > span {
   display: none;
 }
-div.view-quran .content-tafsir i.sumber{
+div.Main_Tafsir .content-tafsir i.sumber{
   font-size: 11px;
   line-height: 1.2;
   margin-left: 5px;
   color: var(--cl-df);
   }
-div.view-quran .content-tafsir .card-tafsir {
+div.Main_Tafsir .content-tafsir .card-tafsir {
   width: 100%;
   line-height: 1.6;
   max-width: none;
@@ -288,7 +288,7 @@ div.view-quran .content-tafsir .card-tafsir {
   overflow: hidden;
   border-left: 10px var(--line-tafsir) solid;
 }
-div.view-quran .content-tafsir .card-tafsir::before {
+div.Main_Tafsir .content-tafsir .card-tafsir::before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -304,7 +304,7 @@ div.view-quran .content-tafsir .card-tafsir::before {
   transform-origin: 50% 50%;
   transition: transform 1.25s ease-out;
 }
-div.view-quran .content-tafsir .card-tafsir span {
+div.Main_Tafsir .content-tafsir .card-tafsir span {
   color: var(--cl-df);
   font-size: 20px;
   line-height: 1.7;
@@ -318,7 +318,8 @@ div.view-quran .content-tafsir .card-tafsir span {
   display: block;
   height: 200px;
   }
- div.code-header a.copy-code {
+
+ .tafsir-module div.copy-header a.button-copy {
   border: none;
   text-align: center;
   padding: 5px 5px;
@@ -337,7 +338,7 @@ div.view-quran .content-tafsir .card-tafsir span {
   bottom: 15px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
-div.code-header a.copy-code span{
+.tafsir-module div.copy-header a.button-copy span{
   line-height: 1;
   color: #fff;
   margin-left: 10px;
@@ -347,7 +348,7 @@ div.code-header a.copy-code span{
   font-size: 14px;
 }
 
-div.code-header a.copy-code .circle-copy {
+.tafsir-module div.copy-header a.button-copy .circle-copy {
   height: 30px;
   width: 30px;
   border-radius: 50%;
@@ -356,7 +357,7 @@ div.code-header a.copy-code .circle-copy {
   align-items: center;
   justify-content: center;
   }
-div.code-header a.copy-code .circle-copy svg {
+.tafsir-module div.copy-header a.button-copy .circle-copy svg {
   height: 20px;
   width: 20px;
   }
