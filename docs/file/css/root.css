@@ -290,7 +290,7 @@ display: block;
 max-width: 800px;
 }
 
-
+.item-view article.post-outer-container section.comments {display:none}
 
 
 
