@@ -293,8 +293,6 @@ max-width: 800px;
 
 .item-view article.post-outer-container section.comments {display:none}
 
-
-
 body div#page_body {
   margin-bottom: 0;
   padding-bottom: 0;
@@ -319,11 +317,9 @@ body .page_body {
   background: yellow;
   & section.view-landing-page {
   width: 100%;
-  /*height: auto;*/
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  background: red;
   }
 }
 #Page2 {
