@@ -80,6 +80,8 @@
   }
 }
 
+/*====== Bottom Post Footer Bone ===*/
+.item-view .post .post-footer.container{display:none}
 
 input.input_article {display:none}
   
