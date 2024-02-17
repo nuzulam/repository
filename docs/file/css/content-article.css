@@ -4,7 +4,7 @@
     CSS WEBKIT BLOG WEBSITE CC-1
 ===================================*/
 :root {
-  --img-logo: url(https://raw.githubusercontent.com/nuzulam/repository/main/image/team-nuzu.png);
+  --author-nuzu: url(https://raw.githubusercontent.com/nuzulam/repository/main/image/team-nuzu.png);
 }
 
 .post-body ::-webkit-scrollbar {
@@ -424,10 +424,9 @@ max-height: 0px;
 .author_image {
   width: 50px;
   height: 50px;
-  background-image: var(--img-logo);
+  background-image: var(--author-nuzu);
   background-size: cover;
   background-repeat: no-repeat;
-  background: pink;
   position: relative;
 }
 
