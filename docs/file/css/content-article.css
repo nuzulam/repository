@@ -3,7 +3,9 @@
 /*===================================
     CSS WEBKIT BLOG WEBSITE CC-1
 ===================================*/
-
+:root {
+  --img-logo: url(https://raw.githubusercontent.com/nuzulam/repository/main/image/team-nuzu.png);
+}
 
 .post-body ::-webkit-scrollbar {
   width: 0px;
