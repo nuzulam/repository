@@ -336,26 +336,7 @@ body .page_body {
   
 }
 
-#navbar {
-  left: 0%;
-  width: 100%;
-  z-index: 5;
-  padding: 0px;
-  display: flex;
-  height: 58px;
-  top: -60px;
-  position: fixed;
-  border-bottom: 0.5px #ddd solid;
-  background-color: #ddd;
-  transition: bottom 0.3s;
-  box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
- /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
--webkit-box-shadow:  0px 2px 12px 0px rgba(0, 0, 0, 0.75);
--moz-box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.75);
-box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.75);*/
-}
+
 .nav-sticky {
   top: 0;
   left: 0;
