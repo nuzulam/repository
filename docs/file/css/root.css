@@ -180,6 +180,7 @@ font-size:15px;
 padding:8px 12px;
 border-radius:5px;
 }
+.item-view .post-title-container {margin-top: 80px;}
 body{
  transition: 0.4s all;
   font-family: 'DM sans' , sans-serif;
