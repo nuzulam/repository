@@ -342,7 +342,7 @@ body .page_body {
   left: 0;
   right: 0;
   z-index: 2;
-  height: auto;
+  height: 60px;
   width: 100%;
   max-width: 800px;
   margin: 0px;
@@ -363,7 +363,7 @@ body .page_body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 120px;
+  height: auto;
   top: 0px;
   position: fixed;
   border-bottom: 0.5px #ddd solid;
