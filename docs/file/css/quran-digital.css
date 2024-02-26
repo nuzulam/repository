@@ -19,6 +19,31 @@
 
 /*Class Blok Al-Quran
 --------------------------------------*/
+.topnav_quran{
+  width: 100%;
+  height: 60px;
+  padding: 5px 5px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  & a, & .setting_quran {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  & svg {
+      width: 30px;
+      height: 30px;
+      }
+    }
+  & .setting_quran {
+    margin-right: 15px;
+    background: red;
+    position: relative;
+    }
+  }
 /* Content Quran */
 .quran-digital.none {
   display: none;
