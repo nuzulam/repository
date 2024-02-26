@@ -428,7 +428,7 @@ body .page_body {
   }
  }
 }
-
+.post-body .navicall{display:none}
 #continue {
 width: 100%;
 display: flex;
