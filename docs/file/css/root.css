@@ -342,7 +342,7 @@ body .page_body {
   left: 0;
   right: 0;
   z-index: 2;
-  height: 60px;
+  height: auto;
   width: 100%;
   max-width: 800px;
   margin: 0px;
