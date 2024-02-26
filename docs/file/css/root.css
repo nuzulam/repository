@@ -351,7 +351,7 @@ body .page_body {
   position: relative;
   align-items: center;
   box-sizing: border-box;
-  background-color: var(--bg-root);
+  background-color: var(--bg-bars);
   justify-content: center;
 }
 #navbar {
@@ -367,7 +367,7 @@ body .page_body {
   top: 0px;
   position: fixed;
   border-bottom: 0.5px #ddd solid;
-  /*background-color: navy;*/
+  background-color: var(--bg-bars);
   transition: top 0.5s;
   box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
   & .nav-sticky-bars {
@@ -384,7 +384,7 @@ body .page_body {
   position: relative;
   align-items: center;
   box-sizing: border-box;
-  background-color: var(--bg-root);
+  background-color: var(--bg-bars);
   justify-content: space-between;
   & .main-nav-icon {
   width: 100%;
