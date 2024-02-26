@@ -335,8 +335,6 @@ body .page_body {
    flex-direction: column;
   
 }
-
-
 .nav-sticky {
   top: 0;
   left: 0;
@@ -352,6 +350,23 @@ body .page_body {
   box-sizing: border-box;
   background-color: var(--bg-root);
   justify-content: center;
+}
+#navbar {
+  left: 0%;
+  width: 100%;
+  z-index: 5;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 120px;
+  top: 0px;
+  position: fixed;
+  border-bottom: 0.5px #ddd solid;
+  /*background-color: navy;*/
+  transition: bottom 1.3s;
+  box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
   & .nav-sticky-bars {
   top: 0;
   left: 0;
