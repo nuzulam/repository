@@ -340,9 +340,10 @@ body .page_body {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 9;
-  height: 58px;
+  z-index: 2;
+  height: 60px;
   width: 100%;
+  max-width: 800px;
   margin: 0px;
   display: flex;
   padding: 0px;
@@ -355,7 +356,7 @@ body .page_body {
 #navbar {
   left: 0%;
   width: 100%;
-  z-index: 5;
+  z-index: 15;
   padding: 0px;
   display: flex;
   align-items: center;
@@ -366,14 +367,14 @@ body .page_body {
   position: fixed;
   border-bottom: 0.5px #ddd solid;
   /*background-color: navy;*/
-  transition: bottom 1.3s;
+  transition: top 0.5s;
   box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
   & .nav-sticky-bars {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 10;
-  height: 58px;
+  z-index: 2;
+  height: 60px;
   width: 100%;
   max-width: 800px;
   margin: 0px;
