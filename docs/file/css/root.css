@@ -202,7 +202,7 @@ width:100%;
 max-width: 1900px;
 }
 
-
+.display-none{display:none}
 
 /*===== Feed View Post Article ===*/
 .feed-view .post-timestamp {
