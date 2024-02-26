@@ -180,10 +180,11 @@ font-size:15px;
 padding:8px 12px;
 border-radius:5px;
 }
-.item-view .post-title-container {margin-top: 80px;}
+
+.item-view .page_body{padding-top: 80px}
 body{
  transition: 0.4s all;
-  font-family: 'DM sans' , sans-serif;
+ font-family: 'DM sans' , sans-serif;
 }
 .feed-view #Blog1 {
 display: none;
