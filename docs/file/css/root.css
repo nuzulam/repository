@@ -347,7 +347,7 @@ body .page_body {
   margin: 0px;
   display: flex;
   padding: 0px;
-  position: fixed;
+  position: relative;
   align-items: center;
   box-sizing: border-box;
   background-color: var(--bg-root);
