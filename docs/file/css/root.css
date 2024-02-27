@@ -1006,11 +1006,12 @@ transform:translateX(-100%);
   display: flex;
   align-items: center;
   justify-content: start;
+  flex-direction: column;
  /* background: pink;*/
   border-bottom: 0.50px #ccc solid;
   & svg {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     }
   & > div {
     display: flex;
