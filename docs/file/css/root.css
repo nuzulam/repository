@@ -580,10 +580,10 @@ center center / 1.25rem no-repeat;
    & a.logo_text {
   height: 40px;
   width:auto;
-  font-size: 23px;
+  font-size: 20px;
   font-weight: 700;
-  cursor:pointer;
-  color: var(--cl-logo-left);
+  cursor:none;
+  color: var(--post-title);
   margin-left: 5px;
   font-family: Stint Ultra Expanded;
   }
