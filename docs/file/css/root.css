@@ -1044,6 +1044,9 @@ transform:translateX(-100%);
    list-style: none;
    border-bottom: 0.50px #ccc solid;
    padding-bottom: 10px;
+   &:last-child {
+     border-bottom: 0px #ccc solid;
+    }
     & li {
       margin-bottom: 0px;
       & a {
