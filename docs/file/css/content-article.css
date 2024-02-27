@@ -47,11 +47,21 @@
     & .article {
    padding: 0px 10px;
    box-sizing: border-box;
-        
-    & img {
+    & figure {
+     margin:0;
+     padding:0;
+     width:100%;
+     border-radius: 6px 6px 0 0;
+     & img {
      max-width: 100%;
      border-radius: 5px;
     }
+    & figcaption {
+      font-size: 8px;
+      text-align: center;
+    }
+  }
+    
    & ol, & ul {
        & li {
       margin-bottom: 10px;
