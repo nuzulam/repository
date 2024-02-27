@@ -579,8 +579,8 @@ center center / 1.25rem no-repeat;
 .logo-nuzulam {
    & a.logo_text {
   height: 40px;
-  width:130px;
-  font-size: 20px;
+  width:auto;
+  font-size: 23px;
   font-weight: 700;
   cursor:pointer;
   color: var(--cl-logo-left);
