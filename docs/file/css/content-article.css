@@ -47,9 +47,16 @@
     & .article {
    padding: 0px 10px;
    box-sizing: border-box;
+        
     & img {
      max-width: 100%;
      border-radius: 5px;
+    }
+   & ol, & ul {
+       & li {
+      margin-bottom: 10px;
+      line-height: 1.5;
+      }
     }
     & p, & li {
         font-size: 18px;
