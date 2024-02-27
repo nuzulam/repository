@@ -1009,10 +1009,21 @@ transform:translateX(-100%);
   flex-direction: column;
  /* background: pink;*/
   border-bottom: 0.50px #ccc solid;
+  & logo.potlogo {
+  width: 200px;
+  height: 200px;
+  padding: 0px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 50%;
   & svg {
-    width: 200px;
-    height: 200px;
+    min-width: 350px;
+    min-height: 350px;
     }
+ }
   & > div {
     display: flex;
     align-items: row;
