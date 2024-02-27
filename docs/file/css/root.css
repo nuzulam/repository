@@ -176,6 +176,13 @@
 *{
 cursor:none;
 }
+/*================================
+  Animatio scale-up-center
+=================================*/
+@-webkit-keyframes scale-up-center{0%{-webkit-transform:scale(0.5);transform: scale(0.5);}100%{-webkit-transform:scale(1);transform:scale(1);}}
+@keyframes scale-up-center{0%{-webkit-transform:scale(0.5);transform:scale(0.5);}100%{-webkit-transform:scale(1);transform:scale(1);}}
+/**== Anim ==**/
+
 .msg-alert {
 position: fixed;
 top:10px;
@@ -1272,26 +1279,4 @@ transform:translateX(-100%);
 
 
 
-/*================================
-  Animatio scale-up-center
-=================================*/
-@-webkit-keyframes scale-up-center {
-  0% {
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-}
-@keyframes scale-up-center {
-  0% {
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-}
+
