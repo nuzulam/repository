@@ -585,7 +585,7 @@ center center / 1.25rem no-repeat;
   cursor:pointer;
   color: var(--cl-logo-left);
   margin-left: 5px;
-  font-family: 'Oswald', sans-serif;
+  font-family: Stint Ultra Expanded;
   }
   & a.logo_text span {
    color: var(--cl-logo-right);
