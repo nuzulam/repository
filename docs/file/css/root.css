@@ -186,6 +186,42 @@
 cursor:none;
 }
 .nav-sticky {
+  & .group_back {
+  min-width: 50px;
+  height:50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  & a.back {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius:5px;
+  & svg {
+    width: 30px;
+    height: 30px;
+    }
+  &:hover {
+    background:var(--bg-bars-hover);
+    }
+  }
+ }
+ & .group_search {
+  height:60px;
+  width: 100%;
+  min-width: 200px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  box-sizing: border-box;
+  /*background: red;*/
+ }
+ & .group_multi {
+
+ }
  & .topnav_default {
     width:100%;
     height:60px;
