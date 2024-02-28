@@ -391,9 +391,9 @@ body .page_body {
   padding: 0px;
   position: relative;
   align-items: center;
+  justify-content: space-between;
   box-sizing: border-box;
   background-color: var(--bg-bars);
-  justify-content: center;
 }
 #navbar {
   left: 0%;
