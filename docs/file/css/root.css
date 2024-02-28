@@ -35,6 +35,7 @@
   --logo-color: #1C274C;
   --logo-color-symbol: #D9E7FD;
   --post-icon: #1C274C;
+  --text-link: #7952b3;
 }
 .theme-dark {
   --bg-post: #212121;
@@ -48,6 +49,7 @@
   --logo-color: #D9E7FD;
   --logo-color-symbol: #1C274C;
   --post-icon: #D9E7FD;
+  --text-link: #ff1493;
 }
 
 .theme-light {
