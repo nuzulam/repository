@@ -408,11 +408,10 @@ body .page_body {
   align-items: center;
   }
   & .main-nav-call {
-  min-width: 150px;
+  min-width: 100px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-
   }
    & .sticky-icon {
   width: 40px;
