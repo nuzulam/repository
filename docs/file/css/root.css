@@ -15,6 +15,13 @@
   --tw-ring-offset-shadow-bottom: 0 0 #0000;
   --tw-ring-shadow-bottom: 0 0 #0000; 
   --tw-shadow-bottom: 0 0 #0000;
+
+  /*== Font-Family ==*/
+  --ff-stint: 'Stint Ultra Expanded', sans-serif;
+  --ff-ultra: 'Ultra' , sans-serif;
+  --ff-roboto: 'Roboto' , sans-serif;
+  --ff-lateef: 'Lateef' serif;
+  --ff-dm: 'DM sans' , sans-serif;
 }
 .theme-light {
   --bg-post: #EAEEF6;
