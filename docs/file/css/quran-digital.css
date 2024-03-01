@@ -770,39 +770,6 @@ transition-timing-function:cubic-bezier(.4,0,.2,1);
 
 
 
-/*==== Navigasi Bottom ====*/
-.quran-boxbars-navigasi {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-	
-  & .boxs-navigasi-fixed {
-  width: 99.50%;
-  max-width: 800px;
-  height: none;
-  z-index: 10;
-  position: fixed;
-  border-top: 0.25px var(--border-nav) solid;
-  border-left: 0.25px var(--border-nav) solid;
-  border-right: 0.25px var(--border-nav) solid;
-  background: var(--bg-bars);
-  border-radius: 25px 25px 0px 0px;
-  text-align: center;
-  box-shadow: 0px -9px 20px -20px black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-    & .top-list {
-    width: 100%;
-    height: 25px;
-    display: flex;
-    border-radius: 24px 24px 0px 0px;
-    align-items: center;
-    justify-content: center;
-    }
-   }
-}
 
 
 .post-body  input.nodis {
