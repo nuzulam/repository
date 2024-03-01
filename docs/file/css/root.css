@@ -1304,6 +1304,42 @@ transform:translateX(-100%);
     -wekit-box-shadow: 0 2px 6px 0 rgba(136,148,171,.2),0 24px 20px -24px rgba(71,82,107,.1);
   }
 
+
+.search_show input.search-text {
+	color: #222;
+	position:relative;
+	z-index:5;
+	transition: z-index 0.8s, width 0.5s, background 0.3s ease, border 0.3s;
+    top: 0px;
+    left: 0px;
+	height: 39px;
+	width: 150px; 
+	margin: 0;
+	padding: 5px 0 5px 40px;
+	box-sizing: border-box;
+	font-size: 16px;
+	font-size: 1rem;
+	cursor: pointer;
+	border-radius: 5px; 
+    border: 1px solid transparent;
+	/*background: url(search.png) no-repeat left 9px center transparent;*/
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDUxMiA1MTIiIGhlaWdodD0iNTEycHgiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB3aWR0aD0iNTEycHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxwYXRoIGQ9Ik01MDMuODY2LDQ3Ny45NzRMMzYwLjk1OCwzMzUuMDUyYzI4LjcyNS0zNC41NDQsNDYuMDE3LTc4LjkxMiw0Ni4wMTctMTI3LjMzNiAgYzAtMTEwLjA4NC04OS4yMjctMTk5LjMxMi0xOTkuMzEyLTE5OS4zMTJDOTcuNTk5LDguNDAzLDguMzUxLDk3LjYzMSw4LjM1MSwyMDcuNzE1YzAsMTEwLjA2NCw4OS4yNDgsMTk5LjMxMiwxOTkuMzEyLDE5OS4zMTIgIGM0OC40MzUsMCw5Mi43OTItMTcuMjkyLDEyNy4zMzYtNDYuMDE3bDE0Mi45MDgsMTQyLjkyMkw1MDMuODY2LDQ3Ny45NzR6IE0yOS4zMzEsMjA3LjcxNWMwLTk4LjMzNCw3OS45ODctMTc4LjMzMiwxNzguMzMyLTE3OC4zMzIgIGM5OC4zMjUsMCwxNzguMzMyLDc5Ljk5OCwxNzguMzMyLDE3OC4zMzJzLTgwLjAwNywxNzguMzMyLTE3OC4zMzIsMTc4LjMzMkMxMDkuMzE4LDM4Ni4wNDcsMjkuMzMxLDMwNi4wNSwyOS4zMzEsMjA3LjcxNXoiIGZpbGw9IiMzNzQwNEQiLz48L3N2Zz4=) no-repeat left 8px center transparent;
+  background-size:24px;
+}
+.search_show input.search-text:focus {
+	z-index:3; 
+	width: 150px; 
+	border: 1px solid #d1d9e6;  
+	background-color: white;
+	outline: none;
+	cursor:auto;
+	padding-right: 5px;
+    box-shadow:inset 4px 4px 4px #d1d9e6, inset -4px -4px 4px #f9f9f9;
+}
+.search_show input.search-text::-webkit-search-cancel-button {
+  display: block;
+	cursor:pointer;
+}
 .nav-sticky {
   & .group_left,& .group_search,& .group_right {
     height:60px;
@@ -1337,7 +1373,6 @@ transform:translateX(-100%);
   }
  }
    & .group_search {
-  height:60px;
   width: 100%;
   min-width: 150px;
   padding: 0px;
@@ -1345,7 +1380,6 @@ transform:translateX(-100%);
   align-items: center;
   justify-content: start;
   box-sizing: border-box;
-   background: pink;
   }
     & .group_right {color:767eeb;}
     & .type_document {
