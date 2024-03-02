@@ -41,6 +41,7 @@
 .post-body ::-webkit-scrollbar-corner {
   background: green;
 }
+.item-view .post .post-title-container{display:block}
 body.item-view .page_body{padding-top:80px}
 .post-body {
  & > .content-article {
