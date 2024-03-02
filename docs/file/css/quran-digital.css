@@ -45,6 +45,7 @@
     position: relative;
     }
   }
+.item-view .post .post-title-container{display:block}
 /* Content Quran */
 .quran-digital.none {
   display: none;
