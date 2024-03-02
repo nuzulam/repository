@@ -45,6 +45,12 @@
     position: relative;
     }
   }
+
+body.item-view .post-title-container > .post-title.entry-title{
+  font-weight: 300;
+  font-family:var(--ff-ultra);
+  }
+
 .item-view .post .post-title-container{display:block}
 /* Content Quran */
 .quran-digital.none {
