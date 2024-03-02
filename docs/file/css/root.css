@@ -378,6 +378,7 @@ body .page_body {
   box-sizing: border-box;
   background-color: var(--bg-bars);
 }
+.item-view .post .post-title-container,
 .post-body .gnavileft,
 .post-body .gnaviright{display:none}
 
