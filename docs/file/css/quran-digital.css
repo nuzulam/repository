@@ -18,34 +18,32 @@
 }
 
 
+/* Number Ayat
+--------------------------------------*/
+.ayat-001 .number span::before{
+content:"١";}
+.ayat-002 .number span::before{
+content:"٢";}
+.ayat-003 .number span::before{
+content:"٣";}
+.ayat-004 .number span::before{
+content:"٤";}
+.ayat-005 .number span::before{
+content:"٥";}
+.ayat-006 .number span::before{
+content:"٦";}
+.ayat-007 .number span::before{
+content:"٧";}
+.ayat-008 .number span::before{
+content:"٨";}
+.ayat-009 .number span::before{
+content:"٩";}
+.ayat-010 .number span::before{
+content:"١٠";}
+
+
 /*Class Blok Al-Quran
 --------------------------------------*/
-.topnav_quran{
-  width: 100%;
-  height: 60px;
-  padding: 5px 5px;
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  & a, & .setting_quran {
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  & svg {
-      width: 30px;
-      height: 30px;
-      }
-    }
-  & .setting_quran {
-    margin-right: 15px;
-    background: red;
-    position: relative;
-    }
-  }
-
 body.item-view .post-title-container > .post-title.entry-title{
   font-weight: 300;
   font-family:var(--ff-ultra);
