@@ -775,6 +775,702 @@ transition-timing-function:cubic-bezier(.4,0,.2,1);
   }
 }
 
+  
+.navibars-get-1 a.back-dasbor {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    min-height: 40px;
+    border-radius: 5px;
+    margin-left: 10px;
+    border: 0.25px var(--border-nav) solid;
+    background: var(--bg-nav);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   /*box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);*/
+  }
+.navibars-get-1 a.back-dasbor:active {
+transform: scale(0.95);
+-webkit-transition: all 0.3s;
+  }
+ 
+.navibars-get-1 a.back-dasbor svg {
+  width: 30px;
+  height: 30px;
+  }
+  
+  
+.info_dialog_surah .overlay {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 5;
+  display: block;
+  position: absolute;
+  opacity: 0.4;
+  background: #222;
+  background: -moz-linear-gradient(-45deg,  #222 50%, #45484d 100%);
+  background: -webkit-linear-gradient(-45deg,  #222 50%,#45484d 100%);
+  background: linear-gradient(135deg,  #000 50%,#45484d 100%);
+  border-radius: 0px;
+  }
+.info_dialog_surah.show {
+  height: 100%;
+  margin: 0px;
+  opacity: 1;
+  padding: 0px;
+  transition: all 1s ease-in-out;
+}
+.info_dialog_surah {
+  width: 100%;
+  height: 0;
+  position: fixed;
+  z-index: 20;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+   padding: 0px;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  border: 0px #ddd solid;
+  transition: all 1s ease-in-out;
+  overflow: hidden;
+  opacity: 0;
+  
+}
+
+.deskripsi-surah {
+  width: 90%;
+  max-width: 800px;
+  box-sizing: border-box;
+  margin: 5px 10px;
+  border-radius: 5px;
+  border: 1px #ccc solid;
+  background: #fff;
+  z-index: 10;
+  position: relative;
+  }
+.deskripsi-surah .title-surah {
+  padding: 10px 15px;
+  text-align: center;
+  background: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  & svg {
+    width: 15px;
+    height: 15px;
+    }
+  }
+.deskripsi-surah .text-deskripsi-surah {
+  padding-left: 5px;
+  
+}
+.deskripsi-surah .text-deskripsi-surah p{
+  font-size: 13px;
+}
+  
+  
+/*==== Navigasi Bottom ====*/
+.quran-boxbars-navigasi {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+	
+  & .boxs-navigasi-fixed {
+  width: none;
+  max-width: 800px;
+  height: none;
+  z-index: 10;
+  position: fixed;
+  
+  
+  text-align: center;
+  box-shadow: 0px -9px 20px -20px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+    & .top-list {
+    width: 100%;
+    height: 25px;
+    padding: 2px 5px;
+    box-sizing: border-box;
+    border-radius: 24px 24px 0px 0px;
+    align-items: center;
+    justify-content: center;
+
+    }
+   }
+}
+
+  
+  
+  
+input[id="QsLayView-Set9"] ~ .component-quran .quran-boxbars-navigasi .boxs-navigasi-fixed {
+  position: relative;
+}
+  
+input[id="QsLayView-Set9"]:checked ~ .component-quran .quran-boxbars-navigasi .boxs-navigasi-fixed {
+  position: fixed;
+}
+  
+  
+input[id="QsLayView-Set10"] ~ .component-quran .quran-boxbars-navigasi .boxs-navigasi-fixed {
+	-webkit-animation: slide-in-top-quran 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top-quran 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+input[id="QsLayView-Set10"]:checked ~ .component-quran .quran-boxbars-navigasi .boxs-navigasi-fixed {
+  -webkit-animation: slide-in-bottom-quran 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-bottom-quran 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/* ----------------------------------------
+ * animation slide-in-bottom
+ * ---------------------------------------- */
+@-webkit-keyframes slide-in-bottom-quran {
+  0% {
+    -webkit-transform: translateY(160px);
+            transform: translateY(160px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+@keyframes slide-in-bottom-quran {
+  0% {
+    -webkit-transform: translateY(160px);
+            transform: translateY(160px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+/* ----------------------------------------
+ * animation slide-in-top
+ * ---------------------------------------- */
+@-webkit-keyframes slide-in-top-quran {
+  0% {
+    -webkit-transform: translateY(-160px);
+            transform: translateY(-160px);
+    /*opacity: 0;*/
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-top-quran {
+  0% {
+    -webkit-transform: translateY(-160px);
+            transform: translateY(-160px);
+   /* opacity: 0;*/
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+ 
+  
+input[id="QsLayView-Set10"]:checked ~ .component-quran .quran-boxbars-navigasi .boxs-navigasi-fixed .top-list label.LabFor10 svg {
+  -webkit-animation: flip-horizontal-top 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	        animation: flip-horizontal-top 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+input[id="QsLayView-Set10"] ~ .component-quran .quran-boxbars-navigasi .boxs-navigasi-fixed .top-list label.LabFor10 svg {
+  -webkit-animation: flip-horizontal-bottom 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	        animation: flip-horizontal-bottom 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+/* ----------------------------------------
+ * animation flip-harizontal-top
+ * ---------------------------------------- */
+ @-webkit-keyframes flip-horizontal-top {
+  0% {
+    -webkit-transform: rotateX(-180deg);
+            transform: rotateX(-180deg);
+  }
+  100% {
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+  }
+}
+@keyframes flip-horizontal-top {
+  
+  0% {
+    -webkit-transform: rotateX(-180deg);
+            transform: rotateX(-180deg);
+  }
+  100% {
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+  }
+}
+  /* ----------------------------------------
+ * animation flip-harizontal-bottom
+ * ---------------------------------------- */
+@-webkit-keyframes flip-horizontal-bottom {
+  0% {
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+  }
+  100% {
+    -webkit-transform: rotateX(-180deg);
+            transform: rotateX(-180deg);
+  }
+}
+@keyframes flip-horizontal-bottom {
+  0% {
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+  }
+  100% {
+    -webkit-transform: rotateX(-180deg);
+            transform: rotateX(-180deg);
+  }
+}
+  
+  
+  
+  
+input[id="QsLayView-Set9"] ~ input[id="QsLayView-Set10"] ~ .component-quran .quran-boxbars-navigasi .boxs-navigasi-fixed {
+  width: 100%;
+  bottom: 0px;
+  border-top: 0px var(--border-nav) solid;
+  border-left: 0px var(--border-nav) solid;
+  border-right: 0px var(--border-nav) solid;
+  border-radius: 0px 0px 0px 0px;
+  background: var(--bg-post);
+  /*bottom: -104px;*/
+  	-webkit-animation: slide-in-top-quran 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top-quran 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  & .top-list {
+    display: none;
+    }
+  & .getnav {
+    background-color: var(--bg-post);
+    }
+}
+input[id="QsLayView-Set9"]:checked ~ 
+input[id="QsLayView-Set10"] ~ .component-quran .quran-boxbars-navigasi .boxs-navigasi-fixed {
+  width: 99.50%;
+  bottom: -164px;
+  border-top: 0.25px var(--border-nav) solid;
+  border-left: 0.25px var(--border-nav) solid;
+  border-right: 0.25px var(--border-nav) solid;
+  border-radius: 25px 25px 0px 0px;
+  background: var(--bg-bars);
+  /*bottom: -164px;*/
+  	-webkit-animation: slide-in-top-quran 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top-quran 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  & .top-list {
+    display: flex;
+    }
+  & .getnav {
+    background-color: var(--bg-bars);
+    }
+}
+input[id="QsLayView-Set9"] ~ input[id="QsLayView-Set10"]:checked ~ .component-quran .quran-boxbars-navigasi .boxs-navigasi-fixed {
+  width: 100%;
+  bottom: 0px;
+  border-top: 0px var(--border-nav) solid;
+  border-left: 0px var(--border-nav) solid;
+  border-right: 0px var(--border-nav) solid;
+  border-radius: 0px 0px 0px 0px;
+  background: var(--bg-post);
+   -webkit-animation: slide-in-bottom-quran 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-bottom-quran 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  & .top-list {
+    display: none;
+    }
+  & .getnav {
+    background-color: var(--bg-post);
+  }
+}
+input[id="QsLayView-Set9"]:checked ~ input[id="QsLayView-Set10"]:checked ~ .component-quran .quran-boxbars-navigasi .boxs-navigasi-fixed {
+  width: 99.50%;
+  bottom: 0px;
+  border-top: 0.25px var(--border-nav) solid;
+  border-left: 0.25px var(--border-nav) solid;
+  border-right: 0.25px var(--border-nav) solid;
+  border-radius: 25px 25px 0px 0px;
+  background: var(--bg-bars);
+   -webkit-animation: slide-in-bottom-quran 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-bottom-quran 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  & .top-list {
+    display: flex;
+    }
+  & .getnav {
+    background-color: var(--bg-bars);
+  }
+}
+  
+.quran-boxbars-navigasi .boxs-navigasi-fixed 
+.quran-boxbars-navigasi .boxs-navigasi-fixed label.LabFor10 {
+  bottom: 0px;
+  width: 40px;
+  height: 25px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+ .quran-boxbars-navigasi .boxs-navigasi-fixed label.LabFor10 svg {
+   width: 50px;
+   height: 30px;
+  fill: #aeaaea;
+   }
+.quran-boxbars-navigasi .boxs-navigasi-fixed .getnav {
+  position: relative;
+  width: 100%;
+  height: none;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  
+  }
+.navibars-get-1 {
+  width: 100%;
+  max-width: 750px;
+  height: 52px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  display: flex;
+ align-items: center;
+ justify-content: space-between;
+  }
+.navibars-get-2 {
+  width: 100%;
+  max-width: 750px;
+  height: 52px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  display: flex;
+ align-items: center;
+ justify-content: center;
+  position: relative;
+  }
+  
+  
+  
+/*=== Circle Setting ===*/
+.circle-qs-set {
+  z-index: 10;
+  margin-left: 10px;
+  /*right: 15px;*/
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  min-height: 40px;
+  border-radius: 5px;
+  border: none;
+  cursor: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border: 0.25px var(--border-nav) solid;
+  background: var(--bg-nav);
+  /*box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  */
+  &:hover svg {
+  transform: scale(1.1, 1.1);
+ }  
+  &:active {
+    transform: translateY(1px);
+    filter: saturate(150%);
+  }
+}
+
+.circle-qs-set svg {
+  width: 30px;
+  height: 30px;
+  fill: var(--cl-nav);
+ }
+  
+.content-quran{list-style:none;
+  & li {
+    margin-left: -40px;
+    }
+  }
+  
+
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+.settings_pages .overlay {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 5;
+  display: block;
+  position: absolute;
+  opacity: 0.4;
+  background: #222;
+  background: -moz-linear-gradient(-45deg,  #222 50%, #45484d 100%);
+  background: -webkit-linear-gradient(-45deg,  #222 50%,#45484d 100%);
+  background: linear-gradient(135deg,  #000 50%,#45484d 100%);
+  border-radius: 0px;
+  }
+
+.settings_pages.show {
+  height: 100%;
+  margin: 0px;
+  opacity: 1;
+  padding: 0px;
+  transition: all 0.5s ease-in-out;
+}
+.settings_pages {
+  width: 100%;
+  height: 0;
+  position: fixed;
+  z-index: 20;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   padding: 0px;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  border: 0px #ddd solid;
+  transition: all 0.5s ease-in-out;
+  overflow: hidden;
+  opacity: 0;
+  & .settings_pages_bars {
+    z-index:10;
+    width: 90%;
+    height: 900px;
+    max-height: 90%;
+    display: block;
+    position: relative;
+    background-color: #F1F1F1;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='250' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.1'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/svg%3E");
+    border: 2px #111 solid;
+    & .pages_top {
+      width: none;
+      padding: 7px 10px;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #888;
+      border-bottom: 2px #111 solid;
+      & span {
+        color: var(--text-post);
+        font-size: 17px;
+        font-weight: bold;
+        font-family:var(--ff-ultra);
+        }
+      & svg {
+        width: 20px;
+        height: 20px;
+        }
+      }
+    & .pages_content{
+      overflow: auto;
+      width: 100%;
+      height: calc(100% - 37px)
+       }
+      }
+    }
+
+.multi_setpage {
+    padding: 25px 10px;
+    box-sizing: border-box;
+    & .mainroot {
+    background-color: #888;
+    border-radius: 10px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: row;
+    height: 900px;
+    @media (max-width: 500px){
+    
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    }
+  & .setmode-1, & .setmode-2 {
+    margin: 0px auto;
+    height: 600px;
+    /*background: #888;*/
+    padding: 20px 5px;
+    box-sizing: border-box;
+    }
+  & .focus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+  & .setmode-1 {
+    width: 100%;
+    min-width: 300px;
+    & .title_string {
+      width: 100%;
+      text-align: center;
+      & span {
+        font-size: 20px;
+        color:var(--post-typo);
+        }
+      }
+  & .setbox-1 {
+      width: 100%;
+      
+      display: flex;
+      justify-content: center;
+      
+    & .box {
+      width: 100px;
+      height: 150px;
+      margin: 10px auto;
+      background: #ccc;
+      position: relative;
+      border-radius: 10px;
+      overflow: hidden;
+      & .base {
+        width: 100%;
+        height: 140px;
+        background: #fff;
+        margin: 5px 5px;
+        border-radius: 10px 10px 10px 10px;
+        position: relative;
+        overflow: auto;
+        & .mode {
+        font-size: 13px;
+        text-align: center;
+        padding: 3px 7px;
+        box-sizing: border-box;
+        }
+        & .vs {
+          left: 0;
+          bottom:0;
+          z-index: 5;
+          width: 100%;
+          height: 13px;
+          position: absolute;
+          background: #111;
+          }
+        }
+      & label.typebed, & label.typepup {
+    z-index: 12;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 70px;
+    position: absolute;
+    }
+      & .circle {
+        z-index: 1;
+        right: 0px;
+        top: 0px;
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+        border-radius: 0px 5px 0px 20px;
+        position: absolute;
+        border: 2px #888 solid;
+        background-color: #fff;
+        text-align: center;
+        padding: 3px 3px 3px 5px ;
+        box-sizing: border-box;
+        
+        }
+      
+      }
+    & .demo {
+      width: 100%;
+      height: 50px;
+      z-index: 5;
+      position: absolute;
+      background: #767eeb;
+      }
+    & .embed {
+     & .demo {
+       width: 90%;
+       margin: 10px 5px 0px 5px;
+       bottom: 15px;
+       }
+     }
+    & .popup {
+      & .demo {
+        border-radius: 10px 10px 0px 0px;
+        bottom: 0;
+      }
+     }
+    }
+    & .deskrip-demo {
+      background: #f1f1f1;
+      padding: 5px 10px;
+      box-sizing: border-box;
+      border-radius: 5px;
+      & p{
+        font-size: 11px;
+        text-align: left;
+        }
+      }
+  }
+  & .setmode-2 {
+    width: 100%;
+    min-width: 300px;
+    
+  }
+  & .mode {
+    padding: 10px 10px
+    box-sizing: border-box;
+    }
+    }
+  }
+  
+
+input[id="QsLayView-Set9"] ~ .component-quran .settings_pages .popup .circle,
+input[id="QsLayView-Set9"]:checked ~ .component-quran .settings_pages .embed .circle,
+input[id="QsLayView-Set9"] ~ .component-quran .settings_pages label.typebed,
+input[id="QsLayView-Set9"]:checked ~ .component-quran .settings_pages label.typepup {
+  display: none;
+}
+input[id="QsLayView-Set9"]:checked ~ .component-quran .settings_pages .popup .circle,
+input[id="QsLayView-Set9"] ~ .component-quran .settings_pages .embed .circle,
+input[id="QsLayView-Set9"]:checked ~ .component-quran .settings_pages label.typebed,
+input[id="QsLayView-Set9"] ~ .component-quran .settings_pages label.typepup {
+  display: flex;
+}
 
 
 
