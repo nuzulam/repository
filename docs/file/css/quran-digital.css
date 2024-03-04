@@ -18,29 +18,122 @@
 }
 
 
-/* Number Ayat
+/* Number Ayat before
 --------------------------------------*/
-.ayat-001 .number span::before{
-content:"١";}
-.ayat-002 .number span::before{
-content:"٢";}
-.ayat-003 .number span::before{
-content:"٣";}
-.ayat-004 .number span::before{
-content:"٤";}
-.ayat-005 .number span::before{
-content:"٥";}
-.ayat-006 .number span::before{
-content:"٦";}
-.ayat-007 .number span::before{
-content:"٧";}
-.ayat-008 .number span::before{
-content:"٨";}
-.ayat-009 .number span::before{
-content:"٩";}
-.ayat-010 .number span::before{
-content:"١٠";}
-
+  .ayat-001 .number span::before{content:"١";}
+  .ayat-002 .number span::before{content:"٢";}
+  .ayat-003 .number span::before{content:"٣";}
+  .ayat-004 .number span::before{content:"٤";}
+  .ayat-005 .number span::before{content:"٥";}
+  .ayat-006 .number span::before{content:"٦";}
+  .ayat-007 .number span::before{content:"٧";}
+  .ayat-008 .number span::before{content:"٨";}
+  .ayat-009 .number span::before{content:"٩";}
+  .ayat-010 .number span::before{content:"١٠";}
+  .ayat-011 .number span::before{content:"11";}
+  .ayat-012 .number span::before{content:"12";}
+  .ayat-013 .number span::before{content:"13";}
+  .ayat-014 .number span::before{content:"14";}
+  .ayat-015 .number span::before{content:"15";}
+  .ayat-016 .number span::before{content:"16";}
+  .ayat-017 .number span::before{content:"17";}
+  .ayat-018 .number span::before{content:"18";}
+  .ayat-019 .number span::before{content:"19";}
+  .ayat-020 .number span::before{content:"20";} 
+  .ayat-021 .number span::before{content:"21";}
+  .ayat-022 .number span::before{content:"22";}
+  .ayat-023 .number span::before{content:"23";}
+  .ayat-024 .number span::before{content:"24";}
+  .ayat-025 .number span::before{content:"25";}
+  .ayat-026 .number span::before{content:"26";}
+  .ayat-027 .number span::before{content:"27";}
+  .ayat-028 .number span::before{content:"28";}
+  .ayat-029 .number span::before{content:"29";}
+  .ayat-030 .number span::before{content:"30";}
+  .ayat-031 .number span::before{content:"31";}
+  .ayat-032 .number span::before{content:"32";}
+  .ayat-033 .number span::before{content:"33";}
+  .ayat-034 .number span::before{content:"34";}
+  .ayat-035 .number span::before{content:"35";}
+  .ayat-036 .number span::before{content:"36";}
+  .ayat-037 .number span::before{content:"37";}
+  .ayat-038 .number span::before{content:"38";}
+  .ayat-039 .number span::before{content:"39";}
+  .ayat-040 .number span::before{content:"40";}
+  .ayat-041 .number span::before{content:"41";}
+  .ayat-042 .number span::before{content:"42";}
+  .ayat-043 .number span::before{content:"43";}
+  .ayat-044 .number span::before{content:"44";}
+  .ayat-045 .number span::before{content:"45";}
+  .ayat-046 .number span::before{content:"46";}
+  .ayat-047 .number span::before{content:"47";}
+  .ayat-048 .number span::before{content:"48";}
+  .ayat-049 .number span::before{content:"49";}
+  .ayat-050 .number span::before{content:"50";}
+  .ayat-051 .number span::before{content:"51";}
+  .ayat-052 .number span::before{content:"52";}
+  .ayat-053 .number span::before{content:"53";}
+  .ayat-054 .number span::before{content:"54";}
+  .ayat-055 .number span::before{content:"55";}
+  .ayat-056 .number span::before{content:"56";}
+  .ayat-057 .number span::before{content:"57";}
+  .ayat-058 .number span::before{content:"58";}
+  .ayat-059 .number span::before{content:"59";}
+  .ayat-060 .number span::before{content:"60";}
+  .ayat-061 .number span::before{content:"61";}
+  .ayat-062 .number span::before{content:"62";}
+  .ayat-063 .number span::before{content:"63";}
+  .ayat-064 .number span::before{content:"64";}
+  .ayat-065 .number span::before{content:"65";}
+  .ayat-066 .number span::before{content:"66";}
+  .ayat-067 .number span::before{content:"67";}
+  .ayat-068 .number span::before{content:"68";}
+  .ayat-069 .number span::before{content:"69";}
+  .ayat-070 .number span::before{content:"70";}
+  .ayat-071 .number span::before{content:"71";}
+  .ayat-072 .number span::before{content:"72";}
+  .ayat-073 .number span::before{content:"73";}
+  .ayat-074 .number span::before{content:"74";}
+  .ayat-075 .number span::before{content:"75";}
+  .ayat-076 .number span::before{content:"76";}
+  .ayat-077 .number span::before{content:"77";}
+  .ayat-078 .number span::before{content:"48";}
+  .ayat-079 .number span::before{content:"79";}
+  .ayat-080 .number span::before{content:"80";}
+  .ayat-081 .number span::before{content:"81";}
+  .ayat-082 .number span::before{content:"82";}
+  .ayat-083 .number span::before{content:"83";}
+  .ayat-084 .number span::before{content:"84";}
+  .ayat-085 .number span::before{content:"85";}
+  .ayat-086 .number span::before{content:"86";}
+  .ayat-087 .number span::before{content:"87";}
+  .ayat-088 .number span::before{content:"88";}
+  .ayat-089 .number span::before{content:"89";}
+  .ayat-090 .number span::before{content:"90";}
+  .ayat-091 .number span::before{content:"91";}
+  .ayat-092 .number span::before{content:"92";}
+  .ayat-093 .number span::before{content:"93";}
+  .ayat-094 .number span::before{content:"94";}
+  .ayat-095 .number span::before{content:"95";}
+  .ayat-096 .number span::before{content:"96";}
+  .ayat-097 .number span::before{content:"97";}
+  .ayat-098 .number span::before{content:"98";}
+  .ayat-099 .number span::before{content:"99";}
+  .ayat-100 .number span::before{content:"100";}
+  .ayat-101 .number span::before{content:"101";}
+  .ayat-102 .number span::before{content:"102";}
+  .ayat-103 .number span::before{content:"103";}
+  .ayat-104 .number span::before{content:"104";}
+  .ayat-105 .number span::before{content:"105";}
+  .ayat-106 .number span::before{content:"106";}
+  .ayat-107 .number span::before{content:"107";}
+  .ayat-108 .number span::before{content:"108";}
+  .ayat-109 .number span::before{content:"109";}
+  .ayat-110 .number span::before{content:"110";}
+  .ayat-111 .number span::before{content:"111";}
+  .ayat-112 .number span::before{content:"112";}
+  .ayat-113 .number span::before{content:"113";}
+  .ayat-114 .number span::before{content:"114";}
 
 /*Class Blok Al-Quran
 --------------------------------------*/
