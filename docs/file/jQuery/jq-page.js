@@ -2,7 +2,7 @@
 userview = {
     //Model Popup
     objUserViewBtn: ".UserView",
-    objUserCloseBtn: ".overlay, .profile-select-box, .close__user",
+    objUserCloseBtn: ".overlay_user, .profile-select-box, .close__user",
     objUserDataBars: "data-user"
 }  
 $(userview.objUserViewBtn).bind("click", function () {
@@ -12,7 +12,7 @@ $(userview.objUserViewBtn).bind("click", function () {
 
             
             //Fade In Modal Pop Up
-            $(".overlay, #" + strDataUserName).fadeIn();
+            $(".overlay_user, #" + strDataUserName).fadeIn();
 
         }
     });
