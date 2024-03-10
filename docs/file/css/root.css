@@ -211,6 +211,7 @@ html {
   scroll-behavior: smooth;
   overflow-x: hidden !important;
 }
+body .widget.HTML h3.title {display:none;}
 .item-view .page_body{padding-top:130px}
 body{
  transition: 0.4s all;
