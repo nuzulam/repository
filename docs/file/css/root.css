@@ -614,7 +614,7 @@ center center / 1.25rem no-repeat;
   margin-left: 5px;
   font-family: Stint Ultra Expanded;
   }
-  & a.logo_text span {
+  & a.logo_text span.net {
    font-size:10px;
    color: var(--text-net);
   }
