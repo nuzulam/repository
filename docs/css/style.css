@@ -8,6 +8,239 @@
   --bg-img-qori-mrifai: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMjjfoy64JSYtOlsykVDWaKrWS2oPHWGtJOiQUyHePOqxf26Ti7q4Oijt1EuF9NMUP-yPPBW4z1SNtQnGWW7TnSXm7D-JdxX8rC3z7pQqiMmE8c5ICPOon6M-L7V_dR5cjnn_G2vhelG5zPi629bGEQep-TdZkttDBzwHb4_W6jkPdn1KmhiLGJ4V6cVE/s1600/images%20%2814%29_1.jpeg);
 }
 
+
+/*================================
+  Profile User Pop Up
+=================================*/
+.profile_central {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  & div.user {
+    display: none;
+    position: fixed;
+    top: 5%;
+    left: auto;
+    right: auto;
+    bottom: 5%;
+    z-index: 203 !important;
+    width: 85%;
+    max-width: 600px;
+    height: none;
+    min-height: 100px;
+    max-height: 100%;
+    border-radius: 5px;
+    background: #FFF;
+    cursor: default;
+    &.silver {
+      border: 10px #767eeb solid;
+      & .avatars::before {
+        background-color: rgba(36, 49, 224, 0.27);
+      }
+    }
+    &.gold {
+      border: 10px #f0e51d solid;
+      & .avatars::before {
+        background-color: rgba(230, 225, 133, 0.27);
+      }
+    }
+    &.platinum {
+      border: 10px #6b6b66 solid;
+      & .avatars::before {
+        background-color: #888;
+      }
+    }
+}
+  & .user_post {
+  overflow: auto;
+  margin: 0px;
+  border-radius: 0px;
+  height: 100%;
+  & .avatars { 
+    min-height: 200px;
+   transition: .4s; 
+   overflow: hidden;
+   margin: 0px;
+   border: 0px #111 solid;
+   border-radius: 0px;
+   position: relative; 
+   height: auto;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   flex-direction: column;
+   &::before {
+  content: "";
+  height: 100%; 
+  width: 100%;
+  
+     border-top-left-radius: 0px;
+     border-top-right-radius: 0px;
+     border-bottom-left-radius: 50%;
+     border-bottom-right-radius: 50%;
+  position: absolute;
+  top: -50px;
+  right: 0;
+  left: 0;
+  margin: auto; 
+   
+ }
+   & .profile {
+  --size: 130px;
+  --radius: 50%;
+     bottom: 0;
+  transition: .4s; 
+  margin-top: 20px;
+  height: var(--size);
+  width: var(--size);
+  border: 2px #fff solid;
+  border-radius: var(--radius);
+  background-image: var(--img);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  &:hover {
+  
+ transform: translateY(-10px);
+ box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+  /*background: #fff;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);*/
+}
+  }
+   & h1 {
+    font-size: 25px;
+    font-weight: 500;
+    }
+   & .bars_button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  & .btn-visit-audio {
+   font-size: 17px;
+   font-weight: bold;
+   display: block;
+   text-align: center;
+   height: auto;
+   width: 70%;
+  background: #4E4DED;
+  padding: 10px 7px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+  color: #FFF;
+  position: relative;
+  z-index: 1;
+  &::after {
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #767EEB;
+  border-radius: 5px;
+  transition: .5s;z-index: -1;
+  }
+  &:hover {
+    color: white !important;
+    &::after {
+    width: 100%;
+    height: 100%;
+  }
+  }
+  &:active {
+  top: 1px;
+  transform: scale(0.97);
+-webkit-transition: all 0.3s;
+    }
+    }
+   }
+  }
+ }
+  & .overlay {
+    border-radius: 0%;
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    margin: 0%;
+    padding: 0%;
+    bottom: 0%;
+    z-index: 115 !important;
+    width: 100%;
+    max-width: none;
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    cursor: default;
+    background: rgba(25,25,25,0.4);
+  }
+}
+.user_info_bars {
+  padding: 5px 10px;
+  box-sizing: border-box;
+  text-align: center;
+  & .user_date {
+    & h3 {
+      font-weight: 200;
+      font-size: 20px;
+      letter-spacing: 1px;
+      position: relative;
+      margin-bottom: -1px;
+      font-family: var(--ff-ultra);
+      }
+    & span {
+      font-weight: 400;
+      font-size: 17px;
+      font-family: var(--ff-roboto);
+      }
+    & hr {
+      width: 100px;
+      background: navy;
+      border-radius: 4px;
+      border: 3px #6b6b66 solid;
+      }
+    & p {
+      font-weight: 400;
+      font-size: 14px;
+      font-family: var(--ff-roboto);
+      }
+    }
+  }
+div[class*="navuser_type"] {
+  top: 15px;
+  width: 100%;
+  display: block;
+  position: relative;
+ & a {
+   color: #111;
+   font-size: 15px;
+   text-align: center;
+   border-radius: 3px;
+   border: 1px #111 solid;
+   padding: 5px 7px;
+   box-sizing: border-box;
+   }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*================================
+  Setting Layout Multi Page
+=================================*/
+
 .settings_pages.show {
   height: 100%;
   margin: 0px;
