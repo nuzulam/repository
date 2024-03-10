@@ -159,7 +159,7 @@
    }
   }
  }
-  & .overlay {
+  & .overlay_user {
     border-radius: 0%;
     display: none;
     position: fixed;
