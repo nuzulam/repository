@@ -64,7 +64,7 @@ $(".test-action").on("click", function(e){
 	}
 	toggle_test();
 
-  function toggle_comment() {
+function toggle_comment() {
 
 
 // Click on video thumbnail or link	    
