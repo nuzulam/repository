@@ -35,6 +35,7 @@ $(userview.objUserCloseBtn).bind("click", function () {
 $(document).ready(function(){
 	
 // Click on video thumbnail or link	    
+
 $(".test-action").on("click", function(e){
 	      $("body").addClass("show-action noscroll");
       });
