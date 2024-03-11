@@ -21,3 +21,79 @@ $(userview.objUserViewBtn).bind("click", function () {
 $(userview.objUserCloseBtn).bind("click", function () {
         $(".pb").fadeOut();
     });
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function(){
+
+  function toggle_comment() {
+
+
+// Click on video thumbnail or link	    
+$(".call_comment").on("click", function(e){
+	      $("body").addClass("show-comment noscroll");
+      });
+
+  // Close and Reset the Video Modal
+
+  function close_comment() {
+        // re-hide the video modal
+        $("body").removeClass("show-comment noscroll");
+}
+
+      // if the 'close' button/element, or the overlay are clicked 
+	    $('body').on('click', '.comment-close, .comment-bars .overlay', function(event) {
+          // call the close and
+          close_comment();
+      });
+      // if the ESC key is tapped
+      $('body').keyup(function(e) {
+          // ESC key maps to keycode `27`
+          if (e.keyCode == 27) { 
+            // call the close and reset function
+            close_comment();
+          }
+      });
+	}
+	toggle_comment();
+  
+  
+function toggle_test() {
+
+
+// Click on video thumbnail or link	    
+$(".test-action").on("click", function(e){
+	      $("body").addClass("show-action noscroll");
+      });
+
+  // Close and Reset the Video Modal
+
+  function close_test() {
+        // re-hide the video modal
+        $("body").removeClass("show-action noscroll");
+}
+
+      // if the 'close' button/element, or the overlay are clicked 
+	    $('body').on('click', '.close-test, .test-notif .overlay', function(event) {
+          // call the close and
+          close_test();
+      });
+      // if the ESC key is tapped
+      $('body').keyup(function(e) {
+          // ESC key maps to keycode `27`
+          if (e.keyCode == 27) { 
+            // call the close and reset function
+            close_test();
+          }
+      });
+	}
+	toggle_test();
+});
