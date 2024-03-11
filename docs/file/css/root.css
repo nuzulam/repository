@@ -16,7 +16,7 @@
   --log-circle-1: #1C274C;
   --log-circle-2: #d2afe0;
   --log-circle-3: #c381de;
-  --log-circle-4: #7b03fc;
+  --log-circle-4: #7952b3;
   --log-circle-5: #ff1bab;
   /*== Color Star==*/
   --log-poin-star: #fcbe03;
@@ -27,7 +27,7 @@
   --log-line-2: #1C274C;
   /*== Color Text ==*/
   --log-text-user: #1C274C;
-  --log-text-name: #7b03fc;
+  --log-text-name: #7952b3;
   --log-text-net: #ff1bab;
   --log-text-arab: #ccc;
 }
@@ -64,7 +64,7 @@
   --bg-bars-hover: #f1f1f1;
   --bg-view-hover: #58727e;
   --bg-btn-top: #d0edf2;
-  --color-logo: #7b03fc;
+  --color-logo: #7952b3;
   --logo-color: #1C274C;
   --logo-color-symbol: #D9E7FD;
   --post-icon: #1C274C;
