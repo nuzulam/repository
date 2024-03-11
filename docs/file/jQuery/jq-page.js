@@ -34,6 +34,41 @@ $(userview.objUserCloseBtn).bind("click", function () {
 
 $(document).ready(function(){
 
+	
+
+// Click on video thumbnail or link	    
+$(".test-action").on("click", function(e){
+	      $("body").addClass("show-action noscroll");
+      });
+
+  // Close and Reset the Video Modal
+
+  function close_test() {
+        // re-hide the video modal
+        $("body").removeClass("show-action noscroll");
+}
+
+      // if the 'close' button/element, or the overlay are clicked 
+	    $('body').on('click', '.close-test, .test-notif .overlay', function(event) {
+          // call the close and
+          close_test();
+      });
+      // if the ESC key is tapped
+      $('body').keyup(function(e) {
+          // ESC key maps to keycode `27`
+          if (e.keyCode == 27) { 
+            // call the close and reset function
+            close_test();
+          }
+      });
+	}
+	toggle_test();
+
+
+
+  //  Dokumentasi Kode jquery Section 1
+ //   Untuk Bagian Artikel Post
+//
   function toggle_comment() {
 
 
@@ -66,34 +101,34 @@ $(".call_comment").on("click", function(e){
 	toggle_comment();
   
   
-function toggle_test() {
+function toggle_pen() {
 
 
 // Click on video thumbnail or link	    
-$(".test-action").on("click", function(e){
-	      $("body").addClass("show-action noscroll");
+$(".pen-start").on("click", function(e){
+	      $("body").addClass("pen-show noscroll");
       });
 
   // Close and Reset the Video Modal
 
-  function close_test() {
+  function close_pen() {
         // re-hide the video modal
-        $("body").removeClass("show-action noscroll");
+        $("body").removeClass("pen-show noscroll");
 }
 
       // if the 'close' button/element, or the overlay are clicked 
-	    $('body').on('click', '.close-test, .test-notif .overlay', function(event) {
+	    $('body').on('click', '.close-pen, .pen-main .overlay', function(event) {
           // call the close and
-          close_test();
+          close_pen();
       });
       // if the ESC key is tapped
       $('body').keyup(function(e) {
           // ESC key maps to keycode `27`
           if (e.keyCode == 27) { 
             // call the close and reset function
-            close_test();
+            close_pen();
           }
       });
 	}
-	toggle_test();
+	toggle_pen();
 });
