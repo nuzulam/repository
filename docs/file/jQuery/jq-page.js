@@ -98,6 +98,7 @@ $(".pen-start").on("click", function(e){
 	}
 	toggle_pen();
 
+	
 	// Click on video thumbnail or link	    
 
 $(".test-action").on("click", function(e){
@@ -106,7 +107,7 @@ $(".test-action").on("click", function(e){
 
   // Close and Reset the Video Modal
 
-  function close_test() {
+	function close_test() {
         // re-hide the video modal
         $("body").removeClass("show-action noscroll");
 }
