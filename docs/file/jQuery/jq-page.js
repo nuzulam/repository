@@ -64,9 +64,6 @@ $(".test-action").on("click", function(e){
 	}
 	toggle_test();
 
-  //  Dokumentasi Kode jquery Section 1
- //   Untuk Bagian Artikel Post
-//
   function toggle_comment() {
 
 
