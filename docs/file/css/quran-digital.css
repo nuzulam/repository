@@ -422,6 +422,9 @@ section.al-quran .quran-digital div[id*="ayat-"] .flex-alt {
   width: 100%;
   display: flex;
   justify-content: flex-end;
+	& > span {
+         width: 100%;
+         }
 	& div.number_ayat {
           margin-top: 12px;
           width: 40px;
