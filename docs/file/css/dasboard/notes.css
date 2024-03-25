@@ -1,0 +1,95 @@
+
+.navigasi_dasboard_notes {
+  width: 100%;
+  margin:0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  & .navigasi_bars {
+    width: 100%;
+    max-width: 800px;
+    height: 60px;
+    margin:0;
+    bottom: 0px;
+    z-index: 15;
+    overflow: hidden;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    & > div {
+      height: 60px;
+      width: 100%;
+      display: flex;
+    align-items: center;
+    background-color: var(--bg-bars);
+    justify-content: center;
+    overflow: hidden;
+    box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+      & .linkoff {
+  pointer-events: none;
+  cursor: not-allowed;
+  background-color: var(--bg-bars-hover);
+  & span {
+    transform: scale(1.1, 1.1);
+    font-weight: 600;
+    margin-bottom: 2px;
+    }
+  }
+  &:hover {
+  & .linkoff {
+    background: transparent;
+    & span {
+      transform: scale(1.0, 1.0);
+      font-weight: 400;
+      margin-bottom: 0px;
+      }
+    }
+  }
+    & > div {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      display: flex;
+      margin: 0px auto;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      background-position: center;
+      transition: background 0.8s;
+      &:hover {
+  background: var(--bg-bars-hover) radial-gradient(circle, transparent 1%, var(--bg-bars-hover) 1%)
+    center/15000%;
+}
+  &:active {
+  background-color: var(--bg-view);
+  background-size: 100%;
+  transition: background 0s;
+}
+  &:hover span {
+        transform: scale(1.1, 1.1);
+        font-weight: 600;
+        margin-bottom: 2px;
+}
+& > a {
+   width: 90px;
+   height: 90px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+       & svg {
+        width: 25px;
+        height: 25px;
+      }
+        & span {
+          color: var(--post-title);
+          margin-top: 5px;
+          font-size: 15px;
+        }
+       }
+      }
+     } 
+    }
+  }  
