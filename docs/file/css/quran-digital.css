@@ -303,8 +303,9 @@
 /*Class Blok Al-Quran
 --------------------------------------*/
 body.item-view .post-title-container > .post-title.entry-title{
-  font-weight: 300;
-  font-family:var(--ff-ultra);
+  font-weight: 500;
+  font-family: 'Merriweather', sans-serif;
+  font-style: normal;
   }
 
 .item-view .post .post-title-container{display:block}
