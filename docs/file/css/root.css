@@ -60,6 +60,7 @@
   --bg-bars: #FFFFFF;
   --bg-view: #dae2eb;
   --bg-focus: #BBDEFB;
+  --bg-pass:  #ddd;
   --bg-post-hover: #111;
   --bg-bars-hover: #f1f1f1;
   --bg-view-hover: #58727e;
@@ -76,6 +77,7 @@
   --bg-bars: #455963;
   --bg-view: #2c3e50;
   --bg-focus: #67809F;
+  --bg-pass:  #535763;
   --bg-post-hover: #58727e; 
   --bg-bars-hover: #58727e;
   --bg-view-hover: #58727e;
