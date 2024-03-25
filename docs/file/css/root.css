@@ -693,7 +693,6 @@ padding: 3px 10px;
 background: var(--bg-view);
 border-radius: 5px;
 box-sizing: border-box;
-box-shadow:inset 2px 2px 4px #d1d9e6,inset -2px -2px 4px #f9f9f9;
 }
 }
 }
