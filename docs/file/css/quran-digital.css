@@ -1376,7 +1376,7 @@ transform: scale(0.95);
   width: 100%;
   height: 50px;
   max-width: 730px;
-  background: var(--bg-bars);
+  background-color: var(--bg-view);
   border: 0.25px var(--border-nav) solid;
   border-radius: 5px;
   padding: 5px;
@@ -1411,7 +1411,7 @@ transform: scale(0.95);
   box-sizing: border-box;
   font-size: 16px;
   font-weight: 400;
-  background-color: #ddd;
+  background-color: var(--bg-pass);
     }
   }
    & .barsgress {
@@ -1428,7 +1428,7 @@ transform: scale(0.95);
   display:flex;
   flex-basis:100%;
   height:5px;
-  background: #ddd;
+  background-color: var(--bg-pass);
   border-radius: 10px 10px 10px 10px;
   & .progress-filled {
   width:50%;
@@ -1458,7 +1458,7 @@ transform: scale(0.95);
      font-weight: 500;
      cursor: pointer;
       /* background-color: #bcb3e3;*/
-     background: var(--bg-view);
+     background-color: var(--bg-pass);
      border: none;
      z-index: 1;
      border-radius: 5px;
