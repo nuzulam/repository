@@ -36,17 +36,7 @@
     margin-bottom: 2px;
     }
   }
-  &:hover {
-  & .linkoff {
-    background: transparent;
-    & span {
-      transform: scale(1.0, 1.0);
-      font-weight: 400;
-      margin-bottom: 0px;
-      }
-    }
-  }
-    & > div {
+  & > div {
       width: 90px;
       height: 90px;
       border-radius: 50%;
