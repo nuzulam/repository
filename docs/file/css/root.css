@@ -828,7 +828,7 @@ font-size: 0.95rem;
 
 
 a.icon-href {
-  cursor: none;
+ /* cursor: none;*/
   transition: transform 300ms ease;
   &:hover {    
   }
@@ -877,7 +877,7 @@ body #main {
   padding: 0;
   margin: 0;
   width: 100%;
-  max-width: 1900px;
+  max-width: 2900px;
   }
 .feed-view .blog-posts{
 margin: 0px;
@@ -892,17 +892,17 @@ background: var(--bg-post);
 margin: 0;
 position:relative;
 width:100%;
-max-width: 1900px;
+max-width: 2900px;
 }
 .feed-view .centered .main-container{
 margin: 0;
 width: 100%;
-max-width: 1900px;
+max-width: 2900px;
 }
 .feed-view .blog-posts{
 margin-right:0;
 width: 100%;
-max-width: 1900px;
+max-width: 2900px;
 }
 .feed-view .inline-ad,.feed-view .post-wrapper{
 margin-bottom:0px;
