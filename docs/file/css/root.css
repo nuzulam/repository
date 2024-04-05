@@ -54,6 +54,9 @@
   --ff-roboto: 'Roboto' , sans-serif;
   --ff-lateef: 'Lateef' , cursive;
   --ff-dm: 'DM sans' , sans-serif;
+  
+  /*== The Logo ==*/
+  --the-simbol: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-DaU58WwhxlyE1UHigIZiOjBHmegkVJKVw5ks7zWOSBZDs6UCNinDMYA2uDkzXL9RXayEHdDTeI6axHtAqzUsO2R9J_rlVOCGEuoEc6-njmoK5ZoMALDSYjPEmDmAG3C-qrTMC33RZPBTcxpuO7YAcrgaBmLjRujAygl_hZxsoPVq5i9AcQ60BCC-5oE/s1600/imageedit_3_9098393163.webp);
 }
 .theme-light {
   --bg-post: #EAEEF6;
@@ -1473,4 +1476,31 @@ transform:translateX(-100%);
   }
 
 
+
+
+a.logo_text {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  & .the_logo {
+  --size: 30px;
+  --radius: 0%;
+  margin-bottom: 0px;
+  height: var(--size);
+  width: var(--size);
+  border: 0px #111 solid;
+  border-radius: var(--radius);
+  background-image: var(--img);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+  & span.simbol {
+  top: 0px;
+  font-weight: bold;
+  font-size: 25px;
+  position: relative;
+  margin-right: 5px;
+  }
+  }
 
