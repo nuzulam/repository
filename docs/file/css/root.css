@@ -228,6 +228,13 @@
 /*================================
   Animatio scale-up-center
 =================================*/
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow-x: hidden !important;
+}
+
 /**== Anim ==**/
 .msg-alert {
 position: fixed;
