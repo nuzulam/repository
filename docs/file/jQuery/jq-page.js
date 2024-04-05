@@ -33,6 +33,35 @@ $(userview.objUserCloseBtn).bind("click", function () {
 
 
 $(document).ready(function(){
+
+function toggle_murottal() {
+
+
+$(".quran-action").on("click", function(e){
+	      $("body").addClass("qori-action noscroll");
+      });
+
+    // Close and Reset the Video Modal
+	function close_qori() {
+        // re-hide the video modal
+        $("body").removeClass("qori-action noscroll");
+}
+
+      // if the 'close' button/element, or the overlay are clicked 
+	    $('body').on('click', '.close-qori, .main-qoriview .overlay_murottal', function(event) {
+          // call the close and
+          close_qori();
+      });
+      // if the ESC key is tapped
+      $('body').keyup(function(e) {
+          // ESC key maps to keycode `27`
+          if (e.keyCode == 27) { 
+            // call the close and reset function
+            close_qori();
+          }
+      });
+	}
+	toggle_murottal();
 	
 
 function toggle_test() {
