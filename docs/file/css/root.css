@@ -241,11 +241,7 @@ font-size:15px;
 padding:8px 12px;
 border-radius:5px;
 }
-html {
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-  overflow-x: hidden !important;
-}
+
 body .widget.HTML h3.title {display:none;}
 .item-view .page_body{padding-top:130px}
 body{
