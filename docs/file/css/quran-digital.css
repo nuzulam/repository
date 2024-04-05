@@ -1139,11 +1139,17 @@ transform:translateY(100%)
     align-items: center;
     justify-content: center;
     & .close_button {
-      width: 20px;
-      height: 20px;
-      border-radius: 50%;
-      background: blue;
-      }
+      width: 35px;
+      height: 28px;
+      border-radius: 3px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #ddd;
+      & svg {
+        width: 28px;
+        height: 28px;
+        }
     }
   }
 .show_select_qoriall .select_qoriall {
