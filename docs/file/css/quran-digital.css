@@ -1149,9 +1149,10 @@ transform:translateY(100%)
       & svg {
         width: 28px;
         height: 28px;
-        }
+      }
     }
   }
+}
 .show_select_qoriall .select_qoriall {
 	opacity: 1.0;
 	transform: translate(0%,0%);
