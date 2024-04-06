@@ -75,6 +75,7 @@
   --text-title: #181818;
   --text-focus: #809;
   --text-link: #7952b3;
+  --text-subtitle: #102;
 }
 .theme-dark {
   --bg-post: #212121;
@@ -86,13 +87,14 @@
   --bg-bars-hover: #58727e;
   --bg-view-hover: #58727e;
   --bg-btn-top: #888;
-  --color-logo: #d0edf2;
+  --color-logo: #D9E7FD;
   --logo-color: #ff0ccc;
   --logo-color-symbol: #1C274C;
   --post-icon: #D9E7FD;
   --text-title: #D9E7FD;
   --text-focus: #D9E7FD;
   --text-link: #ff1493;
+  --text-subtitle: #d0edf2;
 }
 
 .theme-light {
