@@ -649,7 +649,7 @@ center center / 1.25rem no-repeat;
   width:auto;
   font-size: 23px;
   font-weight: 700;
-  cursor:none;
+  cursor: pointer;
   color: var(--color-logo);
   margin-left: 5px;
   font-family: Stint Ultra Expanded;
@@ -741,7 +741,7 @@ vertical-align: middle;
 text-align: center;
 }
 #intro_arrow a {
-  cursor: none;
+  cursor: default;
   text-align: center;
   padding: 3px 5px;
   }
@@ -837,13 +837,14 @@ font-size: 0.95rem;
 
 
 a.icon-href {
- /* cursor: none;*/
+ cursor: none;
   transition: transform 300ms ease;
   &:hover {    
   }
   & .input-item-list {
   position: relative;
   display: flex;
+  cursor: default;
   align-items: center;
   justify-content: center;
   border-radius: 5px;
