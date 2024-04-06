@@ -255,9 +255,7 @@ body{
  transition: 0.4s all;
  font-family: 'DM sans' , sans-serif;
 }
-.feed-view #Blog1 {
-display: none;
-}
+
 #content-wrapper,
 .post-wrapper {
   transition: 0.4s all;
