@@ -1488,7 +1488,7 @@ a.logo_text {
   & .the_logo {
   --size: 30px;
   --radius: 0%;
-  margin-bottom: 0px;
+  margin-right: 10px;
   height: var(--size);
   width: var(--size);
   border: 0px #111 solid;
