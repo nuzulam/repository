@@ -73,6 +73,7 @@
   --logo-color-symbol: #D9E7FD;
   --post-icon: #1C274C;
   --text-title: #181818;
+  --text-focus: #809;
   --text-link: #7952b3;
 }
 .theme-dark {
@@ -90,6 +91,7 @@
   --logo-color-symbol: #1C274C;
   --post-icon: #D9E7FD;
   --text-title: #D9E7FD;
+  --text-focus: #D9E7FD;
   --text-link: #ff1493;
 }
 
