@@ -1482,6 +1482,38 @@ transform:translateX(-100%);
   }
 
 
+.group_btn_right {
+  padding-right: 10px;
+  box-sizing: border-box;
+  & .btn_right_top {
+    min-width: 100px;
+    }
+  & .btn_right_top {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    margin: 5px auto;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    &:hover {
+      background-color: var(--bg-bars-hover);
+      }
+    & svg {
+      width: 30px;
+      height: 30px;
+     }
+     }
+    }
+  }
+
 
 
 a.logo_text {
