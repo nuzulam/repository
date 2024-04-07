@@ -494,6 +494,7 @@ body .page_body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: transparent;
      &:hover {
       background-color: var(--bg-bars-hover);
     }
@@ -838,7 +839,7 @@ font-size: 0.95rem;
 
 
 a.icon-href {
- cursor: none;
+  cursor: none;
   transition: transform 300ms ease;
   &:hover {    
   }
@@ -1398,7 +1399,7 @@ transform:translateX(-100%);
     box-sizing: border-box;
     }
   & .group_left {
-   width,: 50px;
+   width: 50px;
   min-width: 50px;
   height: 50px;
   display: flex;
