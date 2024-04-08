@@ -1,4 +1,15 @@
 /*==============================
+ Css Data Version
+==============================*/
+body.version-1-3-3 {
+  & .centered,& .page,& .page_body {
+     max-width: 3000px;
+  }
+}  /*=== Data Feed View end ===*/
+
+
+
+/*==============================
  Css Data Feed View
 ==============================*/
 .feed-view {
