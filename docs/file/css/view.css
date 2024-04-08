@@ -1,0 +1,26 @@
+/*==============================
+ Css Data Feed View
+==============================*/
+.feed-view {
+
+} /*=== Data Feed View end ===*/
+
+
+/*==============================
+ Css Data Item View
+==============================*/
+.item-view {
+  & #Page1, & #Page2 {
+    display: none;     
+  }
+} /*=== Data Item View end ===*/
+
+
+/*==============================
+ Css Data Search View
+==============================*/
+.search-view {
+  & #Page1, & #Page2 {
+    display: none;     
+  }
+} /*=== Data Search View end ===*/
