@@ -23,4 +23,8 @@
   & #Page1, & #Page2 {
     display: none;     
   }
+
+  & .page_body {
+    padding-top: 80px;
+  }
 } /*=== Data Search View end ===*/
