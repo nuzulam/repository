@@ -238,7 +238,10 @@ html {
   scroll-behavior: smooth;
   overflow-x: hidden !important;
 }
-
+body{
+ transition: 0.4s all;
+ font-family: 'DM sans' , sans-serif;
+}
 /**== Anim ==**/
 .msg-alert {
 position: fixed;
@@ -255,10 +258,7 @@ border-radius:5px;
 
 body .widget.HTML h3.title {display:none;}
 .item-view .page_body{padding-top:130px}
-body{
- transition: 0.4s all;
- font-family: 'DM sans' , sans-serif;
-}
+
 
 #content-wrapper,
 .post-wrapper {
@@ -491,7 +491,6 @@ body .page_body {
     width: 40px;
     height: 40px;
     border-radius: 5px;
-    display: flex;
     align-items: center;
     justify-content: center;
     background-color: transparent;
@@ -889,7 +888,7 @@ body #main {
   padding: 0;
   margin: 0;
   width: 100%;
-  max-width: 2900px;
+  max-width: 3000px;
   }
 .feed-view .blog-posts{
 margin: 0px;
@@ -904,17 +903,17 @@ background: var(--bg-post);
 margin: 0;
 position:relative;
 width:100%;
-max-width: 2900px;
+max-width: 3000px;
 }
 .feed-view .centered .main-container{
 margin: 0;
 width: 100%;
-max-width: 2900px;
+max-width: 3000px;
 }
 .feed-view .blog-posts{
 margin-right:0;
 width: 100%;
-max-width: 2900px;
+max-width: 3000px;
 }
 .feed-view .inline-ad,.feed-view .post-wrapper{
 margin-bottom:0px;
