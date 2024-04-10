@@ -220,3 +220,28 @@ transition-timing-function:cubic-bezier(.4,0,.2,1);
       }
     }
   }
+
+
+
+.listbox-profile .qori_prolist {
+  width: 54px;
+  height: 54px;
+  min-width: 54px;
+  min-height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  & .file_profile {
+  --size: 50px;
+  --radius: 50%;
+  height: var(--size);
+  width: var(--size);
+  border: 0px #fff solid;
+  border-radius: var(--radius);
+  border: 2px var(--bg-bars-hover) solid;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  }
+}
