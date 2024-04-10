@@ -276,6 +276,24 @@ max-width: 1900px;
 .display-none{display:none}
 
 /*===== Feed View Post Article ===*/
+body .post-filter-message {
+  width: 90%;
+  color: var(--cl-df);
+  display: block;
+  max-width: 800px;
+  margin-top: 70px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 15px;
+  line-height: 1.8;
+  z-index: 50;
+  top: 60px;
+  position: fixed;
+  border-radius: 5px;
+  background-color: var(--bg-bars);
+  font-family: 'Lato' , sans-serif;
+  box-shadow: var(--shadow-bars);
+}
 .box-search-article {
 width: 100%;
 height: 100%;
