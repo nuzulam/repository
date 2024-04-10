@@ -290,9 +290,8 @@ body .post-filter-message {
   top: 60px;
   position: fixed;
   border-radius: 5px;
-  background-color: var(--bg-bars);
-  font-family: 'Lato' , sans-serif;
-  box-shadow: var(--shadow-bars);
+  background-color: rgba(93, 97, 105, 0.50);
+  font-family: var(--ff-roboto);
 }
 .box-search-article {
 width: 100%;
