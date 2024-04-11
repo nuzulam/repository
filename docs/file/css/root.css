@@ -76,6 +76,8 @@
   --text-focus: #809;
   --text-link: #7952b3;
   --text-subtitle: #102;
+
+  --focus-shadow: #809;
 }
 .theme-dark {
   --bg-post: #212121;
@@ -95,6 +97,8 @@
   --text-focus: #D9E7FD;
   --text-link: #ff1493;
   --text-subtitle: #d0edf2;
+
+  --focus-shadow: #102;
 }
 
 .theme-light {
