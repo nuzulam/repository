@@ -58,7 +58,10 @@
   /*== The Logo ==*/
   --the-simbol: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiF5wR4VeY-Y4N1EkNPe6BTaVpYZRAij2bXTfj6v6UIeSpZO4APBujZ8QRC0ybAC65Zt0M45UzbMSy5jtxD9wiRNBUnIYMcTdrOptqz-4_L7N9DJQ-nV_3M8QQEgOA-ZiTv777HQO1knTsv6fi-9-XwE1xprlBV3xeySPlOi_et2X6YZ7wjN181LuT-Q3U/s1600/imageedit_1_3238852349.webp);
 }
+
 .theme-light {
+  --cl-top-logo: #660ccc;
+  --cl-bottom-logo: #880099;
   --bg-post: #EAEEF6;
   --bg-bars: #FFFFFF;
   --bg-view: #dae2eb;
@@ -76,10 +79,11 @@
   --text-focus: #809;
   --text-link: #7952b3;
   --text-subtitle: #102;
-
   --focus-shadow: #809;
 }
 .theme-dark {
+  --cl-top-logo: #767EEB;
+  --cl-bottom-logo: #00ffff;
   --bg-post: #212121;
   --bg-bars: #455963;
   --bg-view: #2c3e50;
@@ -787,7 +791,13 @@ center center / 1.25rem no-repeat;
   color: var(--color-logo);
   margin-left: 5px;
   font-family: Stint Ultra Expanded;
-  }
+  & span.simbol{
+    color: #8e2b88;
+    -webkit-text-fill-color: transparent;
+     background: -webkit-gradient(linear,left top,left bottom,from(var(--cl-top-logo)),to(var(--cl-bottom-logo)));
+     background: -o-gradient(linear,left top,left bottom,from(#660ccc),to(#00ffff));
+     -webkit-background-clip: text;}
+   }
   & a.logo_text span.net {
    font-size:10px;
    color: var(--text-net);
