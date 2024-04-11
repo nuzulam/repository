@@ -61,3 +61,15 @@ body.version-1-3-3 {
     display: flex;
     }
 } /*=== Data Search View end ===*/
+
+
+
+/*==============================
+ Css Data Label View
+==============================*/
+.label-view {
+  & #Page1, & #Page2 {
+    display: none;     
+  }
+}  /*=== Data Label View end ===*/
+
