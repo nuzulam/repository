@@ -836,7 +836,10 @@ display: none;
 .hero-content {
 padding: 10px 15px;
 box-sizing: border-box;
-  & .hero-title {
+  & h1.hero-title {
+    font-family: var(--ff-ultra);
+    line-height:1.7;
+    font-weight: 200;
   & strong a {
     color:var(--text-focus);
     font-style: normal;
@@ -850,6 +853,7 @@ box-sizing: border-box;
   }
  }
 }
+
 #intro_homepage {
   background-color: var(--bg-root);
   padding-bottom: 120px; 
