@@ -23,7 +23,10 @@ body.version-1-3-3 {
       display: block;
       position: fixed;
       background: linear-gradient(to right, cyan, magenta, #ff1010);
-}
+  }
+   & #Page1 {
+    display: block;     
+  }
   & button.call_list,& button.call_menu {
     display: flex;
     }
