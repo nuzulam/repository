@@ -574,7 +574,6 @@ body .page_body {
   height: auto;
   top: 0px;
   position: fixed;
-  border-bottom: 0.5px #ddd solid;
   background-color: var(--bg-bars);
   transition: top 0.5s;
   box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
