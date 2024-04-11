@@ -13,6 +13,17 @@ body.version-1-3-3 {
  Css Data Feed View
 ==============================*/
 .feed-view {
+   &::before {
+      content:"";
+      left: 0;
+      bottom: 0;
+      z-index: 20;
+		    width: 100%;
+      height: 3px;
+      display: block;
+      position: fixed;
+		    background: linear-gradient(to right, cyan, magenta, #ff1010);
+	    }
   & button.call_list,& button.call_menu {
     display: flex;
     }
