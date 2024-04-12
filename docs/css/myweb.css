@@ -1,0 +1,18 @@
+
+section.content_type {
+ & .type_docs {
+   line-height: 1.7;
+   font-family: var(--ff-roboto);
+   padding: 5px 10px;
+   box-sizing: border-box;
+   & p,& ul li {
+     color: var(--text-typo);
+     font-size: 14px;
+     }
+   & h2,& h3,& h4 {
+     color: var(--text-title);
+     margin-bottom: -15px;
+     position: relative;
+     }
+   }
+}
