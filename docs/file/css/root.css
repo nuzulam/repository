@@ -760,6 +760,8 @@ center center / 1.25rem no-repeat;
   background: var(--theme-light)
 center center / 1.25rem no-repeat;
 }
+
+
 .logo-nuzulam {
    & a.logo_text {
   height: 40px;
@@ -767,17 +769,8 @@ center center / 1.25rem no-repeat;
   font-size: 23px;
   font-weight: 700;
   cursor: pointer;
-  color: var(--color-logo);
   margin-left: 5px;
   font-family: Stint Ultra Expanded;
-  
-  & span.simbol{
-    color: #8e2b88;
-    -webkit-text-fill-color: transparent;
-     background: -webkit-gradient(linear,left top,left bottom,from(var(--cl-top-logo)),to(var(--cl-bottom-logo)));
-     background: -o-gradient(linear,left top,left bottom,from(#660ccc),to(#00ffff));
-     -webkit-background-clip: text;}
-   }
   & a.logo_text{
   & logo.sill_logo {
   width: 30px;
@@ -795,11 +788,18 @@ center center / 1.25rem no-repeat;
     min-width: 61px;
     min-height: 61px;
     }
-  }
-    & span.net {
+   }
+   & span.simbol{
+     color: #8e2b88;
+    -webkit-text-fill-color: transparent;
+     background: -webkit-gradient(linear,left top,left bottom,from(var(--cl-top-logo)),to(var(--cl-bottom-logo)));
+     background: -o-gradient(linear,left top,left bottom,from(#660ccc),to(#00ffff));
+     -webkit-background-clip: text;}
+     & span.net {
       font-size:10px;
-      color: var(--text-net);
+      color: var(--cl-bottom-logo);
     }
+   }
   }
 }
 
