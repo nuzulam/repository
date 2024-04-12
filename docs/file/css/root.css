@@ -79,6 +79,7 @@
   --text-focus: #809;
   --text-link: #7952b3;
   --text-subtitle: #102;
+  --text-focus: #880099;
   --focus-shadow: #809;
 }
 .theme-dark {
@@ -101,7 +102,7 @@
   --text-focus: #D9E7FD;
   --text-link: #ff1493;
   --text-subtitle: #d0edf2;
-
+  --text-focus: #00ffff;
   --focus-shadow: #102;
 }
 
@@ -657,21 +658,6 @@ padding-top: 60px;
  & .hero-content {
   width: 100%;
   max-width: 800px;
-  & h1.hero-title {
-   font-size: 30px;
-   font-weight: 600;
-   color: var(--lop-cl-light);
-   margin: 0 0 .25em;
-   padding: 0;
-   letter-spacing: 2px;
-   font-family: 'DM sans' ,sans-serif; 
-  text-transform: uppercase; 
- /* text-shadow: 0 -3px 0 #333,
-		0 3px 4px rgba(0,0,0, 0.4),
-		0 4px 5px rgba(0,0,0, 0.15),
-		0 14px 5px rgba(0,0,0, 0.18),
-		0 6px 5px rgba(0,0,0, 0.21);*/
- }
   & p {
    font-size: 18px;
    color: var(--cl-df);
@@ -840,6 +826,17 @@ box-sizing: border-box;
     font-family: var(--ff-ultra);
     line-height:1.7;
     font-weight: 200;
+    font-size: 30px;
+    color: var(--text-title);
+    margin: 0 0 .25em;
+    padding: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase; 
+ /* text-shadow: 0 -3px 0 #333,
+		0 3px 4px rgba(0,0,0, 0.4),
+		0 4px 5px rgba(0,0,0, 0.15),
+		0 14px 5px rgba(0,0,0, 0.18),
+		0 6px 5px rgba(0,0,0, 0.21);*/
   & strong a {
     color:var(--text-focus);
     font-style: normal;
