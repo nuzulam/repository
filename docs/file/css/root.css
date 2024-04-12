@@ -770,6 +770,7 @@ center center / 1.25rem no-repeat;
   color: var(--color-logo);
   margin-left: 5px;
   font-family: Stint Ultra Expanded;
+  
   & span.simbol{
     color: #8e2b88;
     -webkit-text-fill-color: transparent;
@@ -777,9 +778,28 @@ center center / 1.25rem no-repeat;
      background: -o-gradient(linear,left top,left bottom,from(#660ccc),to(#00ffff));
      -webkit-background-clip: text;}
    }
-  & a.logo_text span.net {
-   font-size:10px;
-   color: var(--text-net);
+  & a.logo_text{
+  & logo.sill_logo {
+  width: 30px;
+  height: 30px;
+  padding: 0px;
+  margin-right: 5px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: var(--bg-bars-logo);
+  & svg {
+    min-width: 61px;
+    min-height: 61px;
+    }
+  }
+    & span.net {
+      font-size:10px;
+      color: var(--text-net);
+    }
   }
 }
 
