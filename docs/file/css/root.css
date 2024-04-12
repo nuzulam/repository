@@ -60,6 +60,7 @@
 }
 
 .theme-light {
+  --cl-net-logo: #FF1010;
   --cl-top-logo: #660ccc;
   --cl-bottom-logo: #880099;
   --bg-post: #EAEEF6;
@@ -83,6 +84,7 @@
   --focus-shadow: #809;
 }
 .theme-dark {
+  --cl-net-logo: #88F000;
   --cl-top-logo: #767EEB;
   --cl-bottom-logo: #00ffff;
   --bg-post: #212121;
@@ -436,28 +438,9 @@ border-radius: 5px;
   margin: 0px;
 }
 
-.feed-view {
- & .snippet-container {
-  & .r-snippetized {
-  color: var(--post-title);
-  font-size:22px;
-  line-height: 1.3;
-  padding: 5px 0px;
-  box-sizing: border-box;
-  width: 100%;
-  overflow: hidden;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  display: -webkit-box;
-  }
- }
-}
-
-
-
 
 /*===== Item View Post Article ===*/
-.item-view .post-title-container > .post-title.entry-title{
+.item-view .post-title-container > .post-title.entry-title {
    line-height: 1.5;
    font-weight: 600;
   margin-top: 10px;
@@ -763,45 +746,50 @@ center center / 1.25rem no-repeat;
 
 
 .logo-nuzulam {
-   & a.logo_text {
-       height: 40px;
-       width:auto;
-       font-size: 23px;
-       font-weight: 700;
-       cursor: pointer;
-       margin-left: 5px;
-       font-family: Stint Ultra Expanded;
-    & logo.sill_logo {
-    width: 30px;
-    height: 30px;
-    padding: 0px;
-    margin-right: 5px;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    border-radius: 50%;
-    background-color: var(--bg-bars-logo);
-    & svg {
-        min-width: 61px;
-        min-height: 61px;
-     }
-   }
-   & span.simbol{
-        color: #8e2b88;
-        -webkit-text-fill-color: transparent;
-        background: -webkit-gradient(linear,left top,left bottom,from(var(--cl-top-logo)),to(var(--cl-bottom-logo)));
-        background: -o-gradient(linear,left top,left bottom,from(#660ccc),to(#00ffff));
-       -webkit-background-clip: text;
-     & span.net {
-        font-size:10px;
-        color: var(--cl-bottom-logo);
+      & a.logo_text {
+        height: 40px;
+        width:auto;
+        font-size: 23px;
+        font-weight: 700;
+        cursor: pointer;
+        margin-left: 5px;
+        font-family: Stint Ultra Expanded;
+        & logo.sill_logo {
+          width: 30px;
+          height: 30px;
+          padding: 0px;
+          margin-right: 5px;
+          box-sizing: border-box;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          overflow: hidden;
+          border-radius: 50%;
+          background-color: var(--bg-bars-logo);
+          & svg {
+            min-width: 61px;
+            min-height: 61px;
+          }
+        }
+        & span.simbol{
+       /* color: #8e2b88;*/
+	  color: var(--cl-logo);
+          -webkit-text-fill-color: transparent;
+          background: -webkit-gradient(linear,left top,left bottom,from(var(--cl-top-logo)),to(var(--cl-bottom-logo)));
+          background: -o-gradient(linear,left top,left bottom,from(#660ccc),to(#00ffff));
+          -webkit-background-clip: text;
+          & > span.net {
+              font-size:10px;
+              color: var(--cl-logo);
+              -webkit-text-fill-color: transparent;
+              background: -webkit-gradient(linear,left top,left bottom,from(var(--cl-net-logo)),to(var(--cl-net-logo)));
+              background: -o-gradient(linear,left top,left bottom,from(#660ccc),to(#00ffff));
+              -webkit-background-clip: text;
+          }
+        }
       }
-     }
-   }
+    }
   }
-}
 
 
 
