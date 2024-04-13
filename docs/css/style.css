@@ -312,14 +312,23 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
       background: #888;
       border-bottom: 2px #111 solid;
       & span {
-        color: var(--text-post);
+        color: var(--text-typo);
         font-size: 17px;
         font-weight: bold;
-        font-family:var(--ff-ultra);
+        font-family:var(--ff-roboto);
         }
-      & svg {
-        width: 20px;
-        height: 20px;
+        & button {
+          width: 30px;
+          height: 30px;
+          border: none;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%;
+          & svg {
+          width: 20px;
+          height: 20px;
+         }
         }
       }
     & .pages_content{
