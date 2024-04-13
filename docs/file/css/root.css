@@ -59,6 +59,48 @@
   --the-simbol: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiF5wR4VeY-Y4N1EkNPe6BTaVpYZRAij2bXTfj6v6UIeSpZO4APBujZ8QRC0ybAC65Zt0M45UzbMSy5jtxD9wiRNBUnIYMcTdrOptqz-4_L7N9DJQ-nV_3M8QQEgOA-ZiTv777HQO1knTsv6fi-9-XwE1xprlBV3xeySPlOi_et2X6YZ7wjN181LuT-Q3U/s1600/imageedit_1_3238852349.webp);
 }
 
+/**==== Light Logo ====**/
+.theme-light{
+  --line-circle-A: #660CCC;
+  --line-circle-B: #660CCC;
+  --line-circle-C: #660CCC;
+  --line-circle-D: #660CCC;
+  --line-circle-E: #660CCC;
+  --line-circle-F: #660CCC;
+  --line-circle-G: #660CCC;
+  --line-circle-H: #88F000;
+  --line-circle-I: #660CCC;
+  --line-circle-J: #660CCC;
+  --line-circle-1: #660CCC;
+  --line-circle-2: #660CCC;
+  --line-circle-3: #660CCC;
+  --line-circle-4: #660CCC;
+  --line-circle-5: #660CCC;
+  --alfabet-name: #88F000;
+  --bg-bars-logo: rgba(136, 0, 153, 0.8);
+}
+/**==== Dark Logo ====**/
+.theme-dark {
+  --line-circle-A: #767EEB;
+  --line-circle-B: #767EEB;
+  --line-circle-C: #767EEB;
+  --line-circle-D: #767EEB;
+  --line-circle-E: #767EEB;
+  --line-circle-F: #767EEB;
+  --line-circle-G: #767EEB;
+  --line-circle-H: #f28d0a;
+  --line-circle-I: #767EEB;
+  --line-circle-J: #767EEB;
+  --line-circle-1: #767EEB;
+  --line-circle-2: #767EEB;
+  --line-circle-3: #767EEB;
+  --line-circle-4: #767EEB;
+  --line-circle-5: #767EEB;
+  --alfabet-name: #f28d0a;
+  --bg-bars-logo: rgba(0, 255, 255, 0.8);
+}
+
+
 .theme-light {
   --cl-net-logo: #FF1010;
   --cl-top-logo: #660ccc;
