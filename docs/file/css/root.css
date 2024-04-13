@@ -874,7 +874,8 @@ display: none;
     margin: 0 0 .25em;
     padding: 0;
     letter-spacing: 4px;
-    text-transform: uppercase; 
+    text-transform: uppercase;
+    animation: slide-in .7s .5s ease both;
  /* text-shadow: 0 -3px 0 #333,
 		0 3px 4px rgba(0,0,0, 0.4),
 		0 4px 5px rgba(0,0,0, 0.15),
@@ -894,6 +895,19 @@ display: none;
     & > span {
       color: var(--alfabet-name);
     } 
+  }
+  & .hero-text {
+    animation: slide-in 1.0s .8s ease both;
+  }
+}
+@keyframes slide-in { 
+from { 
+  opacity: 0;
+  transform: translateY(2rem); 
+  }
+to { 
+  opacity: 1;
+  transform: translateY(0); 
   }
 }
 
