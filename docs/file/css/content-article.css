@@ -109,6 +109,8 @@ body.item-view .page_body{padding-top:80px}
 }
 
 /*====== Bottom Post Footer Bone ===*/
+.artlink{display:none}
+
 .item-view .post .post-footer.container{display:none}
 
 input.input_article {display:none}
