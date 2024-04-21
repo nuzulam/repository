@@ -60,6 +60,19 @@ body.version-1-3-3 {
       position: fixed;
       background: linear-gradient(to right, #ff1010, #880099, #00ffff);
     }
+   & #page_body {
+    & #Blog1 {
+      width: 100%;
+      max-width: 3000px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      & .blog-posts.hfeed.container {
+        width: 100%;
+        max-width: 800px;
+      }
+    }
+  }
    & .post-wrapper{
      border-radius: 5px;
    }
