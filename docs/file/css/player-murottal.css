@@ -221,7 +221,12 @@ transition-timing-function:cubic-bezier(.4,0,.2,1);
     }
   }
 
-
+input[id="PlayerMurottalBars"] ~ .mainbacktotop > div #backtotop {
+  top: -105px;
+}
+input[id="PlayerMurottalBars"]:checked ~ .mainbacktotop > div #backtotop {
+  top: -185px;
+}
 
 .listbox-profile .qori_prolist {
   width: 54px;
