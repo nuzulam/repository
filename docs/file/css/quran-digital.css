@@ -1800,6 +1800,26 @@ input[id="QsLayView-Set9"]:checked ~ input[id="QsLayView-Set10"]:checked ~ .navi
   
 
 
+/*====================
+ Backtotop Css
+======================*/
+input[id="QsLayView-Set9"] ~
+input[id="QsLayView-Set10"] ~ .mainbacktotop > div #backtotop {
+  top: -50px;
+}
+input[id="QsLayView-Set9"] ~
+input[id="QsLayView-Set10"]:checked ~ .mainbacktotop > div #backtotop {
+  top: -50px;
+}
+  
+input[id="QsLayView-Set9"]:checked ~
+input[id="QsLayView-Set10"] ~ .mainbacktotop > div #backtotop {
+  top: -75px;
+}
+input[id="QsLayView-Set9"]:checked ~
+input[id="QsLayView-Set10"]:checked ~ .mainbacktotop > div #backtotop {
+  top: -240px;
+}
 
   
 
