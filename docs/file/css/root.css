@@ -288,15 +288,6 @@
   Animatio scale-up-center
 =================================*/
 
-html {
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-  overflow-x: hidden !important;
-}
-body {
- transition: 0.4s all;
- font-family: 'DM sans' , sans-serif;
-}
 /**== Anim ==**/
 .msg-alert {
 position: fixed;
