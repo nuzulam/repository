@@ -3,7 +3,8 @@
 ==============================*/
 body.version-1-3-3 {
   & .centered,& .page,& .page_body {
-     max-width: 3000px;
+    width: 100%;
+    max-width: 3000px;
   }
 }  /*=== Data Version end ===*/
 body.version-1-3-3 {
