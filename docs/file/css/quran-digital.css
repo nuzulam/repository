@@ -1358,7 +1358,7 @@ transform: scale(0.95);
     height: 25px;
     padding: 3px 5px;
     box-sizing: border-box;
-    border-radius: 24px 24px 0px 0px;
+    border-radius: 0px 0px 0px 0px;
     align-items: center;
     justify-content: center;
 
@@ -1656,12 +1656,12 @@ input[id="QsLayView-Set9"] ~ input[id="QsLayView-Set10"] ~ .navigasi_quran .qura
 }
 input[id="QsLayView-Set9"]:checked ~ 
 input[id="QsLayView-Set10"] ~ .navigasi_quran .quran-boxbars-navigasi .boxs-navigasi-fixed {
-  width: 99.50%;
+  width: 100%;
   bottom: -164px;
   border-top: 0.25px var(--border-nav) solid;
-  border-left: 0.25px var(--border-nav) solid;
-  border-right: 0.25px var(--border-nav) solid;
-  border-radius: 25px 25px 0px 0px;
+  border-left: 0px var(--border-nav) solid;
+  border-right: 0px var(--border-nav) solid;
+  border-radius: 0px 0px 0px 0px;
   background: var(--bg-bars);
   /*bottom: -164px;*/
   	-webkit-animation: slide-in-top-quran 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
