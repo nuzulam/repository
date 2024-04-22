@@ -1691,12 +1691,12 @@ input[id="QsLayView-Set9"] ~ input[id="QsLayView-Set10"]:checked ~ .navigasi_qur
   }
 }
 input[id="QsLayView-Set9"]:checked ~ input[id="QsLayView-Set10"]:checked ~ .navigasi_quran .quran-boxbars-navigasi .boxs-navigasi-fixed {
-  width: 99.50%;
+  width: 100%;
   bottom: 0px;
   border-top: 0.25px var(--border-nav) solid;
-  border-left: 0.25px var(--border-nav) solid;
-  border-right: 0.25px var(--border-nav) solid;
-  border-radius: 25px 25px 0px 0px;
+  border-left: 0px var(--border-nav) solid;
+  border-right: 0px var(--border-nav) solid;
+  border-radius: 0px 0px 0px 0px;
   background: var(--bg-bars);
    -webkit-animation: slide-in-bottom-quran 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: slide-in-bottom-quran 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
