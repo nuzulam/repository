@@ -147,6 +147,64 @@ $(".action-rellbars4").on("click", function(e){
       });
 	}
 	toggle_rellbars4();
+
+function toggle_rellbars5() {
+
+
+$(".action-rellbars5").on("click", function(e){
+	      $("body").addClass("rellshow5 noscroll");
+      });
+
+    // Close and Reset the Video Modal
+	function close_rell5() {
+        // re-hide the video modal
+        $("body").removeClass("rellshow5 noscroll");
+}
+
+      // if the 'close' button/element, or the overlay are clicked 
+	    $('body').on('click', '.close-rell5, .rell-bars-5 .overlay_rellbars5', function(event) {
+          // call the close and
+          close_rell5();
+      });
+      // if the ESC key is tapped
+      $('body').keyup(function(e) {
+          // ESC key maps to keycode `27`
+          if (e.keyCode == 27) { 
+            // call the close and reset function
+            close_rell5();
+          }
+      });
+	}
+	toggle_rellbars5();
+
+function toggle_rellbars6() {
+
+
+$(".action-rellbars6").on("click", function(e){
+	      $("body").addClass("rellshow6 noscroll");
+      });
+
+    // Close and Reset the Video Modal
+	function close_rell1() {
+        // re-hide the video modal
+        $("body").removeClass("rellshow6 noscroll");
+}
+
+      // if the 'close' button/element, or the overlay are clicked 
+	    $('body').on('click', '.close-rell6, .rell-bars-6 .overlay_rellbars6', function(event) {
+          // call the close and
+          close_rell6();
+      });
+      // if the ESC key is tapped
+      $('body').keyup(function(e) {
+          // ESC key maps to keycode `27`
+          if (e.keyCode == 27) { 
+            // call the close and reset function
+            close_rell6();
+          }
+      });
+	}
+	toggle_rellbars6();
 	
 
 function toggle_murottal() {
