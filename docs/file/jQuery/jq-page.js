@@ -34,6 +34,36 @@ $(userview.objUserCloseBtn).bind("click", function () {
 
 $(document).ready(function(){
 
+function toggle_rellbars1() {
+
+
+$(".action-rellbars1").on("click", function(e){
+	      $("body").addClass("rellshow1 noscroll");
+      });
+
+    // Close and Reset the Video Modal
+	function close_rell1() {
+        // re-hide the video modal
+        $("body").removeClass("rellshow1 noscroll");
+}
+
+      // if the 'close' button/element, or the overlay are clicked 
+	    $('body').on('click', '.close-rell1, .rell-bars-1 .overlay_rellbars1', function(event) {
+          // call the close and
+          close_rell1();
+      });
+      // if the ESC key is tapped
+      $('body').keyup(function(e) {
+          // ESC key maps to keycode `27`
+          if (e.keyCode == 27) { 
+            // call the close and reset function
+            close_rell1();
+          }
+      });
+	}
+	toggle_rellbars1();
+	
+
 function toggle_murottal() {
 
 
