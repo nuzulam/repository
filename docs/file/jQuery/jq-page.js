@@ -63,7 +63,7 @@ $(".action-rellbars1").on("click", function(e){
 	}
 	toggle_rellbars1();
 
-
+function toggle_rellbars2() {
 
 $(".action-rellbars2").on("click", function(e){
 	      $("body").addClass("rellshow2 noscroll");
@@ -91,7 +91,7 @@ $(".action-rellbars2").on("click", function(e){
 	}
 	toggle_rellbars2();
 
-
+function toggle_rellbars3() {
 
 $(".action-rellbars3").on("click", function(e){
 	      $("body").addClass("rellshow3 noscroll");
