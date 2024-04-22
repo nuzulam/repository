@@ -118,6 +118,35 @@ $(".action-rellbars3").on("click", function(e){
       });
 	}
 	toggle_rellbars3();
+
+function toggle_rellbars4() {
+
+
+$(".action-rellbars4").on("click", function(e){
+	      $("body").addClass("rellshow4 noscroll");
+      });
+
+    // Close and Reset the Video Modal
+	function close_rell4() {
+        // re-hide the video modal
+        $("body").removeClass("rellshow4 noscroll");
+}
+
+      // if the 'close' button/element, or the overlay are clicked 
+	    $('body').on('click', '.close-rell4, .rell-bars-4 .overlay_rellbars4', function(event) {
+          // call the close and
+          close_rell4();
+      });
+      // if the ESC key is tapped
+      $('body').keyup(function(e) {
+          // ESC key maps to keycode `27`
+          if (e.keyCode == 27) { 
+            // call the close and reset function
+            close_rell4();
+          }
+      });
+	}
+	toggle_rellbars4();
 	
 
 function toggle_murottal() {
