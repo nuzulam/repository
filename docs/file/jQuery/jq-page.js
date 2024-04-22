@@ -185,7 +185,7 @@ $(".action-rellbars6").on("click", function(e){
       });
 
     // Close and Reset the Video Modal
-	function close_rell1() {
+	function close_rell6() {
         // re-hide the video modal
         $("body").removeClass("rellshow6 noscroll");
 }
