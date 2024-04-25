@@ -932,7 +932,6 @@ a.icon-href {
 
 .main_list_page.list_show {
   left: 0px;
-  opacity: 1;
   height: 100%;
   /*transition: all 1s ease-in-out;*/
    -webkit-transition: -webkit-transform 0.2s linear 0.2s;
@@ -962,7 +961,6 @@ a.icon-href {
   border: 0px #ddd solid;
   transition: all 1s ease-in-out;
   overflow: hidden;
-  opacity: 0;
   display: flex;
   align-items: row;
   justify-content: start;
