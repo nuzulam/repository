@@ -343,8 +343,126 @@ div[class*="navuser_type"] {
 
 
 
-
-
+/*================================
+  Rellbars Css
+=================================*/
+div[class*="rell-bars-"] {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-direction: column;
+  overflow: hidden;
+  position: fixed;
+  z-index: 105;
+  left:0;
+  right:0;
+  bottom: 0; 
+  background: rgba(25,25,25,0.4);
+  opacity: 0.0;
+  -webkit-transition: opacity 0.2s linear 0.05s;
+  transition: opacity 0.2s linear 0.05s;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition-timing-function:cubic-bezier(.4,0,.2,1);
+  transition-timing-function:cubic-bezier(.4,0,.2,1);
+  -webkit-transform:translateY(100%);
+-ms-transform:translateY(100%);
+transform:translateY(100%);
+  
+}  
+.rellbars {
+  & div[class*="overlay_"] {
+      height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: absolute;
+  z-index: 10;
+  left:0;
+  right:0;
+  top: 0; 
+  background: rgba(25,25,25,0.4);
+  opacity: 0.0;
+ }
+}
+div[class*="rell-bars-"] .rellbars-content {
+  z-index: 12;
+  height: 100%;
+  max-height: 100%;
+  margin: 0;
+ /* overflow-x: visible;*/
+  max-width: var(--maxw-medium);
+  width: 100%;
+  border-radius: 0px 0px 0px 0px;
+  transition: 0.4s all;
+  position: relative;
+  transition: all 0.4s ease-in-out;
+  background-color: var(--bg-bars);
+}
+.rellshow6 .rell-bars-6,
+.rellshow5 .rell-bars-5,
+.rellshow4 .rell-bars-4,
+.rellshow3 .rell-bars-3,
+.rellshow2 .rell-bars-2,
+.rellshow1 .rell-bars-1 {
+	opacity: 1.0;
+	transform: translate(0%,0%);
+	-webkit-transform: translate(0%,0%);
+  -webkit-transition-timing-function:cubic-bezier(.4,0,.2,1);
+transition-timing-function:cubic-bezier(.4,0,.2,1);
+}
+& .rellbars {
+  & .relltop {
+      height: 60px;
+      width: none;
+      padding: 7px 10px;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      background: var(--bg-bars);
+      border-bottom: 0.50px #888 solid;
+      & span {
+        margin-left: 15px;
+        color: var(--post-typo);
+        font-size: 25px;
+        font-weight: 500;
+        font-family:var(--ff-dm);
+        }
+        & button {
+          width: 40px;
+          height: 40px;
+          border: none;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%;
+          background-color: transparent;
+          &:hover {
+  background: var(--bg-bars-hover) radial-gradient(circle, transparent 1%, var(--bg-bars-hover) 1%)
+    center/15000%;
+}
+          &:active {
+  background-color: #111;
+  background-size: 100%;
+  transition: background 0s;
+}
+          & svg {
+          width: 30px;
+          height: 30px;
+         }
+        }
+  }
+}
+.sheet_rellbars{
+      overflow: auto;
+      width: 100%;
+      height: calc(100% - 60px);
+  & h1 {
+    text-align: center;
+    }
+       }
 
 
 
