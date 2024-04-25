@@ -121,6 +121,9 @@
   --post-icon: #1C274C;
   --text-title: #181818;
   --text-list: #1C274C;
+  --text-typo: #191919;
+  --text-arab: #191919;
+  --text-latin: #191919;
   --text-focus: #809;
   --text-link: #7952b3;
   --text-subtitle: #102;
@@ -147,6 +150,9 @@
   --post-icon: #D9E7FD;
   --text-title: #D9E7FD;
   --text-list: #D9E7FD;
+  --text-typo: #f1f1f1;
+  --text-arab: #f1f1f1;
+  --text-latin: #f1f1f1;
   --text-focus: #D9E7FD;
   --text-link: #ff1493;
   --text-subtitle: #d0edf2;
