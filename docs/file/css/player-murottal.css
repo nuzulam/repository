@@ -222,10 +222,10 @@ transition-timing-function:cubic-bezier(.4,0,.2,1);
   }
 
 input[id="PlayerMurottalBars"] ~ .mainbacktotop > div #backtotop {
-  top: -105px;
+  top: -110px;
 }
 input[id="PlayerMurottalBars"]:checked ~ .mainbacktotop > div #backtotop {
-  top: -185px;
+  top: -190px;
 }
 
 .listbox-profile .qori_prolist {
