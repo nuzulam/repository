@@ -567,7 +567,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 .menu_link_bars {
   width: 100%;
-  display: flex;
   align-items: center;
   justify-content: center;
   & .menu_main_bars {
