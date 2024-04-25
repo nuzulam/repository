@@ -131,6 +131,13 @@ flex: 0 0 auto;
   overflow: hidden;
   background-color: transparent;
   z-index: 1;
+  & svg {
+    width: 20px;
+    height: 20px;
+    }
+  & span {
+    margin-left: 10px;
+    }
   &::before {
   content: "";
   position: absolute;
