@@ -54,7 +54,17 @@
   --ff-roboto: 'Roboto' , sans-serif;
   --ff-lateef: 'Lateef' , cursive;
   --ff-dm: 'DM sans' , sans-serif;
-  
+
+  /*== Font-Weight ==*/
+  --fw-extralight: 200;
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-extrabold: 800;
+
+	
   /*== Size width ==*/
   --maxw-base: 3000px;
   --maxw-full: 100%;
