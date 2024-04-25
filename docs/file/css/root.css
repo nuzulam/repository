@@ -961,7 +961,6 @@ a.icon-href {
   border: 0px #ddd solid;
   transition: all 1s ease-in-out;
   overflow: hidden;
-  display: flex;
   align-items: row;
   justify-content: start;
   /*-webkit-transition: -webkit-transform 0.2s linear 0.2s;
