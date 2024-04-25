@@ -216,6 +216,9 @@ left: 0%;
   & .menu_link_bars {
      display: none;
   }
+  & .gotoc {
+    display: none;
+  }
 } /*=== Data Search View end ===*/
 
 
