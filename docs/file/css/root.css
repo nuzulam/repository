@@ -55,8 +55,11 @@
   --ff-lateef: 'Lateef' , cursive;
   --ff-dm: 'DM sans' , sans-serif;
   
-  /*== The Logo ==*/
-  --the-simbol: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiF5wR4VeY-Y4N1EkNPe6BTaVpYZRAij2bXTfj6v6UIeSpZO4APBujZ8QRC0ybAC65Zt0M45UzbMSy5jtxD9wiRNBUnIYMcTdrOptqz-4_L7N9DJQ-nV_3M8QQEgOA-ZiTv777HQO1knTsv6fi-9-XwE1xprlBV3xeySPlOi_et2X6YZ7wjN181LuT-Q3U/s1600/imageedit_1_3238852349.webp);
+  /*== Size width ==*/
+  --maxw-base: 3000px;
+  --maxw-full: 100%;
+  --maxw-medium: 800px;
+  --maxw-medium-bold: 804px;
 }
 
 /**==== Light Logo ====**/
