@@ -90,7 +90,7 @@
   --line-circle-4: #660CCC;
   --line-circle-5: #660CCC;
   --alfabet-name: #88F000;
-  --bg-bars-logo: rgba(136, 0, 153, 0.8);
+  --bg-bars-logo: rgba(37, 113, 245, 0.8);
 }
 /**==== Dark Logo ====**/
 .theme-dark {
@@ -116,8 +116,8 @@
 
 .theme-light {
   --cl-net-logo: #FF1010;
-  --cl-top-logo: #660ccc;
-  --cl-bottom-logo: #880099;
+  --cl-top-logo: #2571f5;
+  --cl-bottom-logo: #2571f5;
   --bg-page: #EAEEF6;
   --bg-post: #EAEEF6;
   --bg-bars: #FFFFFF;
