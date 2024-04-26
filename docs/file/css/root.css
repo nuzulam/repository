@@ -74,23 +74,23 @@
 
 /**==== Light Logo ====**/
 .theme-light{
-  --line-circle-A: #FF1010;
-  --line-circle-B: #FF1010;
-  --line-circle-C: #FF1010;
-  --line-circle-D: #FF1010;
-  --line-circle-E: #FF1010;
-  --line-circle-F: #FF1010;
-  --line-circle-G: #FF1010;
-  --line-circle-H: #88F000;
-  --line-circle-I: #FF1010;
-  --line-circle-J: #FF1010;
-  --line-circle-1: #FF1010;
-  --line-circle-2: #FF1010;
-  --line-circle-3: #FF1010;
-  --line-circle-4: #FF1010;
-  --line-circle-5: #FF1010;
-  --alfabet-name: #88F000;
-  --bg-bars-logo: rgba(37, 113, 245, 0.8);
+  --line-circle-A: #2571f5;
+  --line-circle-B: #2571f5;
+  --line-circle-C: #2571f5;
+  --line-circle-D: #2571f5;
+  --line-circle-E: #2571f5;
+  --line-circle-F: #2571f5;
+  --line-circle-G: #2571f5;
+  --line-circle-H: #FF1010;
+  --line-circle-I: #2571f5;
+  --line-circle-J: #2571f5;
+  --line-circle-1: #2571f5;
+  --line-circle-2: #2571f5;
+  --line-circle-3: #2571f5;
+  --line-circle-4: #2571f5;
+  --line-circle-5: #2571f5;
+  --alfabet-name: #FF1010;
+  --bg-bars-logo: rgba(135, 203, 255, 0.8);
 }
 /**==== Dark Logo ====**/
 .theme-dark {
