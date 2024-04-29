@@ -466,29 +466,4 @@ max-height: 0px;
 
 
 
-.article_linkmaps {
-  width: 100%;
-  padding: 5px 10px;
-  box-sizing: border-box;
-  & .articlelink {
-    & a {
-    color: #111;
-    font-size: 14px;
-    background: #c6e3f5;
-    padding: 3px 5px;
-    border-radius: 3px;
-  }
-  & span {
-    color: var(--post-typo);
-    margin: 0px 5px;
-    }
-    & a:last-child {
-      margin-top: 10px;
-      width: 90%;
-      overflow: hidden;
-      -webkit-box-orient: vertical;
-      -webkit-line-clamp: 1;
-      display: -webkit-box;
-    }
-  }
-}
+
