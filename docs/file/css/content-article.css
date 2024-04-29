@@ -93,6 +93,7 @@ body.item-view .page_body{padding-top:80px}
          font-family: 'Lateef' , cursive;
         }
         & b {
+        text-align: right;
         color: var(--text-latin);
         font-size: 17px;
         font-weight: 400;
@@ -110,7 +111,8 @@ body.item-view .page_body{padding-top:80px}
 
 /*====== Bottom Post Footer Bone ===*/
 .artlink{display:none}
-
+ .mainbacktotop div #backtotop {
+  top: -50px;}
 .item-view .post .post-footer.container{display:none}
 
 input.input_article {display:none}
