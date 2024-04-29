@@ -23,7 +23,7 @@
   padding: 5px 10px;
   box-sizing: border-box;
   }
-.category_article .blog-card {
+.blog-card {
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: vertical;
@@ -148,7 +148,7 @@ font-size: .9rem;
   text-align: right;
 }
 .blog-card .description .read_more a {
-  color: #111;
+  color: var(--text-link);
   margin-top: 10px;
   display: inline-block;
   position: relative;
