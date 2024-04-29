@@ -615,7 +615,11 @@ center center / 1.25rem no-repeat;
         cursor: pointer;
         margin-left: 5px;
         font-family: Stint Ultra Expanded;
-        & logo.sill_logo {
+        & svg {
+          width: 40px;
+          height: 40px;
+        }
+	& logo.sill_logo {
           width: 30px;
           height: 30px;
           padding: 0px;
