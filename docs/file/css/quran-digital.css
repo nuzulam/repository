@@ -302,13 +302,18 @@
 
 /*Class Blok Al-Quran
 --------------------------------------*/
-body.item-view .post-title-container > .post-title.entry-title{
+body.item-view .post-title-container {
+  display: block;
+  text-align: center;
+ & > .post-title.entry-title{
+  font-size: 30px;
   font-weight: 500;
   font-family: 'Merriweather', sans-serif;
   font-style: normal;
+  text-align: center;
   }
-
-.item-view .post .post-title-container{display:block}
+}
+.item-view .post .post-title-container{}
 /* Content Quran */
 .quran-digital.none {
   display: none;
