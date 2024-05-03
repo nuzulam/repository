@@ -54,6 +54,40 @@ body.version-1-3-3 {
             display: flex;
             align-items: center;
             justify-content: start;
+            & .logo {
+              margin-left: 3px;
+              & a.logo_name {
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                height: 60px;
+                width:auto;
+                font-size: 23px;
+                font-weight: 700;
+                cursor: pointer;
+                margin: 0px;
+                font-family: Stint Ultra Expanded;
+                & svg.symbol {
+                  width: 40px;
+                  height: 40px;
+                }
+                & span.name{
+	                color: var(--cl-logo);
+                  -webkit-text-fill-color: transparent;
+                  background: -webkit-gradient(linear,left top,left bottom,from(var(--cl-top-logo)),to(var(--cl-bottom-logo)));
+                  background: -o-gradient(linear,left top,left bottom,from(#660ccc),to(#00ffff));
+                  -webkit-background-clip: text;
+                  & > span.net {
+                    font-size:10px;
+                    color: var(--cl-logo);
+                    -webkit-text-fill-color: transparent;
+                    background: -webkit-gradient(linear,left top,left bottom,from(var(--cl-net-logo)),to(var(--cl-net-logo)));
+                    background: -o-gradient(linear,left top,left bottom,from(#660ccc),to(#00ffff));
+                    -webkit-background-clip: text;
+                  }
+                }
+              }
+            }
             & .sticky-icon {
               display: none;
               @media (max-width: 1450px){
