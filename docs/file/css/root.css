@@ -469,64 +469,12 @@ box-sizing: border-box;
  }
 }
 
-/* Custom the checkbox */
-.bars-dark-light input{
-  width: 40px;
-  height: 23px;
-  cursor: pointer;
-  appearance: none;
-  position: relative;
-  border-radius: 25px;
-  -webkit-appearance: none;
-  background-color: #ccc;
-  transition: background .6s;
-}
-/* Create the toggle */
-.bars-dark-light input::after{
-  content: '';
-  width: 1.25rem;
-  height: 1.25rem;
-  border-radius: 50%;
-  background-color: #fff;
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 30%;
-  transform: translate(-50%, -50%);
-  transition: left .3s;
-}
-/* Change position on checked */
-.bars-dark-light input:checked::after{
-  left: 70%;
-  background: #ccc;
-}
-.bars-dark-light input::after {
-  --size: 1.25rem;
-  --radius: 50%;
-  height: var(--size);
-  width: var(--size);
-  border-radius: var(--radius);
-  background-image: var(--img);
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  background: var(--theme-dark)
-center center / 1.25rem no-repeat;
-}
+
+
+
+
 	
-.bars-dark-light input:checked::after {
-  --size: 1.25rem;
-  --radius: 50%;
-  height: var(--size);
-  width: var(--size);
-  border-radius: var(--radius);
-  background-image: var(--img);
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  background: var(--theme-light)
-center center / 1.25rem no-repeat;
-}
+
 
 
 .logo-nuzulam {
@@ -581,22 +529,7 @@ center center / 1.25rem no-repeat;
 
 
 
-/* Change the background when it's checked */
-.bars-dark-light input:checked{
-  background: #ccc;
-}
-input[id="slider"] ~ span:nth-of-type(1) {
-display: block;
-}
-input[id="slider"]:checked ~ span:nth-of-type(2) {
-display: block;
-}
-input[id="slider"] ~ span:nth-of-type(2) {
-display: none;
-}
- input[id="slider"]:checked ~ span:nth-of-type(1) {
-display: none;
-}
+
 @-webkit-keyframes sdb05{
   0%{opacity:0}
   50%{opacity:1}
