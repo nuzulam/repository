@@ -66,10 +66,10 @@
 
 	
   /*== Size width ==*/
-  --maxw-base: 3000px;
-  --maxw-full: 100%;
-  --maxw-medium: 800px;
-  --maxw-medium-bold: 804px;
+  --maxw-extrawidth: 3000px;
+  --maxw-semiwidth: 805px;
+  --maxw-width: 800px;
+  --maxw-medium: 100%;
 }
 
 /**==== Light Logo ====**/
