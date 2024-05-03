@@ -207,7 +207,7 @@ body.version-1-3-3 {
       -webkit-border-radius: 5px;
       -moz-border-radius: 5px;
       border-radius: 5px;
-      background-color: #fff;
+      background-color: var(--bg-search);
       overflow: hidden;
       & input[type="text"] {
         width: 90%; 
