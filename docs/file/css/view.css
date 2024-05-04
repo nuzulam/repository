@@ -483,7 +483,19 @@ body.version-1-3-3 {
     & .page_body {
        
       & .centered {
-
+        & .centered-bottom {
+          & main.main-container {
+	    & #page_body {
+              margin:0px;
+              padding: 0px;
+              width: 100%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex-direction: column;
+            }
+	  }
+	}
       }
     }
   }
