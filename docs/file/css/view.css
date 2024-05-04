@@ -12,12 +12,7 @@ body.version-1-3-3 {
   font-family: var(--ff-dm);
   background-color:var(--bg-page);
   & .widget.HTML h3.title {display:none}
- /* & #main {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  max-width: 3000px;
-  }*/
+ 
   & .sidebar-container {
    height:0px;
    max-height:0px;
@@ -351,6 +346,15 @@ body.version-1-3-3 {
             width: 100%;
             max-width: var(--maxw-extrawidth);
           }
+   /*==== & main#main {
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            max-width: 3000px;
+            & #featured_post {
+	      color: #111;
+            }
+          } ====*/
         }
       }
     }
