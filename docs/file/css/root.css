@@ -1334,6 +1334,16 @@ a.logo_text {
   padding: 0px;
   transition: all 0.3s ease-in-out;
   }
+  & .title-category {
+  bottom: -15px;
+  padding: 0px 15px;
+  z-index: 10;
+  background: var(--bg-view);
+  box-sizing: border-box;
+  position: relative;
+  border: 3px #111 solid;
+  border-radius: 25px 25px 5px 5px;
+  }
   & .content-category {
   top: 0px;
   width: 90%;
