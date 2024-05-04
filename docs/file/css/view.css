@@ -470,6 +470,7 @@ body.version-1-3-3 {
       }
     }
     & .page_body {
+       
       & .centered {
 
       }
@@ -486,6 +487,7 @@ body.version-1-3-3 {
         }
       }
       & .page_body {
+        padding-top: 80px;
         & .centered {
 
         }
@@ -543,9 +545,7 @@ body.version-1-3-3 {
     & .dasboard_search {
      display: flex;
     }
-    & .page_body {
-      padding-top: 80px;
-    }
+    
     & .menu_link_bars {
      display: none;
     }
@@ -627,11 +627,16 @@ body.version-1-3-3 {
       }
     }
     & .page_body {
+      padding-top:120px;
       & .centered {
 
       }
     }
   }
+
+
+
+
 	
   & .dasboard_search,
   & #Page1, & #Page2 {
@@ -753,9 +758,7 @@ left: 0%;
       }
     }
   }
-  & .page_body{
-    padding-top:120px;
-  }
+  
   & button.call_list,& button.call_menu {
     display: flex;
   }
