@@ -120,7 +120,7 @@ font-size: .9rem;
 .blog-card .details .date:before {
   font-family: FontAwesome;
   margin-right: 10px;
-  content: "\f02d";
+  content: "\f073";
 }
 
 .blog-card .description {
