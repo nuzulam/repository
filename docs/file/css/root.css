@@ -337,7 +337,53 @@ border-radius:5px;
 .display-none{display:none}
 
 /*===== Feed View Post Article ===*/
-
+main + div.Cookies_Bars {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  & .Cookies {
+  z-index: 9000;
+  bottom: 0px;
+  height: auto;
+      width: 100%;
+      max-width: 800px;
+      background: #fff;
+      padding: 3px 5px;
+      box-sizing: border-box;
+position: fixed;
+      
+      align-items: center;
+      justify-content: space-between;
+animation: slide-in 1.0s .8s ease both;
+      & span {
+        line-height: 1.5;
+        font-size: 13px;
+        & a {
+          font-size: 13px;
+          border-bottom: 1px #ccc solid;
+        }
+      }
+      & .label_confir {
+        min-width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        & label {
+          color: #fff;
+          padding: 5px 10px;
+          background: #111;
+          border-radius: 5px;
+        }
+      }
+    }
+}
+ input[id="ConfirmCookies-Yes"] ~ .Cookies_Bars .Cookies {
+  display: flex;
+}
+ input[id="ConfirmCookies-Yes"]:checked ~ .Cookies_Bars .Cookies {
+  display: none;
+}
 .webbar-name {
   width: 100%;
   height: 60px;
