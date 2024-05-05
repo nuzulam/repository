@@ -338,7 +338,55 @@ border-radius:5px;
 
 /*===== Feed View Post Article ===*/
 
-
+.webbar-name {
+  width: 100%;
+  height: 60px;
+  display: block;
+ /* align-items: center;
+  justify-content: center;*/
+  margin: 0;
+  & .logo {
+    margin-left: 0px;
+    width: 100%;
+    padding: 0px;
+    box-sizing: border-box;
+              & a.logo_name {
+                box-sizing: border-box;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                height: 60px;
+                width:auto;
+                font-size: 23px;
+                font-weight: 700;
+                cursor: pointer;
+                margin: 0px;
+                padding: 0px 15px;
+              /*  margin-left: 15px;*/
+                font-family: Stint Ultra Expanded;
+                & svg.symbol {
+                  width: 40px;
+                  height: 40px;
+                }
+                & span.name{
+	                color: var(--cl-logo);
+                  -webkit-text-fill-color: transparent;
+                  background: -webkit-gradient(linear,left top,left bottom,from(var(--cl-top-logo)),to(var(--cl-bottom-logo)));
+                  background: -o-gradient(linear,left top,left bottom,from(#660ccc),to(#00ffff));
+                  -webkit-background-clip: text;
+                  & > span.net {
+                    font-size:10px;
+                    color: var(--cl-logo);
+                    -webkit-text-fill-color: transparent;
+                    background: -webkit-gradient(linear,left top,left bottom,from(var(--cl-net-logo)),to(var(--cl-net-logo)));
+                    background: -o-gradient(linear,left top,left bottom,from(#660ccc),to(#00ffff));
+                    -webkit-background-clip: text;
+                  }
+                }
+              }
+            }
+           }
 .linkall-article {
 text-align: center;
 min-width: 150px;
