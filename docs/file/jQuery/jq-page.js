@@ -48,7 +48,7 @@ $(".action-category").on("click", function(e){
 }
 
       // if the 'close' button/element, or the overlay are clicked 
-	    $('body').on('click', '.close-category, .select-category .overlay_artcat', function(event) {
+	    $('body').on('click', '.close-category, .artcat-link, .select-category .overlay_artcat', function(event) {
           // call the close and
           close_category();
       });
