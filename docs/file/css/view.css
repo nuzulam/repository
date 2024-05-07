@@ -222,6 +222,7 @@ body.version-1-3-3 {
               width: 40px;
               height: 40px;
               border-radius: 5px;
+	      display: flex;
               align-items: center;
               justify-content: center;
               background-color: transparent;
@@ -900,10 +901,6 @@ left: 0%;
     }
   }
   & article.post-outer-container section.comments {display:none}
-  
-  & button.call_list,& button.call_menu {
-    display: flex;
-  }
   & .post-outer{
     padding: 0px;
     width: 100%;
