@@ -38,17 +38,17 @@ function toggle_category() {
 
 
 $(".action-category").on("click", function(e){
-	      $("body").addClass("artcatshow noscroll");
+	      $("body").addClass("artshow noscroll");
       });
 
     // Close and Reset the Video Modal
 	function close_category() {
         // re-hide the video modal
-        $("body").removeClass("artcatshow noscroll");
+        $("body").removeClass("artshow noscroll");
 }
 
       // if the 'close' button/element, or the overlay are clicked 
-	    $('body').on('click', '.close-category,.artcat-link, .select-category .overlay_artcat', function(event) {
+	    $('body').on('click', '.close-category, .select-category .overlay_artcat', function(event) {
           // call the close and
           close_category();
       });
