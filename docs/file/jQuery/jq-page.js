@@ -34,6 +34,35 @@ $(userview.objUserCloseBtn).bind("click", function () {
 
 $(document).ready(function(){
 
+function toggle_category() {
+
+
+$(".action-category").on("click", function(e){
+	      $("body").addClass("artcatshow noscroll");
+      });
+
+    // Close and Reset the Video Modal
+	function close_category() {
+        // re-hide the video modal
+        $("body").removeClass("artcatshow noscroll");
+}
+
+      // if the 'close' button/element, or the overlay are clicked 
+	    $('body').on('click', '.close-category,.artcat-link, .select-category .overlay_artcat', function(event) {
+          // call the close and
+          close_category();
+      });
+      // if the ESC key is tapped
+      $('body').keyup(function(e) {
+          // ESC key maps to keycode `27`
+          if (e.keyCode == 27) { 
+            // call the close and reset function
+            close_category();
+          }
+      });
+	}
+	toggle_category();
+	
 function toggle_rellbars1() {
 
 
