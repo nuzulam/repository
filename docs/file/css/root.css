@@ -1626,7 +1626,7 @@ a.artcat-link {
   padding: 0;
   width: 100%;
   box-sizing: border-box;
-  max-width: 800px;
+  max-width: 100%;
   text-align: center;
 }
   @media (max-width: 500px) {
