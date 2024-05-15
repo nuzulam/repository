@@ -394,7 +394,6 @@ body.version-1-3-3 {
               display: flex;
               align-items: center;
               justify-content: center;
-              flex-direction: column;
 	      & .widget.Blog,& #Blog1 {
 		width: 100%;
 		max-width: 3000px;
@@ -555,6 +554,7 @@ body.version-1-3-3 {
         & .centered-bottom {
           & main.main-container,& main#main {
 	    & .main.section,& #page_body {
+		flex-direction: row;
 	      & .widget.HTML {
                 & .widget-content {
         
