@@ -579,7 +579,7 @@ text-align: center;
 & p {
 margin: 0px 30%;
 @media(max-width: 1007px) {
-margin: 0px 15%;
+margin: 0px 30%;
 }
 @media(max-width: 640px) {
 margin: 0px 5%;
