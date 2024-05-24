@@ -27,7 +27,7 @@ body.version-1-3-3 {
   }
   & .page {
     display: block;
-    width:calc(100%; - 300px);
+    width: 100%;
     max-width: var(--maxw-extrawidth);   
     /**=== View Width ===**/
     @media (min-width:3000px){
