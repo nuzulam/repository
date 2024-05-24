@@ -368,10 +368,11 @@ body.version-1-3-3 {
     }
     & .page_body {
       width: 100%;
-      max-width: var(--maxw-extrawidth);
+      min-width: 100%;
+     /* max-width: var(--maxw-extrawidth);*/
       & .centered {
         width: 100%;
-        max-width: var(--maxw-extrawidth); 
+       /* max-width: var(--maxw-extrawidth); */
         & .centered-bottom {
 	  width:100%;
           /*max-width: var(--maxw-extrawidth);*/
