@@ -985,7 +985,7 @@ margin: 0px 5%;
                   & article.post-outer-container {
                     width: calc(100% - 10px);
                     max-width: 100%;
-                    margin: 0px auto;
+                    margin: 0px;
                     display: block;
                     & .post-outer {
 		      width: 100%;
@@ -998,12 +998,12 @@ margin: 0px 5%;
 			height: 100%;
                         max-width: 100%;
 			min-height: 500px;
-                        border-radius: 0px;
+                     /*   border-radius: 0px;
                         border: 1px #ddd solid;
-                        background-color: var(--bg-bars);
+                        background-color: var(--bg-bars);*/
                         & .post {
-                          background-color: var(--bg-bars);
-                          padding: 10px 5px;
+                        /*  background-color: var(--bg-bars);*/
+                          padding: 0px;
                           box-sizing: border-box;
                           & .post-title-container  {
                             & .post-title.entry-title {
