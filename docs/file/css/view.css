@@ -1264,13 +1264,22 @@ left: 0%;
       }
     }
     & .page_body {
-
-    }
-  
-	
-  
-  
-  
-  } /*==== Page Error View End ====*/
-}  /*===== Data Error View end =====*/
+      & .centered {
+        & .centered-bottom {
+          & main.main-container,& main#main {
+	    & .featured-post.section,& .main.section {
+              & .widget.HTML {
+                & .widget-content {
+		  & section.section-landing {
+                    display: none;
+		  }
+		}
+	      }
+	    }
+	  }
+	}
+      }
+    }  /*==== Page Body Error View End ====*/
+  }  /*====== Page Error View End ======*/
+}  /*======== Data Error View end ========*/
 
