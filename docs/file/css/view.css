@@ -1006,7 +1006,7 @@ margin: 0px 5%;
       & .centered {
         & .centered-bottom {
           & main.main-container,& main#main {
-	    & .featured-post.section,& #featured_post {
+	    & .featured-post.section,& .main.section {
               & .widget.HTML {
                 & .widget-content {
                   & section.section-landing {
@@ -1016,24 +1016,6 @@ margin: 0px 5%;
               }
             }
 	    & .main.section,& #page_body {
-	      /*& .widget.HTML {
-                  z-index: 5;
-                  display: block;
-                  position: relative;
-                  padding: 0px 5px;
-                  box-sizing: border-box;
-                & .widget-content {
-                  width: 100%;
-                  max-width: 400px;
-                  position: relative;
-                  @media (max-width: 1007px) {
-                   max-width: 100%;
-                  }
-		  & .blog-group-landing-article {
-		      display: none;
-		  }
-                }
-              }*/
               & .widget.Blog,& #Blog1 {
                 & .blog-posts.hfeed.container {
                   display: block;
@@ -1057,22 +1039,22 @@ margin: 0px 5%;
 		    padding: 0px;
                     display: block;
                     & .post-outer {
+		      margin: 0px;
+		      padding: 0px;
 		      width: 100%;
                       max-width: 100%;
-                      margin: 0px auto;
                       position: relative;
                       display: block;
                       & .post-wrapper {
+			margin: 0px;
+		        padding: 0px;
                         width: 100%;
 			height: 100%;
                         max-width: 100%;
-			min-height: 500px;
-                     /*   border-radius: 0px;
-                        border: 1px #ddd solid;
-                        background-color: var(--bg-bars);*/
+			min-height: 100%;
                         & .post {
-                        /*  background-color: var(--bg-bars);*/
-                          padding: 0px;
+                          margin: 0px;
+		          padding: 0px;
                           box-sizing: border-box;
                           & .post-title-container  {
                             & .post-title.entry-title {
