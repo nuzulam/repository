@@ -725,9 +725,8 @@ margin: 0px 5%;
   }
 
 
-
-	
-  &.label-view, &.search-view, &.archive-view {
+   &:is(.label-view, .search-view, .archive-view) {
+/*  &.label-view, &.search-view, &.archive-view {*/
     & .page {  
     & .page_body {      
       & .centered {
