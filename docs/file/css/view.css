@@ -869,7 +869,7 @@ margin: 0px 5%;
         }
       }
       & .page_body {
-        padding-top: 125px;
+        padding-top: 120px;
         & .centered {
           & .centered-bottom {
             & main.main-container,& main#main {
@@ -999,7 +999,7 @@ margin: 0px 5%;
       }
     }
     & .page_body {
-      padding-top:125px;
+      padding-top:120px;
       & .centered {
         & .centered-bottom {
           & main.main-container,& main#main {
@@ -1274,11 +1274,37 @@ left: 0%;
  Css Data Error View
 ==============================*/
 .error-view {
-  & #Page1, & #Page2 {
-    display: none;     
+  & .page {
+    & .blog-name {
+      & .navbar {
+	& .navbar-sticky {
+          & .navbar-left {
+	    & .logo {
+	      & .logo_name {
+	        &.home {
+	  	  
+	        }
+                &.view {
+        	  
+	        }
+	      }
+	    }
+	  }
+        }
+	& .navbar-centralized {
+	  
+	}
+      }
+    }
+    & .page_body {
+
+    }
   }
+	
+  
+  
   & .menu_link_bars {
      display: none;
   }
-}  /*=== Data Label View end ===*/
+}  /*=== Data Error View end ===*/
 
