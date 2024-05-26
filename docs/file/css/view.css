@@ -968,11 +968,7 @@ margin: 0px 5%;
   & .menu_link_bars {
      display: none;
   }
-   & #Page1 {
-     display: flex;     
-   }
-   
- } /*=== Data Feed View end ===*/
+} /*=== Data Feed View end ===*/
 
 
 
@@ -1020,8 +1016,6 @@ margin: 0px 5%;
               }
             }
 	    & .main.section,& #page_body {
-	      
-              }
 	      /*& .widget.HTML {
                   z-index: 5;
                   display: block;
@@ -1141,14 +1135,13 @@ margin: 0px 5%;
         }
       }
     }
-  }
+  
 
 
 
 
 	
-  & .dasboard_search,
-  & #Page1, & #Page2 {
+  & .dasboard_search {
     display: none;     
   }
   
@@ -1254,23 +1247,8 @@ left: 0%;
     }
   }
   & article.post-outer-container section.comments {display:none}
-  & .post-outer{
-    padding: 0px;
-    width: 100%;
-    & .post-wrapper {
-       padding: 0px;
-       background-color: var(--bg-page);
-       & .post-title-container {
-          padding: 0px 10px;
-          box-sizing: border-box;
-          & .post-title.entry-title {
-            line-height: 1.5;
-            margin-top: 10px;
-          }
-       }
-    }
-  }
-} /*=== Data Item View end ===*/
+  } /*==== Page Item View End ====*/
+} /*===== Data Item View end =====*/
 
 
 
@@ -1306,12 +1284,13 @@ left: 0%;
     & .page_body {
 
     }
-  }
+  
 	
   
   
   & .menu_link_bars {
      display: none;
   }
-}  /*=== Data Error View end ===*/
+  } /*==== Page Error View End ====*/
+}  /*===== Data Error View end =====*/
 
