@@ -725,9 +725,30 @@ margin: 0px 5%;
   }
 
 
-   &:is(.label-view, .search-view, .archive-view) {
-/*  &.label-view, &.search-view, &.archive-view {*/
+  &:is(.label-view, .search-view, .archive-view) {
+  /* &.label-view, &.search-view, &.archive-view {*/
     & .page {  
+      & .blog-name {
+        & .navbar {
+	  & .navbar-sticky {
+            & .navbar-left {
+	      & .logo {
+	        & .logo_name {
+	        &.home {
+	  	  display: none;
+	        }
+                &.view {
+        	  display: flex;
+	        }
+	      }
+	    }
+	  }
+        }
+	  & .navbar-centralized {
+	    display: flex;
+	  }
+        }
+      }
     & .page_body {      
       & .centered {
         & .centered-bottom {
@@ -850,32 +871,10 @@ margin: 0px 5%;
 }
 
 
-	
-  &.label-view, &.search-view, &.archive-view {
+	&.label-view, &.search-view, &.archive-view {
         & .page {
-        & .blog-name {
-        & .navbar {
-	  & .navbar-sticky {
-            & .navbar-left {
-	      & .logo {
-	        & .logo_name {
-	        &.home {
-	  	  display: none;
-	        }
-                &.view {
-        	  display: flex;
-	        }
-	      }
-	    }
-	  }
-        }
-	  & .navbar-centralized {
-	    display: flex;
-	  }
-        }
-      }
-      & .page_body {
-        padding-top: 120px;
+        & .page_body {
+          padding-top: 120px;
         & .centered {
           & .centered-bottom {
             & main.main-container,& main#main {
@@ -894,32 +893,19 @@ margin: 0px 5%;
       }
     }
 
-
-	  
-    & div.gotoc {
-    display: block;
-  }
   & .dasboard_search {
      display: none;
   }
-	  & .viewbox_search_filter {
+    & .viewbox_search_filter {
        & .post-filter-message {
           width: 100%;
           max-width: var(--maxw-width);
           background-color: var(--bg-bars);
        }
-    }
-    & div.gotoc {
-      display: none;
-    }
-  } /*=== Data Search,Label,Archive View end ===*/
-  
+     }
+   } /*=== Data Search,Label,Archive View end ===*/
   
   &.label-view {
-    & #Page1, & #Page2 {
-      display: none;     
-    }
-     
     & .dasboard_search,
     & .menu_link_bars {
        display: none;
@@ -927,9 +913,6 @@ margin: 0px 5%;
   } /*=== Data Label View end ===*/
 
   &.search-view {
-    & #Page1, & #Page2 {
-      display: none;     
-    }
     & .dasboard_search {
      display: flex;
     }
@@ -937,15 +920,9 @@ margin: 0px 5%;
     & .menu_link_bars {
      display: none;
     }
-    & .gotoc {
-     display: none;
-    }
   } /*=== Data Search View end ===*/
   
   &.archive-view {
-    & #Page1, & #Page2 {
-      display: none;     
-    }
     & .dasboard_search,
     & .menu_link_bars {
        display: none;
