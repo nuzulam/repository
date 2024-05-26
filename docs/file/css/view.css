@@ -1248,7 +1248,7 @@ left: 0%;
   }
   & article.post-outer-container section.comments {display:none}
   } /*==== Page Item View End ====*/
-} /*===== Data Item View end =====*/
+}  /*===== Data Item View end =====*/
 
 
 
@@ -1267,10 +1267,10 @@ left: 0%;
 	    & .logo {
 	      & .logo_name {
 	        &.home {
-	  	  
+	  	  display: none;
 	        }
                 &.view {
-        	  
+        	  display: flex;
 	        }
 	      }
 	    }
@@ -1288,9 +1288,7 @@ left: 0%;
 	
   
   
-  & .menu_link_bars {
-     display: none;
-  }
+  
   } /*==== Page Error View End ====*/
 }  /*===== Data Error View end =====*/
 
