@@ -1029,6 +1029,7 @@ margin: 0px 5%;
 			height: 100%;
                         max-width: 100%;
 			min-height: 100%;
+			background-color: var(--bg-page);
                         & .post {
                           margin: 0px;
 		          padding: 0px;
@@ -1037,7 +1038,7 @@ margin: 0px 5%;
                             & .post-title.entry-title {
                               & .snippet-container.r-snippet-container {
                                 & .r-snippetized {
-                                  font-family: var(--ff-roboto);
+                                /*  font-family: var(--ff-roboto);
                                   padding: 5px 0px;
                                   font-size: 22px;
                                   line-height: 1.5;
@@ -1047,7 +1048,7 @@ margin: 0px 5%;
                                   overflow: hidden;
                                   -webkit-box-orient: vertical;
                                   -webkit-line-clamp: 2;
-                                  display: -webkit-box;
+                                  display: -webkit-box;*/
                                 }
                               }
                             }
