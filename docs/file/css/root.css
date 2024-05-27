@@ -333,6 +333,37 @@ padding:8px 12px;
 border-radius:5px;
 }
 
+/*================================
+  Animasi Gaya Landing
+=================================*/
+
+/* Landing Animasi Start */
+.scroll-anime {opacity: 0;}
+/* Scroll Anime */
+
+/* Is Show Anime */
+.is-show {
+  animation-name: show;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes show {
+  0% {
+    opacity: 0;         
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0,0);
+  }
+}
+/* Gaya Animasi*/
+.up-down {transform: translateY(-100px);} /* Ke Atas */
+.down-up {transform: translateY(100px);} /* Ke Bawah */
+.slowdown {overflow: hidden;} /* Perlahan */
+.slide-right {transform: translateX(200px);} /* Slide Kanan */
+.slide-left {transform: translateX(-200px);} /* Slide kiri */
+
+
 .navbar-view {
   top: 0;
   left: 0;
