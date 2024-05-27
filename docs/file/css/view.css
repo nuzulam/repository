@@ -992,6 +992,7 @@ margin: 0px 5%;
               }
             }
 	    & .main.section,& #page_body {
+	      background-color: var(--bg-page);
               & .widget.Blog,& #Blog1 {
                 & .blog-posts.hfeed.container {
                   display: block;
