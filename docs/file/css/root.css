@@ -121,12 +121,13 @@
   --ls-cl-one: #4d4c78;
   --ls-cl-two: #87cbff;
   --ls-cl-three: #2571f5;
+  --bg-navi: #FFFFFF;
   --bg-page: #EAEEF6;
-  --bg-post: #EAEEF6;
-  --bg-bars: #FFFFFF;
+  --bg-post: #63717f;
+  --bg-bars: #4f5a66;
   --bg-view: #dae2eb;
-  --bg-focus: #BBDEFB;
-  --bg-pass:  #ddd;
+  --bg-focus: #C6E2FF;
+  --bg-pass:  #3b434c;
   --bg-search: #c3e3f3;
   --bg-post-hover: #111;
   --bg-bars-hover: #f1f1f1;
@@ -155,6 +156,7 @@
   --ls-cl-one: #D9E7FD;
   --ls-cl-two: #dfdafd;
   --ls-cl-three: #b9b1e0;
+  --bg-navi: #000000;
   --bg-page: #212121;
   --bg-post: #212121;
   --bg-bars: #455963;
