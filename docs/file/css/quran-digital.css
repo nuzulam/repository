@@ -303,8 +303,10 @@
 /*Class Blok Al-Quran
 --------------------------------------*/
 body.item-view .post .post-title-container {
+  margin-top: 15px;
   display: block;
   text-align: center;
+  position: relative;
  & > .post-title.entry-title{
   font-size: 30px;
   font-weight: 500;
