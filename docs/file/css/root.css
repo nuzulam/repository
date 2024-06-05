@@ -123,8 +123,8 @@
   --ls-cl-three: #2571f5;
   --bg-navi: #FFFFFF;
   --bg-page: #EAEEF6;
-  --bg-post: ##fbfbfb;
-  --bg-bars: #4f5a66;
+  --bg-post: #fbfbfb;
+  --bg-bars: #F1F1F1; /*#4f5a66;*/
   --bg-view: #dae2eb;
   --bg-focus: #C6E2FF;
   --bg-pass:  #3b434c;
