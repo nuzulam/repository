@@ -725,6 +725,17 @@ margin: 0px 5%;
                   box-sizing: border-box;
                   text-transform: capitalize;
                 }
+		& .blog-pager-land {
+		  width: 100%;
+                  height: 80px;
+                  margin:0;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+		}
+		& .blog-pager {
+                  display: none;
+		}
                 & .blog-posts.hfeed.container {
                   display: grid;
                   gap: 2;
@@ -889,6 +900,12 @@ margin: 0px 5%;
                 }
               }
               & .widget.Blog,& #Blog1 {
+	        & .blog-pager-land {
+		  display: none;
+		}
+		& .blog-pager {
+                  display: flex;
+		}
                /* & .blog-posts.hfeed.container {
                   display: grid;
                   grid-template-columns: repeat(3, 1fr);
