@@ -713,6 +713,18 @@ margin: 0px 5%;
                 }
               }
 	      & .widget.Blog,& #Blog1 {
+		& .blog-pager-land a.blog-pager-older-land,
+                & .blog-pager a.blog-pager-older-link {
+                  color: #fff;
+                  font-size: 18px;
+                  font-weight: 400;
+                  padding: 10px 20px;
+                  background: #2571f5;
+                  text-align: center;
+                  border-radius: 25px;
+                  box-sizing: border-box;
+                  text-transform: capitalize;
+                }
                 & .blog-posts.hfeed.container {
                   display: grid;
                   gap: 2;
