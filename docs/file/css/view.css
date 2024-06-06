@@ -713,11 +713,6 @@ margin: 0px 5%;
                 }
               }
 	      & .widget.Blog,& #Blog1 {
-		 & .blog-pager.container ,& #blog-pager {
-               & a.blog-pager-older-link {
-             display: none;
-              }
-              }
                 & .blog-posts.hfeed.container {
                   display: grid;
                   gap: 2;
