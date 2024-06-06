@@ -720,7 +720,7 @@ min-height: 200px;
   background-color: var(--bg-landing-blog);
 
   }
-.section-landing-blog {
+.section-landing-footer {
   background-color: var(--bg-landing-footer);
   & .landing-footer {
     & .list_footer_social {
