@@ -221,10 +221,8 @@ transition-timing-function:cubic-bezier(.4,0,.2,1);
     }
   }
 
-input[id="PlayerMurottalBars"] ~ .mainbacktotop > div #backtotop {
-  top: -110px;
-}
-input[id="PlayerMurottalBars"]:checked ~ .mainbacktotop > div #backtotop {
+
+.mainbacktotop > div #backtotop {
   top: -190px;
 }
 
