@@ -140,7 +140,7 @@
   --bg-landing-service: #ffffff;
   --bg-landing-store: #EEF5FF;
   --bg-landing-blog: #FFFFFF;
-  --bg-landing-pro: #FFFFFF;
+  --bg-landing-program: #767eeb;
   --bg-landing-footer: #FFFFFF;
   --color-logo: #809;
   --logo-color: #1C274C;
@@ -184,8 +184,8 @@
   --bg-landing-service: #7E8D98;
   --bg-landing-store: #4f5a66;
   --bg-landing-blog: #7E8D98;
-  --bg-landing-pro: #FFFFFF;
-  --bg-landing-footer: #FFFFFF;
+  --bg-landing-program: #181818;
+  --bg-landing-footer: #191919;
 
 	
   --color-logo: #D9E7FD;
@@ -720,8 +720,78 @@ min-height: 200px;
   background-color: var(--bg-landing-blog);
 
   }
-
-
+.section-landing-blog {
+  background-color: var(--bg-landing-footer);
+  & .landing-footer {
+    & .list_footer_social {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1.50px #ddd solid;
+  & a.link {
+  width: 40px;
+  height: 40px;
+  margin: 15px 10px;
+  border-radius: 50%;
+  border: 1px #fff solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ccc;
+  & svg {
+    width: 25px;
+   height: 25px;
+    }
+  }
+  }
+ & .list_footer_link {
+display: grid;
+                  grid-template-columns: repeat(4, 1fr);
+                  margin-top: 10px;
+                  margin:0px;
+                  padding: 5px;
+                  width: 100%;
+                  box-sizing: border-box;
+                  gap: 4px;
+                  align-items: start;
+                  justify-items: start;
+		  @media(max-width: 540px) {
+                    grid-template-columns: repeat(2, 1fr);
+                  }
+  & .list_link {
+    width: calc(100% - 40px);
+    margin-left: 0px;
+    display: block;
+    
+    list-style: none;
+    /*background: pink;*/
+    position: relative;
+    & li {
+      line-height: 1.8;
+      display: block;
+      margin: 5px 5px 5px -20px;
+      box-sizing: border-box;
+      & span {
+        color: var(--text-title);
+        font-size: 14px;
+        font-weight: 700;
+        }
+      & a {
+        color: var(--text-typo);
+        font-size: 16px;
+        font-weight: 600;
+        padding: 3px 0px;
+        box-sizing: border-box;
+        border-bottom: 1px transparent solid;
+        &:hover{
+          border-bottom: 1px #111 solid;
+          }
+        }
+      }
+    }
+  }
+}
+}
 
   
 
