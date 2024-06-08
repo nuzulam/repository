@@ -78,7 +78,7 @@
              & .card {
                margin: 10px auto;
                padding: 5px 10px;
-               background-color: #ddd;
+               background-color: var(--bg-navi);
                border-radius: 10px;
                &::before  {
   content: "";
