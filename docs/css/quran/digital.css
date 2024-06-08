@@ -41,7 +41,7 @@
          & .tafsir_header {
            width: 100%;
            height: 50px;
-           background: #ddd;
+           background: var(--bg-navi);
            overflow: hidden;
            padding: 5px 10px;
            box-sizing: border-box;
