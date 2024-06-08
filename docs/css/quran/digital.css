@@ -95,7 +95,8 @@
                  height: 50px;
                  display: flex;
                  align-items: center;
-             justify-content: space-between;
+                 justify-content: space-between;
+                 background-color: #7E8D98;
                  & span {
                    margin-left: 10px;
                    font-size: 19px;
