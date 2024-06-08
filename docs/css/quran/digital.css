@@ -1,0 +1,179 @@
+:root {
+  --rot-cek-out: rotate-out-cek-cw 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  --rot-cek-in: rotate-in-cek-cw 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/*==============================
+  Section Ayat
+===============================*/
+
+
+/*==============================
+  Section Tafsir
+===============================*/
+.quran_section_tafsir {
+ & .tafsir {
+        display: none;
+        background-color:#ffeecc;
+        padding:0px;
+        align-items: center;
+       justify-content: center;
+        margin:0px;
+       left: 300px;
+       right: 0px;
+       top: 120px;
+        bottom: 0px;
+        height: calc(100% - 120px);
+        width: calc(100% - 300px);
+        z-index: 20;
+        position: fixed;
+       transition: transform 0.25s all;
+    @media (max-width: 1450px){
+      left: 0;
+      width: calc(100% - 0px);
+      }
+       & .tafsir_page {
+         width: 100%;
+         max-width: 100%;
+         height: 100%;
+         background-color:#767;
+         position: relative;
+         & .tafsir_header {
+           width: 100%;
+           height: 50px;
+           background: #ddd;
+           overflow: hidden;
+           padding: 5px 10px;
+           box-sizing: border-box;
+           display: flex;
+           align-items: center;
+          justify-content: space-between;
+           & a.close {
+             width: 40px;
+             height: 40px;
+             background: #ccc;
+             display: flex;
+             border-radius: 50%;
+             align-items: center;
+             justify-content: center;
+             & svg {
+               width: 25px;
+               height: 25px;
+               }
+             }
+           & span {
+             font-size: 20px;
+             font-weight: bold;
+             color: var(--lop-cl-light);
+             }
+         }
+         & .tafsir_content {
+           height:calc(100% - 50px);
+           overflow-x: auto;
+           & .tafsir_digital {
+             padding: 5px 5px;
+             padding-bottom: 100px;
+             box-sizing: border-box;
+            /* background: pink;*/
+             & .card {
+               margin: 10px auto;
+               padding: 5px 10px;
+               background-color: #ddd;
+               border-radius: 10px;
+               &::before  {
+  content: "";
+  position: absolute;
+  margin-top: 10px;
+  left: 10px;
+  margin-left: -5px;
+  border-width: 15px;
+  border-style: solid;
+  border-color: transparent transparent transparent red;
+}
+               & .bars {
+                 width: 100%;
+                 height: 50px;
+                 display: flex;
+                 align-items: center;
+             justify-content: space-between;
+                 & span {
+                   margin-left: 10px;
+                   font-size: 19px;
+                   font-weight: 600;
+                   }
+                 & label {
+             width: 40px;
+             height: 40px;
+             background: #ccc;
+             display: flex;
+             border-radius: 50%;
+             align-items: center;
+             justify-content: center;
+             & svg {
+               width: 25px;
+               height: 25px;
+               }
+             }
+                 }
+               & .ring {
+                 
+                 &::before {
+                   content:"";
+                   width: 100%;
+                   height: 2px;
+                   margin-top: 10px;
+                   border-radius: 2px;
+                   display: block;
+                   background: navy;
+                   position: relative;
+                   text-align: center;
+                   }
+                 }
+               }
+             }
+           }
+        }
+      }
+}
+
+/*==== Input Set ===*/
+input[id="QsTafsirView-Set1"] ~ .main_tafsir .tsr-1 .bars svg,
+input[id="QsTafsirView-Set2"] ~ .main_tafsir .tsr-2 .bars svg {
+  -webkit-animation: var(--rot-cek-out);	                animation: var(--rot-cek-out);
+  }
+input[id="QsTafsirView-Set1"]:checked ~ .main_tafsir .tsr-1 .bars svg,
+input[id="QsTafsirView-Set2"]:checked ~ .main_tafsir .tsr-2 .bars svg {
+  -webkit-animation: var(--rot-cek-in);	                animation: var(--rot-cek-in);
+  }
+input[id="QsTafsirView-Set1"] ~ .main_tafsir .tsr-1 .ring,
+input[id="QsTafsirView-Set2"] ~ .main_tafsir .tsr-2 .ring {
+  display: none;
+}
+input[id="QsTafsirView-Set1"]:checked ~ .main_tafsir .tsr-1 .ring,
+input[id="QsTafsirView-Set2"]:checked ~ .main_tafsir .tsr-2 .ring {
+  display: block;
+}
+
+
+
+
+
+/*==============================
+  Section Navigasi
+===============================*/
+
+
+@-webkit-keyframes rotate-in-cek-cw {
+  0% {
+    -webkit-transform: rotate(0); 
+    transform: rotate(0); 
+  /* opacity: 1;*/ 
+} 
+100% {  
+-webkit-transform: rotate(-180deg);  
+transform: rotate(-180deg); 
+/* opacity: 0;*/  } 
+}
+@keyframes rotate-in-cek-cw {  0% {    -webkit-transform: rotate(0);            transform: rotate(0);   /* opacity: 1;*/  }  100% {    -webkit-transform: rotate(-180deg);            transform: rotate(-180deg);  /*  opacity: 0;*/  }  }
+@-webkit-keyframes rotate-out-cek-cw {  0% {    -webkit-transform: rotate(-180deg);            transform: rotate(-180deg);   /* opacity: 0;*/  }  100% {    -webkit-transform: rotate(0);            transform: rotate(0);   /* opacity: 1;*/  }}
+@keyframes rotate-out-cek-cw {  0% {    -webkit-transform: rotate(-180deg);            transform: rotate(-180deg);  /*  opacity: 0;*/  }  100% {    -webkit-transform: rotate(0);            transform: rotate(0);   /* opacity: 1;*/  }}
