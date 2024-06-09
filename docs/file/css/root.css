@@ -135,14 +135,8 @@
   --bg-link-hover: #beeffa;
   --bg-btn-top: rgba(121, 82, 179, 0.5);/*#d0edf2;*/
   
-  /*== Background Landing ==*/
-  --bg-landing-page: #c6e2ff;
-  --bg-landing-service: #ffffff;
-  --bg-landing-program: #EECEEC;
+  
   --bg-program-bars: #834fa5;
-  --bg-landing-store: #EEF5FF;
-  --bg-landing-blog: #BDF0FC;
-  --bg-landing-footer: #FFFFFF;
   --color-logo: #809;
   --logo-color: #1C274C;
   --logo-color-symbol: #D9E7FD;
@@ -181,16 +175,9 @@
   --bg-link-hover: #4b657d;
   --bg-btn-top: #888;
 
-  /*== Background Landing ==*/
-  --bg-landing-page: #0e2a47;
-  --bg-landing-service: #2c3e50; /*#7E8D98;*/
-  --bg-landing-program: #071631;
-  --bg-program-bars: #dca5fd;
-  --bg-landing-store: #4f5a66;
-  --bg-landing-blog: #030B18;
-  --bg-landing-footer: #191919;
+  
 
-	
+  --bg-program-bars: #dca5fd;
   --color-logo: #D9E7FD;
   --logo-color: #ff0ccc;
   --logo-color-symbol: #1C274C;
