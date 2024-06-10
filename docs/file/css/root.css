@@ -65,6 +65,10 @@
   --fw-extrabold: 800;
 
 	
+  /*== Size Border ==*/
+  --size-border-df: 0.50px;
+
+	
   /*== Size width ==*/
   --maxw-extrawidth: 100%;
   --maxw-semiwidth: 805px;
