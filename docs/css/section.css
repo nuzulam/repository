@@ -735,3 +735,54 @@ transition-timing-function:cubic-bezier(.4,0,.6,1);*/
       }
     }
 }
+
+
+.feed-view {
+  & .page {
+    & .blog-name {
+      & .section, & #header {
+        & .widget,& .HTML {
+          & .widget-content {
+            & .section-navigasi {
+	    
+	    }
+	  }
+	}
+      }
+    }
+  }
+
+  &.search-view,&.archive-view,&.label-view {
+  & .page {
+    & .blog-name {
+      & .section, & #header {
+        & .widget,& .HTML {
+          & .widget-content {
+            & .section-navigasi {
+	    
+	    }
+	  }
+	}
+      }
+    }
+  }
+  }
+}
+
+
+
+.item-view {
+  & .page {
+    & .blog-name {
+      & .section, & #header {
+        & .widget,& .HTML {
+          & .widget-content {
+            & .section-navigasi {
+	    
+	    }
+	  }
+	}
+      }
+    }
+  }
+}
