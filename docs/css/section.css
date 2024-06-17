@@ -39,10 +39,10 @@ body.version-1-3-3 {
                 margin: 0px;
                 font-family: Stint Ultra Expanded;
                 &.Vhome{
-                  display: flex;
+                  display: none;
                   }
                 &.Vpage{
-                  display: none;
+                  display: flex;
                   }
                 & svg.symbol {
                   width: 40px;
