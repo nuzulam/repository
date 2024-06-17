@@ -780,6 +780,24 @@ transition-timing-function:cubic-bezier(.4,0,.6,1);*/
 	        height: 120px;
                 max-height: 120px;
                 min-height: 120px;
+		&.navigasi-group-part {
+                  & .NavSheet {
+		    height: 120px;
+                    max-height: 120px;
+                    min-height: 120px;
+		  & .Sheet {
+		    &.Sheet_pars_top{
+		    display: flex;
+		    }
+		    &.Sheet_pars_article {
+		    display: flex;
+		    }
+		    &.Sheet_pars_property{
+		    display: none;
+		    }
+		  }
+                }
+	      }
 	      }
 	    }
 	  }
@@ -805,6 +823,24 @@ transition-timing-function:cubic-bezier(.4,0,.6,1);*/
 	        height: 120px;
                 max-height: 120px;
                 min-height: 120px;
+		&.navigasi-group-part {
+                  & .NavSheet {
+		    height: 120px;
+                    max-height: 120px;
+                    min-height: 120px;
+		  & .Sheet {
+		    &.Sheet_pars_top{
+		    display: flex;
+		    }
+		    &.Sheet_pars_article {
+		    display: none;
+		    }
+		    &.Sheet_pars_property{
+		    display: flex;
+		    }
+		  }
+                }
+	      }
 	      }
 	    }
 	  }
