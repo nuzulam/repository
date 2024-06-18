@@ -160,7 +160,7 @@
 }
 .theme-dark {
   --cl-net-logo: #88F000;
-  --cl-top-logo: #b9b1e0;
+  --cl-top-logo: #E9FAFE;/*#b9b1e0;*/
   --cl-bottom-logo: #dfdafd;
   --cl-border-df: #ddd;
   --ls-cl-one: #D9E7FD;
