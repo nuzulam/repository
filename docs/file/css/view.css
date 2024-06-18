@@ -1730,23 +1730,37 @@ transition-timing-function:cubic-bezier(.4,0,.6,1);*/
 .item-view {
   & .page {
     & .blog-name {
-      & .navbar {
-	& .navbar-sticky {
-          & .navbar-left {
-	    & .logo {
-	      & .logo_name {
-	        &.home {
-	  	  display: none;
-	        }
-                &.view {
-        	  display: flex;
+      & .section, & #header {
+        & .widget,& .HTML {
+          & .widget-content {
+            & .section-navigasi {
+	      height: 120px;
+              max-height: 120px;
+	      & .navigasi {
+	        height: 120px;
+                max-height: 120px;
+                min-height: 120px;
+		&.navigasi-group-part {
+                  & .NavSheet {
+		    height: 120px;
+                    max-height: 120px;
+                    min-height: 120px;
+		  & .Sheet {
+		    &.Sheet_pars_view {
+		    display: flex;
+		    }
+		      &.Sheet_pars_article {
+		        display: none;
+		      }
+		      &.Sheet_pars_property {
+	   	        display: flex;
+	   	      }
+	  	    }
+                  }
 	        }
 	      }
 	    }
 	  }
-        }
-	& .navbar-centralized {
-	  display: flex;
 	}
       }
     }
