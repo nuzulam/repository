@@ -153,6 +153,60 @@
           }
         }
       }
+      & .respon-button {
+        width: 100%;  
+        min-height: 40px;  
+        padding: 0px;  
+        z-index: 4;  
+        position: relative;  
+        height: auto;  
+        display: flex;  
+        padding-bottom: 0px;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: space-between;
+        & .juz-poin {
+          display: inline-block;
+          margin: 0px 5px 0px 0px;
+          & .juz,& .poin {
+            padding: 5px 10px;
+            border: 0.25px var(--cl-bdr) solid;
+            font-family: 'Quicksand' , sans-serif;
+          }
+          & .juz {
+            font-weight: bold;
+            color: var(--cl-qs-dgt);
+            border-radius: 4px 0 0 4px;
+            background-color: var(--bg-la);
+          }
+          & .poin {
+            font-weight: bold;
+            color: var(--cl-bit); 
+            border-radius: 0 4px 4px 0;
+            border-left: 0px #4E4DED solid;
+            background-color: var(--bg-bit);
+          }
+        }
+        & .link-ayat {
+          font-weight: bold;
+          border-radius: 4px;
+          padding: 5px 10px;
+          color: var(--cl-qs-dgt);
+          border: 0.25px var(--cl-bdr) solid;
+          /*color: var(--cl-bat);*/ 
+          background-color: var(--bg-la);
+          font-family: 'Quicksand' , sans-serif;
+          &::after {
+            content: "\e4bf";
+            font-size: 14px;
+            color: var(--cl-bdr); 
+            font-weight: 500;
+            font-family: FontAwesome; 
+            margin-left: 7px;
+            position: relative;
+          }
+        }
+      }
     }
   }
 }
