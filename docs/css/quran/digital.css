@@ -6,6 +6,79 @@
 /*==============================
   Section Ayat
 ===============================*/
+.section-quran {
+  & .info-date-surah {
+    height: auto;
+    left: 0;
+    top: 1px;
+    line-height: 1.6;
+    padding: 3px 10px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.25px var(--cl-df) solid;
+    & > span {
+      font-size: 40px;
+      line-height: 1.6;
+      color: var(--cl-df);
+      font-family: 'Lateef', cursive;
+    }
+    & .date-bars {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      & span {
+        color: var(--cl-df);
+        font-family: 'Lato' , sans-serif;
+        &:first-child {
+          font-size: 19px;
+          font-weight: bold;
+          color: var(--cl-df);
+        }
+        &:last-child {
+          font-size: 14px;
+          color: var(--cl-df);
+        }
+        & b {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+  & .bismillah {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 75px;
+    & span {
+      font-size: 35px;
+      color: var(--cl-bmlah);
+      font-family: 'Lateef', cursive;
+    }
+  }
+}
+
+
+/*==============================
+  Section Tafsir
+===============================*/
+.section-tafsir {
+
+}
+
+/*==============================
+  Section Qur'an Navigasi
+===============================*/
+.section-quran-navigasi {
+
+}
+
+
+/*==============================
+  Section Ayat
+===============================*/
 .respon-button .juz-poin:hover ~ .juz-info,
 .respon-button .juz-poin:focus ~ .juz-info {
     display: block;
