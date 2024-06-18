@@ -524,7 +524,7 @@ position:relative;
       font-style: normal;
       padding: 3px 10px;
       font-weight: 200;
-      background: var(--bg-view);
+      background: var(--bg-navi);
       border-radius: 5px;
       font-family:var(--ff-ultra);
       box-sizing: border-box;
