@@ -1408,7 +1408,7 @@ transition-timing-function:cubic-bezier(.4,0,.6,1);*/
                       box-sizing: border-box;
                       border-radius: 5px;
                       border: 0px transparent solid;
-                      background: linear-gradient(to right, #164393, #164393);
+                      background: linear-gradient(to right, #164393, rgba(141, 250, 8, 0.8));
                       background-clip: padding-box; 
                       & .post-wrapper {
                         max-width: 100%;
