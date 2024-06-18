@@ -1172,25 +1172,39 @@ body.version-1-3-3 {
   /* &.label-view, &.search-view, &.archive-view {*/
     & .page {  
       & .blog-name {
-        & .navbar {
-	  & .navbar-sticky {
-            & .navbar-left {
-	      & .logo {
-	        & .logo_name {
-	        &.home {
-	  	  display: none;
-	        }
-                &.view {
-        	  display: flex;
-	        }
+        & .section, & #header {
+        & .widget,& .HTML {
+          & .widget-content {
+            & .section-navigasi {
+	    height: 120px;
+              max-height: 120px;
+		& .navigasi {
+	        height: 120px;
+                max-height: 120px;
+                min-height: 120px;
+		&.navigasi-group-part {
+                  & .NavSheet {
+		    height: 120px;
+                    max-height: 120px;
+                    min-height: 120px;
+		  & .Sheet {
+		    &.Sheet_pars_top{
+		    display: flex;
+		    }
+		    &.Sheet_pars_article {
+		    display: flex;
+		    }
+		    &.Sheet_pars_property{
+		    display: none;
+		    }
+		  }
+                }
+	      }
 	      }
 	    }
 	  }
-        }
-	  & .navbar-centralized {
-	    display: flex;
-	  }
-        }
+	}
+      }
       }
     & .page_body {      
       & .centered {
