@@ -156,6 +156,7 @@
   --text-link: #7952b3;
   --text-subtitle: #102;
   --text-focus: #880099;
+  --text-prog: #072931;
   --focus-shadow: #809;
 }
 .theme-dark {
@@ -198,6 +199,7 @@
   --text-link: #ff1493;
   --text-subtitle: #d0edf2;
   --text-focus: #00ffff;
+  --text-prog: #e4d7eb;
   --focus-shadow: #102;
 }
 
