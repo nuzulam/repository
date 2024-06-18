@@ -100,7 +100,14 @@
   & .jdate {
   margin-top: 10px;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
+  & span:nth-of-type(2) {
+    color: red;
+   font-size: 18px;
+   font-weight: 400;
+  }
   }
 }
   }
