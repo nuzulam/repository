@@ -222,7 +222,7 @@
 /*==============================
   Section Qur'an Navigasi
 ===============================*/
-.section-navigasi-quran {
+.section-quran-navigasi {
   width: 100%;
   display: flex;
   align-items: center;
@@ -666,11 +666,11 @@ input[id="QsTafsirView-Set2"]:checked ~ .main_tafsir .tsr-2 .ring {
 
 
 
-input[id="QsLayView-Set10"]:checked ~ .section-navigasi-quran .quran-navigasi .modeheight label.LabFor10 svg {
+input[id="QsLayView-Set10"]:checked ~ .section-quran-navigasi .quran-navigasi .modeheight label.LabFor10 svg {
   -webkit-animation: flip-horizontal-top 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
 	        animation: flip-horizontal-top 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
 }
-input[id="QsLayView-Set10"] ~ .section-navigasi-quran .quran-navigasi .modeheight label.LabFor10 svg {
+input[id="QsLayView-Set10"] ~ .section-quran-navigasi .quran-navigasi .modeheight label.LabFor10 svg {
   -webkit-animation: flip-horizontal-bottom 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
 	        animation: flip-horizontal-bottom 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
 }
