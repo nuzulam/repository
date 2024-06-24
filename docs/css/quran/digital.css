@@ -192,7 +192,8 @@ body.item-view .post .post-title-container {
         min-height: 40px;  
         padding: 0px;  
         z-index: 4;  
-        position: relative;  
+        position: relative;
+	text-align: right;
         height: auto;  
         display: flex;  
         padding-bottom: 0px;
