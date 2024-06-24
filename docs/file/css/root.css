@@ -130,7 +130,7 @@
   --bg-navi: #EEF5FF;
   --bg-page: #EAEEF6;
   --bg-post: #fbfbfb;
-  --bg-bars: #F1F1F1; /*#4f5a66;*/
+  --bg-bars: #EEF5FF; /*#4f5a66;*/
   --bg-view: #dae2eb;
   --bg-focus: #C6E2FF;
   --bg-pass:  #3b434c;
@@ -172,8 +172,8 @@
   
   --bg-navi: #030B18;
   --bg-page: #212121;
-  --bg-post: #212121;
-  --bg-bars: #455963;
+  --bg-post: #455963;
+  --bg-bars: #030B18;
   --bg-view: #2c3e50;
   --bg-focus: #67809F;
   --bg-pass:  #535763;
