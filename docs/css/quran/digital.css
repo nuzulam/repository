@@ -845,3 +845,57 @@ transform: rotate(-180deg);
             transform: rotateX(-180deg);
   }
 }
+
+
+
+/* ----------------------------------------
+ * animation slide-in-bottom
+ * ---------------------------------------- */
+@-webkit-keyframes slide-in-bottom-quran {
+  0% {
+    -webkit-transform: translateY(160px);
+            transform: translateY(160px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+@keyframes slide-in-bottom-quran {
+  0% {
+    -webkit-transform: translateY(160px);
+            transform: translateY(160px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+/* ----------------------------------------
+ * animation slide-in-top
+ * ---------------------------------------- */
+@-webkit-keyframes slide-in-top-quran {
+  0% {
+    -webkit-transform: translateY(-160px);
+            transform: translateY(-160px);
+    /*opacity: 0;*/
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-top-quran {
+  0% {
+    -webkit-transform: translateY(-160px);
+            transform: translateY(-160px);
+   /* opacity: 0;*/
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
