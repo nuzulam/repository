@@ -660,7 +660,7 @@ body.item-view .post .post-title-container {
            & a.close {
              width: 40px;
              height: 40px;
-             background: #ccc;
+            /* background: #ccc;*/
              display: flex;
              border-radius: 50%;
              align-items: center;
