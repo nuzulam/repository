@@ -881,7 +881,7 @@ transform:translateY(100%);
                  & label {
              width: 40px;
              height: 40px;
-             background: #ccc;
+             background-color: var(--bg-view);
              display: flex;
              border-radius: 50%;
              align-items: center;
