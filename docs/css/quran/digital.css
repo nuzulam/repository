@@ -2,7 +2,19 @@
   --rot-cek-out: rotate-out-cek-cw 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   --rot-cek-in: rotate-in-cek-cw 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
-
+body.item-view .post .post-title-container {
+  margin-top: 25px;
+  display: block;
+  text-align: center;
+  position: relative;
+ & > .post-title.entry-title{
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'Merriweather', sans-serif;
+  font-style: normal;
+  text-align: center;
+  }
+}
 
   .ayat-001 .number_ayat span::before{content:"١";}
   .ayat-002 .number_ayat span::before{content:"٢";}
