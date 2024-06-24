@@ -461,6 +461,17 @@ body.item-view .post .post-title-container {
       align-items: center;
       justify-content: center;
       position: relative;
+      & .qoricall{
+        z-index: -1;
+        width: 100%;
+        bottom: 0px;
+        font-size: 12px;
+    text-align: center;
+    outline: none;
+    position: absolute;
+    border:none;
+    background: transparent;
+  }
       & .onplayer {
       width: calc(100% - 10px);
     display: flex;
