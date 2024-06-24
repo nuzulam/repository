@@ -3,6 +3,14 @@
   --rot-cek-in: rotate-in-cek-cw 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
+
+  .ayat-001 .number_ayat span::before{content:"١";}
+  .ayat-002 .number_ayat span::before{content:"٢";}
+  .ayat-003 .number_ayat span::before{content:"٣";}
+  .ayat-004 .number_ayat span::before{content:"٤";}
+  .ayat-005 .number_ayat span::before{content:"٥";}
+  .ayat-006 .number_ayat span::before{content:"٦";}
+  .ayat-007 .number_ayat span::before{content:"٧";}
 /*==============================
   Section Ayat
 ===============================*/
