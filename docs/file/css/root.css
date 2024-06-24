@@ -122,6 +122,7 @@
   --cl-net-logo: #ff0ccc;
   --cl-top-logo: #2571f5;
   --cl-bottom-logo: #87cbff;
+  --cl-border: #111;
   --cl-border-df: #222;
   --ls-cl-one: #4d4c78;
   --ls-cl-two: #87cbff;
@@ -163,6 +164,7 @@
   --cl-net-logo: #88F000;
   --cl-top-logo: #E9FAFE;/*#b9b1e0;*/
   --cl-bottom-logo: #dfdafd;
+  --cl-border: #fff;
   --cl-border-df: #ddd;
   --ls-cl-one: #D9E7FD;
   --ls-cl-two: #dfdafd;
