@@ -66,6 +66,11 @@
   /*== Content ==*/
   & .content-quran {
     & .quran-digital {
+        margin-left: -40px;
+        list-style: none;
+        padding: 5px 10px;
+	box-sizing: border-box;
+        border-bottom: 0.50px #ccc solid;
       & + & {
         margin-top: 15px;
       }
@@ -274,12 +279,61 @@
           display: flex;
           align-items: center;
           justify-content: start;
+	  & div[class*="form-"] {  
+            & form {
+	      position: relative; 
+              display: flex; 
+   /* padding-right: 39px;*/
+   box-sizing: border-box;
+   height: 39px;
+   border: 0.50px var(--border-nav) solid; 
+   border-radius: 5px; 
+   overflow: hidden; 
+   /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);*/  
+   & select { 
+    font-size: 14px;
+        font-weight: 500;
+    /* Reset Select */ 
+    appearance: none; 
+    outline: 0; 
+    border: 0;  
+    box-shadow: none; 
+    /* Personalize */  
+    flex: 1;  
+    padding: 0 10px; 
+    color: var(--cl-bg-nav);      
+    background-color: transparent;   
+   /* background-image: none; */
+                cursor: pointer; 
+                &::-ms-expand {
+                  display: none;
+                }
+              }
+            }
+          }
           & .form-surat {
             height: 50px;
             width: calc(100% - 180px);   
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: center; 
+	    & form {
+       width: calc(100% - 10px);
+    &::after {
+    content: '\f0d7';  
+    position: absolute; 
+    color: var(--cl-bg-nav); 
+    top: 0;
+    right: 0;
+    height: 39px;
+    padding: 10px 12px; 
+    font-family: FontAwesome; 
+   /* background-color: var(--bg-nav-bf); 
+    background-color: #34495e;*/ 
+    transition: .25s all ease;   
+    pointer-events: none;
+    }
+   }
           }
           & .form-ayat {
             height: 50px;
@@ -289,6 +343,24 @@
             display: flex;
             align-items: center;
             justify-content: center;
+	    & form {
+              max-width: 70px;
+              min-width: 70px;
+              &::after { 
+                content: '\f107';  
+    position: absolute; 
+    color: var(--cl-bg-nav);
+    top: 0;
+    right: 0;
+    height: 39px;
+    padding: 10px 12px;
+    font-family: FontAwesome;  
+    /*background-color: var(--bg-nav-bf); 
+    background-color: #34495e;*/  
+    transition: .25s all ease; 
+    pointer-events: none; 
+  }
+  }
           }
           & .btn-pass {
             height: 50px;
