@@ -611,7 +611,7 @@ body.item-view .post .post-title-container {
 /*==============================
   Section Tafsir
 ===============================*/
-.quran_section_tafsir {
+.section-tafsir {
  & .tafsir {
         display: none;
         background-color:#ffeecc;
@@ -625,7 +625,7 @@ body.item-view .post .post-title-container {
         bottom: 0px;
         height: calc(100% - 120px);
         width: calc(100% - 300px);
-        z-index: 20;
+        z-index: 150;
         position: fixed;
        transition: transform 0.25s all;
     @media (max-width: 1450px){
