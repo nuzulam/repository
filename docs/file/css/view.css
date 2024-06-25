@@ -316,7 +316,7 @@ body.version-1-3-3 {
                margin: 0px auto;
                border: none;
                width: 100px;
-               height: 40px;
+               height: 30px;
                display: flex;
 	       border-radius: 25px;
 	       border: 0.5px var(--cl-border) solid;
@@ -326,7 +326,7 @@ body.version-1-3-3 {
 	       & span {
 		       margin-left: 10px;
 		       color: var(--text-typo);
-                       font-size: 16px;
+                       font-size: 15px;
 		       font-weight: 600;
 	       }
               & svg {
