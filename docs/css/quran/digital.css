@@ -728,7 +728,7 @@ transform:translateY(100%);
   margin-bottom: -18.90px;
   border-width: 11px;
   border-style: solid;
-  border-color: #ddd transparent transparent transparent;
+  border-color: var(--cl-border) transparent transparent transparent;
 }
     &::after  {
   content: "";
@@ -741,14 +741,14 @@ transform:translateY(100%);
   margin-bottom: -18.80px;
   border-width: 12px;
   border-style: solid;
-  border-color: #333 transparent transparent transparent;
+  border-color: var(--bg-post) transparent transparent transparent;
 }
     }
   & .juz-date{
     z-index: 5;
     width: 100%;
     height: 150px;
-    background:#333;
+    background-color: var(--bg-post);
     display: flex;
     align-items: start;
     justify-content: start;
@@ -757,14 +757,14 @@ transform:translateY(100%);
     box-sizing: border-box;
     border-radius: 10px;
     padding: 10px 10px;
-    border:#ddd solid var(--size-border-df);
+    border: var(--cl-border) solid var(--size-border-df);
     & .jnumb {
   width: 100%;
   height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: red;
+  background: var(--bg-view);
   border-radius: 5px;
  /* flex-direction: column;*/
   }
