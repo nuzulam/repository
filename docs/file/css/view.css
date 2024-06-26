@@ -1730,7 +1730,7 @@ transition-timing-function:cubic-bezier(.4,0,.6,1);*/
   &::before {
       content:"";
       left: 0;
-      bottom: 0;
+      top: 60px;
       z-index: 20;
       width: 100%;
       height: 3px;
