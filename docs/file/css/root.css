@@ -1211,12 +1211,15 @@ box-sizing: border-box;
   }
 }
   & .search_filter {
-  width: 100%;
+  width: calc(100% - 20px);
+  margin: 0px 9px;
   box-sizing: border-box;
-  padding: 5px 10px;
-  background: #ccc;
- display: flex;
+  padding: 5px 5px;
+  background: var(--bg-post);
+  display: flex;
   align-items: center;
+  border-radius: 5px;
+  border: 0.5px var(--cl-border) solid;
   justify-content: space-between;
   position: relative;
   & .form_filter {
