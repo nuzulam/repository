@@ -1251,20 +1251,20 @@ box-sizing: border-box;
 }
   }
   & .button_filter {
-  min-width: 200px;
+  min-width: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
   & button {
     width: 40px;
     height: 40px;
-    border: none;
+    border: 0.5px var(--cl-border) solid;
     margin: 0px auto;
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: transparent;
+    background: var(--bg-view);
     & svg {
       width: 30px;
       height: 30px;
