@@ -1343,6 +1343,11 @@ transition-timing-function:cubic-bezier(.4,0,.6,1);*/
                 }
               }
             }
+	    & .article-central-container {
+		    & .sidebar-landing-article {
+			    display: none;
+		    }
+	    }
 	    & .main.section,& #page_body {
 		display: block;
 	      & .widget.HTML {
@@ -1553,6 +1558,11 @@ transition-timing-function:cubic-bezier(.4,0,.6,1);*/
                 }
               }
             }
+	    & .article-central-container {
+		    & .sidebar-landing-article {
+			    display: block;
+		    }
+	    }
 	    & .main.section,& #page_body {
 		flex-direction: column;
 	      & .widget.HTML {
