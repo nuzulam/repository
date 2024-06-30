@@ -259,7 +259,12 @@ body.item-view .post .post-title-container {
   Section Tafsir
 ===============================*/
 .section-tafsir {
-
+  & :target {
+    display: flex;
+    transition: transform 0.25s ease-out;
+    -webkit-animation: slide-in-bottom-quran 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-bottom-quran 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
 }
 
 /*==============================
