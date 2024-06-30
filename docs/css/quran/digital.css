@@ -753,9 +753,9 @@ transform:translateY(100%);
 } /*== Section Quran Navigasi End ==*/
 
 
-.show_info .subselect_quran_info,
-.show_sett .subselect_quran_setting,
-.show_audio .subselect_quran_audio {
+.show_info .subnavigasi_quran_info,
+.show_sett .subnavigasi_quran_setting,
+.show_audio .subnavigasi_quran_audio {
   opacity: 1.0;
   transform: translate(0%,0%);
   -webkit-transform: translate(0%,0%);
