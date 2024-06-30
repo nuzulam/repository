@@ -1,4 +1,10 @@
 :root {
+  --pro-img-qori-afasy: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXmqDArx9_HEr6o6ykVY6CzKl8Pfy_Y_eZUvkMoxLSrl8SNnHh3E9JeMOrYNlMfMGBcPQlCUm0jEhGoR-fxHs-tGJtUlXvlAA5sf4YJfXYsiY-nxm6lC3kmwm647LBwLobxSV02HLH4GlstzdYet1K1VXtOEy2PiRSq-nE-ddMCxsxvDlumDVsCkzJUjM/s1600/pro_1_11zon.jpeg);
+  --pro-img-qori-mansour: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjZtbPc3t0BKqX8WKu-NslfY86FvkSWiaJRqXILkNQBBx581KGBmViuD58Ioa5r99Gd9xzhyvOeOm3MVpL4fPjWht2qc4lo7_fNd9Q0WbsSNHmzBV-3RSh9csCb2_hoX5gccfs6zUrnMi0HswnuXO80ri7DLQllmBvIi7B2ouoOk71JFB1zKOfTUIeVec/s1600/images%20%2812%29_1.jpeg);
+  --pro-img-qori-shatri: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjM6aCL9vLGhAUBsBoZnm6mMRqyCFmOefItz23ppmt0F4jRfnFK7JqbRKOEskkCc7qNALs4f7BhPDCqjDsSHKh93py0M8zfi7ywVkEjMepcD0GOA3qUInM7iLRuBeUrPC9Ftee1QLZrt9rXcIJCRMvQ9MS7MmanoTTSgpPiCm1kWqLxkosWCo3ghvwWATo/s1600/images%20%2816%29_1.jpeg);
+  --pro-img-qori-taher: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoUEUwTBmJBM8i_3MZ99j6f9wHclA92ceFPZzGhVHnJZgpQlQmfXTltTu6KtucY08ZmJHgzEPgtkNMHzdeox0h2lYpGNIdgugyT2s1fGGf-eqkOj9CRe9-H7cBXN1ADffD5xUdxrqvXIrMMZPAJ-p5Q9TmAo4skkGt69bBTvTG6N3ztVoBDyYMBFBX770/s1600/images%20%2813%29_1.jpeg);
+  --pro-img-qori-maher: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgq-rOxAxh2zj4mxeFmM5NsQxuy9HI5dQ0TP5GEEZ1Uhkg4vQo26X43RiavfMEQvffmU8Am9ChYS09zKTgBJAkpiiPUYDnbzvZNDY4RHXmp4DQczgv_OtwSf8y0fOY0K18o48GT9lE-LZvR03wnxoqORtVnXUWhZpQeqXrsKaosPT9-pZcWIBkaaQrCgcw/s1600/images%20%2815%29_1.jpeg);
+  --pro-img-qori-mrifai: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMjjfoy64JSYtOlsykVDWaKrWS2oPHWGtJOiQUyHePOqxf26Ti7q4Oijt1EuF9NMUP-yPPBW4z1SNtQnGWW7TnSXm7D-JdxX8rC3z7pQqiMmE8c5ICPOon6M-L7V_dR5cjnn_G2vhelG5zPi629bGEQep-TdZkttDBzwHb4_W6jkPdn1KmhiLGJ4V6cVE/s1600/images%20%2814%29_1.jpeg);
   --rot-cek-out: rotate-out-cek-cw 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   --rot-cek-in: rotate-in-cek-cw 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
@@ -615,12 +621,24 @@ transform:translateY(100%);
        border: 1px #111 solid;
        border-radius: 50%;
        position: absolute;
-       &.pro-default {
-         background-image: url('http://www.supah.it/dribbble/012/4.jpg');
+         &.pro-default {
+           background-image: var(--pro-img-qori-afasy);
          }
-       &.pro1 {
-	       
-       }
+         &.pro-01 {
+   	   background-image: var(--pro-img-qori-mansour);
+         }
+	 &.pro-02 {
+   	   background-image: var(--pro-img-qori-shatri);
+         }
+	 &.pro-03 {
+   	   background-image: var(--pro-img-qori-taher);
+         }
+	 &.pro-04 {
+   	   background-image: var(--pro-img-qori-maher);
+         }
+	 &.pro-05 {
+   	   background-image: var(--pro-img-qori-mrifai);
+         }
        }
        button.audio-full {
        border: none;
