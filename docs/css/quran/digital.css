@@ -728,9 +728,15 @@ transform:translateY(100%);
     /*background: pink;*/
     border-bottom: 1px #111 solid;
     & span.name {
-      color: #111;
+      color: var(--text-typo);
       font-size: 15px;
       font-weight: 500;
+      }
+    & span.view-post-title {
+      color: var(--text-typo);
+      font-size: 13px;
+      font-weight: 400;
+      opacity: 0.8;
       }
     }
   }
@@ -906,6 +912,7 @@ transform:translateY(100%);
       left: 0;
       width: calc(100% - 0px);
      }
+     & .copy-ayat{display:none}
      & .tafsir_page {
        width: 100%;
        max-width: 100%;
