@@ -131,8 +131,8 @@ body.item-view .post .post-title-container {
           display: flex;
           align-items: center;
           justify-content: center;
-          background: #aeaaea;
-          color: #fff;
+          background: var(--bg-la);
+          color: var(--text-view);
           position: relative;
           z-index: 10;
           margin: 0;
