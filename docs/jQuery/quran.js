@@ -13,7 +13,7 @@ $(document).ready(function(){
 }
 
       // if the 'close' button/element, or the overlay are clicked 
-	    $('body').on('click', '.close-setting, .subselect_quran_setting .overlay', function(event) {
+	    $('body').on('click', '.close-setting, .subnavigasi_quran_setting .overlay', function(event) {
           // call the close and
           close_quran_setting();
       });
@@ -41,7 +41,7 @@ $(document).ready(function(){
 }
 
       // if the 'close' button/element, or the overlay are clicked 
-	    $('body').on('click', '.close-info, .subselect_quran_info .overlay', function(event) {
+	    $('body').on('click', '.close-info, .subnavigasi_quran_info .overlay', function(event) {
           // call the close and
           close_quran_info();
       });
@@ -69,7 +69,7 @@ $(document).ready(function(){
 }
 
       // if the 'close' button/element, or the overlay are clicked 
-	    $('body').on('click', '.close-audio, .DateQori, .subselect_quran_audio .overlay', function(event) {
+	    $('body').on('click', '.close-audio, .DateQori, .subnavigasi_quran_audio .overlay', function(event) {
           // call the close and
           close_quran_audio();
       });
