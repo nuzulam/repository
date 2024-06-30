@@ -888,6 +888,55 @@ transform:translateY(100%);
          & .tafsir_content {
            height:calc(100% - 50px);
            overflow-x: auto;
+	   background: var(--bg-post);
+	   & div[class*="seayat-"]   {
+     margin-top: 20px;
+     padding: 0px 10px;
+     text-align: right;
+     box-sizing: border-box;
+      & > i {display: none;}
+      & .flex-alt {
+        margin: 0;
+       padding: 0;
+       width: 100%;
+       display: flex;
+        justify-content: flex-end;
+        & > span {
+  padding: 0px;
+  text-align: right;
+  margin-top: -12px;
+  font-size: 50px;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-shadow: none;
+  color: var(--cl-qs-dgt);
+  font-family: 'Lateef', cursive;
+}
+        & .number-ayat {
+          display: none;
+          }
+        & + p {
+  font-size: 14px;
+  text-align: right;
+  line-height: 1.4;
+  color: var(--cl-qs-dgt);
+  border-bottom: 0px #111 solid;
+  font-family: 'Merriweather', serif;
+        & + p {
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  color: var(--cl-df);
+  border-bottom: 0px #111 solid;
+  font-family: 'Quicksand' , sans-serif;
+}
+        }
+      }
+      }
            & .tafsir_digital {
              padding: 5px 5px;
              padding-bottom: 100px;
