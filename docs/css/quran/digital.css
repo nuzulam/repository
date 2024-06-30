@@ -259,12 +259,7 @@ body.item-view .post .post-title-container {
   Section Tafsir
 ===============================*/
 .section-tafsir {
-  & :target {
-    display: flex;
-    transition: transform 0.25s ease-out;
-    -webkit-animation: slide-in-bottom-quran 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation: slide-in-bottom-quran 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-  }
+
 }
 
 /*==============================
@@ -835,33 +830,33 @@ transform:translateY(100%);
   Section Tafsir
 ===============================*/
 .section-tafsir {
- & .tafsir {
-        display: none;
-        background-color:#ffeecc;
-        padding:0px;
-        align-items: center;
-       justify-content: center;
-        margin:0px;
-       left: 300px;
-       right: 0px;
-       top: 120px;
-        bottom: 0px;
-        height: calc(100% - 120px);
-        width: calc(100% - 300px);
-        z-index: 124;
-        position: fixed;
-       transition: transform 0.25s all;
+  & .tafsir {
+    display: none;
+    background-color:#ffeecc;
+    padding:0px;
+    align-items: center;
+    justify-content: center;
+    margin:0px;
+    left: 300px;
+    right: 0px;
+    top: 120px;
+    bottom: 0px;
+    height: calc(100% - 120px);
+    width: calc(100% - 300px);
+    z-index: 124;
+    position: fixed;
+    transition: transform 0.25s all;
     @media (max-width: 1450px){
       left: 0;
       width: calc(100% - 0px);
-      }
-       & .tafsir_page {
-         width: 100%;
-         max-width: 100%;
-         height: 100%;
-         background-color:#767;
-         position: relative;
-         & .tafsir_header {
+     }
+     & .tafsir_page {
+       width: 100%;
+       max-width: 100%;
+       height: 100%;
+       background-color:#767;
+       position: relative;
+       & .tafsir_header {
            width: 100%;
            height: 50px;
           background: var(--bg-bars);
@@ -962,6 +957,12 @@ transform:translateY(100%);
            }
         }
       }
+ & :target {
+    display: flex;
+    transition: transform 0.25s ease-out;
+    -webkit-animation: slide-in-bottom-quran 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-bottom-quran 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
 }
 
 /*==== Input Set ===*/
