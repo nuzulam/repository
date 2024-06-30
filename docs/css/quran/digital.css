@@ -95,12 +95,12 @@ body.item-view .post .post-title-container {
   /*== Content ==*/
   & .content-quran {
     & .Qbox {
-        margin-left: -40px;
-        list-style: none;
-        padding: 5px 10px;
-	box-sizing: border-box;
-        border-bottom: 0.50px #ccc solid;
-	position: relative;
+      margin-left: -40px;
+      list-style: none;
+      padding: 5px 10px;
+      box-sizing: border-box;
+      border-bottom: 0.50px #ccc solid;
+      position: relative;
       & + & {
         margin-top: 15px;
       }
@@ -112,6 +112,7 @@ body.item-view .post .post-title-container {
         margin-top: -125px;
         padding-top: 125px;
         position: relative;
+	& > i {display:none}
         & .flex-alt {
           margin: 0;
           padding: 0;
