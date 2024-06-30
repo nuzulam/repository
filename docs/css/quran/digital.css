@@ -94,12 +94,13 @@ body.item-view .post .post-title-container {
   
   /*== Content ==*/
   & .content-quran {
-    & .quran-digital {
+    & .Qbox {
         margin-left: -40px;
         list-style: none;
         padding: 5px 10px;
 	box-sizing: border-box;
         border-bottom: 0.50px #ccc solid;
+	position: relative;
       & + & {
         margin-top: 15px;
       }
