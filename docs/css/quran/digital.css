@@ -327,6 +327,7 @@ body.item-view .post .post-title-container {
   align-items: center;
   justify-content: center;
   & .quran-navigasi {
+      bottom: 0px;
       z-index: 20;
       width: 100%;
       max-width: 800px;
