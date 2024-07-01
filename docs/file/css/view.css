@@ -1916,7 +1916,7 @@ transition-timing-function:cubic-bezier(.4,0,.6,1);*/
     color: var(--text-link);
     line-height: 1.2;
     font-weight: 500;
-    font-size: 13px;
+    font-size: 15px;
     }
   & a.cm {
     max-width: 300px;
