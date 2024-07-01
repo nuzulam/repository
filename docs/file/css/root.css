@@ -133,7 +133,8 @@
   --bg-bars: #EEF5FF; /*#4f5a66;*/
   --bg-view: #dae2eb;
   --bg-focus: #C6E2FF;
-  --bg-pass:  #3b434c;
+  --bg-pass: #3b434c;
+  --bg-case: #191;
   --bg-search: #c3e3f3;
   --bg-post-hover: #111;
   --bg-bars-hover: #f1f1f1;
@@ -177,6 +178,7 @@
   --bg-view: #2c3e50;
   --bg-focus: #67809F;
   --bg-pass:  #535763;
+  --bg-case: #b3c;
   --bg-search: #191919;
   --bg-post-hover: #58727e; 
   --bg-bars-hover: #58727e;
