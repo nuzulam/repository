@@ -334,7 +334,6 @@ body.item-view .post .post-title-container {
       position: fixed;
       border-radius: 10px 10px 0px 0px;
       overflow: hidden;
-      bottom: 0px;
       background-color: var(--bg-navi);
       & .modeheight {
         width: 100%;
