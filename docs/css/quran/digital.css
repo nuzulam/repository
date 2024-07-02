@@ -773,10 +773,9 @@ transform:translateY(100%);
 ===============================*/
 .respon-button .juz-poin:hover ~ .juz-info,
 .respon-button .juz-poin:focus ~ .juz-info {
-    display: block;
+  display: block;
   z-index: 50;
   opacity:1;
-  
   left: 5px;
   /*background: navy;*/
   position: absolute;
@@ -784,9 +783,8 @@ transform:translateY(100%);
   }
 .respon-button .juz-info {
   color: #fff;
-  
   min-height: 100px;
-  max-height: 400px;
+  max-height: 200px;
   display: block;
   align-items:center;
    z-index: -50;
@@ -794,7 +792,6 @@ transform:translateY(100%);
   color: #fff;
   opacity:0;
   left: -99999px;
-  
   position: fixed;
   /*margin-top: -50px;*/
   bottom: 50px;
