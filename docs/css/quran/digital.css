@@ -276,14 +276,14 @@ body.item-view .post .post-title-container {
             font-weight: bold;
             color: var(--text-para);
             border-radius: 4px 0 0 4px;
-            background-color: var(--bg-la);
+            background-color: var(--bg-btn-label);
           }
           & .poin {
             font-weight: bold;
             color: var(--cl-bit); 
             border-radius: 0 4px 4px 0;
             border-left: 0px #4E4DED solid;
-            background-color: var(--bg-bit);
+            background-color: var(--bg-btn-label);
           }
         }
         & .link-ayat {
@@ -293,7 +293,7 @@ body.item-view .post .post-title-container {
           color: var(--text-para);
           border: 0.5px var(--cl-border) solid;
           /*color: var(--cl-bat);*/ 
-          background-color: var(--bg-la);
+          background-color: var(--bg-btn-label);
           font-family: 'Quicksand' , sans-serif;
           &::after {
             content: "\e4bf";
