@@ -40,100 +40,90 @@
             color: var(--text-title);
             font-size: 30px;
             line-height: 1.2;
-    font-weight: 500;
-    margin-left: 10px;
-    margin-top: -5px;
-  }
-  
-  & .box-icon {
-  position: relative;
-  z-index: 0;
-  width: 250px;
-  height: 250px;
-  min-width: 250px;
-  min-height: 250px;
-  margin: 0px;
-  border-radius: 50% 10px 50% 10px;
-  overflow: hidden;
-  padding: 5px;
-  box-sizing: border-box;
-  &:hover::before {
-    
-  
-    background-image: conic-gradient(transparent, rgba(168, 239, 255, 1), transparent 30%);
-  animation: profile-rotate 4s linear infinite;
-  }
-  &::before {
-  content: '';
-  position: absolute;
-  z-index: -2;
-  left: -50%;
-  top: -50%;
-  width: 250%;
-  height: 250%;
-  /*background-color: #1a232a;*/
-    background-color: #67809F;
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  
-}
-  &::after {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  left: 6px;
-  top: 6px;
-  width: calc(100% - 12px);
-  height: calc(100% - 12px);
-  background: #fff;
-  border-radius: 50% 8px 50% 8px;
-  }
-  & .icon {
-    width: 100%;
-    height: 100%;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    & svg {
-     width: 150px;
-     height: 150px;
-     }
-  }
-}
-}
-  & .boxpro-deskripsi {
-    margin-top: 15px;
-    &::before {
-        content:"";
-        width: 65%;
-        height: 5px;
-        border-radius: 5px;
-        position: absolute;
-      background: linear-gradient(to right, #ff1010, #00ffff);
+            font-weight: 500;
+            margin-left: 10px;
+            margin-top: -5px;
+          }  
+          & .box-icon {
+            position: relative;
+            z-index: 0;
+            width: 250px;
+            height: 250px;
+            min-width: 250px;
+            min-height: 250px;
+            margin: 0px;
+            border-radius: 50% 10px 50% 10px;
+            overflow: hidden;
+            padding: 5px;
+            box-sizing: border-box;
+         &:hover::before {   
+           background-image: conic-gradient(transparent, rgba(168, 239, 255, 1), transparent 30%);
+           animation: profile-rotate 4s linear infinite;
+         }
+         &::before {
+           content: '';
+           position: absolute;
+           z-index: -2;
+           left: -50%;
+           top: -50%;
+           width: 250%;
+           height: 250%;
+         /*background-color: #1a232a;*/
+           background-color: #67809F;
+           background-repeat: no-repeat;
+           background-position: 0 0;
+         }
+           &::after {
+             content: '';
+             position: absolute;
+             z-index: -1;
+             left: 6px;
+             top: 6px;
+             width: calc(100% - 12px);
+             height: calc(100% - 12px);
+             background: #fff;
+             border-radius: 50% 8px 50% 8px;
+           }
+           & .icon {
+              width: 100%;
+              height: 100%;
+              border-radius: 8px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              & svg {
+                width: 150px;
+                height: 150px;
+              }
+            }
+          }
         }
-    & p {
-      color: var(--text-para);
-      font-size: 16px;
-      line-height: 1.5;
-      font-weight: 500;
-      }
-    & a {
-      color: var(--text-para);
-      font-size: 19px;
-      line-height: 1.5;
-      font-weight: 600;
-      border-bottom: 2px #ccc solid;
-      padding: 5px 0px;
-      box-sizing: border-box;
-      }
-  }
-   @media (max-width: 640px) {
-     flex-direction: column;
-       & .boxpro-deskripsi {
-         margin-top: 0px;
-       }
-     }  
+        & .boxpro-deskripsi {
+          margin-top: 15px;
+          &::before {
+            content:"";
+            width: 65%;
+            height: 5px;
+            border-radius: 5px;
+            position: absolute;
+            background: linear-gradient(to right, #ff1010, #00ffff);
+          }
+          & p {
+            color: var(--text-para);
+            font-size: 16px;
+            line-height: 1.5;
+            font-weight: 500;
+          }
+          & a {
+            color: var(--text-para);
+            font-size: 19px;
+            line-height: 1.5;
+            font-weight: 600;
+            border-bottom: 2px #ccc solid;
+            padding: 5px 0px;
+            box-sizing: border-box;
+          }
+        }
       }
     }
     @media(max-width: 640px) {
@@ -141,9 +131,15 @@
         grid-template-columns: 1fr;
         & .card-program {
           flex-direction: column;
-          & h2 {
-            margin-left: 0px;
-            margin-top: 10px;
+          & .probox-icon-title {
+            flex-direction: column;
+            & h2 {
+              margin-left: 0px;
+              margin-top: 10px;
+            }
+          }
+          & .boxpro-deskripsi {
+            margin-top: 0px;
           }
         }
       }
