@@ -432,9 +432,71 @@
 --bg-lot-three: #111111;
 --bg-landing-page-row: #2d547d;
     }
+
+
+
+
+
 /*================================
-  Animatio scale-up-center
+  Animation
 =================================*/
+
+
+
+/*==== Anim Slide Left ====*/
+@-webkit-keyframes anim-slide-left {
+  0% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+@keyframes anim-slide-left {
+  0% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+
+
+/*==== Anim Slide Right ====*/
+@-webkit-keyframes anim-slide-right {
+  0% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+  100% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+}
+@keyframes anim-slide-right {
+  0% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+  100% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+}
+
+
+
+
+
+
+
+
+
+
 
 /**== Anim ==**/
 .msg-alert {
