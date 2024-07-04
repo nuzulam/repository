@@ -79,20 +79,19 @@
   --maxw-width: 800px;
   --maxw-medium: 100%;
 }
+
+
+
+
+
 /*=============================
   Tampilan Layar Terang
 =============================*/
 .theme-light {
-  --cl-net-logo: #ff0ccc;
-  --cl-top-logo: #2571f5;
-  --cl-bottom-logo: #87cbff;
-  --cl-border: #111;
-  --cl-border-df: #222;
-  --ls-cl-one: #4d4c78;
-  --ls-cl-two: #87cbff;
-  --ls-cl-three: #2571f5;
-  --bg-navi: #EEF5FF;
+  
+  /*==== Light Background ====*/
   --bg-bars: #EEF5FF; /*#4f5a66;*/
+  --bg-navi: #EEF5FF;
   --bg-page: #EAEEF6;
   --bg-post: #fbfbfb;
   --bg-view: #dae2eb;
@@ -110,11 +109,26 @@
   --bg-btn-top: rgba(121, 82, 179, 0.5);/*#d0edf2;*/
   
   
+  /*==== Light Color ====*/
+  --cl-net-logo: #ff0ccc;
+  --cl-top-logo: #2571f5;
+  --cl-bottom-logo: #87cbff;
+  --cl-border: #111;
+  --cl-border-df: #222;
+  --ls-cl-one: #4d4c78;
+  --ls-cl-two: #87cbff;
+  --ls-cl-three: #2571f5;
+
+
+  /*==== Light Background ====*/
   --bg-program-bars: #834fa5;
   --color-logo: #809;
   --logo-color: #1C274C;
   --logo-color-symbol: #D9E7FD;
   --post-icon: #1C274C;
+  
+  
+  /*==== Light Text Color ====*/
   --text-title: #181818;
   --text-bold: #43468b;
   --text-list: #1C274C;
@@ -132,22 +146,21 @@
   --text-prog: #072931;
   --focus-shadow: #809;
 }
+
+
+
+
+
+
 /*=============================
   Tampilan Layar Gelap
 =============================*/
 .theme-dark {
-  --cl-net-logo: #88F000;
-  --cl-top-logo: #E9FAFE;/*#b9b1e0;*/
-  --cl-bottom-logo: #dfdafd;
-  --cl-border: #fff;
-  --cl-border-df: #ddd;
-  --ls-cl-one: #D9E7FD;
-  --ls-cl-two: #dfdafd;
-  --ls-cl-three: #b9b1e0;
-  
-  --bg-navi: #1C232f;
+	
+  /*==== Dark Background ====*/
   --bg-bars: #030B18;
-  --bg-page: #030B18;
+  --bg-navi: #030B18;
+  --bg-page: #1C232f;
   --bg-post: #455963;
   --bg-view: #2c3e50;
   --bg-card: #16223F;
@@ -162,14 +175,28 @@
   --bg-view-hover: #58727e;
   --bg-link-hover: #4b657d;
   --bg-btn-top: #888;
+  
+	
+  /*==== Dark Color ====*/
+  --cl-net-logo: #88F000;
+  --cl-top-logo: #E9FAFE;/*#b9b1e0;*/
+  --cl-bottom-logo: #dfdafd;
+  --cl-border: #fff;
+  --cl-border-df: #ddd;
+  --ls-cl-one: #D9E7FD;
+  --ls-cl-two: #dfdafd;
+  --ls-cl-three: #b9b1e0;
 
   
-
+  /*==== Dark Background ====*/
   --bg-program-bars: #dca5fd;
   --color-logo: #D9E7FD;
   --logo-color: #ff0ccc;
   --logo-color-symbol: #1C274C;
   --post-icon: #D9E7FD;
+  
+	
+  /*==== Dark Text Color ====*/
   --text-title: #D9E7FD;
   --text-bold: #eeddf8;
   --text-list: #D9E7FD;
