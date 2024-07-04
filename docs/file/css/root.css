@@ -880,7 +880,7 @@ min-height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #ccc;
+  background-color: #d9ffe1;
   & svg {
     width: 25px;
    height: 25px;
