@@ -30,6 +30,7 @@ body.item-view .post .post-title-container {
   text-align: center;
   }
 }
+.section-landing-footer{display:none;visibility:hidden}
 
   .ayat-001 .number_ayat span::before{content:"١";}
   .ayat-002 .number_ayat span::before{content:"٢";}
