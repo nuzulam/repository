@@ -1923,8 +1923,41 @@ display: grid;
                             display: block;
                             position: relative;
                             background-color: var(--bg-view);
-                            
-                            
+                            & ul.Ckr {
+                              width: 100%;
+                              margin: 0;
+                              padding: 0;
+                              list-style: none;
+                              position: relative;
+                              & li {
+                                height: auto;
+    margin: 0px -5px 3px 0px;
+    padding: 0px 5px 0px 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    & svg {
+      top: -2px;
+      left: -7px;
+      width: 25px;
+      height: 25px;
+      position: absolute;
+    }
+    & a {
+      color: var(--text-link);
+      font-size: 14px;
+      font-weight: 500;
+      padding: 1px 5px 0px 5px;
+      box-sizing: border-box;
+      }
+                                &:first-child {
+                                  padding: 0px 5px 0px 0px;
+                                  & svg {
+                                    display: none;
+                                  }
+                                }
+                              }
+                            }                         
                           }
                           & .post-title-container  {
                             & .post-title.entry-title {
