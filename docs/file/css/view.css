@@ -1902,7 +1902,8 @@ display: grid;
 			background-color: var(--bg-page);
 			&.post-1786619299592560161,
 			&.post-9035845986576711372,
-                        &.post-2850292648652760978 {
+                        &.post-2850292648652760978,
+			&.post-2095919700176105773 {
                           & .slide {
                             & .post {
                               & .listcallmaps {
