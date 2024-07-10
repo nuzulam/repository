@@ -733,6 +733,7 @@ transform:translateY(100%);
       font-size: 15px;
       font-weight: 500;
       }
+    & > b {display:none;}
     & span.view-post-title {
       color: var(--text-typo);
       font-size: 13px;
