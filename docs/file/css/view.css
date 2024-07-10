@@ -1923,58 +1923,8 @@ display: grid;
                             display: block;
                             position: relative;
                             background-color: var(--bg-view);
-                            & ul {
-			      margin-top: 0px;
-                              margin-left: -30px;
-                              list-style: none;
-                              & li {
-                                display: inline-block;
-                              }
-                              & svg:nth-of-type(1){
-                                display:none; 
-                              }
-                            }
-                            & svg {
-                              top: 0px;
-                              width: 30px;
-                              height: 30px;
-                              min-width: 30px;
-                              min-height: 30px;
-                              margin-left: -5px;
-                              margin-bottom: -10px;
-                              display: inline-block;
-                              position: relative;
-                            }
-                            & a {
-                              color: var(--text-link);
-                              line-height: 1.2;
-                              font-weight: 500;
-                              font-size: 14px;
-                            }
-                            & a.pin {
-                              max-width: 300px;
-                              margin-left: 0px;
-                              display: block;
-                              margin: 0px;
-                              position: relative;
-                              margin-bottom: -4px;
-                              overflow: hidden;
-                              -webkit-box-orient: vertical;
-                              -webkit-line-clamp: 1;
-                              display: -webkit-box;
-                            }
-			    & a.art {
-                              width: calc(100% - 200px);
-                              margin-left: 0px;
-                              display: block;
-                              margin: 0px;
-                              position: relative;
-                              margin-bottom: -4px;
-                              overflow: hidden;
-                              -webkit-box-orient: vertical;
-                              -webkit-line-clamp: 1;
-                              display: -webkit-box;
-                            }
+                            
+                            
                           }
                           & .post-title-container  {
                             & .post-title.entry-title {
