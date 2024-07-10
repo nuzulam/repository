@@ -584,7 +584,184 @@ body.item-view .post .post-title-container {
       }
     }
   } /*== Quran Navigasi End ==*/
-
+  & .subnavigasi_quran_setting {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  overflow: hidden;
+  position: fixed;
+  z-index: 130;
+  left:0;
+  right:0;
+  bottom: 0; 
+  background: rgba(25,25,25,0.4);
+  opacity: 0.0;
+  -webkit-transition: opacity 0.2s linear 0.05s;
+  transition: opacity 0.2s linear 0.05s;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition-timing-function:cubic-bezier(.4,0,.2,1);
+  transition-timing-function:cubic-bezier(.4,0,.2,1);
+  -webkit-transform:translateY(100%);
+-ms-transform:translateY(100%);
+transform:translateY(100%);
+ & .bars-setting-content {
+  z-index: 12;
+  height: 500px;
+  max-height: 90%;
+  margin: 0;
+  overflow-y: visible;
+  max-width: 800px;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+  transition: 0.4s all;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+  background-color: var(--bg-post);
+  & .layout_header {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & .close_button {
+      width: 35px;
+      height: 28px;
+      border-radius: 3px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /*background-color: #ddd;*/
+      & svg {
+        width: 28px;
+        height: 28px;
+      }
+    }
+  }
+  & .sidebar_layout_content {
+  height: calc(100% - 30px);
+  overflow: auto;
+  padding: 5px 5px 5px 5px;
+  box-sizing: border-box;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-top: 0.50px var(--border-bars) solid;
+  border-left: 0.50px var(--border-bars)  solid;
+  border-right: 0.50px var(--border-bars)  solid;
+  border-radius: 10px 10px 0px 0px;
+  & .navlabel {
+   width: 100%;
+   height: 100px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    flex-direction: column;
+    & > span {
+      font-size: 22px;
+      font-weight: 600;
+      color: var(--text-list);
+      }
+   & .modebars {
+     width: 100%;
+     height: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background: var(--bg-view);
+     border-radius: 5px;
+     & .nav_lab {
+    width: 100px;
+    height: 30px;
+    margin: 0px 10px;
+   /* background: navy;*/
+    overflow: hidden;
+    position: relative;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px var(--cl-border);
+    & label {
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      text-align: center;
+      width: 100px;
+      height: 30px;
+      border-radius: 25px;
+      position: absolute;
+      /*background: red;*/
+      }
+    }
+     }
+  
+   }
+  & .boxlabel {
+  display: flex;
+  flex-direction: column;
+  & .box_lab {
+  width: 100%;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+  justify-content: space-between;
+	
+  box-sizing: border-box;
+  /*gap: 10px;*/
+	user-select: none;
+  border-bottom: 0.50px var(--cl-border) solid;
+    & span {
+      color: var(--text-typo);
+      }
+    & label[role=switch]{
+  -webkit-appearance: none;
+  appearance: none;
+  width: 35px;
+  height: 20px;
+  border-radius: 25px;
+  transition: background .6s;
+  cursor: pointer;
+  box-sizing: content-box;
+  position: relative;
+  user-select: none;
+  outline: none;
+      background: #ddd;
+      &::after{
+  content: '';
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  transition: left .3s;
+  background-color: var(--bg-after, var(--bg, #fff));
+}
+}
+  
+}
+  }
+  }
+}
+& .overlay {
+      height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: absolute;
+  z-index: 10;
+  left:0;
+  right:0;
+  top: 0; 
+  background: rgba(25,25,25,0.4);
+  opacity: 0.0;
+      }
+}
   & .subnavigasi_quran_audio {
   height: 100%;
   display: flex;
