@@ -1000,6 +1000,7 @@ transform:translateY(100%);
       }
            & .tafsir_digital {
              padding: 5px 5px;
+	     min-height: 100%;
              padding-bottom: 100px;
              box-sizing: border-box;
             /* background: pink;*/
