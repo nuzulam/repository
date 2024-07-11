@@ -124,6 +124,7 @@
   --bg-pass: #3b434c;
   --bg-case: #191;
   --bg-search: #c3e3f3;
+  --bg-btn-click: #C3E3F3;
   --bg-btn-focus: #65F057;
   --bg-btn-label: #c0c2ce;
   --bg-post-hover: #111;
@@ -192,6 +193,7 @@
   --bg-pass:  #535763;
   --bg-case: #434DED;
   --bg-search: #191919;
+  --bg-btn-click: #58727E;
   --bg-btn-focus: #000080;
   --bg-btn-label: #536878;
   --bg-post-hover: #58727e; 
