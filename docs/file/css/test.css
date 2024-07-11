@@ -48,8 +48,6 @@ transition-timing-function:cubic-bezier(.4,0,.6,1);*/
   background-color: var(--bg-bars);
   border-radius: 0px;
   & .seclist {
-  
-  
   box-sizing: border-box;
   border-radius: 0px;
   display: flex;
