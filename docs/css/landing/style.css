@@ -47,10 +47,10 @@
           & .box-icon {
             position: relative;
             z-index: 0;
-            width: 250px;
-            height: 250px;
-            min-width: 250px;
-            min-height: 250px;
+            width: 150px;
+            height: 150px;
+            min-width: 150px;
+            min-height: 150px;
             margin: 0px;
             border-radius: 50% 10px 50% 10px;
             overflow: hidden;
@@ -92,8 +92,8 @@
               align-items: center;
               justify-content: center;
               & svg {
-                width: 150px;
-                height: 150px;
+                width: 120px;
+                height: 120px;
               }
             }
           }
