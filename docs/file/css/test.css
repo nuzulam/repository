@@ -351,6 +351,20 @@ transition-timing-function:cubic-bezier(.4,0,.6,1);*/
   position: relative;
   & .section-landing-footer {
         background-color: var(--bg-landing-footer);
+	 & .bars-bottom-footer{
+           height: 50px;
+           display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 0px 15px;
+  box-sizing: border-box;
+  background: navy;
+  & span {
+    font-size: 13px;
+    color: #fff;
+    font-weight: 400;
+    }
+  }
         & .landing-footer {
           & .list_footer_social {
            display: flex;
