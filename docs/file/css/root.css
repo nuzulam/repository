@@ -1845,33 +1845,7 @@ transition-timing-function:cubic-bezier(.4,0,.6,1);*/
      border-bottom: 0px #ccc solid;
     }
     & li {
-      margin-bottom: 0px;
-      & a {
-        width: 100%;
-        padding: 15px 20px;
-        box-sizing: border-box;
-        display: flex;
-        align-items: center;
-        justify-content: start;
-        cursor: pointer;
-	& span {
-	 font-size: 16px;
-         font-weight: 700;
-	 color: var(--post-title);
-	}
-        &:hover{
-          background-color: var(--bg-bars-hover);
-          }
-        &:active {
-          background-color: var(--bg-bars-hover);
-          }
-        & svg {
-          width: 30px;
-          height: 30px;
-          margin-right: 10px;
-          }
-        }
-      }
+    
     }
 }
   
