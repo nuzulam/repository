@@ -483,13 +483,26 @@ transition-timing-function:cubic-bezier(.4,0,.6,1);*/
       }
   }
   & .menu_list_bars {
-  height: calc(100% - 100px);
-  overflow: auto;
-  padding: 0px;
-  margin: 0px 0px 0px 0px;
-  box-sizing: border-box;
-  border-radius: 0px;
+    height: calc(100% - 100px);
+    overflow: auto;
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    box-sizing: border-box;
+    border-radius: 0px;
+    & .list_link_bars {
+      & ul.list_link {
+         & li {
+          margin: 10px 0px;
+          padding: 0px 10px;
+          box-sizing: border-box;
+          & a {
+            padding: 5px 5px;
+            border-radius: 7px;
+          }
+        }
+      }
     }
+  }
   & .menu_list_bottom {
     padding-left: 10px;
     width: auto;
