@@ -445,29 +445,25 @@ transition-timing-function:cubic-bezier(.4,0,.6,1);*/
   background-color: var(--bg-bars);
   border-radius: 0px;
   & .seclist {
-  
-  
-  box-sizing: border-box;
-  border-radius: 0px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
- /* border-top: 1px #ddd solid;
-  border-right: 0px #767eeb solid;*/
-  box-sizing: border-box;
-  &.menu_list_top {
-    display: none;
-   }
-  
+    box-sizing: border-box;
+    border-radius: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   /* border-top: 1px #ddd solid;
+    border-right: 0px #767eeb solid;*/
+    box-sizing: border-box;
+    &.menu_list_top {
+      display: none;
+    }
   }
   & .menu_list_top {
     padding: 2.50px 10px;
     height: 60px;
-    
     & .brand svg {
       width: 45px;
       height: 45px;
-      }
+    }
     & button {
       border: none;
       width: 35px;
@@ -479,8 +475,8 @@ transition-timing-function:cubic-bezier(.4,0,.6,1);*/
       & svg {
         width: 20px;
         height: 20px;
-        }
       }
+    }
   }
   & .menu_list_bars {
     height: calc(100% - 100px);
@@ -491,13 +487,35 @@ transition-timing-function:cubic-bezier(.4,0,.6,1);*/
     border-radius: 0px;
     & .list_link_bars {
       & ul.list_link {
-         & li {
+        & li {
           margin: 10px 0px;
           padding: 0px 10px;
           box-sizing: border-box;
-          & a {
+	  & a {
             padding: 5px 5px;
             border-radius: 7px;
+            width: 100%;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            cursor: pointer;
+            & svg {
+              width: 25px;
+              height: 25px;
+              margin-right: 10px;
+            }
+            & span {
+	      font-size: 16px;
+              font-weight: 700;
+	      color: var(--post-title);
+	    }
+            &:hover{
+              background-color: var(--bg-bars-hover);
+            }
+            &:active {
+              background-color: var(--bg-bars-hover);
+            }
           }
         }
       }
