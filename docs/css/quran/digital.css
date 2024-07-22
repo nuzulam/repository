@@ -1087,8 +1087,8 @@ transform:translateY(100%);
     align-items: center;
     justify-content: space-between;
     & > svg {
-        width: 45px;
-        height: 45px;
+        width: 35px;
+        height: 35px;
         }
     & button {
               margin: 0;
