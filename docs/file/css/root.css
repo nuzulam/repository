@@ -123,6 +123,7 @@
   --bg-focus: #C6E2FF;
   --bg-pass: #3b434c;
   --bg-case: #191;
+  --bg-line: #191919;
   --bg-search: #c3e3f3;
   --bg-btn-click: #C3E3F3;
   --bg-btn-focus: #65F057;
@@ -192,6 +193,7 @@
   --bg-focus: #67809F;
   --bg-pass:  #535763;
   --bg-case: #434DED;
+  --bg-line: #F1F1F1;
   --bg-search: #191919;
   --bg-btn-click: #5F5F5F;
   --bg-btn-focus: #000080;
