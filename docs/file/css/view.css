@@ -332,13 +332,15 @@ body.version-1-3-3 {
 	        }
 	      }
 	      @media (max-width: 1007px) {
-                & .navigasi-group-bars {
-                  width: 0px;
-		  display: none;
-                }
-		& .navigasi-group-part {
-                  width: calc(100% - 0px);
-                }
+		& .navigasi {
+                  &.navigasi-group-bars {
+                    width: 0px;
+		    display: none;
+                  }
+		  &.navigasi-group-part {
+                    width: calc(100% - 0px);
+                  }
+	        }
               }
 	    }
 	  }
