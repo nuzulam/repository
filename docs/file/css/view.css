@@ -260,7 +260,7 @@ body.version-1-3-3 {
                 }
                 &.navigasi-group-part {
                   margin: 0px;
-                  width: calc(100% - 0px);
+                  width: calc(100% - 300px);
                   display: block;
                   position: relative;
 		  & .NavSheet {
@@ -335,7 +335,7 @@ body.version-1-3-3 {
                   width: 0px;
                 }
 		& .navigasi-group-part {
-                  width: calc(100% - 300px);
+                  width: calc(100% - 0px);
                 }
               }
 	    }
