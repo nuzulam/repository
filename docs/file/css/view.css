@@ -291,7 +291,35 @@ body.version-1-3-3 {
                               width: 30px;
                               height: 30px;
                             }
-                        }
+                          }
+		        & .Sheet_Pro_1 {
+                          width: auto;
+                          display: flex;
+                          align-items: center;
+                          justify-content: start;
+                          & .menu_boxs {
+                            width: 50px;
+                            min-width: 50px;
+                            height: 60px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+			  }
+		        }
+			& .Sheet_Pro_2 {
+			  & .button_boxs {
+                            margin: 0;
+                            padding: 0;
+                            height: 60px;
+                            width: 100px;
+                            box-sizing: border-box;
+                            padding: 0px 5px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: end;
+                            background-color: red;
+			  }
+			}
 		      }
 		      &.Sheet_pars_article {
 			      
