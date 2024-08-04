@@ -161,7 +161,8 @@
   --text-typo: #191919;
   --text-para: #111;
   --text-desk: #111111;
-  --text-note: #111111;
+  --text-post: #111111;
+  --text-note: #191919;
   --text-arab: #191919;
   --text-latin: #191919;
   --text-line: #809;
@@ -231,7 +232,8 @@
   --text-typo: #f1f1f1;
   --text-para: #fff;
   --text-desk: #fff;
-  --text-note: #fff;
+  --text-post: #ffffff;
+  --text-note: #f1f1f1;
   --text-arab: #f1f1f1;
   --text-latin: #f1f1f1;
   --text-line: #D9E7FD;
