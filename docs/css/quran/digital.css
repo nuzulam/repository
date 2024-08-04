@@ -1365,7 +1365,7 @@ transform:translateY(100%);
     z-index: 124;
     position: fixed;
     transition: transform 0.25s all;
-    @media (max-width: 1450px){
+    @media (max-width: 1007px){
       left: 0;
       width: calc(100% - 0px);
      }
