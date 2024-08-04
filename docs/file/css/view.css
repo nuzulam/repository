@@ -29,11 +29,11 @@ body.version-1-3-3 {
     display: block;
     width: 100%;
     max-width: var(--maxw-extrawidth);
-    & .blog-name {
+    /*& .blog-name {
       & .section, & #header {
         & .widget,& .HTML {
           & .widget-content {
-           /* & .section-navigasi {
+            & .section-navigasi {
               top: 0px;
               left: 0px;
               right: 0px;
