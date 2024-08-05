@@ -544,7 +544,7 @@ body.item-view .post .post-title-container {
         padding-bottom: 0px;
         box-sizing: border-box;
         align-items: center;
-        justify-content: space-between;
+        justify-content: start;
         & .juz-poin {
           display: inline-block;
           margin: 0px 0px 0px 0px;
