@@ -507,8 +507,8 @@
 /**== Anim ==**/
 .msg-alert {
 position: fixed;
-top:49.50%;
-left: calc(50% - 120px);
+top: 130px;
+left: 310px;
 background:#333;
 z-index:1000;
 color:#fff;
@@ -516,6 +516,9 @@ font-family:Helvetica,Arial,sans-serif;
 font-size:15px;
 padding:8px 12px;
 border-radius:5px;
+@media (max-width: 1007px) {
+  left: 10px;
+  }
 }
 
 /*================================
