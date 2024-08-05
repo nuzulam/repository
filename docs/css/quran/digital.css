@@ -550,7 +550,7 @@ body.item-view .post .post-title-container {
           margin: 0px 0px 0px 0px;
           & .juz,& .poin {
             padding: 5px 10px;
-            border: 0.5px var(--cl-border) solid;
+            border: 0.5px var(--bg-line) solid;
             font-family: 'Quicksand' , sans-serif;
           }
           & .juz {
@@ -564,18 +564,18 @@ body.item-view .post .post-title-container {
             color: var(--cl-bit); 
             border-radius: 0 4px 4px 0;
             border-left: 0px #4E4DED solid;
-            background-color: var(--bg-la);
+            background-color: var(--bg-btn-click);
           }
         }
         & .link-ayat {
-          font-weight: bold;
+          font-weight: 500;
           border-radius: 4px;
           padding: 5px 10px;
+	  margin-left: 5px;
           color: var(--text-para);
-          border: 0.5px var(--cl-border) solid;
+          border: 0.5px var(--bg-line) solid;
           /*color: var(--cl-bat);*/ 
-          background-color: var(--bg-la);
-          font-family: 'Quicksand' , sans-serif;
+          background-color: var(--bg-btn-click);
           &::after {
             content: "\e4bf";
             font-size: 14px;
