@@ -401,7 +401,7 @@ body.item-view .post .post-title-container {
         bottom: 10px;
         position: absolute;
         & a.quran-copy {
-          border: 0.5px var(--cl-border) solid;
+          border: 0.5px var(--bg-line) solid;
           text-align: center;
           /* padding: 10px 5px;*/
           box-sizing: border-box;
@@ -412,8 +412,8 @@ body.item-view .post .post-title-container {
           display: flex;
           align-items: center;
           justify-content: center;
-          background: var(--bg-la);
-          color: var(--text-view);
+          background: var(--bg-btn-click);
+          color: var(--text-post);
           position: relative;
           z-index: 10;
           margin: 0;
@@ -557,7 +557,7 @@ body.item-view .post .post-title-container {
             font-weight: bold;
             color: var(--text-para);
             border-radius: 4px 0 0 4px;
-            background-color: var(--bg-la);
+            background-color: var(--bg-btn-click);
           }
           & .poin {
             font-weight: bold;
@@ -571,7 +571,7 @@ body.item-view .post .post-title-container {
           font-weight: 500;
           border-radius: 4px;
           padding: 5px 10px;
-	  margin-left: 5px;
+	  margin-left: 10px;
           color: var(--text-para);
           border: 0.5px var(--bg-line) solid;
           /*color: var(--cl-bat);*/ 
