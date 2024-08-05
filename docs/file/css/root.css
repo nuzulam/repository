@@ -129,12 +129,12 @@
   --bg-btn-focus: #65F057;
   --bg-btn-label: #c0c2ce;
   --bg-post-hover: #111;
-  --bg-bars-hover: #f1f1f1;
+  --bg-bars-hover: #b7dfff;
   --bg-view-hover: #58727e;
   --bg-link-hover: #beeffa;
   --bg-btn-top: rgba(121, 82, 179, 0.5);/*#d0edf2;*/
   
-  
+
   /*==== Light Color ====*/
   --cl-net-logo: #434DED; /*#65F057;*/
   --cl-top-logo: #2571f5;
@@ -205,7 +205,6 @@
   --bg-link-hover: #4b657d;
   --bg-btn-top: #888;
   
-	
   /*==== Dark Color ====*/
   --cl-net-logo: #88F000;
   --cl-top-logo: #E9FAFE;/*#b9b1e0;*/
