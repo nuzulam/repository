@@ -70,7 +70,7 @@ body.item-view .page_body{padding-top:80px}
       }
     }
     & p, & li {
-        font-size: 18px;
+        font-size: 16px;
         color: var(--post-typo);
         font-family: 'DM sans' , sans-serif;
     }
