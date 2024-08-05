@@ -1722,3 +1722,57 @@ transform: rotate(-180deg);
     opacity: 1;
   }
 }
+
+
+
+
+
+/*==== Checker Setting Quran ====*/
+
+input[id="QsLayView-Set9"] {
+  &:checked ~ .section-quran-navigasi .subnavigasi_quran_setting .navlabel .nav_lab.smart label{
+  display: none;
+  }
+  &:checked ~ .section-quran-navigasi .subnavigasi_quran_setting .navlabel .nav_lab.popup label {
+  
+  display: block;
+  }
+  &:checked ~ .component-quran{
+  display: none;
+  }
+  & ~ .section-quran-navigasi .subnavigasi_quran_setting .navlabel .nav_lab.smart label{
+  display: block;
+  }
+  & ~ .section-quran-navigasi .subnavigasi_quran_setting .navlabel .nav_lab.popup label {
+
+  display: none;
+  }
+  & ~ .component-quran{
+  display: block;
+  }
+  
+  &:checked ~ .section-quran-navigasi .subnavigasi_quran_setting .navlabel .nav_lab.smart {
+    color: #fff;
+  font-weight: 600;
+  background-color: var(--bg-checkbox);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+        
+  }
+  &:checked ~ .section-quran-navigasi .subnavigasi_quran_setting .navlabel .nav_lab.popup {
+  font-weight: 300;
+  background-color: #ddd;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.0), 0 0px 0px rgba(0, 0, 0, 0.0);
+  }
+  & ~ .section-quran-navigasi .subnavigasi_quran_setting .navlabel .nav_lab.smart{
+  font-weight: 300;
+  background-color: #ddd;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.0), 0 0px 0px rgba(0, 0, 0, 0.0);
+  }
+  & ~ .section-quran-navigasi .subnavigasi_quran_setting .navlabel .nav_lab.popup {
+   color: #fff;
+  font-weight: 600;
+  background-color: #aeaaea;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+        
+  }
+}
