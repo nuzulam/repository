@@ -215,7 +215,7 @@ body.version-1-3-3 {
               z-index: 123;
               display: flex;
               position: fixed;
-              background-color: var(--bg-navi);
+              background-color: var(--bg-bars);
 	      & .navigasi {
 	        & .logo {
                   display: block;
@@ -257,7 +257,7 @@ body.version-1-3-3 {
                   overflow: hidden;
                   width: 300px;
 		  display: block;
-                  background-color: #ccc;
+                  background-color: var(--bg-bars);
                 }
                 &.navigasi-group-part {
                   margin: 0px;
