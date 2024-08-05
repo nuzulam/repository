@@ -113,12 +113,12 @@ body.version-1-3-3 {
          font-weight: 700;
 	 color: var(--post-title);
 	}
-            &:hover{
+          /*  &:hover{
           background-color: var(--bg-bars-hover);
           }
         &:active {
           background-color: var(--bg-bars-hover);
-          }
+          }*/
           }
         }
       }
