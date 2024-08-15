@@ -199,10 +199,12 @@ body.version-1-3-3 {
         }
       }
     }*/
-    @media (max-width: 1007px){
-      & .blog-name {
-        & .section, & #header {
-          & .widget,& .HTML {
+    
+    & .blog-footer {
+      margin-left: 300px;
+      width: calc(100% - 300px);
+        & .footer.section, & #footer {
+          & .Attribution,& .Attribution1 {
             & .widget-content {
 	      & .section-navigasi {
 		& .navigasi {
@@ -212,8 +214,8 @@ body.version-1-3-3 {
 	    }
 	  }
         }
-      }
     }
+    
     /*=== Blog Name ===*/
     & .blog-name {
       & .section, & #header {
