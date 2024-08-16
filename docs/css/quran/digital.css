@@ -23,9 +23,11 @@ body.item-view .post .post-title-container {
   text-align: center;
   position: relative;
  & > .post-title.entry-title{
-  font-size: 30px;
+  color: var(--text-post);
+  font-size: 40%;
   font-weight: 500;
-  font-family: 'Merriweather', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Merriweather', sans-serif;*/
   font-style: normal;
   text-align: center;
   }
