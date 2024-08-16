@@ -1,0 +1,53 @@
+body.item-view .post .post-title-container {
+  margin-top: 25px;
+  display: block;
+  text-align: left;
+  position: relative;
+  padding: 0px 15px;
+  box-sizing: border-box;
+ & > .post-title.entry-title{
+   color: var(--text-post);
+  font-size: 40px;
+  font-weight: 400;
+  font-family: var(--ff-roboto);
+  font-style: normal;
+  text-align: left;
+  }
+}
+
+
+
+
+.section-article {
+  & .text-content {
+    padding: 5px 10px;
+    box-sizing: border-box;
+    & h2 {
+      color: var(--text-post);
+      font-size: 34px;
+      font-weight: 400;
+      line-height: 2.7rem;
+      margin: 18px 0;
+    }
+    & p {
+      color: var(--text-para);
+      font-size: 18px;
+      line-height: 1.9rem;
+    }
+    & ul li, & ol li {
+      color: var(--text-para);
+      font-size: 18px;
+      line-height: 1.9rem;
+    }
+    & figure {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      & img {
+        width: 100%;
+        max-width: 100%;
+        border-radius: 10px;
+      } 
+    }
+  }
+}
