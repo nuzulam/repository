@@ -24,7 +24,7 @@ body.item-view .post .post-title-container {
   position: relative;
  & > .post-title.entry-title{
   color: var(--text-post);
-  font-size: 40%;
+  font-size: 35px;
   font-weight: 500;
   font-family: 'Roboto', sans-serif;
   /*font-family: 'Merriweather', sans-serif;*/
