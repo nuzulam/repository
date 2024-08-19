@@ -616,7 +616,7 @@ body.item-view .post .post-title-container {
   }
   & .quran-navigasi {
       bottom: 0px;
-      z-index: 20;
+      z-index: 125;
       width: 100%;
       max-width: 800px;
       display: block;
