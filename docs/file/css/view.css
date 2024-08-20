@@ -290,7 +290,7 @@ body.version-1-3-3 {
                             align-items: center;
                             justify-content: center;
                             background-color: transparent;
-			     border: 0.50px var(--bg-line) solid;
+			    border: 0.50px var(--bg-line) solid;
                             & svg {
                               width: 30px;
                               height: 30px;
@@ -308,6 +308,21 @@ body.version-1-3-3 {
                             display: flex;
                             align-items: center;
                             justify-content: center;
+			    & button {
+                            margin: 0px auto;
+                            border: none;
+                            width: 40px;
+                            height: 40px;
+			    border-radius: 5px;
+                            align-items: center;
+                            justify-content: center;
+                            background-color: transparent;
+			    border: 0px var(--bg-line) solid;
+                            & svg {
+                              width: 30px;
+                              height: 30px;
+                            }
+                          }
 			  }
 		        }
 			& .Sheet_Pro_0 {
@@ -323,8 +338,8 @@ body.version-1-3-3 {
                             padding: 0px 5px;
                             display: flex;
                             align-items: center;
-                            justify-content: end;
-			    & a {
+                            justify-content: center;
+			    & button {
                               margin: 0px auto;
                               border: none;
                               width: 40px;
