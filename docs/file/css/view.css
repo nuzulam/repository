@@ -852,7 +852,7 @@ display: grid;
                             & button.button_list_pass {
                               display: flex;
                             }
-                            & a.button_share_pass {
+                            & button.button_share_pass {
                               display: none;
                             }
                             & button.button_setting_pass {
@@ -1335,7 +1335,7 @@ display: grid;
                             & button.button_list_pass {
                               display: none;
                             }
-                            & a.button_share_pass {
+                            & button.button_share_pass {
                               display: flex;
                             }
                             & button.button_setting_pass {
