@@ -1607,11 +1607,20 @@ display: grid;
     box-sizing: border-box;
     position: relative;
     & svg {
-      top: -2px;
-      left: -7px;
-      width: 25px;
-      height: 25px;
+      z-index: 2;
       position: absolute;
+	    &.svg-ring {
+      top: -2px;
+left: -10px;
+width: 25px;
+      height: 25px;
+}
+&.svg-link {
+      top: -0px;
+left: -7px;
+width: 20px;
+      height: 20px;
+}
     }
     & a {
       color: var(--text-link);
@@ -1623,7 +1632,12 @@ display: grid;
                                 &:first-child {
                                  /* padding: 0px 5px 0px 0px;*/
                                   & svg {
+					  &.svg-ring {
                                     display: block;
+					  }
+					  &.svg-link {
+                                    display: none;
+					  }
                                   }
                                 }
                               }
