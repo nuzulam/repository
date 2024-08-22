@@ -370,6 +370,7 @@ body.version-1-3-3 {
   box-sizing: border-box;
  & .shell_page_stant {
     width: 50px;
+    min-width: 50px;
     height: 60px;
     display: flex;
     align-items: center;
@@ -383,8 +384,7 @@ body.version-1-3-3 {
                display: flex;
                align-items: center;
                justify-content: center;
-              /*background-color: transparent;*/
-      
+              /*background-color: transparent;*/   
       border-radius: 50%;
       border: 0.50px var(--bg-line) solid;
               & svg {
@@ -397,7 +397,7 @@ body.version-1-3-3 {
   margin: 0;
   padding: 0px 5px;
   box-sizing: border-box;
-  width: calc(100% - 140px);
+  width: calc(100% - 150px);
   height: 60px;
   background: var(--bg-trans);
   max-width: 600px;
@@ -485,13 +485,13 @@ background-color: var(--bg-view);
 }
  
   & .shell_page_btn {
-    width: 90px;
-       min-width: 90px;
+    width: 100px;
+       min-width: 100px;
        height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5px 5px;
+    /*padding: 5px 5px;*/
     box-sizing: border-box;
     & a {
                margin: 0px auto;
@@ -501,8 +501,7 @@ background-color: var(--bg-view);
                display: flex;
                align-items: center;
                justify-content: center;
-              /*background-color: transparent;*/
-      
+              /*background-color: transparent;*/  
       border-radius: 5px;
       border: 0px var(--bg-line) solid;
               & svg {
