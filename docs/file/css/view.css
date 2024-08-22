@@ -1633,7 +1633,7 @@ width: 25px;
 }
 &.svg-link {
       top: 2px;
-left: -5px;
+left: 0px;
 width: 20px;
       height: 20px;
 }
