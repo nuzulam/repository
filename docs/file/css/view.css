@@ -365,10 +365,10 @@ body.version-1-3-3 {
                             width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: end;
   padding: 0px 0px 0px 5px;
   box-sizing: border-box;
- & .shell_page_stant {
+ & .shell-typebars-stant {
     width: 50px;
     min-width: 50px;
     height: 60px;
@@ -392,14 +392,14 @@ body.version-1-3-3 {
                 }
               }
     }
- & .shell-search-article {
+ & .shell-typebars-search {
   margin: 0;
   padding: 0px 5px;
   box-sizing: border-box;
-  width: calc(100% - 150px);
+  width: calc(100% - 100px);
   height: 60px;
   background: var(--bg-trans);
-  max-width: 600px;
+  max-width: 300px;
   position: relative;
   display: flex;
   align-items: center;
@@ -483,7 +483,7 @@ background-color: var(--bg-view);
   }
 }
  
-  & .shell_page_btn {
+  & .shell-typebars-btn {
     width: 100px;
        min-width: 100px;
        height: 60px;
@@ -533,6 +533,23 @@ background-color: var(--bg-view);
 			  & .Sheet_Pro_0 {
 			    display: flex;
 			  }
+			}
+			&.Sheet_pars_property {
+		          & .type-property {
+			    & .shell-view-root {
+                              justify-content: space-between;
+                              & .shell-typebars-stant {
+    
+                              }
+                              & .shell-typebars-search {
+                                width: calc(100% - 150px);
+				max-width: 600px;
+                              }
+                              & .shell-typebars-btn {
+    
+                              }
+                            }
+			  }  
 			}
 		      }
 		    }
