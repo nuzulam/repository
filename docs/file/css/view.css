@@ -491,7 +491,7 @@ background-color: var(--bg-view);
     display: flex;
     align-items: center;
     justify-content: center;
-    /*padding: 5px 5px;*/
+    padding: 5px 5px;
     box-sizing: border-box;
     & a {
                margin: 0px auto;
