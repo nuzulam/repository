@@ -1234,10 +1234,10 @@ display: grid;
 		        display: flex;
 		      }
 		      &.Sheet_pars_article {
-		        display: flex;
+		        display: none;
 		      }
 		      &.Sheet_pars_property {
-		        display: none;
+		        display: flex;
 		      }
 		    }
                   }
