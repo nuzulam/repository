@@ -396,7 +396,7 @@ body.version-1-3-3 {
  & .shell-search-article {
   margin: 0;
   padding: 0px 5px;
-  box-sizing border-box;
+  box-sizing: border-box;
   width: calc(100% - 140px);
   height: 60px;
   background: var(--bg-trans);
