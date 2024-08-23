@@ -1188,8 +1188,18 @@ display: grid;
                               & .byline.post-timestamp {
                                 & a.timestamp-link {
                                   margin-left: 15px;
+				  width: auto;
+                                  font-weight: 600;
+                                  font-size: 17px; 
+                                  padding: 10px 15px;
+                                  border-radius: 25px;
+                                  border: 1px #055ef7 solid;
+                                  position: relative;
+                                  box-sizing: border-box;
+                                  display: inline-block;
+                                  text-align: center;
                                   & time.published {
-                                    color: var(--text-link);
+                                    color: #055ef7;;
                                   }
                                 }
                               }
