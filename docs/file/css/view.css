@@ -366,13 +366,13 @@ body.version-1-3-3 {
   display: flex;
   align-items: center;
   justify-content: end;
-  padding: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 5px;
   box-sizing: border-box;
  & .shell-typebars-stant {
     width: 50px;
     min-width: 50px;
     height: 60px;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
    & button {
@@ -539,7 +539,7 @@ background-color: var(--bg-view);
 			    & .shell-view-root {
                               justify-content: space-between;
                               & .shell-typebars-stant {
-    
+                                display: flex;
                               }
                               & .shell-typebars-search {
                                 width: calc(100% - 150px);
