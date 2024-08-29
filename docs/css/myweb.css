@@ -44,6 +44,7 @@ padding: 7px 10px;
   z-index: 0;
   overflow: hidden;
   transition: 0.25s ease-in;
+  box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.6), 0 -0.2rem 0.2rem rgba(255, 255, 255, 0.3);
     & h3 {
 color: var(--text-post);
 margin-left: 10px;
