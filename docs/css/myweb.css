@@ -1,5 +1,13 @@
 
 .section-document {
+ & .docs_time_update {
+  & span {
+  font-size: 14px;
+  color: var(--text-title);
+  padding: 5px 10px;
+  box-sizing: border-box;
+    }
+  }
  & .document-content {
    line-height: 1.7;
    font-family: var(--ff-roboto);
