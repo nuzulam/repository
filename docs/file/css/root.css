@@ -1967,7 +1967,7 @@ font-size: 0.85rem;
   flex-direction: column;
   overflow: hidden;
   position: fixed;
-  z-index: 105;
+  z-index: 200;
   left: 300px;
   right:0;
   bottom: 0; 
