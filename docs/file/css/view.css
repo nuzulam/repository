@@ -257,6 +257,7 @@ body.version-1-3-3 {
 		&.navigasi-group-bars {
                   overflow: hidden;
                   width: 300px;
+		  max-width: 300px;
 		  display: block;
                   background-color: var(--bg-bars);
                 }
@@ -509,7 +510,8 @@ background-color: var(--bg-view);
 		& .navigasi {
                   &.navigasi-group-bars {
                     width: 0px;
-		    display: none;
+		    max-width: 0px;
+		    display: block;
                   }
 		  &.navigasi-group-part {
                     width: calc(100% - 0px);
