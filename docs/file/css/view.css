@@ -262,68 +262,7 @@ body.version-1-3-3 {
 		  display: block;
                   background-color: var(--bg-bars);
 		  & .navbar-list-post {
-		    & .menu-four-bars {
-              width: 300px;
-    z-index: 150;
-   top: 0px;
-   left: 0px;
-    position: relative;
-  background: transparent;
-  overflow: auto;
-  max-height: calc(100% - 125px);
-   & .menu-four-list { 
-  max-height: auto;
-    display: flex;
-	padding: 2px;
-  box-sizing: border-box;
-   flex-direction: row; 
-  & a {
-		flex: 1 1 30%;
-	padding: 5px;
-	margin: 5px;
-	border-radius: 5px;
-	background: #ddd;
-	color: var(--color);
-	text-align: center;
-	font-size: 14px;
-	font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    flex-direction: column;
-     /* box-sizing: border-box;*/
-    & svg {
-	width: 20px;
-      height: 20px;
-      margin-right: 0px;
-	}
-    & span {
-      font-weight: 300;
-      }
-	}
-	}
-  @media (max-width: 1007px) {
-    top: 120px;
-    left: 0px;
-	width: 100px;
-    position: fixed;
-    background: var(--bg-post);
-    border-radius: 0px 0px 20px 0px;
-    padding: 0px 0px;
-    box-sizing: border-box;
-    & .menu-four-list {
-      flex-direction: column;
-      display: flex;
-      & a {
-        flex-direction: row;
-       justify-content: center;
-        & svg {	
-      margin-right: 10px;
-	}
-        }
-      }
-    }
-                    }
+		    
 		  }
                 }
                 &.navigasi-group-part {
