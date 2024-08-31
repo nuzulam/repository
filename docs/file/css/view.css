@@ -272,7 +272,7 @@ body.version-1-3-3 {
   max-height: calc(100% - 130px);
    & .menu-four-list { 
   max-height: auto;
-    display: block;
+    display: flex;
 	padding: 2px;
   box-sizing: border-box;
    flex-direction: row; 
