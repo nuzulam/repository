@@ -547,6 +547,10 @@ body.item-view .post .post-title-container {
         box-sizing: border-box;
         align-items: center;
         justify-content: start;
+	& .notright{
+          min-width: 50px;
+          height: 30px;
+        }
         & .juz-poin {
           display: inline-block;
           margin: 0px 0px 0px 0px;
