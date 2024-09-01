@@ -1440,9 +1440,6 @@ display: grid;
         }
       }
     }
-    & .dasboard_search {
-      display: none;
-    }
     & .viewbox_search_filter {
        & .post-filter-message {
           width: 100%;
@@ -1451,31 +1448,7 @@ display: grid;
        }
      }
    } /*=== Data Search,Label,Archive View end ===*/
-   &.label-view {
-     & .dasboard_search,
-     & .menu_link_bars {
-       display: none;
-     }
-   } /*=== Data Label View end ===*/
-   &.search-view {
-     & .dasboard_search {
-       display: flex;
-     }
-     & .menu_link_bars {
-       display: none;
-     }
-   } /*=== Data Search View end ===*/
-  
-   &.archive-view {
-     & .dasboard_search,
-     & .menu_link_bars {
-       display: none;
-     }
-   } /*=== Data Archive View end ===*/
-    & .menu_link_bars {
-      display: none;
-    }
-} /*=== Data Feed View end ===*/
+ } /*=== Data Feed View end ===*/
 
 
 
