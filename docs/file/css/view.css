@@ -484,8 +484,7 @@ background-color: var(--bg-view);
       }
   }
 }
- 
-  & .shell-typebars-btn {
+ & .shell-typebars-btn {
     width: 100px;
        min-width: 100px;
        height: 60px;
@@ -499,7 +498,6 @@ background-color: var(--bg-view);
                border: none;
                width: 40px;
                height: 40px;
-               display: flex;
                align-items: center;
                justify-content: center;
               /*background-color: transparent;*/  
@@ -1243,7 +1241,6 @@ display: grid;
               & .section-navigasi {
 	        height: 120px;
                 max-height: 120px;
-		
 		& .navigasi {
 	        height: 120px;
                 max-height: 120px;
@@ -1268,16 +1265,23 @@ display: grid;
 		      }
 		      &.Sheet_pars_property {
 		        display: flex;
+			& .type-property {
+                          & .shell-view-root {
+			    & .shell-typebars-btn {
+			      & a.link_blog_pass {
+			        display: flex;
+			      }
+			      & a.link_share_pass {
+			        display: none;
+			      }
+			      & a.link_setting_pass {
+		       	        display: flex;
+			      }
+			    }
+			  }
+		        }
 		      }
 		    }
-                  }
-		  & .NavBlock {
-                    &.Block_part_view {
-                      display: flex;
-                    }
-                    &.Block_part_artcat {
-                      display: flex;
-                    }
                   }
 	        }
 	      }
@@ -1505,16 +1509,23 @@ display: grid;
 		      }
 		      &.Sheet_pars_property {
 	   	        display: flex;
+			& .type-property {
+                          & .shell-view-root {
+			    & .shell-typebars-btn {
+			      & a.link_blog_pass {
+			        display: flex;
+			      }
+			      & a.link_share_pass {
+			        display: none;
+			      }
+			      & a.link_setting_pass {
+		       	        display: flex;
+			      }
+			    }
+			  }
+		        }
 	   	      }
 	  	    }
-                  }
-		  & .NavBlock {
-                    &.Block_part_view {
-                      display: flex;
-                    }
-                    &.Block_part_artcat {
-                      display: flex;
-                    }
                   }
 	        }
 	      }
