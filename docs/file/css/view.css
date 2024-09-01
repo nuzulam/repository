@@ -1513,10 +1513,10 @@ display: grid;
                           & .shell-view-root {
 			    & .shell-typebars-btn {
 			      & a.link_blog_pass {
-			        display: flex;
+			        display: none;
 			      }
 			      & a.link_share_pass {
-			        display: none;
+			        display: flex;
 			      }
 			      & a.link_setting_pass {
 		       	        display: flex;
