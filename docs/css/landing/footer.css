@@ -74,7 +74,7 @@ display: grid;
                   padding: 5px;
                   width: 100%;
                   box-sizing: border-box;
-                  gap: 4px;
+                  gap: 2px;
                   align-items: start;
                   justify-items: start;
 		  @media(max-width: 640px) {
@@ -82,7 +82,7 @@ display: grid;
                   }
   
   & .list_link {
-    width: calc(100% - 40px);
+    width: calc(100% - 30px);
     margin-left: 0px;
     display: block;
     
@@ -96,18 +96,18 @@ display: grid;
       box-sizing: border-box;
       & span {
         color: var(--text-title);
-        font-size: 14px;
-        font-weight: 700;
+        font-size: 16px;
+        font-weight: 500;
         }
       & a {
         color: var(--text-typo);
-        font-size: 16px;
-        font-weight: 600;
+        font-size: 14px;
+        font-weight: 700;
         padding: 3px 0px;
         box-sizing: border-box;
         border-bottom: 1px transparent solid;
         &:hover{
-          border-bottom: 1px #111 solid;
+          border-bottom: 1px var(--bg-line) solid;
           }
         }
       }
