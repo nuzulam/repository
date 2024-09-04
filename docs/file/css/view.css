@@ -1102,7 +1102,7 @@ display: grid;
                   justify-content: center;
 		}
 		& .blog-pager {
-                  display: none;
+                  /*display: none;*/
 		}
                 & .blog-posts.hfeed.container {
                   display: grid;
@@ -1111,18 +1111,14 @@ display: grid;
                   margin: 0px;
                   padding: 0px;
                   width: 100%;
-                  max-width: 1700px;
+                  max-width: 100%;
                   box-sizing: border-box;
-                  grid-template-columns: repeat(4, 1fr);
+                  grid-template-columns: repeat(3, 1fr);
                   align-items: start;
                   justify-items: center;
                  /* background: red;*/
-                  @media(max-width: 1450px) {
-                    max-width: 1007px;
-                    grid-template-columns: repeat(3, 1fr);
-                  }
                   @media(max-width: 1007px) {
-                    max-width: 700px;
+                    /*max-width: 700px;*/
                     grid-template-columns: repeat(2, 1fr);
                   }
 	          @media(max-width: 640px) {
