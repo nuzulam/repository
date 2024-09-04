@@ -1109,7 +1109,7 @@ display: grid;
                   gap: 2;
                   margin-top: 10px;
                   margin: 0px;
-                  padding: 0px;
+                  padding: 0px 10px;
                   width: 100%;
                   max-width: 100%;
                   box-sizing: border-box;
