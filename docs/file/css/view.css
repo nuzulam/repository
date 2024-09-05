@@ -402,7 +402,6 @@ body.version-1-3-3 {
   background: var(--bg-trans);
   max-width: 600px;
   position: relative;
-  display: flex;
   align-items: center;
   justify-content: center;
     & form {
@@ -1035,6 +1034,16 @@ display: grid;
 		      }
 		      &.Sheet_pars_property{
 		        display: none;
+			& .type-property {
+                          & .shell-view-root {
+			    & .shell-typebars-search {
+			      display: none;
+			    }
+			    & .shell-typebars-article {
+			      display: flex;
+			    }
+			  }
+			}
 		      }
 		    }
                   }
@@ -1507,6 +1516,12 @@ display: grid;
 	   	        display: flex;
 			& .type-property {
                           & .shell-view-root {
+			    & .shell-typebars-search {
+			      display: flex;
+			    }
+			    & .shell-typebars-article {
+			      display: none;
+			    }
 			    & .shell-typebars-btn {
 			      & a.link_blog_pass {
 			        display: none;
