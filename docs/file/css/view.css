@@ -1160,7 +1160,7 @@ display: grid;
                       box-sizing: border-box;
                       border-radius: 5px;
                       border: 0px transparent solid;
-                      background: linear-gradient(to right, #ffcc88, rgba(141, 250, 8, 0.8));
+                      background: linear-gradient(to right, var(--cl-lg-A), var(--cl-lg-C));
                       background-clip: padding-box; 
                       & .post-wrapper {
                         max-width: 100%;
@@ -1182,7 +1182,7 @@ display: grid;
                                   padding: 5px 0px;
                                   font-size: 18px;
                                   line-height: 1.5;
-                                  color: var(--text-title);
+                                  color: var(--text-post);
                                   box-sizing: border-box;
                                   width: 100%;
                                   overflow: hidden;
@@ -1204,19 +1204,20 @@ display: grid;
                             & .post-header-line-1 {
                               & .byline.post-timestamp {
                                 & a.timestamp-link {
-                                  margin-left: 15px;
+                                  margin-left: 10px;
 				  width: auto;
                                   font-weight: 600;
-                                  font-size: 17px; 
-                                  padding: 10px 15px;
+                                  font-size: 14px; 
+                                  padding: 5px 10px;
                                   border-radius: 25px;
-                                  border: 1px #055ef7 solid;
+                                  border: 0.50px rgba(141,250,8,0.8) solid;
                                   position: relative;
                                   box-sizing: border-box;
                                   display: inline-block;
                                   text-align: center;
+				  font-family: 'Lato' , sans-serif;
                                   & time.published {
-                                    color: #055ef7;;
+                                    color: var(--text-note);
                                   }
                                 }
                               }
