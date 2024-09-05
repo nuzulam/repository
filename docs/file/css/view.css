@@ -220,12 +220,13 @@ body.version-1-3-3 {
 	        & .logo {
                   display: block;
                   margin: 0px;
+		  padding: 0px;
                   & a.logo_name {
                     box-sizing: border-box;
                     align-items: center;
                     justify-content: start;
                     height: 60px;
-                    width:auto;
+                    width: 100%;
                     font-size: 23px;
                     font-weight: 700;
                     cursor: pointer;
@@ -260,6 +261,12 @@ body.version-1-3-3 {
 		  max-width: 300px;
 		  display: block;
                   background-color: var(--bg-bars);
+		  & .navbar-list-name {
+		     display: block;
+	            & .logo {
+                      width: calc(100% - 0px);
+		    }
+		  }
 		  & .navbar-list-post {
 		    
 		  }
@@ -288,7 +295,7 @@ body.version-1-3-3 {
 			box-sizing: border-box;
                         justify-content: space-between;
 		        & .Sheet_Pro_1 {
-                          width: auto;
+                          width: 100%;
                           display: none;
                           align-items: center;
                           justify-content: start;
@@ -315,6 +322,9 @@ body.version-1-3-3 {
                                 height: 30px;
                               }
                             }
+			  }
+			  & .logo {
+                            width: calc(100% - 50px);
 			  }
 		        }
 			& .Sheet_Pro_0 {
