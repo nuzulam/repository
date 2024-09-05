@@ -112,7 +112,11 @@
   Tampilan Layar Terang
 =============================*/
 .theme-light {
-  
+  --cl-lg-A: #055ef7;
+  --cl-lg-B: #ba1496;
+  --cl-lg-C: #87cbff;
+
+	
   /*==== Light Background ====*/
   --bg-bars: #EEF5FF; /*#4f5a66;*/
   --bg-navi: #EEF5FF;
@@ -124,6 +128,7 @@
   --bg-pass: #3b434c;
   --bg-case: #191;
   --bg-line: #191919;
+  --bg-list: #87cbff;
   --bg-search: #c3e3f3;
   --bg-btn-click: #C3E3F3;
   --bg-btn-focus: #65F057;
@@ -183,6 +188,10 @@
   Tampilan Layar Gelap
 =============================*/
 .theme-dark {
+  --cl-lg-A: #E9FAFE;
+  --cl-lg-B: #87cbff;
+  --cl-lg-C: #055ef7;
+
 	
   /*==== Dark Background ====*/
   --bg-bars: #030B18;
@@ -195,6 +204,7 @@
   --bg-pass:  #535763;
   --bg-case: #434DED;
   --bg-line: #F1F1F1;
+  --bg-list: #055ef7;
   --bg-search: #191919;
   --bg-btn-click: #5F5F5F;
   --bg-btn-focus: #000080;
