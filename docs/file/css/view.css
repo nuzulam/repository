@@ -1102,7 +1102,7 @@ display: grid;
                   justify-content: center;
 		}
 		& .blog-pager {
-                  /*display: none;*/
+                  display: none;
 		}
                 & .blog-posts.hfeed.container {
                   display: grid;
