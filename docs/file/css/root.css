@@ -160,6 +160,8 @@
   
   
   /*==== Light Text Color ====*/
+  --text-logo-one: #055ef7;
+  --text-logo-two: #ba1496;
   --text-title: #181818;
   --text-bold: #43468b;
   --text-list: #1C274C;
@@ -235,6 +237,8 @@
   
 	
   /*==== Dark Text Color ====*/
+  --text-logo-one: #E9FAFE;
+  --text-logo-two: #87cbff;
   --text-title: #D9E7FD;
   --text-bold: #eeddf8;
   --text-list: #D9E7FD;
