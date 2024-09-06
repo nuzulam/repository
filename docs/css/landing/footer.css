@@ -34,9 +34,10 @@ background: linear-gradient(to right, /*Fuchsia*/#FF00FF, /*Blue*/#0000FF, /*Lim
       height: 100px;
       }
     & span {
-      color: #fff;
+      color: var(--text-logo-two);
       font-size: 25px;
       & > span {
+	color: var(--text-logo-one);
         font-size: 25px;
         font-family: 'Tangerine', serif;
         font-weight: 400;
