@@ -159,9 +159,10 @@
   --post-icon: #1C274C;
   
   
-  /*==== Light Text Color ====*/
-  --text-logo-one: #055ef7;
-  --text-logo-two: #ba1496;
+  /*==== Light Text Color ====*/ 
+  --text-logo-one: #BA1496;
+  --text-logo-two: #055EF7;
+  --text-logo-net: #055EF7;
   --text-title: #181818;
   --text-bold: #43468b;
   --text-list: #1C274C;
@@ -237,8 +238,9 @@
   
 	
   /*==== Dark Text Color ====*/
-  --text-logo-one: #E9FAFE;
-  --text-logo-two: #87cbff;
+  --text-logo-one: #87CBFF;
+  --text-logo-two: #E9FAFE;
+  --text-logo-net: #055EF7;
   --text-title: #D9E7FD;
   --text-bold: #eeddf8;
   --text-list: #D9E7FD;
