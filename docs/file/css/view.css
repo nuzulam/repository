@@ -516,6 +516,7 @@ background-color: var(--bg-view);
                 width: 30px;
                 height: 30px;
                 }
+    }
     & a {
                margin: 0px auto;
                border: none;
