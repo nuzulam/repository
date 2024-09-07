@@ -243,7 +243,7 @@ body.version-1-3-3 {
 	              color: var(--cl-logo);
 		      font-family: Stint Ultra Expanded;
                       -webkit-text-fill-color: transparent;
-                      background: -webkit-gradient(linear,left top,left bottom,from(var(--cl-top-logo)),to(var(--cl-bottom-logo)));
+                      background: -webkit-gradient(linear,left top,left bottom,from(var(--text-logo-one)),to(var(--text-logo-two)));
                       background: -o-gradient(linear,left top,left bottom,from(#660ccc),to(#00ffff));
                       -webkit-background-clip: text;
                       & > span._net {
@@ -251,7 +251,7 @@ body.version-1-3-3 {
                         font-family: 'Tangerine', serif;
                         color: var(--cl-logo);
                         -webkit-text-fill-color: transparent;
-                        background: -webkit-gradient(linear,left top,left bottom,from(var(--cl-net-logo)),to(var(--cl-net-logo)));
+                        background: -webkit-gradient(linear,left top,left bottom,from(var(--text-logo-net)),to(var(--text-logo-net)));
                         background: -o-gradient(linear,left top,left bottom,from(#660ccc),to(#00ffff));
                         -webkit-background-clip: text;
                       }
