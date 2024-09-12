@@ -1815,7 +1815,7 @@ width: 20px;
   
                           }
                           & .post-footer.container {
-                            display: none;
+                            display: block;
                           }
                           & .post-header {
                             margin-top: 20px;
@@ -1958,13 +1958,12 @@ left: 0%;
          transform: scale(1);
          transform-origin: 50% 50%;
          transition: transform 1.25s ease-out;
-      }
-      &:hover::before {
-        bottom: -33px;
+        }
+        &:hover::before {
+          bottom: -33px;
+        }
       }
     }
-  }
-  & article.post-outer-container section.comments {display:none}
   } /*==== Page Item View End ====*/
 }  /*===== Data Item View end =====*/
 
