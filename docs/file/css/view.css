@@ -1815,7 +1815,7 @@ width: 20px;
   
                           }
                           & .post-footer.container {
-                            display: block;
+                            display: none;
                           }
                           & .post-header {
                             margin-top: 20px;
