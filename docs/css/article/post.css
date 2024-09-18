@@ -149,7 +149,6 @@ body.item-view .post .post-title-container {
       & .content-post {
       width: calc(100% - 0px);
      /* max-width: 800px;*/
-      display: block;
        grid-area: left;
       /*align-items: start;
       justify-content: center;
@@ -160,7 +159,10 @@ body.item-view .post .post-title-container {
         width: 100%;
         min-width: 350px;
         max-width: 350px;
-        display: block;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 100%;
         overflow: hidden;
         grid-area: right;
         border-left: 0.50px var(--bg-line) solid;
