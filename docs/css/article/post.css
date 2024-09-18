@@ -141,17 +141,19 @@ body.item-view .post .post-title-container {
   & .article-content {
       width: 100%;
       max-width: 100%;
-      display: flex;
-      align-items: start;
-      justify-content: center;
-      flex-direction: row;
+      display: grid; grid-template-areas:
+        'left left right'
+        'left left right'
+       ;
+       gap: 0px;
       & .content-post {
       width: calc(100% - 350px);
      /* max-width: 800px;*/
-      display: flex;
-      align-items: start;
+      display: block;
+       grid-area: left;
+      /*align-items: start;
       justify-content: center;
-      flex-direction: column-reverse;
+      flex-direction: column-reverse;*/
       border-right: 0.50px var(--bg-line) solid;
       }
       & .content-bars { 
@@ -160,6 +162,7 @@ body.item-view .post .post-title-container {
         max-width: 350px;
         display: block;
         overflow: hidden;
+        grid-area: right;
         border-left: 0.50px var(--bg-line) solid;
         background-color: var(--bg-view);
         & .article-select {
@@ -864,7 +867,10 @@ body.item-view .post .post-title-container {
     }
   @media (max-width: 1007px){
     & .article-content {
-      flex-direction: column;
+      grid-template-areas:
+    'left left left'
+    'right right right'
+    ;
       & .content-post {
         width: calc(100% - 0px);
         border-right: 0px var(--bg-line) solid;
