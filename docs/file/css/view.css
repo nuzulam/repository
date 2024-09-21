@@ -743,8 +743,7 @@ display: block;
           & ul{
       margin: 0px;
       /*padding-top: 100px;*/
-      min-height: 0px;
-      max-height: calc(100% - 10px);
+      height: auto;
       flex-direction: column;
       position: relative;
       & li.nav-item{ 
