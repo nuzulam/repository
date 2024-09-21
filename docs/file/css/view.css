@@ -713,6 +713,59 @@ background: var(--bg-post);
 		    & .NavSheet {
 		      & .Sheet {
 			&.Sheet_pars_view {
+			  & nav.nav-service {
+         /* width: calc(50% - 0px);*/
+      left: 15px;
+      top: 125px;
+      padding: 5px 5px;
+      position: fixed;
+      /*min-height: 0px;*/
+      background: var(--bg-view);
+      height: 0px;
+    box-sizing: border-box;
+      display: flex;
+      border-radius: 10px;
+      max-height: calc(100% - 130px);
+      border: 1.50px var(--bg-line) solid;
+          box-shadow:0 2px 5px var(--bg-sdw-view);
+&::before,
+&::after {
+display: block;
+}
+   & .service-view {
+        display: flex;
+        }
+    & .navserv {
+      overflow: auto;
+      display: block;
+      width: calc(100% - 0px);
+      max-height: calc(100% - 50px);
+      }
+          & ul{
+      margin: 0px;
+      /*padding-top: 100px;*/
+      min-height: 0px;
+      max-height: calc(100% - 10px);
+      flex-direction: column;
+      position: relative;
+      & li.nav-item{ 
+        margin: 0px 5px;
+        height: auto;
+        -webkit-box-sizing: border-box;		  
+        -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;	  
+        box-sizing: border-box;		 
+        width:100%;		  
+       /* &:nth-of-type(1){
+          margin-top: 0px;
+          }*/
+        & a {
+          border-radius: 0px;
+          border: 0px #111 solid;
+          }
+         }
+      }
+        }
 			  & .Sheet_Pro_1 {
 			    display: flex;
 			  }
