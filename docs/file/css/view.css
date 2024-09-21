@@ -721,7 +721,6 @@ background: var(--bg-post);
       position: fixed;
       /*min-height: 0px;*/
       background: var(--bg-view);
-      height: 0px;
     box-sizing: border-box;
       display: flex;
       border-radius: 10px;
