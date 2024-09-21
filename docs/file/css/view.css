@@ -743,22 +743,24 @@ background: var(--bg-post);
                   }
 		  &.stantliststart {
                     & .Sheet_pars_property {
-                      & .menu-select-stant {
-                        display: flex;
-                        height: auto;
-                        & + .overlay-stant {
-                          display: block;
-                        }
-                      }
-                      & .shell-view-root {
-                        & .button_stant_pass {
-                          background: var(--bg-view);
-                          border: 0.50px var(--bg-line) solid;
-                          & svg {
-                            rotate: 90deg;
+		      & .type-property {
+                        & .menu-select-stant {
+                          display: flex;
+                          height: auto;
+                          & + .overlay-stant {
+                            display: block;
                           }
                         }
-                      }
+                        & .shell-view-root {
+                          & .button_stant_pass {
+                            background: var(--bg-view);
+                            border: 0.50px var(--bg-line) solid;
+                            & svg {
+                              rotate: 90deg;
+                            }
+                          }
+                        }
+		      }
                     }
                   }
 	        }
