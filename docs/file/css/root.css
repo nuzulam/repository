@@ -138,8 +138,9 @@
   --bg-view-hover: #58727e;
   --bg-link-hover: #beeffa;
   --bg-btn-top: rgba(121, 82, 179, 0.5);/*#d0edf2;*/
-  
+  --bg-sdw-view: rgba(34,36,38.33);
 
+	
   /*==== Light Color ====*/
   --cl-net-logo: #ba1496; /*#65F057;*/
   --cl-top-logo: #055ef7; /*#2571f5;*/
@@ -217,7 +218,8 @@
   --bg-view-hover: #58727e;
   --bg-link-hover: #4b657d;
   --bg-btn-top: #888;
-  
+  --bg-sdw-view: rgba(247,247,247.33);
+ 
   /*==== Dark Color ====*/
   --cl-net-logo: #88F000;
   --cl-top-logo: #E9FAFE;/*#b9b1e0;*/
