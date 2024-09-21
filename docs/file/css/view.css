@@ -369,6 +369,85 @@ body.version-1-3-3 {
 		      }
 		      &.Sheet_pars_property {
 		        & .type-property {
+			  & .menu-select-stant {
+                            z-index: 155;
+                            top: 125px;
+                            left: 5px;
+                            width: 160px;
+                            box-sizing: border-box;
+                            padding: 5px;
+                            background: var(--bg-view);
+  border-radius: 10px;
+  min-height: 0px;
+  position: fixed;
+  display: none;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+border: 1.50px var(--bg-line) solid;
+max-height: calc(100% - 130px);
+box-shadow:0 2px 5px var(--bg-sdw-view);
+  /*box-shadow:0 2px 5px rgba(247,247,247.33);*/
+  &::before  {
+  content: "";
+   z-index: 50;
+  position: absolute;
+      left: 56.50px;
+    top: -23.90px;
+  border-width: 12px;
+  border-style: solid;
+  border-color: transparent transparent var(--bg-line) transparent;
+}
+&::after  {
+  content: "";
+   z-index: 55;
+  position: absolute;
+      left: 57.50px;
+  top: -20.90px;
+  border-width: 11px;
+  border-style: solid;
+  border-color: transparent transparent var(--bg-view) transparent;
+}
+  & .stant-view {
+      color: var(--text-note);
+  width: 100%;
+  min-height: 40px;
+  text-align: left;
+  display: block;
+  background: var(--bg-view);
+      padding: 8px 10px;
+      box-sizing: border-box;
+  border-bottom: 0px #111 solid;
+      }
+  & .select-stant-bars {
+    overflow: auto;
+    display: block;
+    border-radius: 8px;
+height: calc(100% - 40px);
+    
+    
+    & button {
+      border: none;
+      outline: none;
+      width: 100%;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: left;
+      background: var(--bg-post);
+      position: relative;
+      & svg {
+        width: 20px;
+        height: 20px;
+        }
+      & span.sname {
+        color: var(--text-note);
+        margin-left: 10px;
+        margin-right:auto;
+        }
+      }
+    }
+  }
                           & .shell-view-root {
                             width: 100%;
                             display: flex;
