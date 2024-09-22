@@ -633,9 +633,9 @@ width: 400px;
 position: relative;
 max-width:100%;
   & .search-input {
-height: 39.50px;
+height: 37px;
 background: var(--bg-post);
-border-radius: 25px;
+border-radius: 19px;
 border: 0.50px var(--bg-line) solid;
 & input {
 width: 100%;
