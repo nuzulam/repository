@@ -652,6 +652,7 @@ body.item-view .post .post-title-container {
             width: 30px;
           }
         }
+	& > a,
 	& > button {
 	  border: none;
 	  outline: none;
@@ -666,8 +667,8 @@ body.item-view .post .post-title-container {
           justify-content: center;
 	  background-color: var(--bg-trans);
           & svg {
-            height: 20px;
-            width: 20px;
+            height: 30px;
+            width: 30px;
           }
         }
       }
