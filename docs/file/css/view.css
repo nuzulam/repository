@@ -607,8 +607,8 @@ height: 30px;
 min-width: 30px;
 min-height: 30px;
 position: absolute;
-top: 5px;
-right: 5px;
+top: 3px;
+right: 3px;
 background: var(--bg-view);
 border-radius: 50%;
 display: flex;
@@ -640,6 +640,7 @@ border: 0.50px var(--bg-line) solid;
 & input {
 width: 100%;
 height: 37px;
+font-size: 13px;
 overflow: hidden;
 border:none;
 outline: none;
