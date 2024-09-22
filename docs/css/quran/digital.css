@@ -620,9 +620,10 @@ body.item-view .post .post-title-container {
   }
   & .quran-navigasi {
       bottom: 0px;
-      z-index: 125;
+      z-index: 100;
       width: 100%;
-      max-width: 800px;
+      max-width: 900px;
+      max-height: calc(100% - 120px);
       display: block;
       position: fixed;
       border-radius: 10px 10px 0px 0px;
@@ -635,7 +636,7 @@ body.item-view .post .post-title-container {
         padding: 0;
         display: flex;
         align-items: center;
-        justify-content: center;        
+        justify-content: space-between;        
         & > label {
           margin: 0;
           padding: 0;
@@ -646,6 +647,24 @@ body.item-view .post .post-title-container {
           display: flex;
           align-items: center;
           justify-content: center;
+          & svg {
+            height: 30px;
+            width: 30px;
+          }
+        }
+	& > button {
+	  border: none;
+	  outline: none;
+          margin: 0;
+          padding: 0;
+          height: 30px;
+          width: 30px;
+          min-width: 30px;
+          max-width: 30px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+	  background-color: var(--bg-trans);
           & svg {
             height: 30px;
             width: 30px;
