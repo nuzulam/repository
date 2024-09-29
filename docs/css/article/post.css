@@ -749,8 +749,6 @@ body.item-view .post .post-title-container {
   max-width: 500px;
       height: 35px;
       margin: 5px auto;
-      
-      display: flex;
     
     
     color: var(--text-list-btn);
