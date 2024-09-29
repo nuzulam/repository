@@ -43,10 +43,14 @@
   --bg-line: #ccc;
 
 
-  /*==== Root Color ====*/
+  /*==== Root Color Light ====*/
+  --cl-nuzfog: #D9E7FD;
   --cl-show: #ddd;
   --cl-show-light: #FFF;
   --cl-show-dark: #000;
+
+  /*==== Root Color Dark ====*/
+
 
 	
   /*==== Root Text Color ====*/
