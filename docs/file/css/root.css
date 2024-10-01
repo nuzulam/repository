@@ -142,6 +142,7 @@
   --bg-view-hover: #58727e;
   --bg-link-hover: #beeffa;
   --bg-defa-hover: #b7dfff;
+  --bg-line-hover: #0000FF;
   --bg-btn-top: rgba(121, 82, 179, 0.5);/*#d0edf2;*/
   --bg-sdw-view: rgba(34,36,38.33);
 
@@ -223,6 +224,7 @@
   --bg-view-hover: #58727e;
   --bg-link-hover: #4b657d;
   --bg-defa-hover: #1C274C;
+  --bg-line-hover: #0000FF;
   --bg-btn-top: #888;
   --bg-sdw-view: rgba(247,247,247.33);
  
