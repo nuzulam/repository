@@ -260,10 +260,10 @@ body.version-1-3-3 {
     & .list_bord_content {
       & .container-dasboard {
         & ul.dasboard-home {
-          display: none;
+          display: block;
 	}
 	& ul.dasboard-page {
-          display: block;
+          display: none;
 	}
       }
     }
