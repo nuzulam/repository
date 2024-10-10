@@ -219,7 +219,7 @@ position: relative;
       padding: 5px;
       box-sizing: border-box;
       &.docs {
-      display: block;
+      /*display: block;*/
         }
       &.demo {
         display: none;
