@@ -81,43 +81,8 @@ position: relative;
     border: 0.5px var(--bg-line) solid;
     justify-content: space-between;
     position: relative;
-    & .filter-bars {
-      width: 100%;
-      display: flex;
-    align-items: center;
-      justify-content: start;
-      
-      & .button_filter {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    &.bf_3_slot {
-      min-width: 150px;
-    }
-    &.bf_2_slot {
-      min-width: 100px;
-    }
-    &.bf_1_slot {
-      min-width: 50px;
-    }
-    & button {
-      width: 40px;
-      height: 40px;
-      border: 0.5px var(--cl-border) solid;
-      margin: 0px auto;
-      border-radius: 5px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: var(--bg-btn-click);
-      & svg {
-        width: 30px;
-        height: 30px;
-        }
-      }
-    }
-      }
-    & .viewlayout-bars {
+    
+    & .rks-layout-bars {
       min-width: 90px;
       height: 40px;
       display: flex;
