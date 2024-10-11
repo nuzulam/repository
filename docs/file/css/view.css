@@ -239,7 +239,8 @@ body.version-1-3-3 {
                     & span.n_ {
 	              color: var(--cl-logo);
 		      font-weight: 700;
-		      font-family: Stint Ultra Expanded;
+		       font-family: var(--ff-lateef);
+		      /*font-family: Stint Ultra Expanded;*/
                       -webkit-text-fill-color: transparent;
                       background: -webkit-gradient(linear,left top,left bottom,from(var(--text-logo-one)),to(var(--text-logo-two)));
                       background: -o-gradient(linear,left top,left bottom,from(#660ccc),to(#00ffff));
