@@ -228,7 +228,6 @@ body.version-1-3-3 {
                     justify-content: start;
                     height: 60px;
                     width: auto;
-                    font-size: 23px;
                     cursor: pointer;
                     padding: 0px 2.50px;
                     margin: 0px;
@@ -239,6 +238,7 @@ body.version-1-3-3 {
                     & span.n_ {
 	              color: var(--cl-logo);
 		      font-weight: 700;
+		       font-size: 40px;
 		       font-family: var(--ff-lateef);
 		      /*font-family: Stint Ultra Expanded;*/
                       -webkit-text-fill-color: transparent;
