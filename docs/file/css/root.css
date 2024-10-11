@@ -2278,7 +2278,7 @@ justify-content: center;
     & .search {
       display: block;
       margin: 0px;
-      width: 100%;
+      width: 600px;
       & #search_top_parent {
         margin: 0px;
         width: 600px;
@@ -2393,6 +2393,7 @@ font-family: 'Lato' , sans-serif;
      display: none;
      }
        & .search {
+	 width: 400px;
         & #search_top_parent {
           width: 400px;
           height: 40px;
@@ -2439,6 +2440,7 @@ font-family: 'Lato' , sans-serif;
      display: flex;
      }
        & .search {
+	 width: 40px;
         & #search_top_parent {
           width: 40px;
           height: 40px;
@@ -2486,6 +2488,7 @@ font-family: 'Lato' , sans-serif;
      display: none;
      }
        & .search {
+	 width: 300px;
         & #search_top_parent {
           width: 300px;
           height: 40px;
