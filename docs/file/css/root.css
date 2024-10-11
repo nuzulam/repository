@@ -2472,6 +2472,9 @@ font-family: 'Lato' , sans-serif;
   
 	
 .search_show {
+  & .box-action-click {
+    display: none;
+  }
   & .onactive {
     display: block;
    }
