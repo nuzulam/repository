@@ -2168,7 +2168,7 @@ transition-timing-function:cubic-bezier(.4,0,.2,1);
    /* width: 400px;*/
     width: 600px;
     height: 40px;
-    display: block;
+    display: flex;
   /*align-items: center;
    justify-content: center;*/
     border-radius: 50%;
@@ -2294,20 +2294,16 @@ background-color: var(--bg-bars);
 position: relative;
 display: block;
  /* position: relative;*/
-  
+  width: 600px;
   height: 40px;
   white-space: nowrap;
   box-sizing: border-box;
   font-size: 13px;
   font-family: arial, sans-serif;
-  width: 600px;
-        &:focus {
-        & .searchbox__reset {
-          right: 40px;
-        }
-     }
+  
+        
      & .searchbox__wrapper {
-       width: auto;
+       width: 600px;
       /* width: 400px;*/
        display: block;
        
@@ -2398,9 +2394,11 @@ font-family: 'Lato' , sans-serif;
           width: 400px;
           height: 40px;
          & form.searchbox {
+	   width: 400px;
            height: 40px;
          & .searchbox__wrapper {
-           & input.searchbox__input {
+           width: 400px;
+          & input.searchbox__input {
              padding: 0px 80px 0px 50px;
         width: 400px;
           z-index: 0;
@@ -2436,6 +2434,7 @@ font-family: 'Lato' , sans-serif;
    transition: 0.5s;
        width: 40px;
        height: 40px;
+     border-radius: 50%;
      &::after {
      display: flex;
      }
@@ -2445,9 +2444,11 @@ font-family: 'Lato' , sans-serif;
           width: 40px;
           height: 40px;
          & form.searchbox {
+	   width: 40px;
            height: 40px;
          & .searchbox__wrapper {
-           & input.searchbox__input {
+           width: 40px;
+		 & input.searchbox__input {
              padding: 0px 0px 0px 0px;
         width: 40px;
           z-index: 50;
@@ -2484,6 +2485,8 @@ font-family: 'Lato' , sans-serif;
    transition: 0.5s;
        width: 300px;
        height: 40px;
+     border-radius: 25px;
+     justify-content: end;
      &::after {
      display: none;
      }
@@ -2493,9 +2496,11 @@ font-family: 'Lato' , sans-serif;
           width: 300px;
           height: 40px;
          & form.searchbox {
+	   width: 300px;
            height: 40px;
          & .searchbox__wrapper {
-           & input.searchbox__input {
+           width: 300px;
+	& input.searchbox__input {
              padding: 0px 80px 0px 50px;
         width: 300px;
           z-index: 0;
