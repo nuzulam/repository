@@ -2094,7 +2094,8 @@ transition-timing-function:cubic-bezier(.4,0,.2,1);
   align-items: center;
   justify-content: space-between;
   /*background: yellow;*/
-  padding: 0px 10px;
+  padding: 0px;
+  padding-right: 10px;
   box-sizing: border-box;
   & .blogmenu-post {
     margin: 0px;
