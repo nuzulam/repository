@@ -2469,14 +2469,20 @@ font-family: 'Lato' , sans-serif;
    }
 }
     }
-  .search_show {
+  
+	
+.search_show {
+  & .onactive {
+    display: block;
+   }
   & .blogmenu-post {
-    display: block;
-    
+    display: none;
     }
-
-  & .close-search-bars {
-    display: block;
+  & .roomlist-post {
+    display: none;
+    }
+    & .close-search-bars {
+      display: block;
     }
   & .menu-search {
       display: flex;
