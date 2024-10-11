@@ -2152,7 +2152,7 @@ transition-timing-function:cubic-bezier(.4,0,.2,1);
   min-height: 36px;
   z-index: 10;
   top: 12px;
-  right: 572px;
+  right: auto;
   position: absolute;
   display: flex;
   align-items: center;
@@ -2380,7 +2380,7 @@ font-family: 'Lato' , sans-serif;
 @media (max-width: 1007px){
   .navbars-wrapper {
     & .menu-search {
-      right: 372px;
+      right: auto;
       }
     & .search-post {
    transition: 0.5s;
@@ -2426,10 +2426,8 @@ font-family: 'Lato' , sans-serif;
 @media (max-width: 640px){
   .navbars-wrapper {
     & .menu-search {
-      right: 272px;
-      }
-    & .menu-search {
       display: none;
+      right: 272px;
       }
     & .search-post {
    transition: 0.5s;
