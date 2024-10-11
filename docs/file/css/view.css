@@ -226,10 +226,13 @@ body.version-1-3-3 {
                     box-sizing: border-box;
                     align-items: center;
                     justify-content: start;
-                    height: 60px;
+                    height: 40px;
+		    max-height: 40px;
+                    overflow: hidden;
                     width: auto;
+		    max-width: 210px;
                     cursor: pointer;
-                    padding: 0px 2.50px;
+                    padding: 0px 0px;
                     margin: 0px;
                     & svg.symbol {
                       width: 40px;
