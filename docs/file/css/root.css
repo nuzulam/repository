@@ -2300,7 +2300,7 @@ display: block;
   box-sizing: border-box;
   font-size: 13px;
   font-family: arial, sans-serif;
-width: 100%;
+  width: 600px;
         &:focus {
         & .searchbox__reset {
           right: 40px;
