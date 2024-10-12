@@ -795,7 +795,10 @@ display: block;
 			  }
 			}
 			&.Sheet_pars_property {
-		          & .type-property {
+			  & .box-action-click {
+		            display: flex;
+			  }
+		          & .navbars-wrapper {
 			    & .shell-view-root {
                               justify-content: space-between;
                               & .shell-typebars-stant {
