@@ -2110,7 +2110,7 @@ transition-timing-function:cubic-bezier(.4,0,.2,1);
   box-sizing: border-box;
   display: block;
   position: relative;
-  & .multi-post {
+  & a.multi-help {
     top: 5px;
     right: -19px;
     width: 30px;
