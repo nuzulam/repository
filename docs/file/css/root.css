@@ -2107,6 +2107,7 @@ transition-timing-function:cubic-bezier(.4,0,.2,1);
   height: 40px;
   border-radius: 5px;
   margin: 0px 0px;
+  margin-left: 10px;
   margin-right: 20px;
   border: 0.5px var(--bg-line) solid;
   padding: 5px;
@@ -2460,6 +2461,9 @@ display: block;
 @media (max-width: 640px){
   .navbars-wrapper {
   flex-direction: row;
+   & .typenav-button-multi {
+     margin-left: 0px;
+    }
     & .menu-search {
       left: auto;
       right: 272px;
@@ -2517,6 +2521,7 @@ display: block;
     }
   & .roomlist-post {
     display: none;
+    opacity: 0;
     }
     & .close-search-bars {
       display: block;
