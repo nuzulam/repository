@@ -37,6 +37,9 @@
 =============================*/
 :root {
 	
+  /*==== Root Background Image Svg ====*/
+  --var-icon-search: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 54.971 54.971' xml:space='preserve' fill='%23000000'%3E%3Cg stroke-width='0'%3E%3C/g%3E%3Cg stroke-linecap='round' stroke-linejoin='round'%3E%3C/g%3E%3Cg%3E %3Ccircle style='fill:%23111;' cx='20' cy='20.379' r='20'%3E%3C/circle%3E %3Cpath style='fill:%238697CB;' d='M53.799,47.763L43.314,37.278l-1.414,1.414l-6.183-5.971c-0.827,1.051-1.752,2.019-2.77,2.886 l6.124,5.914l-1.414,1.414L48.142,53.42c1.562,1.562,4.095,1.562,5.657,0C55.361,51.858,55.361,49.326,53.799,47.763z'%3E%3C/path%3E %3Ccircle style='fill:%23B0D3F0;' cx='20' cy='20.379' r='16'%3E%3C/circle%3E %3C/g%3E%3C/svg%3E");
+  
   /*==== Root Background ====*/
   --bg-trans: transparent;
   --bg-button: #4E4DED;
@@ -2203,19 +2206,50 @@ transition-timing-function:cubic-bezier(.4,0,.2,1);
   & .search-post {
     margin: 0px;
     padding: 0;
-   /* width: 400px;*/
     width: 500px;
     height: 40px;
     display: flex;
     justify-content: end;
-  /*align-items: center;
-   justify-content: center;*/
     border-radius: 5px;
     background: var(--bg-trans);
     position: relative;
-   transition: 0.6s; 
-    & .searchbox__reset {
-  width: 40px;
+    transition: 0.6s; 
+      &::before {
+        content:'';
+        top: 0px;
+        right: 0px;
+        width: 40px;
+        height: 40px;
+        padding: 0px;
+        z-index: 10;
+        display: none;
+        border: 1px var(--bg-bars) solid;
+        margin: 0px;
+        position: absolute;
+        border-radius: 0px;
+        background-color: var(--bg-bars);
+      }
+      &::after {
+        content:'';
+        top: 0px;
+        right: 0px;
+        width: 40px;
+        height: 40px;
+        padding: 0px;
+        transition: .25s all ease;
+        pointer-events: none;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;     
+        z-index: 11;
+        margin: 0px;
+        position: absolute;
+        border-radius: 0px;
+        background: var(--var-icon-search) center center / 25px no-repeat;
+      }
+      & .searchbox__reset {
+        width: 40px;
   height: 40px;
   min-width: 40px;
   min-height: 40px;
