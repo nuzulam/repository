@@ -2498,9 +2498,7 @@ display: block;
        height: 40px;
      border-radius: 5px;
      justify-content: end;
-     &::after {
-     display: none;
-     }
+     &::before,&::after {display: none;}
        & .search {
 	 width: 300px;
         & #search_top_parent {
