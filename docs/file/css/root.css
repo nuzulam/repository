@@ -2436,9 +2436,7 @@ display: block;
        width: 40px;
        height: 40px;
      border-radius: 5px;
-     &::after {
-     display: flex;
-     }
+     &::before,&::after {display:flex;}
        & .search {
 	 width: 40px;
         & #search_top_parent {
