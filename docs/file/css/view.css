@@ -387,9 +387,7 @@ body.version-1-3-3 {
 			      
 		      }
 		      &.Sheet_pars_property {
-		        & .box-action-click {
-		          display: none;
-			}
+		        
 		        & .navbars-wrapper {
 			  & .menu-select-stant {
                             z-index: 155;
@@ -795,9 +793,6 @@ display: block;
 			  }
 			}
 			&.Sheet_pars_property {
-			  & .box-action-click {
-		            display: flex;
-			  }
 		          & .navbars-wrapper {
 			    & .shell-view-root {
                               justify-content: space-between;
