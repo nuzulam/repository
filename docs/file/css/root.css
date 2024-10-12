@@ -2111,7 +2111,7 @@ transition-timing-function:cubic-bezier(.4,0,.2,1);
   display: block;
   position: relative;
   & a.multi-help {
-    top: 5px;
+    top: 4px;
     right: -19px;
     width: 30px;
     height: 30px;
