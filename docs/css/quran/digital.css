@@ -780,7 +780,8 @@ body.item-view .post .post-title-container {
             display: flex;
             align-items: center;
             justify-content: center;    
-            & button {
+            & a,
+	   & button {
               margin: 0px auto;
               border: 0.5px var(--cl-border) solid;
               width: 39px;
