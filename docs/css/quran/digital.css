@@ -636,7 +636,7 @@ body.item-view .post .post-title-container {
         padding: 0;
         display: flex;
         align-items: center;
-        justify-content: space-between;        
+        justify-content: center;        
         & > label {
           margin: 0;
           padding: 0;
