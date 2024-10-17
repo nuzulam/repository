@@ -1,36 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lateef:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Stint+Ultra+Expanded&family=Ultra&display=swap');
 /*== Svg Logos Root Color==*/
-:root {
-  /*== Ring Circle A of J==*/
-  --log-circle-A: #1C274C;
-  --log-circle-B: #1C274C;
-  --log-circle-C: #1C274C;
-  --log-circle-D: #1C274C;
-  --log-circle-E: #1C274C;
-  --log-circle-F: #1C274C;
-  --log-circle-G: #1C274C;
-  --log-circle-H: #1C274C;
-  --log-circle-I: #1C274C;
-  --log-circle-J: #1C274C;
-    /*== Ring Circle 1 of 5==*/
-  --log-circle-1: #1C274C;
-  --log-circle-2: #d2afe0;
-  --log-circle-3: #c381de;
-  --log-circle-4: #7952b3;
-  --log-circle-5: #ff1bab;
-  /*== Color Star==*/
-  --log-poin-star: #fcbe03;
-  /*== Color Poly==*/
-  --log-gen-poly: transparent;
-  /*== Color Line 1-2 ==*/
-  --log-line-1: #1C274C;
-  --log-line-2: #1C274C;
-  /*== Color Text ==*/
-  --log-text-user: #1C274C;
-  --log-text-name: #7952b3;
-  --log-text-net: #ff1bab;
-  --log-text-arab: #ccc;
-}
 
 /*=============================
   Tampilan Komponen Root
