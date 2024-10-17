@@ -47,6 +47,7 @@
 
 
   /*==== Root Color Light ====*/
+  --cl-light: #ffffff;
   --cl-nuzfog: #D9E7FD;
   --cl-show: #ddd;
   --cl-line: #ccc;
@@ -56,7 +57,7 @@
 
 	
   /*==== Root Color Dark ====*/
-
+  --cl-dark: #111111;
 
 	
   /*==== Root Text Color ====*/
