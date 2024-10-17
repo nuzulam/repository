@@ -43,15 +43,18 @@
   /*==== Root Background ====*/
   --bg-trans: transparent;
   --bg-button: #4E4DED;
-  --bg-line: #ccc;
+  
 
 
   /*==== Root Color Light ====*/
   --cl-nuzfog: #D9E7FD;
   --cl-show: #ddd;
+  --cl-line: #ccc;
   --cl-show-light: #FFF;
   --cl-show-dark: #000;
+  --cl-btn-primary: #055ef7;
 
+	
   /*==== Root Color Dark ====*/
 
 
