@@ -92,6 +92,7 @@
   Tampilan Layar Terang
 =============================*/
 .theme-light {
+  --cl-logo: #055ef7;
   --cl-lg-A: #055ef7;
   --cl-lg-B: #ba1496;
   --cl-lg-C: #87cbff;
@@ -175,6 +176,7 @@
   Tampilan Layar Gelap
 =============================*/
 .theme-dark {
+  --cl-logo: #87cbff;
   --cl-lg-A: #E9FAFE;
   --cl-lg-B: #87cbff;
   --cl-lg-C: #055ef7;
