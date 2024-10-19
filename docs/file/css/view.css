@@ -245,11 +245,11 @@ body.version-1-3-3 {
 		      font-weight: 700;
 		       font-size: 40px;
 		       font-family: var(--ff-lateef);
-		      /*font-family: Stint Ultra Expanded;*/
+		      /*font-family: Stint Ultra Expanded;
                       -webkit-text-fill-color: transparent;
                       background: -webkit-gradient(linear,left top,left bottom,from(var(--text-logo-one)),to(var(--text-logo-two)));
                       background: -o-gradient(linear,left top,left bottom,from(#660ccc),to(#00ffff));
-                      -webkit-background-clip: text;
+                      -webkit-background-clip: text;*/
                       & > span._net {
                         font-size: 25px;
 			font-weight: 300;
