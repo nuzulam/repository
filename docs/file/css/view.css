@@ -230,6 +230,7 @@ body.version-1-3-3 {
 		    max-height: 40px;
                     overflow: hidden;
                     width: auto;
+		    max-width: 195px;
                     cursor: pointer;
                     padding: 0px 0px;
                     margin: 0px;
