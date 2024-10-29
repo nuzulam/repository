@@ -330,7 +330,8 @@ body.version-1-3-3 {
     border-bottom: 0.50px var(--bg-line) solid;
     & > span.docs-name {
        left: 15px;
-       font-size: 14px;
+       color: var(--text-note);
+       font-size: 18px;
        font-weight: 500;
        position: relative;
    }
