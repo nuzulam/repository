@@ -623,12 +623,12 @@ body.item-view .post .post-title-container {
       z-index: 100;
       width: 100%;
       max-width: 900px;
-      max-height: calc(100% - 120px);
+      /*max-height: calc(100% - 120px);*/
       display: block;
       position: fixed;
       border-radius: 10px 10px 0px 0px;
       overflow: hidden;
-      background-color: var(--bg-navi);
+      background-color: var(--bg-post);
       & .modeheight {
         width: 100%;
         height: 30px;
