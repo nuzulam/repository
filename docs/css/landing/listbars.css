@@ -255,8 +255,8 @@ body.version-1-3-3 {
 }  
 .feed-view {
   & .section-navigasi-listbars {
-    height:calc(100% - 60px);
-    top: 60px;
+    height:calc(100% - 120px);
+    top: 120px;
     & .list_bord_content {
       & .container-dasboard {
         & ul.dasboard-home {
