@@ -1307,7 +1307,7 @@ display: grid;
 		    
 		  }
 		  & .navbar-list-click {
-		    display: none;
+		    display: block;
 		  }
 		}
 		&.navigasi-group-part {
