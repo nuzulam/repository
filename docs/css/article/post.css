@@ -165,8 +165,8 @@ body.item-view .post .post-title-container {
         height: 100%;
         overflow: hidden;
         grid-area: right;
-        border-left: 0.50px var(--bg-line) solid;
-        background-color: var(--bg-view);
+        border-left: 0px var(--bg-line) solid;
+       /* background-color: var(--bg-view);*/
         & .article-select {
    top:0px;
    padding: 0px 10px;
