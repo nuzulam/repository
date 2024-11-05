@@ -1199,7 +1199,7 @@ transform:translateY(100%);
           color: #fff;
           &:first-child {
             /*background: pink;*/
-           width: 100px;
+           width: 80px;
             }
            }
          }
