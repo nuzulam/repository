@@ -1562,7 +1562,7 @@ transform:translateY(100%);
     bottom: 0px;
     height: calc(100% - 120px);
     width: calc(100% - 300px);
-    z-index: 126;
+    z-index: 100;
     position: fixed;
     transition: transform 0.25s all;
     @media (max-width: 1007px){
