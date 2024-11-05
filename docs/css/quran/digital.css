@@ -628,6 +628,7 @@ body.item-view .post .post-title-container {
       position: fixed;
       border-radius: 10px 10px 0px 0px;
       overflow: hidden;
+      transition: 0.5s;
       background-color: var(--bg-post);
       & .modeheight {
         width: 100%;
